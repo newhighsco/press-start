@@ -1,0 +1,10 @@
+[Settings]
+ID = ""
+
+[build]
+  publish = "public"
+  command = "yarn build"
+
+[context.production.environment]
+  SITE_URL = "https://newhighsco.re"
+  DISALLOW_ROBOTS = false

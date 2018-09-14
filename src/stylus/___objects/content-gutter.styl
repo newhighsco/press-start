@@ -1,0 +1,13 @@
+//
+// CONTENT GUTTER
+// ==============
+// Ensures content doesn't touch browser edges on smaller screens
+//
+
+.content-gutter
+  padding-left spacing(0.5)
+  padding-right spacing(0.5)
+
+  +width-min($mq--tablet)
+    padding-left spacing(1)
+    padding-right spacing(1)

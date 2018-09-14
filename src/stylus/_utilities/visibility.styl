@@ -1,0 +1,52 @@
+//
+// VISIBILITY
+// ==========
+//
+
+//
+// VISUALLY HIDDEN
+// Still accessible to screen-readers/bots
+//
+
+//@stylint off
+is-vhidden()
+  position absolute !important
+  clip rect(0, 0, 0, 0) !important
+  overflow hidden !important
+  height 1px !important
+  width 1px !important
+  padding 0 !important
+  margin -1px !important
+  border 0 !important
+//@stylint on
+
+.is-vhidden
+  is-vhidden()
+
+//
+// REMOVED FROM DOCUMENT
+// Only use if content has no SEO / Accessibility value
+//
+
+is-hidden()
+  display none !important //@stylint ignore
+
+.is-hidden
+  is-hidden()
+
++width-max($mq--tablet - 1)
+  .is-hidden-mobile
+    is-hidden()
+
+//
+// JS VISIBILITY
+// show/hide classes depending on if JS is enabled
+//
+
+.is-hidden-js
+  .js &
+    is-hidden()
+
+.is-hidden--no-js
+  .no-js &
+    is-hidden()

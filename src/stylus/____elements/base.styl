@@ -1,0 +1,98 @@
+//
+// BASE STYLES
+// ===========
+// Like a reset, but not. Rather than including and ignoring, change the content
+// of this file to suit your current project.
+//
+// Typographic styles should live in typography.styl
+//
+
+//
+// BASIC ELEMENTS
+//
+
+body
+  background-color $color--black
+
+//
+// LISTS
+// Lists should be styled with bullets/numbers and margin by default.
+//
+
+li
+  list-style-position outside
+  margin-left 2em
+
+  ul, ol
+    margin-bottom 0
+
+  ul &
+    list-style-type disc
+
+    li
+      list-style-type circle
+
+  ol &
+    list-style-type decimal
+
+    li
+      list-style-type lower-roman
+
+//
+// MEDIA
+//
+
+img, object
+  vertical-align bottom
+  border 0
+
+// Responsive images
+img
+  max-width 100%
+  width auto
+  height auto
+
+audio, canvas, progress, video
+  display inline-block
+  vertical-align baseline
+
+audio:not([controls])
+  display none
+  height 0
+
+svg:not(:root)
+  overflow hidden
+
+//
+// FORMS
+//
+
+label
+  display block
+
+input[type='submit']
+input[type='reset']
+input[type='search']::-webkit-search-decoration
+  -webkit-appearance none // http://stackoverflow.com/questions/11127891
+
+// Stop Firefox making input(type='submit') taller than regular buttons
+input::-moz-focus-inner
+  border 0
+  padding 0
+
+// Stop Firefox giving required inputs a red glow
+input:invalid
+  box-shadow none
+
+//
+// MISC
+//
+
+button
+  cursor pointer
+  font-family inherit
+  border-radius 0
+
+button::-moz-focus-inner
+  border 0
+  padding 0

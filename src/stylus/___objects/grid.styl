@@ -1,0 +1,40 @@
+//
+// GRID
+// ====
+// Reference: https://github.com/clocklimited/responsive-grid
+//
+
+$grid--gutter = spacing(1)
+
+//
+// BASE GRID STYLES
+//
+
+grid-base()
+
+//
+// GRID WIDTHS
+// Only add widths when required, to keep compiled CSS clean
+//
+
+grid-widths('', 2)
+
+//
+// GRID MODIFIERS
+//
+
+grid-gutter-modifier('gutterless', 0)
+
+grid-reverse()
+
+.grid--middled
+  > .grid__item
+    vertical-align middle
+
+.grid--bottomed
+  > .grid__item
+    vertical-align bottom
+
+.grid--flex
+  display flex
+  flex-wrap wrap

@@ -1,0 +1,40 @@
+//
+// INDEX STYLESHEET
+// ================
+//
+
+//
+// STYLUS PLUGINS
+//
+
+@require '~stylus-mixins/index.styl'
+@require '~responsive-grid/index.styl'
+
+// SETTINGS
+// Set variables. Should not output CSS.
+@require '_______settings/*'
+
+// TOOLS
+// Globally used mixins and functions. Should not output CSS.
+@require '______tools/*'
+
+// GENERIC
+// Reset/normalize styles, box-sizing definition, etc.
+@require '_____generic/*'
+
+// ELEMENTS
+// Base styles for actual HTML elements, no classes allowed.
+@require '____elements/*'
+
+// OBJECTS
+// class-based selectors which define undecorated design patterns, for example media object known from OOCSS.
+@require '___objects/*'
+
+// COMPONENTS
+// specific UI components. This is where majority of our work takes place.
+// Our UI components are often composed of Objects and Components
+@require '__components/*'
+
+// UTILITIES
+// Helper classes with ability to override anything, e.g. visibility
+@require '_utilities/*'

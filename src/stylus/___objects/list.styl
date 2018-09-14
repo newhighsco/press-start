@@ -1,0 +1,77 @@
+//
+// LISTS
+// =====
+//
+
+.list--unstyled
+  margin-bottom 0
+
+  > li
+    list-style none
+    margin-left 0
+
+.list--inline
+
+  > li
+    display inline-block
+    margin-left 0
+
+// TODO * + * instead?
+.list--inline-separated
+
+  > li
+    display inline-block
+    margin-left 0
+
+  > li:not(:last-child)
+    border-right 1px solid
+    padding-right 1em
+    margin-right 1em
+
+.list--inline-spaced
+
+  > li
+    display inline-block
+    margin-left 0
+
+  > li:not(:last-child)
+    margin-right 1em
+
+.list--comma
+
+  > li
+    display inline-block
+
+    &:not(:last-child):after
+      content ',\00a0'
+
+  .list-comma__divider
+    display block
+
+    &:not(:first-child)
+      margin-top 1em
+
+    &:after
+      content '' !important // @stylint ignore
+
+.list--counter
+  counter-reset list-counter
+
+  .list-counter__item
+    list-style none
+    margin-left 3ch
+    text-indent -3ch
+
+    *
+      text-indent 0
+
+    &:before
+      text-indent 0
+      width 3ch
+      display inline-block
+      counter-increment list-counter
+      content counters(list-counter, '.') '. '
+
+.list--lower-alpha
+  > li
+    list-style-type lower-alpha

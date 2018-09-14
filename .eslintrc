@@ -1,0 +1,18 @@
+{
+  "extends": [ "standard", "standard-react" ],
+
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+    "object-curly-spacing": [ 2, "always" ],
+    "array-bracket-spacing": [ 2, "always" ]
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true,
+    "jquery": true,
+    "browser": true
+  },
+  "globals": {
+  }
+}

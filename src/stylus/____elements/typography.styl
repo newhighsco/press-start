@@ -1,0 +1,73 @@
+//
+// TYPOGRAPHIC STYLES
+// ==================
+// Base typography styles
+//
+// Layout styles for typographic elements should live in base.styl
+//
+
+//
+// SELECTED TEXT
+//
+
+::selection
+  color $color--white
+  background $color--primary
+  text-shadow none
+
+//
+// BASE STYLES
+//
+
+html
+  font-size $font--base-size
+  font-family $font--body
+  line-height $font--line-height
+  color $color--white
+  font-weight normal
+  -ms-text-size-adjust 100%
+  -webkit-text-size-adjust 100%
+
+body
+  font-size 1em
+
+//
+// HEADINGS
+// Headings are intentionally styled to look like standard body copy
+//
+
+h1, h2, h3, h4, h5, h6
+  font-family inherit
+  font-weight inherit
+  font-size inherit
+  line-height inherit
+
+//
+// LINKS & BUTTONS
+//
+
+// Set default link styles as a variable to allow `@extend`ing from elsewhere
+$default-link
+  color inherit
+  text-decoration none
+
+  &:focus
+  &:hover
+    color inherit
+    outline 0
+
+  &:active
+    color inherit
+
+a
+  @extend $default-link
+
+//
+// EMPHASIS
+//
+
+blockquote, q, em, dfn, i, cite, var
+  font-style italic
+
+th, strong, dt, b
+  font-weight bold

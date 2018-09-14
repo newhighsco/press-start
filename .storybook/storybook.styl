@@ -1,0 +1,28 @@
+body
+  background none
+  background-image repeating-linear-gradient(0, white, white 7px, transparent 0, transparent), repeating-linear-gradient(90deg, lightgrey, lightgrey 1px, transparent 0, transparent)
+  background-position 0 0
+  background-size 8px 8px
+  color black
+
+  > #root
+    height 100%
+
+.storybook-preview-container
+  height 100%
+  height calc(100% - 30px)
+  min-height 100vh
+  padding 15px
+  overflow scroll
+
+.storybook-tooltips-visible
+  .tooltip > *
+    vertical-align top
+
+  .tooltip__content
+    display inline-block
+    margin spacing(0.5)
+    position static
+
+  .tooltip__backdrop
+    display none

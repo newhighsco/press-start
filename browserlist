@@ -1,0 +1,9 @@
+# Supported Browsers
+# Used by autoprefixer when compiling CSS
+# View results of this list at:
+# http://browserl.ist/?q=%3E+1%25%2C+last+2+versions%2C+IE+8-9%2C+Android+%3E%3D+4.1
+
+> 1%
+last 2 versions
+IE 8-9
+Android >= 4.1
