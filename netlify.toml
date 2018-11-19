@@ -7,4 +7,4 @@ ID = ""
 
 [context.production.environment]
   SITE_URL = "https://newhighsco.re"
-  DISALLOW_ROBOTS = false
+  DISALLOW_ROBOTS = "false"
