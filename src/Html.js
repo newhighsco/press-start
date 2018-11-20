@@ -16,7 +16,6 @@ class Html extends PureComponent {
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta name="viewport" content="width=device-width,initial-scale=1" />
-          <link rel="alternate" type="application/rss+xml" href="/events.xml" />
           <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
           <link rel="manifest" href="/manifest.webmanifest" />
           <meta name="theme-color" content={themeColor} />
