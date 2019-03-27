@@ -41,6 +41,8 @@ export default {
     return routes
   },
   webpack: (config, { defaultLoaders, stage }) => {
+    var { cssLoader, jsLoader, fileLoader } = defaultLoaders
+
     if (stage !== 'dev') config.devtool = false
 
     config.entry = stage === 'dev'
@@ -60,9 +62,45 @@ export default {
             test: /\.svg$/,
             loader: require.resolve('svg-react-loader')
           },
-          defaultLoaders.cssLoader,
-          defaultLoaders.jsLoader,
-          defaultLoaders.fileLoader
+          cssLoader,
+          jsLoader,
+          {
+            exclude: fileLoader.exclude,
+            use: [
+              {
+                loader: require.resolve('file-loader'),
+                options: {
+                  name: fileLoader.query.name
+                }
+              },
+              {
+                loader: require.resolve('image-webpack-loader'),
+                options: {
+                  disable: stage === 'dev',
+                  mozjpeg: {
+                    progressive: true,
+                    quality: 90
+                  },
+                  optipng: {
+                    optimizationLevel: 7
+                  },
+                  gifsicle: {
+                    interlaced: true,
+                    optimizationLevel: 3
+                  },
+                  svgo: {
+                    multipass: true,
+                    removeXMLNS: true,
+                    removeTitle: true,
+                    removeStyleElement: true
+                  },
+                  webp: {
+                    quality: 90
+                  }
+                }
+              }
+            ]
+          }
         ]
       }
     ]
