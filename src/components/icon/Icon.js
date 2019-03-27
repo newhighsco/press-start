@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
+import VisuallyHidden from '../visually-hidden/VisuallyHidden'
 import styles from './Icon.styl'
 
 const baseClassName = 'icon'
@@ -26,7 +27,7 @@ const Icon = class extends PureComponent {
         }}
         >
         {a11yText &&
-          <span className="is-vhidden">{a11yText}</span>
+          <VisuallyHidden>{a11yText}</VisuallyHidden>
         }
         {children}
       </i>

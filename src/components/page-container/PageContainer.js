@@ -1,6 +1,7 @@
 import React, { PureComponent, Fragment } from 'react'
 import { Head } from 'react-static'
 import PropTypes from 'prop-types'
+import VisuallyHidden from '../visually-hidden/VisuallyHidden'
 import styles from './PageContainer.styl'
 
 const baseClassName = 'page-container'
@@ -32,7 +33,7 @@ class PageContainer extends PureComponent {
           }
         </Head>
         <a id="top">
-          <span className="is-vhidden">Top of page</span>
+          <VisuallyHidden>Top of page</VisuallyHidden>
         </a>
         <main id="content" className={styles[baseClassName]} role="main">
           <div className={styles[`${baseClassName}__inner`]}>
