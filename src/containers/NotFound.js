@@ -10,7 +10,7 @@ const meta = {
 class NotFoundContainer extends PureComponent {
   render () {
     return (
-      <PageContainer {...meta}>
+      <PageContainer meta={meta}>
         Page not found
       </PageContainer>
     )

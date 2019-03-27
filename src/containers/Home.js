@@ -21,7 +21,7 @@ if (constants.social.twitter) {
 class HomeContainer extends PureComponent {
   render () {
     return (
-      <PageContainer {...meta}>
+      <PageContainer meta={meta}>
         Homepage
       </PageContainer>
     )
