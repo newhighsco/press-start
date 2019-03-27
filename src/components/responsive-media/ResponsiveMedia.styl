@@ -1,0 +1,25 @@
+//
+// RESPONSIVE MEDIA
+// ================
+// Predict dimensions of image areas to stop DOM reflow when images/videos load.
+// Fills all available width, so ensure media is large enough to fill its container.
+//
+
+.responsive-media
+  height 0
+  overflow hidden
+  padding-bottom 100% // Default to square
+  position relative
+  text-align left // Video in centered text can mis-align
+  z-index 0
+
+  // Ensure images fill placeholder
+  & > img
+    display block
+    width 100%
+
+  // A little extra persuasion for responsive video
+  & > iframe
+    position absolute
+    width 100%
+    height 100%
