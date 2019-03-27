@@ -7,6 +7,7 @@ const path = require('path')
 const fs = require('fs-extra')
 const webpack = require('webpack')
 const stylusLoaders = require('./src/utils/stylus-loaders')
+const urlBuilder = require('./src/utils/url-builder')
 const constants = require('./src/utils/constants')
 
 const distPath = 'public'
@@ -32,7 +33,7 @@ export default {
         component: 'src/containers/NotFound'
       },
       {
-        path: '/',
+        path: urlBuilder.rootUrl,
         component: 'src/containers/Home'
       }
     ]
