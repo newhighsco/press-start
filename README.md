@@ -7,7 +7,7 @@ https://newhighsco.re
 Install dependencies
 
 ```
-nave auto
+nvm use
 yarn install
 ```
 

@@ -11,13 +11,14 @@ const urlBuilder = require('./src/utils/url-builder')
 const constants = require('./src/utils/constants')
 
 const distPath = 'public'
+const publicPath = 'static'
 const redirects = []
 
 export default {
   paths: {
     dist: distPath,
     devDist: distPath,
-    public: 'static'
+    public: publicPath
   },
   devServer: {
     port: 9000
@@ -113,7 +114,7 @@ export default {
   Document: Html,
   onBuild: async () => {
     const robots = [ 'User-agent: *' ]
-    const disallowRobots = JSON.parse(process.env.DISALLOW_ROBOTS)
+    const disallowRobots = JSON.parse(process.env.DISALLOW_ROBOTS || false)
 
     if (disallowRobots) robots.push('Disallow: /')
     robots.push(`Sitemap: ${process.env.SITE_URL}/sitemap.xml`)

@@ -6,5 +6,8 @@ ID = ""
   command = "yarn build"
 
 [context.production.environment]
+  YARN_VERSION = "1.12.3"
+  RUBY_VERSION = "2.6.2"
+  GO_VERSION = "1.12"
   SITE_URL = "https://newhighsco.re"
   DISALLOW_ROBOTS = "false"
