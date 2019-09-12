@@ -37,7 +37,7 @@
     "image-webpack-loader": "^4.6.0",
     "poststylus": "^1.0.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.4.2",
     "react-ga": "^2.5.0",
     "react-router": "^4.2.0",
     "react-static": "^5.9.7",
