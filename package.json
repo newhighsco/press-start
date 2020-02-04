@@ -32,7 +32,7 @@
     "babel-polyfill": "6.26.0",
     "classnames": "2.2.6",
     "css-loader": "0.28.11",
-    "dotenv": "5.0.1",
+    "dotenv": "8.2.0",
     "fs-extra": "4.0.3",
     "image-webpack-loader": "4.6.0",
     "poststylus": "1.0.0",
