@@ -31,7 +31,7 @@
     "autoprefixer": "7.2.6",
     "babel-polyfill": "6.26.0",
     "classnames": "2.2.6",
-    "css-loader": "0.28.11",
+    "css-loader": "3.4.2",
     "dotenv": "5.0.1",
     "fs-extra": "4.0.3",
     "image-webpack-loader": "4.6.0",
