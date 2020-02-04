@@ -3828,7 +3828,11 @@ eslint-config-react-tools@^1.2.3:
     eslint-plugin-jsx-a11y "^6.0.3"
     eslint-plugin-react "^7.7.0"
 
-eslint-config-standard-jsx@4.0.2, eslint-config-standard-jsx@^4.0.0:
+eslint-config-standard-jsx@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-8.1.0.tgz#314c62a0e6f51f75547f89aade059bec140edfc7"
+
+eslint-config-standard-jsx@^4.0.0:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-4.0.2.tgz#009e53c4ddb1e9ee70b4650ffe63a7f39f8836e1"
 
