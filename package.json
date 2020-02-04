@@ -28,7 +28,7 @@
     "test": "npm-run-all qa"
   },
   "dependencies": {
-    "autoprefixer": "7.2.6",
+    "autoprefixer": "9.7.4",
     "babel-polyfill": "6.26.0",
     "classnames": "2.2.6",
     "css-loader": "0.28.11",
