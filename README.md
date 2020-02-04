@@ -7,7 +7,7 @@ https://newhighsco.re
 Install dependencies
 
 ```
-nvm use
+nvm install
 yarn install
 ```
 
