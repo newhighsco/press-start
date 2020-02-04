@@ -46,7 +46,7 @@
     "stylus": "0.54.5",
     "stylus-loader": "3.0.2",
     "stylus-mixins": "0.4.0",
-    "svg-react-loader": "0.4.5",
+    "svg-react-loader": "0.4.6",
     "svgo": "1.0.5"
   },
   "devDependencies": {
