@@ -42,7 +42,7 @@
     "react-router": "4.3.1",
     "react-static": "5.9.7",
     "responsive-grid": "1.1.0",
-    "style-loader": "0.20.3",
+    "style-loader": "0.23.1",
     "stylus": "0.54.5",
     "stylus-loader": "3.0.2",
     "stylus-mixins": "0.4.0",
