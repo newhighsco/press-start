@@ -50,8 +50,8 @@
     "svgo": "1.0.5"
   },
   "devDependencies": {
-    "@storybook/addon-options": "3.4.10",
-    "@storybook/react": "3.4.10",
+    "@storybook/addon-options": "3.4.12",
+    "@storybook/react": "3.4.12",
     "eslint": "3.19.0",
     "eslint-config-standard": "10.2.1",
     "eslint-config-standard-jsx": "4.0.2",
