@@ -1,0 +1,53 @@
+{
+  "name": "static-starter",
+  "description": "Static site starter",
+  "version": "2.0.0",
+  "author": "New High Score <hello@newhighsco.re>",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "npm run lint",
+    "lint": "npm-run-all --parallel lint:*",
+    "lint:js": "eslint --cache --ext .js,.jsx,.json .",
+    "lint:css": "stylelint '**/*.{css,scss}' --cache",
+    "format": "npm-run-all --parallel format:*",
+    "format:js": "npm run lint:js -- --fix",
+    "format:css": "npm run lint:css -- --fix"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "1.0.1",
+    "next": "9.2.2",
+    "next-compose-plugins": "2.2.0",
+    "node-sass": "4.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@newhighsco/eslint-config": "1.1.1",
+    "@newhighsco/prettier-config": "1.0.2",
+    "@newhighsco/renovate-config": "1.0.0",
+    "@newhighsco/stylelint-config": "1.0.1",
+    "eslint": "6.8.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.19.1",
+    "stylelint": "13.2.0"
+  },
+  "prettier": "@newhighsco/prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@newhighsco/stylelint-config"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "@newhighsco"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+version: 2.1
+executors:
+  node-executor:
+    docker:
+      - image: circleci/node:13.8.0
+    working_directory: ~/repo
+jobs:
+  build:
+    executor: node-executor
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-yarn-cache-{{ checksum "yarn.lock" }}
+            - v1-yarn-cache
+      - run: yarn install
+      - save_cache:
+          key: v1-yarn-cache-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+      - persist_to_workspace:
+          root: .
+          paths:
+            - '*'
+  test:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn test
+
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
