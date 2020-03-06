@@ -21,6 +21,6 @@ npm-debug.log
 yarn-error.log
 
 # Project specific
-.next
 .eslintcache
 .stylelintcache
+dist

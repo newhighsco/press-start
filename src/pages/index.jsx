@@ -1,20 +1,30 @@
 import React from 'react'
+import { SocialProfileJsonLd } from 'next-seo'
+
 import PageContainer from '../components/PageContainer'
+import { config, socialLinks } from '../site.config'
 
 const meta = {
-  schema: {
-    '@context': 'http://schema.org',
-    '@type': 'Organization'
-    // name: constants.meta.name,
-    // url: process.env.SITE_URL,
-    // logo: `${LogoImage}`
-  }
+  customTitle: true,
+  title: config.title
 }
 
-// if (constants.social.twitter) {
-//   meta.schema.sameAs = [ constants.social.twitter ]
-// }
+const schema = {
+  type: 'Organization',
+  name: config.name,
+  // TODO:
+  url: 'http://TODO/'
+}
 
-const HomePage = () => <PageContainer meta={meta}>Homepage</PageContainer>
+if (socialLinks.twitter) {
+  schema.sameAs = [socialLinks.twitter]
+}
 
-export default HomePage
+const HomeContainer = () => (
+  <PageContainer meta={meta}>
+    <SocialProfileJsonLd {...schema} />
+    Homepage
+  </PageContainer>
+)
+
+export default HomeContainer

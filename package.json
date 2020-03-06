@@ -4,22 +4,30 @@
   "version": "2.0.0",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
+  "engines": {
+    "node": "^13.9.0",
+    "yarn": "^1.21.1"
+  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
     "start": "next start",
-    "test": "npm run lint",
+    "start:dev": "next dev",
+    "build": "npm run build:production",
+    "build:production": "next build",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.jsx,.json .",
     "lint:css": "stylelint '**/*.{css,scss}' --cache",
     "format": "npm-run-all --parallel format:*",
     "format:js": "npm run lint:js -- --fix",
-    "format:css": "npm run lint:css -- --fix"
+    "format:css": "npm run lint:css -- --fix",
+    "test": "npm run lint"
   },
   "dependencies": {
     "@zeit/next-sass": "1.0.1",
+    "backline-normalize": "1.0.1",
     "next": "9.2.2",
     "next-compose-plugins": "2.2.0",
+    "next-ga": "2.3.4",
+    "next-seo": "4.4.0",
     "node-sass": "4.13.1",
     "react": "16.12.0",
     "react-dom": "16.12.0"

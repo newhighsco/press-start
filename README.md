@@ -31,7 +31,7 @@ yarn test
 
 ## Build
 
-Generate a production build of the site, output to `./public`, using the following:
+Generate a production build of the site, output to `./dist`, using the following:
 
 ```
 yarn build

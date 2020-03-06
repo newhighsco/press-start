@@ -1,47 +1,38 @@
 import React from 'react'
-import { node, string, object, array, oneOfType } from 'prop-types'
-import Head from 'next/head'
+import { bool, string } from 'prop-types'
+import { NextSeo } from 'next-seo'
 
 const Meta = ({
-  children,
+  slug,
+  customTitle,
   title,
+  titleTemplate,
   description,
-  canonicalUrl,
-  robots,
-  schema
-}) => (
-  <Head>
-    {title && [
-      <title key="title">{title}</title>,
-      <meta key="ogTitle" property="og:title" content={title} />
-    ]}
-    {description && [
-      <meta key="description" name="description" content={description} />,
-      <meta
-        key="ogDescription"
-        property="og:description"
-        content={description}
-      />
-    ]}
-    {canonicalUrl && [
-      <link key="canonical" rel="canonical" href={canonicalUrl} />,
-      <meta key="ogUrl" property="og:url" content={canonicalUrl} />
-    ]}
-    {robots && <meta name="robots" content={robots} />}
-    {schema && (
-      <script type="application/ld+json">{JSON.stringify(schema)}</script>
-    )}
-    {children}
-  </Head>
-)
+  ...rest
+}) => {
+  // TODO:
+  const canonical = slug ? `${'https://TBC'}${slug}` : null
+  const meta = {
+    title,
+    titleTemplate: customTitle ? `%s` : titleTemplate,
+    description,
+    canonical,
+    openGraph: {
+      title,
+      description,
+      url: canonical
+    }
+  }
+
+  return <NextSeo {...meta} {...rest} />
+}
 
 Meta.propTypes = {
-  children: node,
+  slug: string,
+  customTitle: bool,
   title: string,
-  description: string,
-  canonicalUrl: string,
-  robots: string,
-  schema: oneOfType([object, array])
+  titleTemplate: string,
+  description: string
 }
 
 export default Meta
