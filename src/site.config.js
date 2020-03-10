@@ -1,6 +1,7 @@
 import colors from './scss/settings/_colors.scss'
 
 export const config = {
+  lang: 'en',
   name: 'Static starter',
   shortName: null,
   title: 'Static site starter by New High Score',

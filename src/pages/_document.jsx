@@ -1,17 +1,13 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { config } from '../site.config'
 
 class DocumentContainer extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
-  }
-
   // TODO: sitemap, manifest.json
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang={config.lang}>
         <Head />
         <body>
           <Main />
