@@ -9,13 +9,8 @@ const meta = {
   nofollow: true
 }
 
-const ErrorContainer = () => (
+const NotFoundContainer = () => (
   <PageContainer meta={meta}>Page not found</PageContainer>
 )
 
-ErrorContainer.getInitialProps = ({ res, err }) => {
-  const statusCode = res ? res.statusCode : err ? err.statusCode : 404
-  return { statusCode }
-}
-
-export default ErrorContainer
+export default NotFoundContainer
