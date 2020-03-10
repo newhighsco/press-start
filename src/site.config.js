@@ -1,4 +1,4 @@
-import colors from './scss/settings/_colors.scss'
+import colors from './scss/colors.module.scss'
 
 export const config = {
   lang: 'en',

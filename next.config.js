@@ -30,7 +30,7 @@ module.exports = withPlugins(
         sassLoaderOptions: {
           includePaths: [
             ...backlineNormalize.includePaths,
-            path.join(__dirname, 'src/scss/settings')
+            path.join(__dirname, 'src/scss')
           ]
         }
       }

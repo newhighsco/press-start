@@ -7,7 +7,7 @@ import SiteContainer from '../components/SiteContainer'
 import Meta from '../components/Meta'
 import { config, meta } from '../site.config'
 
-import '../scss/index.module.scss'
+import './app.module.scss'
 
 const AppContainer = ({ Component, pageProps }) => (
   <SiteContainer>
