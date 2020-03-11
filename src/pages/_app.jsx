@@ -11,7 +11,9 @@ import './app.module.scss'
 
 const AppContainer = ({ Component, pageProps }) => (
   <SiteContainer>
-    <Meta {...meta} />
+    <Meta {...meta}>
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    </Meta>
     <Component {...pageProps} />
   </SiteContainer>
 )

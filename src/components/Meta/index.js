@@ -1,8 +1,9 @@
 import React from 'react'
-import { bool, string } from 'prop-types'
+import { bool, node, string } from 'prop-types'
 import { NextSeo } from 'next-seo'
 
 const Meta = ({
+  children,
   slug,
   customTitle,
   title,
@@ -24,10 +25,16 @@ const Meta = ({
     }
   }
 
-  return <NextSeo {...meta} {...rest} />
+  return (
+    <>
+      <NextSeo {...meta} {...rest} />
+      {children}
+    </>
+  )
 }
 
 Meta.propTypes = {
+  children: node,
   slug: string,
   customTitle: bool,
   title: string,
