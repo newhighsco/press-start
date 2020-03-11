@@ -23,4 +23,5 @@ yarn-error.log
 # Project specific
 .eslintcache
 .stylelintcache
-dist
+.next
+out

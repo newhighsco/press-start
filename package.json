@@ -12,7 +12,7 @@
     "start": "next start",
     "start:dev": "next dev",
     "build": "npm run build:production",
-    "build:production": "next build",
+    "build:production": "next build && next export",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.jsx,.json .",
     "lint:css": "stylelint '**/*.{css,scss}' --cache",

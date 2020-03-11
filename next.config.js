@@ -5,10 +5,20 @@ const { PHASE_PRODUCTION_BUILD, PHASE_EXPORT } = require('next/constants')
 const backlineNormalize = require('backline-normalize')
 
 const nextConfig = {
-  distDir: 'dist',
+  exportTrailingSlash: true,
   poweredByHeader: false,
   env: {
+    SITE_URL: 'https://newhighsco.re',
     DISALLOW_ROBOTS: true
+  },
+  exportPathMap: (defaultPathMap, { dev, outDir }) => {
+    const customPathMap = {}
+    const pathMap = Object.assign(customPathMap, defaultPathMap)
+    const ignorePaths = []
+
+    ignorePaths.map(path => delete pathMap[path])
+
+    return pathMap
   }
 }
 
@@ -30,7 +40,7 @@ module.exports = withPlugins(
         sassLoaderOptions: {
           includePaths: [
             ...backlineNormalize.includePaths,
-            path.join(__dirname, 'src/scss')
+            path.join(__dirname, 'src/styles')
           ]
         }
       }
