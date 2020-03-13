@@ -927,6 +927,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@newhighsco/browserslist-config@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.0.tgz#0e2f178ea49305d389df030e0b00d914bcd1d674"
+  integrity sha512-xdEl1Jwj2ra6GTX61IdTzWI9PQ7EPhMd/yzGA/rbhxURpvkkTEdTzrDBPMY+M1LeWqTLcVod9IvRG18QKA81Bw==
+
 "@newhighsco/editor-config@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.0.0.tgz#0fbbcb6b19b069b6651e3dab7613cf4332dd13df"

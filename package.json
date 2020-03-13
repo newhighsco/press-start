@@ -33,6 +33,7 @@
     "react-dom": "16.13.0"
   },
   "devDependencies": {
+    "@newhighsco/browserslist-config": "1.0.0",
     "@newhighsco/editor-config": "1.0.0",
     "@newhighsco/eslint-config": "1.1.1",
     "@newhighsco/prettier-config": "1.0.2",
@@ -42,6 +43,11 @@
     "npm-run-all": "4.1.5",
     "prettier": "1.19.1",
     "stylelint": "13.2.0"
+  },
+  "browserslist": {
+    "extends": [
+      "@newhighsco/browserslist-config"
+    ]
   },
   "prettier": "@newhighsco/prettier-config",
   "eslintConfig": {
