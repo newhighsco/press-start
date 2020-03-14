@@ -972,10 +972,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/renovate-config/-/renovate-config-1.2.0.tgz#efb3c446c0591465d123768ed16d008a41ba16cc"
   integrity sha512-qrHvNqZLhvBTStg5Zv3cyC/k+qyUIm3A+GM9ZECpZxdXwWJSa2VnNeQRobUfAQKtsSPaGFmK30WHCDOMN5OfzA==
 
-"@newhighsco/stylelint-config@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-1.0.2.tgz#825c38e65f6207551bb5095f51eafad3d77d93a7"
-  integrity sha512-OgCRVYToRT0D0PYFl1R0CMz0TK97wAWwQEjC6Y+dVJ3WfriDVD+JzDmYoLfJwIUi8brWtHQMKldtu89UGt/eZw==
+"@newhighsco/stylelint-config@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.0.tgz#1a4616fcca1b59803ba3ab460c7f625a6e324296"
+  integrity sha512-FXquLRCjynh8SaqBfahZz09WD/bGSxX1KFPW6HrU1Px3e3m9uxkooAyBO/SkyQLqfC3bnPbhnH9Ln9KRnblLuw==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.1"
