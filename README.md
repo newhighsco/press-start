@@ -1,6 +1,4 @@
-# Static site starter
-
-https://newhighsco.re
+# press-start
 
 ## Setup
 

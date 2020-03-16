@@ -1,4 +1,5 @@
-import colors from './styles/colors.module.scss'
+// TODO:
+// import colors from './styles/colors.module.scss'
 
 export const config = {
   lang: 'en',
@@ -6,7 +7,8 @@ export const config = {
   shortName: null,
   title: 'Static site starter by New High Score',
   description: 'Get a static site up and running quickly with Static starter',
-  themeColor: colors.black,
+  // TODO:
+  themeColor: 'colors.black',
   twitterHandle: 'newhighsco',
   googleTrackingId: null,
   disallowRobots: JSON.parse(process.env.DISALLOW_ROBOTS || false)

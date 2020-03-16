@@ -1,31 +1,37 @@
 {
-  "name": "static-starter",
-  "description": "Static site starter",
-  "version": "2.0.0",
+  "name": "@newhighsco/press-start",
+  "description": "",
+  "version": "1.0.0",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
-  "engines": {
-    "node": "^13.9.0",
-    "yarn": "^1.21.1"
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newhighsco/press-start.git"
+  },
+  "homepage": "https://github.com/newhighsco/press-start#readme",
+  "bugs": {
+    "url": "https://github.com/newhighsco/press-start/issues"
   },
   "scripts": {
     "start": "next start",
     "start:dev": "next dev",
     "build": "npm run build:production",
     "build:production": "next build && next export",
+    "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.jsx,.json .",
     "lint:css": "stylelint '**/*.{css,scss}' --cache",
     "format": "npm-run-all --parallel format:*",
     "format:js": "npm run lint:js -- --fix",
-    "format:css": "npm run lint:css -- --fix",
-    "test": "npm run lint"
+    "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@zeit/next-sass": "1.0.1",
-    "backline-normalize": "1.0.1",
+    "@newhighsco/chipset": "1.3.1",
+    "classnames": "2.2.6",
     "next": "9.3.0",
     "next-compose-plugins": "2.2.0",
+    "next-transpile-modules": "3.1.0",
     "next-ga": "2.3.4",
     "next-seo": "4.4.0",
     "node-sass": "4.13.1",
@@ -33,36 +39,55 @@
     "react-dom": "16.13.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "8.3.5",
     "@newhighsco/browserslist-config": "1.0.0",
+    "@newhighsco/commitlint-config": "1.0.0",
     "@newhighsco/editor-config": "1.0.0",
     "@newhighsco/eslint-config": "2.0.1",
     "@newhighsco/prettier-config": "1.0.3",
+    "@newhighsco/release-config": "1.0.16",
     "@newhighsco/renovate-config": "1.2.0",
     "@newhighsco/stylelint-config": "2.0.0",
     "eslint": "6.8.0",
+    "husky": "4.2.3",
     "npm-run-all": "4.1.5",
     "prettier": "1.19.1",
-    "stylelint": "13.2.0"
+    "semantic-release": "17.0.4",
+    "stylelint": "13.2.1"
   },
   "browserslist": {
     "extends": [
       "@newhighsco/browserslist-config"
     ]
   },
-  "prettier": "@newhighsco/prettier-config",
+  "commitlint": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "@newhighsco/eslint-config/react"
     ]
   },
-  "stylelint": {
-    "extends": [
-      "@newhighsco/stylelint-config"
-    ]
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint"
+    }
+  },
+  "prettier": "@newhighsco/prettier-config",
+  "release": {
+    "extends": "@newhighsco/release-config"
   },
   "renovate": {
     "extends": [
       "@newhighsco"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@newhighsco/stylelint-config"
     ]
   }
 }

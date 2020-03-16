@@ -2,12 +2,12 @@ import React from 'react'
 import { func, object } from 'prop-types'
 import Router from 'next/router'
 import withGA from 'next-ga'
+import { SiteContainer } from '@newhighsco/chipset'
 
-import SiteContainer from '../components/SiteContainer'
 import Meta from '../components/Meta'
 import { config, meta } from '../site.config'
 
-import './app.module.scss'
+import './_app.scss'
 
 const AppContainer = ({ Component, pageProps }) => (
   <SiteContainer>
