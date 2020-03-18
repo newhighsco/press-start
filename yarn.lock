@@ -1092,10 +1092,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.0.tgz#0e2f178ea49305d389df030e0b00d914bcd1d674"
   integrity sha512-xdEl1Jwj2ra6GTX61IdTzWI9PQ7EPhMd/yzGA/rbhxURpvkkTEdTzrDBPMY+M1LeWqTLcVod9IvRG18QKA81Bw==
 
-"@newhighsco/chipset@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-1.3.1.tgz#2f64acb8bc7dc520874f90ec9159fbb19ab29c67"
-  integrity sha512-hFQ/893zuxvSNwrzdEGjHxPL5iUTdc3fxqf8quBFGaxG7agDAMFMSZfjKyTyBIfw/VUaZ1jaiPGtSKCWzXvPdw==
+"@newhighsco/chipset@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-1.4.0.tgz#b12e48c5ff8c61daee45cb90edb77319504a2621"
+  integrity sha512-j1LnHYDZaGPcmi2hhDVXiGE9xOciaGYhfta4rosVPFHnaEVVennMI4ilTsaSodhVdlhOqA3N/EJd9RFJ6CcvMw==
+  dependencies:
+    classnames "2.2.6"
 
 "@newhighsco/commitlint-config@1.0.0":
   version "1.0.0"
