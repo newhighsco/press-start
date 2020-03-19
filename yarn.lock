@@ -1069,6 +1069,15 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@friendsofreactjs/react-css-themr@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@friendsofreactjs/react-css-themr/-/react-css-themr-4.1.0.tgz#94c7d902282f7691d821c60521d66ae0e071313e"
+  integrity sha512-X3jddw6aMVB9FxRLLNhtzVM8lWquIi5YQ+Qs1cQu5DpFWAIWj5fc0FvAh8VNLQHv133K57mX3UGA7igzN/t05g==
+  dependencies:
+    hoist-non-react-statics "^3.3.0"
+    invariant "^2.2.4"
+    prop-types "^15.7.2"
+
 "@iarna/cli@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@iarna/cli/-/cli-1.2.0.tgz#0f7af5e851afe895104583c4ca07377a8094d641"
@@ -1092,10 +1101,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.0.tgz#0e2f178ea49305d389df030e0b00d914bcd1d674"
   integrity sha512-xdEl1Jwj2ra6GTX61IdTzWI9PQ7EPhMd/yzGA/rbhxURpvkkTEdTzrDBPMY+M1LeWqTLcVod9IvRG18QKA81Bw==
 
-"@newhighsco/chipset@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-1.3.1.tgz#2f64acb8bc7dc520874f90ec9159fbb19ab29c67"
-  integrity sha512-hFQ/893zuxvSNwrzdEGjHxPL5iUTdc3fxqf8quBFGaxG7agDAMFMSZfjKyTyBIfw/VUaZ1jaiPGtSKCWzXvPdw==
+"@newhighsco/chipset@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-1.5.1.tgz#47f34eb919b3cd479e356e745cd90503854a2598"
+  integrity sha512-U7juBR67HP6DkDxo/Fcv/ri6M166lWjYwovjLDgVFSUj+SDKm/jfiYNuaf4eOpRkibi7tZNzp6VzgPz+xKLg2A==
+  dependencies:
+    "@friendsofreactjs/react-css-themr" "4.1.0"
 
 "@newhighsco/commitlint-config@1.0.0":
   version "1.0.0"
@@ -2707,11 +2718,6 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
-
-classnames@2.2.6:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
-  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
 clean-stack@^2.0.0:
   version "2.2.0"
@@ -5092,6 +5098,13 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^3.3.0:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
+  dependencies:
+    react-is "^16.7.0"
+
 hook-std@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hook-std/-/hook-std-2.0.0.tgz#ff9aafdebb6a989a354f729bb6445cf4a3a7077c"
@@ -5465,7 +5478,7 @@ into-stream@^5.0.0:
     from2 "^2.3.0"
     p-is-promise "^3.0.0"
 
-invariant@^2.2.2:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -9053,6 +9066,11 @@ react-is@16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
+
+react-is@^16.7.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react-is@^16.8.1:
   version "16.13.0"

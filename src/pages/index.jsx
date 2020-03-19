@@ -1,7 +1,7 @@
 import React from 'react'
 import { SocialProfileJsonLd } from 'next-seo'
-
-import PageContainer from '../components/PageContainer'
+import { PageContainer } from '@newhighsco/chipset'
+import Meta from '../components/Meta'
 import { config, socialLinks } from '../site.config'
 
 const meta = {
@@ -21,7 +21,8 @@ if (socialLinks.twitter) {
 }
 
 const HomeContainer = () => (
-  <PageContainer meta={meta}>
+  <PageContainer Header={() => null} Footer={() => null}>
+    <Meta {...meta} />
     <SocialProfileJsonLd {...schema} />
     Homepage
   </PageContainer>
