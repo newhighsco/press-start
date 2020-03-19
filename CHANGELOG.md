@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/newhighsco/press-start/compare/v1.0.3...v1.0.4) (2020-03-19)
+
+
+### Bug Fixes
+
+* **wip:** updates chipset ([8718180](https://github.com/newhighsco/press-start/commit/8718180328f2f5f7640cace75fe95d9a63078f5f))
+
 ## [1.0.3](https://github.com/newhighsco/press-start/compare/v1.0.2...v1.0.3) (2020-03-19)
 
 
