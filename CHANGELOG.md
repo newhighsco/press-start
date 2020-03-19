@@ -1,3 +1,24 @@
+## [1.0.3](https://github.com/newhighsco/press-start/compare/v1.0.2...v1.0.3) (2020-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v16.13.1 ([1b2b715](https://github.com/newhighsco/press-start/commit/1b2b7150bd087e1b106292809a6df1ee77dd30f6))
+
+## [1.0.2](https://github.com/newhighsco/press-start/compare/v1.0.1...v1.0.2) (2020-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v1.5.0 ([647dc95](https://github.com/newhighsco/press-start/commit/647dc95ce9e2a4833983e16fe47105bcbeefcc09))
+
+## [1.0.1](https://github.com/newhighsco/press-start/compare/v1.0.0...v1.0.1) (2020-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v1.4.0 ([c0b851e](https://github.com/newhighsco/press-start/commit/c0b851ee0d8b2b5197fb1628160c69fa1965512b))
+
 # 1.0.0 (2020-03-17)
 
 

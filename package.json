@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/press-start",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "private": true,
@@ -32,8 +32,8 @@
     "next-ga": "2.3.4",
     "next-seo": "4.4.0",
     "node-sass": "4.13.1",
-    "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
@@ -42,7 +42,7 @@
     "@newhighsco/editor-config": "1.0.2",
     "@newhighsco/eslint-config": "2.0.1",
     "@newhighsco/prettier-config": "1.0.3",
-    "@newhighsco/release-config": "1.0.16",
+    "@newhighsco/release-config": "1.0.18",
     "@newhighsco/renovate-config": "1.2.0",
     "@newhighsco/stylelint-config": "2.0.1",
     "eslint": "6.8.0",
