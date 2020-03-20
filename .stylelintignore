@@ -3,4 +3,4 @@
 
 # production
 /.next
-/out
+/build

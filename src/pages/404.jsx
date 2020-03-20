@@ -1,6 +1,5 @@
 import React from 'react'
-import { PageContainer } from '@newhighsco/chipset'
-import Meta from '../components/Meta'
+import { PageContainer } from '../components/PageContainer'
 
 const meta = {
   title: 'Page not found',
@@ -9,11 +8,8 @@ const meta = {
   nofollow: true
 }
 
-const NotFoundContainer = () => (
-  <PageContainer Header={() => null} Footer={() => null}>
-    <Meta {...meta} />
-    Page not found
-  </PageContainer>
+const NotFoundPage = () => (
+  <PageContainer meta={meta}>Page not found</PageContainer>
 )
 
-export default NotFoundContainer
+export default NotFoundPage

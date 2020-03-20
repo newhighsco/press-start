@@ -3,7 +3,7 @@
 
 # production
 /.next
-/out
+/build
 
 # misc
 npm-debug.log*

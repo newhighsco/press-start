@@ -29,7 +29,7 @@ yarn test
 
 ## Build
 
-Generate a production build of the site, output to `./out`, using the following:
+Generate a production build of the site, output to `./build`, using the following:
 
 ```
 yarn build

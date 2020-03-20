@@ -11,13 +11,15 @@ const nextConfig = {
     DISALLOW_ROBOTS: true
   },
   exportPathMap: defaultPathMap => {
-    const customPathMap = {}
+    const customPathMap = { '/404.html': { page: '404' } }
     const pathMap = Object.assign(customPathMap, defaultPathMap)
-    const ignorePaths = []
+    const ignorePaths = ['/404', '/index']
 
     ignorePaths.map(path => delete pathMap[path])
 
     return pathMap
+
+    // TODO: robots.txt and sitemap.xml
   }
 }
 

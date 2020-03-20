@@ -1,11 +1,11 @@
 @import '~@newhighsco/chipset/src/styles/chipset-normalize';
+@import '../theme/settings/fonts';
 
 body {
   font-size: 18px;
   line-height: 1.5;
+  font-family: $font-family-body;
   font-weight: normal;
-  // TODO:
-  // font-family: $font-family-body;
 }
 
 a {

@@ -1,8 +1,8 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { config } from '../site.config'
+import { config } from '../../site.config'
 
-class DocumentContainer extends Document {
+class DocumentPage extends Document {
   // TODO: sitemap, manifest.json
 
   render() {
@@ -18,4 +18,4 @@ class DocumentContainer extends Document {
   }
 }
 
-export default DocumentContainer
+export default DocumentPage

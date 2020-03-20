@@ -1,5 +1,6 @@
 // TODO:
 // import colors from './styles/colors.module.scss'
+// import openGraphImage from './images/favicon-1200x1200.jpg'
 
 export const config = {
   lang: 'en',

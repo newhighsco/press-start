@@ -43,3 +43,4 @@ Meta.propTypes = {
 }
 
 export default Meta
+export { Meta }
