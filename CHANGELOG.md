@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/newhighsco/press-start/compare/v1.0.5...v1.0.6) (2020-03-20)
+
+
+### Bug Fixes
+
+* **wip:** base site structure ([150176d](https://github.com/newhighsco/press-start/commit/150176d4f9160e598c56af8c1a9e8a44e28f9912))
+
 ## [1.0.5](https://github.com/newhighsco/press-start/compare/v1.0.4...v1.0.5) (2020-03-20)
 
 
