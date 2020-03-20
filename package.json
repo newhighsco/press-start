@@ -25,7 +25,7 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "1.5.2",
+    "@newhighsco/chipset": "1.5.3",
     "next": "9.3.1",
     "next-compose-plugins": "2.2.0",
     "next-transpile-modules": "3.1.0",
