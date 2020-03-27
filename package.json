@@ -43,7 +43,7 @@
     "@newhighsco/editor-config": "1.0.2",
     "@newhighsco/eslint-config": "2.0.3",
     "@newhighsco/prettier-config": "1.0.3",
-    "@newhighsco/release-config": "1.0.18",
+    "@newhighsco/release-config": "1.0.19",
     "@newhighsco/renovate-config": "1.2.0",
     "@newhighsco/stylelint-config": "2.0.4",
     "eslint": "6.8.0",
