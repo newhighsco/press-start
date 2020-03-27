@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/newhighsco/press-start/compare/v1.0.7...v1.0.8) (2020-03-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v9.3.2 ([629fe0d](https://github.com/newhighsco/press-start/commit/629fe0d5c0a9c14bc9071c86defa8e3caa179790))
+
 ## [1.0.7](https://github.com/newhighsco/press-start/compare/v1.0.6...v1.0.7) (2020-03-20)
 
 
