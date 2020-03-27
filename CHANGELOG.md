@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/newhighsco/press-start/compare/v1.0.8...v1.1.0) (2020-03-27)
+
+
+### Features
+
+* **css-modules:** enables variable sharing between sass and js ([cfa9dd4](https://github.com/newhighsco/press-start/commit/cfa9dd4ee29e71f722522d6073ec205c5c50079c))
+* **plugin:** adds ability to control css loader options ([075315e](https://github.com/newhighsco/press-start/commit/075315ebed4b193789ee41f832037e119a32e793))
+
 ## [1.0.8](https://github.com/newhighsco/press-start/compare/v1.0.7...v1.0.8) (2020-03-27)
 
 
