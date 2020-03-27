@@ -1,5 +1,5 @@
+import colors from './src/theme/settings/_colors.module.scss'
 // TODO:
-// import colors from './styles/colors.module.scss'
 // import openGraphImage from './images/favicon-1200x1200.jpg'
 
 export const config = {
@@ -8,8 +8,7 @@ export const config = {
   shortName: null,
   title: 'Static site starter by New High Score',
   description: 'Get a static site up and running quickly with Static starter',
-  // TODO:
-  themeColor: 'colors.black',
+  themeColor: colors.black,
   twitterHandle: 'newhighsco',
   googleTrackingId: null,
   disallowRobots: JSON.parse(process.env.DISALLOW_ROBOTS || false)

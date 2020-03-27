@@ -1,10 +1,7 @@
-$color-common-black: #000;
-$color-common-white: #fff;
+$color-black: #000;
+$color-white: #fff;
 
-// TODO:
-// :export {
-//   common: {
-//     black: $color-common-black;
-//     white: $color-common-white;
-//   }
-// }
+:export {
+  black: $color-black;
+  white: $color-white;
+}

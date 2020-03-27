@@ -6,13 +6,12 @@ $breakpoint-desktop: 960px;
 $breakpoint-desktopMedium: 1280px;
 $breakpoint-desktopLarge: 1600px;
 
-// TODO:
-// :export {
-//   mobile: $breakpoint-mobile;
-//   mobileLandscape: $breakpoint-mobileLandscape;
-//   tablet: $breakpoint-tablet;
-//   tabletLandscape: $breakpoint-tabletLandscape;
-//   desktop: $breakpoint-desktop;
-//   desktopMedium: $breakpoint-desktopMedium;
-//   desktopLarge: $breakpoint-desktopLarge;
-// }
+:export {
+  mobile: $breakpoint-mobile;
+  mobileLandscape: $breakpoint-mobileLandscape;
+  tablet: $breakpoint-tablet;
+  tabletLandscape: $breakpoint-tabletLandscape;
+  desktop: $breakpoint-desktop;
+  desktopMedium: $breakpoint-desktopMedium;
+  desktopLarge: $breakpoint-desktopLarge;
+}
