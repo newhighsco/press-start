@@ -2,6 +2,7 @@ const withPlugins = require('next-compose-plugins')
 const withTranspileModules = require('next-transpile-modules')([
   '@newhighsco/chipset'
 ])
+const withCssOptions = require('./src/plugins/css-options')
 
 const nextConfig = {
   exportTrailingSlash: true,
@@ -23,4 +24,10 @@ const nextConfig = {
   }
 }
 
-module.exports = withPlugins([withTranspileModules], nextConfig)
+module.exports = withPlugins(
+  [
+    [withTranspileModules],
+    [withCssOptions, { cssModulesOptions: { mode: 'local' } }]
+  ],
+  nextConfig
+)
