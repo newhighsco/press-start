@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "next dev",
-    "prebuild": "rm -rf ./{.next,build}/*",
+    "prebuild": "rm -rf {.next,build}",
     "build": "next build && next export --outdir build",
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
