@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/newhighsco/press-start/compare/v1.1.2...v1.2.0) (2020-04-02)
+
+
+### Features
+
+* clears all todos ([00b5fdc](https://github.com/newhighsco/press-start/commit/00b5fdcfac983d8faa8bc0a77079be472b0ffa3e))
+
 ## [1.1.2](https://github.com/newhighsco/press-start/compare/v1.1.1...v1.1.2) (2020-04-01)
 
 
