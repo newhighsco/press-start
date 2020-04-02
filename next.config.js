@@ -11,7 +11,7 @@ const nextConfig = {
   exportTrailingSlash: true,
   poweredByHeader: false,
   env: {
-    SITE_URL: 'https://start.newhighsco.re/',
+    SITE_URL: 'https://starter.newhighsco.re/',
     DISALLOW_ROBOTS: true
   },
   exportPathMap: defaultPathMap => {
