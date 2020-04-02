@@ -36,3 +36,5 @@ Generate a production build of the site, output to `./build`, using the followin
 ```
 yarn build
 ```
+
+## [CHANGELOG](CHANGELOG.md)
