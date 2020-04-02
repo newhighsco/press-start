@@ -1,6 +1,8 @@
 import React from 'react'
 import { bool, node, string } from 'prop-types'
+import urlJoin from 'url-join'
 import { NextSeo } from 'next-seo'
+import { config } from '../../../site.config'
 
 const Meta = ({
   children,
@@ -11,8 +13,7 @@ const Meta = ({
   description,
   ...rest
 }) => {
-  // TODO:
-  const canonical = slug ? `${'https://TBC'}${slug}` : null
+  const canonical = slug ? urlJoin(config.url, slug) : null
   const meta = {
     title,
     titleTemplate: customTitle ? `%s` : titleTemplate,

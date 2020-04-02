@@ -1,13 +1,14 @@
+import urlJoin from 'url-join'
 import colors from './src/theme/settings/_colors.module.scss'
-// TODO:
-// import openGraphImage from './images/favicon-1200x1200.jpg'
 
 export const config = {
   lang: 'en',
-  name: 'Static starter',
+  url: process.env.SITE_URL,
+  name: 'PRESS START',
   shortName: null,
-  title: 'Static site starter by New High Score',
-  description: 'Get a static site up and running quickly with Static starter',
+  title: 'Chipset + Next.js site starter by New High Score',
+  description:
+    'Get a theme-able Next.js site up and running quickly with PRESS START',
   themeColor: colors.black,
   twitterHandle: 'newhighsco',
   googleTrackingId: null,
@@ -21,8 +22,7 @@ export const meta = {
   openGraph: {
     site_name: config.name,
     type: 'website',
-    // TODO:
-    images: [{ url: 'https://TODO/image.jpg' }]
+    images: [{ url: urlJoin(config.url, 'images/meta/sharing.jpg') }]
   },
   twitter: {
     cardType: 'summary',

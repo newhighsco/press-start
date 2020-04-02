@@ -15,7 +15,6 @@
   },
   "scripts": {
     "start": "next dev",
-    "prebuild": "rm -rf {.next,build}",
     "build": "next build && next export --outdir build",
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
@@ -29,12 +28,14 @@
     "@newhighsco/chipset": "1.5.3",
     "next": "9.3.3",
     "next-compose-plugins": "2.2.0",
-    "next-transpile-modules": "3.1.0",
     "next-ga": "2.3.4",
+    "next-images": "1.4.0",
     "next-seo": "4.4.0",
+    "next-transpile-modules": "3.1.0",
     "node-sass": "4.13.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "sitemap": "6.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",

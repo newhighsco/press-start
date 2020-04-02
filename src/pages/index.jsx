@@ -1,33 +1,40 @@
 import React from 'react'
-import { SocialProfileJsonLd } from 'next-seo'
+import { object } from 'prop-types'
+import urlJoin from 'url-join'
+import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { PageContainer } from '../components/PageContainer'
 import { config, socialLinks } from '../../site.config'
 
-// TODO:
-// import LogoImage from '../../static/favicon-512x512.png'
-
-const meta = {
-  customTitle: true,
-  title: config.title
-}
-
-const schema = {
-  type: 'Organization',
-  name: config.name,
-  // TODO:
-  url: 'http://TODO/'
-  // logo: ''
-}
-
-if (socialLinks.twitter) {
-  schema.sameAs = [socialLinks.twitter]
-}
-
-const HomePage = () => (
+const HomePage = ({ meta }) => (
   <PageContainer meta={meta}>
-    <SocialProfileJsonLd {...schema} />
+    <SocialProfileJsonLd
+      type="Organization"
+      name={config.name}
+      url={config.url}
+      sameAs={[socialLinks.twitter]}
+    />
+    <LogoJsonLd
+      url={config.url}
+      logo={urlJoin(config.url, 'images/meta/logo.png')}
+    />
     Homepage
   </PageContainer>
 )
+
+HomePage.propTypes = {
+  meta: object
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      meta: {
+        customTitle: true,
+        slug: '/',
+        title: config.title
+      }
+    }
+  }
+}
 
 export default HomePage
