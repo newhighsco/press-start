@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/newhighsco/press-start/compare/v1.2.1...v1.3.0) (2020-04-03)
+
+
+### Features
+
+* **sitemap:** uses external plugin ([23b40cf](https://github.com/newhighsco/press-start/commit/23b40cf03d5cf6a366727f878c94002bdebb29f6))
+
 ## [1.2.1](https://github.com/newhighsco/press-start/compare/v1.2.0...v1.2.1) (2020-04-02)
 
 
