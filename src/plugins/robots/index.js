@@ -12,20 +12,15 @@ module.exports = (nextConfig = {}) => {
 
   return Object.assign({}, nextConfig, {
     exportPathMap: async (...args) => {
-      const {
-        robotsDisallowAll,
-        robotsFileName,
-        sitemapFileName,
-        sitemapHostName
-      } = nextConfig
+      const { robotsDisallowAll, robotsFileName, sitemap = {} } = nextConfig
       const [defaultPathMap, { dev, outDir }] = args
 
       if (!dev) {
         const robots = ['User-agent: *']
 
         if (robotsDisallowAll) robots.push('Disallow: /')
-        if (sitemapHostName)
-          robots.push(`Sitemap: ${urlJoin(sitemapHostName, sitemapFileName)}`)
+        if (sitemap)
+          robots.push(`Sitemap: ${urlJoin(sitemap.hostname, sitemap.filename)}`)
 
         await writeFile(join(outDir, robotsFileName), robots.join('\n'))
       }

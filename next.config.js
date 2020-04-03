@@ -3,8 +3,8 @@ const withTranspileModules = require('next-transpile-modules')([
   '@newhighsco/chipset'
 ])
 const withImages = require('next-images')
+const withSitemap = require('@newhighsco/next-plugin-sitemap')
 const withCssOptions = require('./src/plugins/css-options')
-const withSitemap = require('./src/plugins/sitemap')
 const withRobots = require('./src/plugins/robots')
 
 const nextConfig = {
@@ -30,7 +30,7 @@ module.exports = withPlugins(
     [withTranspileModules],
     [withImages, { inlineImageLimit: 1 }],
     [withCssOptions, { cssModulesOptions: { mode: 'local' } }],
-    [withSitemap, { sitemapHostName: nextConfig.env.SITE_URL }],
+    [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],
     [withRobots, { robotsDisallowAll: nextConfig.env.DISALLOW_ROBOTS }]
   ],
   nextConfig

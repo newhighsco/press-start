@@ -5,16 +5,16 @@ import loadConfig from 'next/dist/next-server/server/config'
 
 class DocumentPage extends Document {
   render() {
-    const { sitemapFileName } = loadConfig()
+    const { sitemap } = loadConfig()
 
     return (
       <Html lang={config.lang}>
         <Head>
-          {sitemapFileName && (
+          {sitemap && (
             <link
               rel="sitemap"
               type="application/xml"
-              href={`/${sitemapFileName}`}
+              href={`/${sitemap.filename}`}
             />
           )}
         </Head>

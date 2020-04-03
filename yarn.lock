@@ -1152,6 +1152,13 @@
     eslint-plugin-react "7.19.0"
     eslint-plugin-standard "4.0.1"
 
+"@newhighsco/next-plugin-sitemap@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.0.tgz#6b16fcd4b2835653433be5f4b8cb8b4c27c50459"
+  integrity sha512-JyIqbUuZvS3B4b85Vu3JfmXTAug8b43pY6xswhTqKSUtWYlWi8CqDkhSrAYy2tBUOpHPaECR4kFwXzo21BCDfg==
+  dependencies:
+    sitemap "6.1.0"
+
 "@newhighsco/prettier-config@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.0.tgz#8d4fcebbd961027cc64937de5ac3e468c0f2574e"
