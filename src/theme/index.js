@@ -1,4 +1,4 @@
-import SiteContainer from './component/SiteContainer.module.scss'
+import SiteContainer from './components/SiteContainer.module.scss'
 
 export default {
   SiteContainer
