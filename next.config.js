@@ -4,8 +4,8 @@ const withTranspileModules = require('next-transpile-modules')([
 ])
 const withImages = require('next-images')
 const withSitemap = require('@newhighsco/next-plugin-sitemap')
+const withRobots = require('@newhighsco/next-plugin-robots')
 const withCssOptions = require('./src/plugins/css-options')
-const withRobots = require('./src/plugins/robots')
 
 const nextConfig = {
   exportTrailingSlash: true,
@@ -31,7 +31,10 @@ module.exports = withPlugins(
     [withImages, { inlineImageLimit: 1 }],
     [withCssOptions, { cssModulesOptions: { mode: 'local' } }],
     [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],
-    [withRobots, { robotsDisallowAll: nextConfig.env.DISALLOW_ROBOTS }]
+    [
+      withRobots,
+      { robots: { disallowPaths: nextConfig.env.DISALLOW_ROBOTS ? ['/'] : [] } }
+    ]
   ],
   nextConfig
 )
