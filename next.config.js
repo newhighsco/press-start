@@ -1,3 +1,4 @@
+const { resolve } = require('path')
 const withPlugins = require('next-compose-plugins')
 const withTranspileModules = require('next-transpile-modules')([
   '@newhighsco/chipset'
@@ -22,13 +23,35 @@ const nextConfig = {
     ignorePaths.map(path => delete pathMap[path])
 
     return pathMap
+  },
+  webpack: config => {
+    config.module.rules.push({
+      test: /\.svg$/,
+      include: svgPath,
+      use: [
+        {
+          loader: require.resolve('@svgr/webpack')
+          // options: { dimensions: false }
+        }
+      ]
+    })
+
+    return config
   }
 }
+
+const svgPath = resolve(__dirname, 'src/assets/svg')
 
 module.exports = withPlugins(
   [
     [withTranspileModules],
-    [withImages, { inlineImageLimit: 1 }],
+    [
+      withImages,
+      {
+        exclude: svgPath,
+        inlineImageLimit: 1
+      }
+    ],
     [withCssOptions, { cssModulesOptions: { mode: 'local' } }],
     [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],
     [
