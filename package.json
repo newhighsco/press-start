@@ -36,8 +36,7 @@
     "next-transpile-modules": "3.2.0",
     "node-sass": "4.13.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "sitemap": "6.1.0"
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
