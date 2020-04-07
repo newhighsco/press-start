@@ -29,8 +29,8 @@ export async function getStaticProps() {
   return {
     props: {
       meta: {
-        customTitle: true,
         slug: '/',
+        customTitle: true,
         title: config.title
       }
     }
