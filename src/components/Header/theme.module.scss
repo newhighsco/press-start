@@ -1,5 +1,5 @@
-@import '~@newhighsco/chipset/src/styles/chipset-mixins';
+@import '../../styles/settings/colors.module';
 
 .wrapper {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lighten($color-black, 75);
 }

@@ -7,7 +7,7 @@ import { Meta } from '../Meta'
 
 const PageContainer = ({ meta, children }) => (
   <ThemedPageContainer
-    is="main"
+    as="main"
     id="content"
     role="main"
     header={<Header />}
