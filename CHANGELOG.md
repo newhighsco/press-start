@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/newhighsco/press-start/compare/v1.4.0...v1.5.0) (2020-04-08)
+
+
+### Bug Fixes
+
+* **deps:** remove unused dependency ([f1c7e56](https://github.com/newhighsco/press-start/commit/f1c7e563f15eab0063ba296fb44192fe0ba9cfaa))
+* move apple touch icon to root ([8db0fd0](https://github.com/newhighsco/press-start/commit/8db0fd096d0c51cf120c1bd82b1b1a573d49d6e0))
+
+
+### Features
+
+* **svg:** adds SVG support ([e434721](https://github.com/newhighsco/press-start/commit/e4347213f82f81046916bdbd3027cd06984e203e))
+* **theme:** add basic page layout ([1cdf41c](https://github.com/newhighsco/press-start/commit/1cdf41ce555f2266fa3d245c748e0cf6c16cd91d))
+
 # [1.4.0](https://github.com/newhighsco/press-start/compare/v1.3.1...v1.4.0) (2020-04-06)
 
 
