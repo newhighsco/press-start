@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/newhighsco/press-start/compare/v1.5.1...v1.5.2) (2020-04-08)
+
+
+### Bug Fixes
+
+* **deps:** updates to chipset 2.0.0 ([ecfd731](https://github.com/newhighsco/press-start/commit/ecfd7319b0a503d091aee5db23f964dfccde8b50))
+
 ## [1.5.1](https://github.com/newhighsco/press-start/compare/v1.5.0...v1.5.1) (2020-04-08)
 
 
