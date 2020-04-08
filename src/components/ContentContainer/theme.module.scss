@@ -1,0 +1,10 @@
+@import '~@newhighsco/chipset/src/styles/chipset-mixins';
+
+.content {
+  padding: spacing(2) 0;
+}
+
+.gutter {
+  padding-left: spacing(2);
+  padding-right: spacing(4);
+}

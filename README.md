@@ -1,4 +1,4 @@
-# ⚡️ PRESS START [![Github version](https://img.shields.io/github/v/release/newhighsco/press-start)](https://github.com/newhighsco/press-start/releases)
+# ⚡️ Press Start [![Github version](https://img.shields.io/github/v/release/newhighsco/press-start)](https://github.com/newhighsco/press-start/releases)
 
 Get a theme-able Next.js site up and running quickly
 

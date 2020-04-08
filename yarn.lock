@@ -1258,13 +1258,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.0.tgz#0e2f178ea49305d389df030e0b00d914bcd1d674"
   integrity sha512-xdEl1Jwj2ra6GTX61IdTzWI9PQ7EPhMd/yzGA/rbhxURpvkkTEdTzrDBPMY+M1LeWqTLcVod9IvRG18QKA81Bw==
 
-"@newhighsco/chipset@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-1.6.0.tgz#b7b0a3b9eec8b6a978970bd9208a23ec2b50a796"
-  integrity sha512-IST3JK4bpF2tKrk9bsWOnf/wEbmkfdyMrnqvM4CfUNyAq5cfn3IqYQg3WgvMqY0ZMluQ74t7DTgDqxg2EniPrQ==
+"@newhighsco/chipset@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-1.7.0.tgz#b9a7d659e9105f716c888964cdade705afbf6cf6"
+  integrity sha512-ekjmCRNlINEK2zyi4KHJCddYmNWiZ6WieJpgZhiJP9kF5T5TD+MQBcjSj2duLOcccXk6xm1+ZFGja80bpJ3BGw==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.1.0"
+    "@svgr/webpack" "5.3.1"
     classnames "2.2.6"
+    react-ga "2.7.0"
 
 "@newhighsco/commitlint-config@1.0.0":
   version "1.0.0"
@@ -8512,7 +8514,7 @@ react-dom@16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-ga@^2.5.3:
+react-ga@2.7.0, react-ga@^2.5.3:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.7.0.tgz#24328f157f31e8cffbf4de74a3396536679d8d7c"
   integrity sha512-AjC7UOZMvygrWTc2hKxTDvlMXEtbmA0IgJjmkhgmQQ3RkXrWR11xEagLGFGaNyaPnmg24oaIiaNPnEoftUhfXA==

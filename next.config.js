@@ -1,4 +1,3 @@
-const { resolve } = require('path')
 const withPlugins = require('next-compose-plugins')
 const withTranspileModules = require('next-transpile-modules')([
   '@newhighsco/chipset'
@@ -27,11 +26,14 @@ const nextConfig = {
   webpack: config => {
     config.module.rules.push({
       test: /\.svg$/,
-      include: svgPath,
       use: [
         {
-          loader: require.resolve('@svgr/webpack')
-          // options: { dimensions: false }
+          loader: require.resolve('@svgr/webpack'),
+          options: {
+            svgoConfig: {
+              plugins: [{ prefixIds: false }]
+            }
+          }
         }
       ]
     })
@@ -40,15 +42,13 @@ const nextConfig = {
   }
 }
 
-const svgPath = resolve(__dirname, 'src/assets/svg')
-
 module.exports = withPlugins(
   [
     [withTranspileModules],
     [
       withImages,
       {
-        exclude: svgPath,
+        exclude: /\.svg$/,
         inlineImageLimit: 1
       }
     ],

@@ -5,6 +5,8 @@ import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { PageContainer } from '../components/PageContainer'
 import { config, socialLinks } from '../../site.config'
 
+import logoUrl from '../images/logo.png'
+
 const HomePage = ({ meta }) => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd
@@ -13,11 +15,8 @@ const HomePage = ({ meta }) => (
       url={config.url}
       sameAs={[socialLinks.twitter]}
     />
-    <LogoJsonLd
-      url={config.url}
-      logo={urlJoin(config.url, 'images/meta/logo.png')}
-    />
-    Homepage
+    <LogoJsonLd url={config.url} logo={urlJoin(config.url, logoUrl)} />
+    <p>{config.description}</p>
   </PageContainer>
 )
 

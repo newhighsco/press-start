@@ -1,10 +1,21 @@
 import React from 'react'
 import { node, object } from 'prop-types'
 import { PageContainer as ThemedPageContainer } from '@newhighsco/chipset'
+import { Header } from '../Header'
+import { Footer } from '../Footer'
 import { Meta } from '../Meta'
 
 const PageContainer = ({ meta, children }) => (
-  <ThemedPageContainer is="main" id="content" role="main">
+  <ThemedPageContainer
+    is="main"
+    id="content"
+    role="main"
+    header={<Header />}
+    footer={<Footer />}
+    fullWidth
+    gutter
+  >
+    {/* TODO: Add landmark for top of page */}
     <Meta {...meta} />
     {children}
   </ThemedPageContainer>
