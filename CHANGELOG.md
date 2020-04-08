@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/newhighsco/press-start/compare/v1.5.0...v1.5.1) (2020-04-08)
+
+
+### Bug Fixes
+
+* typo ([0a21887](https://github.com/newhighsco/press-start/commit/0a21887c4365708e1f099c888a911a332fa32982))
+
 # [1.5.0](https://github.com/newhighsco/press-start/compare/v1.4.0...v1.5.0) (2020-04-08)
 
 
