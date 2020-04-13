@@ -7,6 +7,19 @@ const withSitemap = require('@newhighsco/next-plugin-sitemap')
 const withRobots = require('@newhighsco/next-plugin-robots')
 const withCssOptions = require('./src/plugins/css-options')
 
+// TODO: move to plugin
+const svgRegExp = /\.svg$/
+const svgUrlRegExp = /\.url\.svg$/
+
+const svgrLoader = {
+  loader: require.resolve('@svgr/webpack'),
+  options: {
+    svgoConfig: {
+      plugins: [{ prefixIds: false }]
+    }
+  }
+}
+
 const nextConfig = {
   exportTrailingSlash: true,
   poweredByHeader: false,
@@ -24,19 +37,23 @@ const nextConfig = {
     return pathMap
   },
   webpack: config => {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: [
-        {
-          loader: require.resolve('@svgr/webpack'),
-          options: {
-            svgoConfig: {
-              plugins: [{ prefixIds: false }]
-            }
+    config.module.rules.push(
+      {
+        test: svgUrlRegExp,
+        use: [
+          svgrLoader,
+          {
+            // TODO: use file-loader
+            loader: require.resolve('url-loader')
           }
-        }
-      ]
-    })
+        ]
+      },
+      {
+        test: svgRegExp,
+        exclude: svgUrlRegExp,
+        use: svgrLoader
+      }
+    )
 
     return config
   }
@@ -48,7 +65,7 @@ module.exports = withPlugins(
     [
       withImages,
       {
-        exclude: /\.svg$/,
+        exclude: svgRegExp,
         inlineImageLimit: 1
       }
     ],
