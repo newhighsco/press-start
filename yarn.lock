@@ -1302,12 +1302,12 @@
   dependencies:
     url-join "4.0.1"
 
-"@newhighsco/next-plugin-sitemap@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.0.tgz#6b16fcd4b2835653433be5f4b8cb8b4c27c50459"
-  integrity sha512-JyIqbUuZvS3B4b85Vu3JfmXTAug8b43pY6xswhTqKSUtWYlWi8CqDkhSrAYy2tBUOpHPaECR4kFwXzo21BCDfg==
+"@newhighsco/next-plugin-sitemap@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.1.tgz#d28eae48eec5d1470d3aeddd6f132f3840ba60ff"
+  integrity sha512-yCC76jc5iTga5I8T3Ali1VNPaKdpETX7d1oRDyUO73H/lov+Sl8wUN/rgSJ6+2TePcxguCUygRAbrpqhSRcWeQ==
   dependencies:
-    sitemap "6.1.0"
+    sitemap "6.1.1"
 
 "@newhighsco/prettier-config@2.0.1":
   version "2.0.1"
@@ -1711,10 +1711,15 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
   integrity sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
 
-"@types/node@*", "@types/node@>= 8", "@types/node@^13.9.1":
+"@types/node@*", "@types/node@>= 8":
   version "13.9.8"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.8.tgz#09976420fc80a7a00bf40680c63815ed8c7616f4"
   integrity sha512-1WgO8hsyHynlx7nhP1kr0OFzsgKz5XDQL+Lfc3b1Q3qIln/n8cKD4m09NJ0+P1Rq7Zgnc7N0+SsMnoD1rEb0kA==
+
+"@types/node@^13.11.1":
+  version "13.11.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.11.1.tgz#49a2a83df9d26daacead30d0ccc8762b128d53c7"
+  integrity sha512-eWQGP3qtxwL8FGneRrC5DwrJLGN4/dH1clNTuLfN81HCrxVtxRjygDTUoZJ5ASlDEeo0ppYFQjQIlXhtXpOn6g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -9392,12 +9397,12 @@ signale@^1.2.1:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-sitemap@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-6.1.0.tgz#10510f66086910204b55ad36cb4b821f789c2c0d"
-  integrity sha512-Q2D4qwPGvpdGhiJoxcmB631VkLtrwNWSKvA4gVedIZO5bXQgITU4Pir5Zij5qx4eeC6D8wnXQf9Jv09g0+NKoQ==
+sitemap@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-6.1.1.tgz#98db9fa8d197dbfcd3747541a7215e615689010e"
+  integrity sha512-Op6yrGJhbH1ebG4P2jE0X/i3n1xMPc2ePxU7f2WMVk3IAfopGFAes3jgsZ3hJEjg4w8l0zpG8RWa0uY5id4MLg==
   dependencies:
-    "@types/node" "^13.9.1"
+    "@types/node" "^13.11.1"
     "@types/sax" "^1.2.1"
     arg "^4.1.3"
     sax "^1.2.4"
