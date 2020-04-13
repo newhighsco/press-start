@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/newhighsco/press-start/compare/v1.5.5...v1.6.0) (2020-04-13)
+
+
+### Features
+
+* **deps:** updates version of chipset ([8dd1b77](https://github.com/newhighsco/press-start/commit/8dd1b77e9a5e9147eb3644a98f64f30d58437c16))
+
 ## [1.5.5](https://github.com/newhighsco/press-start/compare/v1.5.4...v1.5.5) (2020-04-13)
 
 
