@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/newhighsco/press-start/compare/v1.7.0...v1.8.0) (2020-04-14)
+
+
+### Bug Fixes
+
+* **deps:** remove unused dependency ([67ddc38](https://github.com/newhighsco/press-start/commit/67ddc38cd941cba35ee71060a829e4de6ea4a0fe))
+
+
+### Features
+
+* **fonts:** add font file loader ([1ee3659](https://github.com/newhighsco/press-start/commit/1ee3659730a5a328d5aabd7b47e625c8abdcdb1c))
+
 # [1.7.0](https://github.com/newhighsco/press-start/compare/v1.6.0...v1.7.0) (2020-04-14)
 
 
