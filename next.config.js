@@ -5,20 +5,8 @@ const withTranspileModules = require('next-transpile-modules')([
 const withImages = require('next-images')
 const withSitemap = require('@newhighsco/next-plugin-sitemap')
 const withRobots = require('@newhighsco/next-plugin-robots')
+const withSvgr = require('@newhighsco/next-plugin-svgr')
 const withCssOptions = require('./src/plugins/css-options')
-
-// TODO: move to plugin
-const svgRegExp = /\.svg$/
-const svgUrlRegExp = /\.url\.svg$/
-
-const svgrLoader = {
-  loader: require.resolve('@svgr/webpack'),
-  options: {
-    svgoConfig: {
-      plugins: [{ prefixIds: false }]
-    }
-  }
-}
 
 const nextConfig = {
   exportTrailingSlash: true,
@@ -35,27 +23,6 @@ const nextConfig = {
     ignorePaths.map(path => delete pathMap[path])
 
     return pathMap
-  },
-  webpack: config => {
-    config.module.rules.push(
-      {
-        test: svgUrlRegExp,
-        use: [
-          svgrLoader,
-          {
-            // TODO: use file-loader
-            loader: require.resolve('url-loader')
-          }
-        ]
-      },
-      {
-        test: svgRegExp,
-        exclude: svgUrlRegExp,
-        use: svgrLoader
-      }
-    )
-
-    return config
   }
 }
 
@@ -65,8 +32,18 @@ module.exports = withPlugins(
     [
       withImages,
       {
-        exclude: svgRegExp,
+        exclude: /\.svg$/,
         inlineImageLimit: 1
+      }
+    ],
+    [
+      withSvgr,
+      {
+        svgrOptions: {
+          svgoConfig: {
+            plugins: [{ prefixIds: false }]
+          }
+        }
       }
     ],
     [withCssOptions, { cssModulesOptions: { mode: 'local' } }],

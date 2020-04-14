@@ -1369,6 +1369,15 @@
   dependencies:
     sitemap "6.1.1"
 
+"@newhighsco/next-plugin-svgr@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-1.0.0.tgz#28d1addecfe89a1f7e201dd255267909916035db"
+  integrity sha512-uFBBsEVFXYZRjaTF72vu2O30tPCIR47bwBzobtB0D7IBJxzPICUcE3fDk/baRZjdZaN6Ec4CSvEFuRBg1C2iNw==
+  dependencies:
+    "@svgr/webpack" "5.3.1"
+    file-loader "6.0.0"
+    url-loader "4.1.0"
+
 "@newhighsco/prettier-config@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.1.tgz#81bf3d6c1254700ad1323f225ed34b1f6a5757bd"
@@ -4564,7 +4573,7 @@ file-entry-cache@^5.0.1:
   dependencies:
     flat-cache "^2.0.1"
 
-file-loader@^6.0.0:
+file-loader@6.0.0, file-loader@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-6.0.0.tgz#97bbfaab7a2460c07bcbd72d3a6922407f67649f"
   integrity sha512-/aMOAYEFXDdjG0wytpTL5YQLfZnnTmLNjn+AIrJ/6HVnTfDqLsVKUUwkDf4I4kgex36BvjuXEn/TX9B/1ESyqQ==
@@ -10766,6 +10775,15 @@ url-join@4.0.1, url-join@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
   integrity sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
+
+url-loader@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/url-loader/-/url-loader-4.1.0.tgz#c7d6b0d6b0fccd51ab3ffc58a78d32b8d89a7be2"
+  integrity sha512-IzgAAIC8wRrg6NYkFIJY09vtktQcsvU8V6HhtQj9PTefbYImzLB1hufqo4m+RyM5N3mLx5BqJKccgxJS+W3kqw==
+  dependencies:
+    loader-utils "^2.0.0"
+    mime-types "^2.1.26"
+    schema-utils "^2.6.5"
 
 url-loader@^4.0.0:
   version "4.0.0"
