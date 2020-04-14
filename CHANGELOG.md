@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/newhighsco/press-start/compare/v1.6.0...v1.7.0) (2020-04-14)
+
+
+### Features
+
+* **svg:** adds svg plugin ([ea45a5e](https://github.com/newhighsco/press-start/commit/ea45a5e51c2e892c0e8bdd27b5ea942e364fcde7))
+
 # [1.6.0](https://github.com/newhighsco/press-start/compare/v1.5.5...v1.6.0) (2020-04-13)
 
 
