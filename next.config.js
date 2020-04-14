@@ -6,6 +6,7 @@ const withImages = require('next-images')
 const withSitemap = require('@newhighsco/next-plugin-sitemap')
 const withRobots = require('@newhighsco/next-plugin-robots')
 const withSvgr = require('@newhighsco/next-plugin-svgr')
+const withFonts = require('next-fonts')
 const withCssOptions = require('./src/plugins/css-options')
 
 const nextConfig = {
@@ -47,6 +48,7 @@ module.exports = withPlugins(
       }
     ],
     [withCssOptions, { cssModulesOptions: { mode: 'local' } }],
+    [withFonts],
     [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],
     [
       withRobots,
