@@ -15,7 +15,6 @@ const PageContainer = ({ meta, children }) => (
     fullWidth
     gutter
   >
-    {/* TODO: Add landmark for top of page */}
     <Meta {...meta} />
     {children}
   </ThemedPageContainer>
