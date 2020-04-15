@@ -11,6 +11,11 @@ const withVideos = require('next-videos')
 const withCssOptions = require('./src/plugins/css-options')
 
 const nextConfig = {
+  experimental: {
+    sassOptions: {
+      implementation: require('sass')
+    }
+  },
   exportTrailingSlash: true,
   poweredByHeader: false,
   env: {

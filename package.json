@@ -37,9 +37,9 @@
     "next-seo": "4.4.0",
     "next-transpile-modules": "3.2.0",
     "next-videos": "1.1.4",
-    "node-sass": "4.13.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "sass": "1.26.3"
   },
   "devDependencies": {
     "@commitlint/cli": "8.3.5",

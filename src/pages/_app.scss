@@ -1,10 +1,10 @@
-@import '~@newhighsco/chipset/src/styles/chipset-normalize';
-@import '../styles/settings/fonts';
+@use '~@newhighsco/chipset/src/styles/chipset-normalize';
+@use '../styles/settings/fonts';
 
 body {
   font-size: 16px;
   line-height: 1.5;
-  font-family: $font-family-body;
+  font-family: fonts.$body;
   font-weight: normal;
 }
 
