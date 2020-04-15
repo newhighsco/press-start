@@ -1,3 +1,11 @@
+# [1.10.0](https://github.com/newhighsco/press-start/compare/v1.9.1...v1.10.0) (2020-04-15)
+
+
+### Features
+
+* **sass:** replaces node-sass with dart sass ([6803b1b](https://github.com/newhighsco/press-start/commit/6803b1b6d3d9df9fba69c37bf5c663ec0a3b6e4b)), closes [#93](https://github.com/newhighsco/press-start/issues/93)
+* **video:** adds video file format support ([2ab98aa](https://github.com/newhighsco/press-start/commit/2ab98aabe0d75f1a924506832bb04a0b1215906a)), closes [#92](https://github.com/newhighsco/press-start/issues/92)
+
 ## [1.9.1](https://github.com/newhighsco/press-start/compare/v1.9.0...v1.9.1) (2020-04-15)
 
 
