@@ -1320,10 +1320,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.0.tgz#0e2f178ea49305d389df030e0b00d914bcd1d674"
   integrity sha512-xdEl1Jwj2ra6GTX61IdTzWI9PQ7EPhMd/yzGA/rbhxURpvkkTEdTzrDBPMY+M1LeWqTLcVod9IvRG18QKA81Bw==
 
-"@newhighsco/chipset@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-2.4.1.tgz#f821ece4e681965c92e085051866f7a8e16955d6"
-  integrity sha512-pMnSnVxRNNdfst2/eazENN8nhb9/kKiwYRLH4v1qzcPqeflc3N6iHqh+CCzthSaY5whT/Ev5Qpt/hyDzPgwp5g==
+"@newhighsco/chipset@2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-2.5.1.tgz#2ee267a3ba535c50abdf4536d51b4ebe4344d7f2"
+  integrity sha512-YiJPxbJqg4bwvFoAtyDKDhnSneOT55O+pNzONd7FsH2/quuYIsKGTekqrYeaKgUDN+q7YVw2bODknwb9YCXWRA==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.1.0"
     classnames "2.2.6"
