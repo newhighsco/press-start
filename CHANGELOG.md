@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/newhighsco/press-start/compare/v1.10.0...v1.10.1) (2020-04-16)
+
+
+### Bug Fixes
+
+* **deps:** updates chipset to latest version ([672f2d7](https://github.com/newhighsco/press-start/commit/672f2d76c53479cc11bd5d4db520b734e05e5beb))
+
 # [1.10.0](https://github.com/newhighsco/press-start/compare/v1.9.1...v1.10.0) (2020-04-15)
 
 
