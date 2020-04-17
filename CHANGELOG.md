@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/newhighsco/press-start/compare/v1.10.2...v1.10.3) (2020-04-17)
+
+
+### Bug Fixes
+
+* **now:** adds 404 routing ([c01042a](https://github.com/newhighsco/press-start/commit/c01042a99a20da1d027f93b53efbaa8c18b8dd27))
+
 ## [1.10.2](https://github.com/newhighsco/press-start/compare/v1.10.1...v1.10.2) (2020-04-17)
 
 
