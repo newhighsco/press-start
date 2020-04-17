@@ -23,7 +23,7 @@ const nextConfig = {
     DISALLOW_ROBOTS: true
   },
   exportPathMap: defaultPathMap => {
-    const customPathMap = { '/404.html': { page: '404' } }
+    const customPathMap = {}
     const pathMap = Object.assign(customPathMap, defaultPathMap)
     const ignorePaths = ['/404', '/index']
 
