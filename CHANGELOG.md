@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/newhighsco/press-start/compare/v1.10.1...v1.10.2) (2020-04-17)
+
+
+### Bug Fixes
+
+* **404:** add missing 404.html from build output ([ac8b94d](https://github.com/newhighsco/press-start/commit/ac8b94d3a9b01c2cfe6d5664e249fc31c0e56659))
+
 ## [1.10.1](https://github.com/newhighsco/press-start/compare/v1.10.0...v1.10.1) (2020-04-16)
 
 
