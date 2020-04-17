@@ -25,7 +25,7 @@ const nextConfig = {
   exportPathMap: defaultPathMap => {
     const customPathMap = {}
     const pathMap = Object.assign(customPathMap, defaultPathMap)
-    const ignorePaths = ['/404', '/index']
+    const ignorePaths = []
 
     ignorePaths.map(path => delete pathMap[path])
 
