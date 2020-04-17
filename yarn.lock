@@ -1396,10 +1396,10 @@
     "@semantic-release/npm" "7.0.5"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/renovate-config@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/renovate-config/-/renovate-config-1.3.0.tgz#348baf171523b6afd3e27e30ffcac40d49f65048"
-  integrity sha512-Apisv7+ExhwOTYlA0ZL1Eoj86o4gfpHPrYdVpO9hPRdWXjnNavPVdAh67zhiXQqBAHvx7183khU94TRBFwuOTQ==
+"@newhighsco/renovate-config@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/renovate-config/-/renovate-config-1.3.1.tgz#8c624845f5aa1210c72dd13298b5d8b8fd746c22"
+  integrity sha512-8i/Yi9C7TKGIubAq93qbTyKIixvSrv96BuursCr6mRMuHtr8iDzc29561J7S9MRVPbQuEQjdCpl04MSt7ZFzrQ==
 
 "@newhighsco/stylelint-config@2.0.8":
   version "2.0.8"
