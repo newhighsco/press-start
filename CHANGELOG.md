@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/newhighsco/press-start/compare/v1.11.0...v1.11.1) (2020-04-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v2.8.0 ([d3be15f](https://github.com/newhighsco/press-start/commit/d3be15f4494c206aa107df1c19e21c0bd59d1da9))
+
 # [1.11.0](https://github.com/newhighsco/press-start/compare/v1.10.3...v1.11.0) (2020-04-17)
 
 
