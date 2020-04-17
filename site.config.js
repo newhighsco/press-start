@@ -1,5 +1,5 @@
 import urlJoin from 'url-join'
-import colors from './src/styles/settings/_colors.module.scss'
+import colors from './src/styles/_colors.module.scss'
 import openGraphImageUrl from './src/images/sharing.jpg'
 
 export const config = {

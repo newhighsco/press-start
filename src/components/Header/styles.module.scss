@@ -1,4 +1,6 @@
+@use '../../styles/functions';
+
 .logo {
   fill: currentColor;
-  width: 32px;
+  width: functions.spacing(4);
 }
