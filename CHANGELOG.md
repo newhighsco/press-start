@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/newhighsco/press-start/compare/v1.10.3...v1.11.0) (2020-04-17)
+
+
+### Features
+
+* **sass:** reorganises Sass files for better theming ([563386a](https://github.com/newhighsco/press-start/commit/563386a8a1ac7aaf72bd0c7471b3b274a302054c))
+
 ## [1.10.3](https://github.com/newhighsco/press-start/compare/v1.10.2...v1.10.3) (2020-04-17)
 
 
