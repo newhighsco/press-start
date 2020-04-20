@@ -1563,16 +1563,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/renovate-config/-/renovate-config-1.3.1.tgz#8c624845f5aa1210c72dd13298b5d8b8fd746c22"
   integrity sha512-8i/Yi9C7TKGIubAq93qbTyKIixvSrv96BuursCr6mRMuHtr8iDzc29561J7S9MRVPbQuEQjdCpl04MSt7ZFzrQ==
 
-"@newhighsco/stylelint-config@2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.8.tgz#11bea766ed82fb0274bb59cc1bf3888f5c851816"
-  integrity sha512-kImXSJlaYXPkCROLh7ZNHbHTpM0D2YmG57CsOJu0+4whhOhbA92wutCk6u+nJrFKO/0qShwKTEtKH/SS6pywBQ==
+"@newhighsco/stylelint-config@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.9.tgz#b775da6e68e7c268eae9d5235a5acf3c99f85095"
+  integrity sha512-JqFRtaQSIaL0Vb+tOO1Kxj/mfJM40d6MSmQfdZI2585xMeRkeuJTX96h2diXlbT9/opz0KrwLHvnPTsOq9JB1g==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.1"
     stylelint-config-standard "20.0.0"
     stylelint-prettier "1.1.2"
-    stylelint-scss "3.17.0"
+    stylelint-scss "3.17.1"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -10734,16 +10734,16 @@ stylelint-prettier@1.1.2:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@3.17.0:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.17.0.tgz#20480ec52d0acf6fadde54e655f44a858af380da"
-  integrity sha512-zY6fLHailK3++UEtGOwa5BKeWemLOXUATRlV7H056Z+xCT224/TaLXR5x2zjPXFMEf89uqwv15yM9zhbwm/zDw==
+stylelint-scss@3.17.1:
+  version "3.17.1"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.17.1.tgz#1dc442cc5167be263d3d2ea37fe177b46b925c5d"
+  integrity sha512-KywqqHfK1otZv1QJA4xJDgcPJp1/cP3jnABpbU9gmXOKqKt8cNt27Imsh9JhY133X8D4zDh/38pNq4WjVfUQWQ==
   dependencies:
     lodash "^4.17.15"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-selector-parser "^6.0.2"
-    postcss-value-parser "^4.0.2"
+    postcss-value-parser "^4.0.3"
 
 stylelint@13.3.2:
   version "13.3.2"
