@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/newhighsco/press-start/compare/v1.11.1...v1.11.2) (2020-04-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-fonts to v1.1.0 ([31de8c5](https://github.com/newhighsco/press-start/commit/31de8c52eee9d593d9840d817e2f9e72d217e190))
+
 ## [1.11.1](https://github.com/newhighsco/press-start/compare/v1.11.0...v1.11.1) (2020-04-17)
 
 
