@@ -1500,12 +1500,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.1.0.tgz#e2a98672817e38202158f5918566523f63803969"
-  integrity sha512-1jhOPet18LSG6/v+pjr+cMyrugwVYJh8USt7k/yEzbyqkyp89FMDfbVC8iBZbI7UFBOio3IIsiDaQYOGw7DskQ==
+"@newhighsco/eslint-config@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.1.1.tgz#3b906c233d494390ba38e86097e2ea8446af09e2"
+  integrity sha512-XxquR1GVsUB3gEduhFe0OAMB9NLJmdzvVy3eUwVpNeEIw10otPyuH+4RqO4/QAOnfjrZMs02lgTUZbgKSPkMCw==
   dependencies:
-    eslint-config-prettier "6.10.1"
+    eslint-config-prettier "6.11.0"
     eslint-config-standard "14.1.1"
     eslint-config-standard-react "9.2.0"
     eslint-plugin-import "2.20.2"
@@ -1563,16 +1563,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/renovate-config/-/renovate-config-1.3.1.tgz#8c624845f5aa1210c72dd13298b5d8b8fd746c22"
   integrity sha512-8i/Yi9C7TKGIubAq93qbTyKIixvSrv96BuursCr6mRMuHtr8iDzc29561J7S9MRVPbQuEQjdCpl04MSt7ZFzrQ==
 
-"@newhighsco/stylelint-config@2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.8.tgz#11bea766ed82fb0274bb59cc1bf3888f5c851816"
-  integrity sha512-kImXSJlaYXPkCROLh7ZNHbHTpM0D2YmG57CsOJu0+4whhOhbA92wutCk6u+nJrFKO/0qShwKTEtKH/SS6pywBQ==
+"@newhighsco/stylelint-config@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.9.tgz#b775da6e68e7c268eae9d5235a5acf3c99f85095"
+  integrity sha512-JqFRtaQSIaL0Vb+tOO1Kxj/mfJM40d6MSmQfdZI2585xMeRkeuJTX96h2diXlbT9/opz0KrwLHvnPTsOq9JB1g==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.1"
     stylelint-config-standard "20.0.0"
     stylelint-prettier "1.1.2"
-    stylelint-scss "3.17.0"
+    stylelint-scss "3.17.1"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -4483,10 +4483,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@6.10.1:
-  version "6.10.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.10.1.tgz#129ef9ec575d5ddc0e269667bf09defcd898642a"
-  integrity sha512-svTy6zh1ecQojvpbJSgH3aei/Rt7C6i090l5f2WQ4aB05lYHeZIR1qL4wZyyILTbtmnbHP5Yn8MrsOJMGa8RkQ==
+eslint-config-prettier@6.11.0:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.11.0.tgz#f6d2238c1290d01c859a8b5c1f7d352a0b0da8b1"
+  integrity sha512-oB8cpLWSAjOVFEJhhyMZh6NOEOtBVziaqdDQ86+qhDHFbZXoRTM7pNSvFRfW/W/L/LrQ38C99J5CGuRBBzBsdA==
   dependencies:
     get-stdin "^6.0.0"
 
@@ -7085,10 +7085,10 @@ marked-terminal@^4.0.0:
     node-emoji "^1.10.0"
     supports-hyperlinks "^2.0.0"
 
-marked@^0.8.0:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.8.2.tgz#4faad28d26ede351a7a1aaa5fec67915c869e355"
-  integrity sha512-EGwzEeCcLniFX51DhTpmTom+dSA/MG/OBUDjnWtHbEnjAH180VzUeAw+oE4+Zv+CoYBWyRlYOTR0N8SO9R1PVw==
+marked@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-1.0.0.tgz#d35784245a04871e5988a491e28867362e941693"
+  integrity sha512-Wo+L1pWTVibfrSr+TTtMuiMfNzmZWiOPeO7rZsQUY5bgsxpHesBEcIWJloWVTFnrMXnf/TL30eTFSGJddmQAng==
 
 mathml-tag-names@^2.1.3:
   version "2.1.3"
@@ -7483,10 +7483,10 @@ next-compose-plugins@2.2.0:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.2.0.tgz#95cd8eb40ab0652070d76572fb648354191628b0"
   integrity sha512-ChUlpT9tWfJ7YxqGw/WQ2T1gf8EeX93n1XqeQw0lkvGa7seszahvF4eOZUJoq7Hetsbzg4UHVnPoCXfXTyQR3g==
 
-next-fonts@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/next-fonts/-/next-fonts-1.0.3.tgz#2c1970f18eca657ac9323b496c6333cab320c3bd"
-  integrity sha512-0WT88wZyxdfYR2G90osx+OykVXY7uSIoTbSmimxJEv4UOQ4RUfYDxgPVZuudrqlvGYYkAXUKwLRUHI2Ql2fFoA==
+next-fonts@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/next-fonts/-/next-fonts-1.1.0.tgz#5981ad5b8db4c6ae101919e2252e8dd2ec5b387a"
+  integrity sha512-Fbo2EROr4Y2T4lfHaHg5LkVse2OmHQIYLptdnnX43YLvOsE2btlarv+zFp6ex45znrVnwNxcAsdYH4N4jGzfeQ==
   dependencies:
     file-loader "^2.0.0"
     url-loader "^1.1.1"
@@ -8983,10 +8983,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.4.tgz#2d1bae173e355996ee355ec9830a7a1ee05457ef"
-  integrity sha512-SVJIQ51spzFDvh4fIbCLvciiDMCrRhlN3mbZvv/+ycjvmF5E73bKdGfU8QDLNmjYJf+lsGnDBC4UUnvTe5OO0w==
+prettier@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
+  integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
 
 private@^0.1.8:
   version "0.1.8"
@@ -9925,10 +9925,10 @@ schema-utils@^2.0.1, schema-utils@^2.5.0, schema-utils@^2.6.0, schema-utils@^2.6
     ajv "^6.12.0"
     ajv-keywords "^3.4.1"
 
-semantic-release@17.0.6:
-  version "17.0.6"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.0.6.tgz#18e6a4f99b343f5d4d10b7fb8d9900a03040ede3"
-  integrity sha512-4djSoKUiq8ShAiKEzDKkcrzFyDREFJRMsY/efr/b48dcin2g+s4TsZUTniTg3Zvk+TM9G5rNBKyXfFgVO6wJNA==
+semantic-release@17.0.7:
+  version "17.0.7"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.0.7.tgz#03792bf6e1a9ad2353dfd0da6a5d5511fa672b06"
+  integrity sha512-F6FzJI1yiGavzCTXir4yPthK/iozZPJ4myUYndiHhSHbmOcCSJ2m7V+P6sFwVpDpQKQp1Q31M68sTJ/Q/27Bow==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
@@ -9947,7 +9947,7 @@ semantic-release@17.0.6:
     hook-std "^2.0.0"
     hosted-git-info "^3.0.0"
     lodash "^4.17.15"
-    marked "^0.8.0"
+    marked "^1.0.0"
     marked-terminal "^4.0.0"
     micromatch "^4.0.2"
     p-each-series "^2.1.0"
@@ -10734,21 +10734,21 @@ stylelint-prettier@1.1.2:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@3.17.0:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.17.0.tgz#20480ec52d0acf6fadde54e655f44a858af380da"
-  integrity sha512-zY6fLHailK3++UEtGOwa5BKeWemLOXUATRlV7H056Z+xCT224/TaLXR5x2zjPXFMEf89uqwv15yM9zhbwm/zDw==
+stylelint-scss@3.17.1:
+  version "3.17.1"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.17.1.tgz#1dc442cc5167be263d3d2ea37fe177b46b925c5d"
+  integrity sha512-KywqqHfK1otZv1QJA4xJDgcPJp1/cP3jnABpbU9gmXOKqKt8cNt27Imsh9JhY133X8D4zDh/38pNq4WjVfUQWQ==
   dependencies:
     lodash "^4.17.15"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-selector-parser "^6.0.2"
-    postcss-value-parser "^4.0.2"
+    postcss-value-parser "^4.0.3"
 
-stylelint@13.3.2:
-  version "13.3.2"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-13.3.2.tgz#fbcb69a2452bc35de3eedd95b443449f92ab4107"
-  integrity sha512-kpO3/Gz2ZY40EWUwFYYkgpzhf8ZDUyKpcui5+pS0XKJBj/EMYmZpOJoL8IFAz2yApYeg91NVy5yAjE39hDzWvQ==
+stylelint@13.3.3:
+  version "13.3.3"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-13.3.3.tgz#e267a628ebfc1adad6f5a1fe818724c34171402b"
+  integrity sha512-j8Oio2T1YNiJc6iXDaPYd74Jg4zOa1bByNm/g9/Nvnq4tDPsIjMi46jhRZyPPktGPwjJ5FwcmCqIRlH6PVP8mA==
   dependencies:
     "@stylelint/postcss-css-in-js" "^0.37.1"
     "@stylelint/postcss-markdown" "^0.36.1"
