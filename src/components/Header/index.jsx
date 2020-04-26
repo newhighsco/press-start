@@ -10,7 +10,7 @@ import { config } from '../../../site.config'
 
 import theme from './theme.module.scss'
 import styles from './styles.module.scss'
-import LogoSvg from '../../images/logo.svg'
+import { ReactComponent as LogoSvg } from '../../images/logo.url.svg'
 
 const Header = () => (
   <>
