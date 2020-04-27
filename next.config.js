@@ -17,11 +17,7 @@ const nextConfig = {
     }
   },
   exportTrailingSlash: true,
-  poweredByHeader: false,
-  env: {
-    SITE_URL: 'https://starter.newhighsco.re/',
-    DISALLOW_ROBOTS: true
-  }
+  poweredByHeader: false
 }
 
 module.exports = withPlugins(
@@ -47,10 +43,16 @@ module.exports = withPlugins(
     [withCssOptions, { cssModulesOptions: { mode: 'local' } }],
     [withFonts],
     [withVideos],
-    [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],
+    [withSitemap, { sitemap: { hostname: process.env.NOW_URL || '' } }],
     [
       withRobots,
-      { robots: { disallowPaths: nextConfig.env.DISALLOW_ROBOTS ? ['/'] : [] } }
+      {
+        robots: {
+          disallowPaths: JSON.parse(process.env.DISALLOW_ROBOTS || false)
+            ? ['/']
+            : []
+        }
+      }
     ]
   ],
   nextConfig
