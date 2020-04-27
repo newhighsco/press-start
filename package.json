@@ -58,11 +58,9 @@
     "semantic-release": "17.0.7",
     "stylelint": "13.3.3"
   },
-  "browserslist": {
-    "extends": [
-      "@newhighsco/browserslist-config"
-    ]
-  },
+  "browserslist": [
+    "extends @newhighsco/browserslist-config"
+  ],
   "commitlint": {
     "extends": [
       "@newhighsco"
