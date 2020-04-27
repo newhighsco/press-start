@@ -1518,17 +1518,17 @@
     eslint-plugin-react "7.19.0"
     eslint-plugin-standard "4.0.1"
 
-"@newhighsco/next-plugin-robots@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-robots/-/next-plugin-robots-1.1.0.tgz#cf0a55eec09c3ce6ce7514d3754d0f0b36869bfe"
-  integrity sha512-78FB3SLY7nYYuJXCv5nYkp4h7Kksc1QSur1FViGMChg32tgfJzCltjKRXHvgOVe4HmIpUc38qWfr93i7b4J+pQ==
+"@newhighsco/next-plugin-robots@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-robots/-/next-plugin-robots-1.1.1.tgz#a0fb469c1da77c20ea96b69d1e041bbd5f32b102"
+  integrity sha512-8RDNUnfR2nNQjOOCKqzEipjL6kIoQ/h0BmEYqwXG096sbTrmu/1Bzzy/G132DLPfJMx/xBDgWOHlG50dHMyzug==
   dependencies:
     url-join "4.0.1"
 
-"@newhighsco/next-plugin-sitemap@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.2.tgz#d108c2ca82639154652764eda7899a0faa91a2f9"
-  integrity sha512-XHdzhR/kigumxEY34nnjmaNSmaOOEOmrJEVldLZGOz2E5/HYxCsvsmRJcUow84cKva/v0ybCo3rAX2ZX+2VE/w==
+"@newhighsco/next-plugin-sitemap@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.3.tgz#1ed857f279caf7732818e2c46242d3d300af080c"
+  integrity sha512-9O+A2Y2+7rMJEFpktiYabyXnyvxwpI99eEU2O61Uwfr55Q8+hmaO0AwAPkDxDUsjTaDNjVFA/9rO/rt23uNy+Q==
   dependencies:
     sitemap "6.1.2"
 
