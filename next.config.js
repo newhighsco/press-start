@@ -23,6 +23,8 @@ const nextConfig = {
   }
 }
 
+console.log(111, process.NOW_URL)
+
 module.exports = withPlugins(
   [
     [withTranspileModules],
