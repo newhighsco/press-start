@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/press-start",
   "description": "Chipset + Next.js site starter by New High Score",
-  "version": "1.12.0",
+  "version": "1.12.2",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "private": true,
@@ -25,9 +25,9 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "2.8.1",
-    "@newhighsco/next-plugin-robots": "1.1.0",
-    "@newhighsco/next-plugin-sitemap": "1.0.2",
+    "@newhighsco/chipset": "2.8.2",
+    "@newhighsco/next-plugin-robots": "1.1.1",
+    "@newhighsco/next-plugin-sitemap": "1.0.3",
     "@newhighsco/next-plugin-svgr": "1.0.0",
     "next": "9.3.5",
     "next-compose-plugins": "2.2.0",
