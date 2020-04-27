@@ -1,3 +1,10 @@
+## [1.12.3](https://github.com/newhighsco/press-start/compare/v1.12.2...v1.12.3) (2020-04-27)
+
+
+### Bug Fixes
+
+* uses ENV variables to control page visibility ([e14c913](https://github.com/newhighsco/press-start/commit/e14c9133fb53d069c393ab5b97d259d074669fc0))
+
 ## [1.12.2](https://github.com/newhighsco/press-start/compare/v1.12.1...v1.12.2) (2020-04-27)
 
 
