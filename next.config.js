@@ -20,11 +20,9 @@ const nextConfig = {
   poweredByHeader: false,
   env: {
     SITE_URL: 'https://starter.newhighsco.re/',
-    DISALLOW_ROBOTS: true
+    DISALLOW_ROBOTS: JSON.parse(process.env.DISALLOW_ROBOTS || false)
   }
 }
-
-console.log(111, process.env.NOW_URL)
 
 module.exports = withPlugins(
   [
@@ -52,7 +50,11 @@ module.exports = withPlugins(
     [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],
     [
       withRobots,
-      { robots: { disallowPaths: nextConfig.env.DISALLOW_ROBOTS ? ['/'] : [] } }
+      {
+        robots: {
+          disallowPaths: nextConfig.env.DISALLOW_ROBOTS ? ['/'] : []
+        }
+      }
     ]
   ],
   nextConfig

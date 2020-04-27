@@ -12,10 +12,11 @@ export const config = {
   themeColor: colors.black,
   twitterHandle: 'newhighsco',
   googleTrackingId: null,
-  disallowRobots: JSON.parse(process.env.DISALLOW_ROBOTS || false)
+  disallowRobots: process.env.DISALLOW_ROBOTS
 }
 
 export const meta = {
+  dangerouslySetAllPagesToNoIndex: config.disallowRobots,
   dangerouslySetAllPagesToNoFollow: config.disallowRobots,
   titleTemplate: `%s | ${config.name}`,
   description: config.description,
