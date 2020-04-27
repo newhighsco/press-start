@@ -4,7 +4,7 @@ import openGraphImageUrl from './src/images/sharing.jpg'
 
 export const config = {
   lang: 'en',
-  url: process.env.NOW_URL || '',
+  url: process.env.SITE_URL,
   name: 'Press Start',
   shortName: null,
   title: 'Press Start - Chipset + Next.js site starter by New High Score',
