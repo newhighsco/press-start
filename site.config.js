@@ -16,8 +16,8 @@ export const config = {
 }
 
 export const meta = {
-  dangerouslySetAllPagesToNoIndex: config.disallowRobots,
   dangerouslySetAllPagesToNoFollow: config.disallowRobots,
+  dangerouslySetAllPagesToNoIndex: config.disallowRobots,
   titleTemplate: `%s | ${config.name}`,
   description: config.description,
   openGraph: {
