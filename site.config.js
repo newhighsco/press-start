@@ -2,8 +2,6 @@ import urlJoin from 'url-join'
 import colors from './src/styles/_colors.module.scss'
 import openGraphImageUrl from './src/images/sharing.jpg'
 
-console.log(222, process.env.NOW_URL, process.env.SITE_URL)
-
 export const config = {
   lang: 'en',
   url: process.env.SITE_URL,

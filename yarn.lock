@@ -1525,10 +1525,10 @@
   dependencies:
     url-join "4.0.1"
 
-"@newhighsco/next-plugin-sitemap@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.2.tgz#d108c2ca82639154652764eda7899a0faa91a2f9"
-  integrity sha512-XHdzhR/kigumxEY34nnjmaNSmaOOEOmrJEVldLZGOz2E5/HYxCsvsmRJcUow84cKva/v0ybCo3rAX2ZX+2VE/w==
+"@newhighsco/next-plugin-sitemap@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.3.tgz#1ed857f279caf7732818e2c46242d3d300af080c"
+  integrity sha512-9O+A2Y2+7rMJEFpktiYabyXnyvxwpI99eEU2O61Uwfr55Q8+hmaO0AwAPkDxDUsjTaDNjVFA/9rO/rt23uNy+Q==
   dependencies:
     sitemap "6.1.2"
 
