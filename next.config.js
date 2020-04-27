@@ -23,7 +23,7 @@ const nextConfig = {
   }
 }
 
-console.log(111, process.NOW_URL)
+console.log(111, process.env.NOW_URL, process.env.SITE_URL)
 
 module.exports = withPlugins(
   [
