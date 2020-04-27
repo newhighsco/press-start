@@ -16,7 +16,6 @@ const HomePage = ({ meta }) => (
       sameAs={[socialLinks.twitter]}
     />
     <LogoJsonLd url={config.url} logo={urlJoin(config.url, logoUrl)} />
-    <p>{config.description}</p>
   </PageContainer>
 )
 
