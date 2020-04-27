@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/newhighsco/press-start/compare/v1.11.4...v1.12.0) (2020-04-27)
+
+
+### Bug Fixes
+
+* correctly extends shared browserslist-config ([759f0ce](https://github.com/newhighsco/press-start/commit/759f0cec14d316ddd7144b91a100ce3c02e1e5c9))
+
+
+### Features
+
+* **favicon:** adds SVG favicon ([1863c22](https://github.com/newhighsco/press-start/commit/1863c227180d190c482f3af7f67ccd8622e0321e))
+
 ## [1.11.4](https://github.com/newhighsco/press-start/compare/v1.11.3...v1.11.4) (2020-04-25)
 
 
