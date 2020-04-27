@@ -1518,6 +1518,11 @@
     eslint-plugin-react "7.19.0"
     eslint-plugin-standard "4.0.1"
 
+"@newhighsco/next-plugin-css-options@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-css-options/-/next-plugin-css-options-1.0.1.tgz#618dd9e4a73c34c396849c0b3bb6f4cbda9712de"
+  integrity sha512-gFj8e9fQEm5vvd5UtFHPEkRzO/v/RJRteJsP+XmfxHaMnU5HqCeZ+ccyrDS+elQc7ZBIQguxtEucQWTj30qUMw==
+
 "@newhighsco/next-plugin-robots@1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-robots/-/next-plugin-robots-1.1.1.tgz#a0fb469c1da77c20ea96b69d1e041bbd5f32b102"

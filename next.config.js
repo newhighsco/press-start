@@ -8,7 +8,7 @@ const withRobots = require('@newhighsco/next-plugin-robots')
 const withSvgr = require('@newhighsco/next-plugin-svgr')
 const withFonts = require('next-fonts')
 const withVideos = require('next-videos')
-const withCssOptions = require('./src/plugins/css-options')
+const withCssOptions = require('@newhighsco/next-plugin-css-options')
 
 const nextConfig = {
   experimental: {
