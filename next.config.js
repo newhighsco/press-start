@@ -1,3 +1,4 @@
+const normalizeUrl = require('normalize-url')
 const withPlugins = require('next-compose-plugins')
 const withTranspileModules = require('next-transpile-modules')([
   '@newhighsco/chipset'
@@ -19,11 +20,12 @@ const nextConfig = {
   exportTrailingSlash: true,
   poweredByHeader: false,
   env: {
-    SITE_URL: process.env.NOW_URL || ''
+    SITE_URL: process.env.NOW_URL
+      ? normalizeUrl(process.env.NOW_URL, { forceHttps: true })
+      : '',
+    DISALLOW_ROBOTS: JSON.parse(process.env.DISALLOW_ROBOTS || false)
   }
 }
-
-console.log(111, process.env.NOW_URL, process.env.SITE_URL)
 
 module.exports = withPlugins(
   [
@@ -53,9 +55,7 @@ module.exports = withPlugins(
       withRobots,
       {
         robots: {
-          disallowPaths: JSON.parse(process.env.DISALLOW_ROBOTS || false)
-            ? ['/']
-            : []
+          disallowPaths: nextConfig.env.DISALLOW_ROBOTS ? ['/'] : []
         }
       }
     ]
