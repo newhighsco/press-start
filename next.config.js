@@ -21,15 +21,6 @@ const nextConfig = {
   env: {
     SITE_URL: 'https://starter.newhighsco.re/',
     DISALLOW_ROBOTS: true
-  },
-  exportPathMap: defaultPathMap => {
-    const customPathMap = {}
-    const pathMap = Object.assign(customPathMap, defaultPathMap)
-    const ignorePaths = []
-
-    ignorePaths.map(path => delete pathMap[path])
-
-    return pathMap
   }
 }
 
