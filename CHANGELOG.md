@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/newhighsco/press-start/compare/v1.12.3...v1.13.0) (2020-04-27)
+
+
+### Features
+
+* **css-option:** moves to external plugin ([d86e8e5](https://github.com/newhighsco/press-start/commit/d86e8e5ea5444efc93352a8ca5501d38e46d1fd6))
+
 ## [1.12.3](https://github.com/newhighsco/press-start/compare/v1.12.2...v1.12.3) (2020-04-27)
 
 
