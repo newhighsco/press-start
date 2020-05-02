@@ -1,0 +1,3 @@
+@use '~@newhighsco/chipset/styles/mixins/grid';
+
+@include grid.widths('', 2);
