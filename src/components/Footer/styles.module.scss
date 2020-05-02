@@ -1,0 +1,12 @@
+@use '../../styles/functions';
+
+.link {
+  display: inline-block;
+  margin-left: functions.spacing(1);
+  vertical-align: middle;
+}
+
+.icon {
+  fill: currentColor;
+  width: functions.spacing(4);
+}
