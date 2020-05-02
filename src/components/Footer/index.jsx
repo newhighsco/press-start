@@ -3,9 +3,14 @@ import {
   ContentContainer,
   CreditLockup,
   Grid,
-  GridItem
+  GridItem,
+  Icon,
+  SmartLink
 } from '@newhighsco/chipset'
-import { version } from '../../../package.json'
+import icons from '../../images/icons'
+import { homepage, version } from '../../../package.json'
+
+const GithubSvg = icons('github')
 
 const Footer = () => (
   <ContentContainer as="footer" role="contentinfo" fullWidth gutter>
@@ -14,7 +19,12 @@ const Footer = () => (
         <CreditLockup />
       </GridItem>
       <GridItem sizes={['one-half']} align="right">
-        v{version}
+        <SmartLink href={homepage}>
+          v{version}{' '}
+          <Icon width={24}>
+            <GithubSvg />
+          </Icon>
+        </SmartLink>
       </GridItem>
     </Grid>
   </ContentContainer>

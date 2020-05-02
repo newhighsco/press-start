@@ -25,7 +25,7 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "2.10.0",
+    "@newhighsco/chipset": "2.10.1",
     "@newhighsco/next-plugin-css-options": "1.0.1",
     "@newhighsco/next-plugin-robots": "1.1.1",
     "@newhighsco/next-plugin-sitemap": "1.0.3",
@@ -38,6 +38,7 @@
     "next-seo": "4.4.0",
     "next-transpile-modules": "3.3.0",
     "next-videos": "1.1.4",
+    "param-case": "3.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sass": "1.26.5"
