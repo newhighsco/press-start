@@ -1,3 +1,10 @@
+## [1.13.7](https://github.com/newhighsco/press-start/compare/v1.13.6...v1.13.7) (2020-05-04)
+
+
+### Bug Fixes
+
+* **content-container:** removes used of `fullWidth` ([fbc9275](https://github.com/newhighsco/press-start/commit/fbc92759bc29a9c00b4e9115e269d8ccbfb02b40))
+
 ## [1.13.6](https://github.com/newhighsco/press-start/compare/v1.13.5...v1.13.6) (2020-05-02)
 
 
