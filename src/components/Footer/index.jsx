@@ -18,10 +18,10 @@ const GithubSvg = icons('github')
 const Footer = () => (
   <ContentContainer as="footer" role="contentinfo" gutter>
     <Grid valign="middle">
-      <GridItem sizes={['one-half']}>
+      <GridItem sizes={['three-quarters']}>
         <CreditLockup />
       </GridItem>
-      <GridItem sizes={['one-half']} align="right">
+      <GridItem sizes={['one-quarter']} align="right">
         <List inline>
           <li>
             <SmartLink href={homepage} className={styles.link}>
