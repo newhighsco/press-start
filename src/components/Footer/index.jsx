@@ -16,7 +16,7 @@ import styles from './styles.module.scss'
 const GithubSvg = icons('github')
 
 const Footer = () => (
-  <ContentContainer as="footer" role="contentinfo" fullWidth gutter>
+  <ContentContainer as="footer" role="contentinfo" gutter>
     <Grid valign="middle">
       <GridItem sizes={['one-half']}>
         <CreditLockup />
