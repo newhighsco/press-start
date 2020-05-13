@@ -11,10 +11,8 @@ const withVideos = require('next-videos')
 const withCssOptions = require('@newhighsco/next-plugin-css-options')
 
 const nextConfig = {
-  experimental: {
-    sassOptions: {
-      implementation: require('sass')
-    }
+  sassOptions: {
+    implementation: require('sass')
   },
   exportTrailingSlash: true,
   poweredByHeader: false,
