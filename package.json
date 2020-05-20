@@ -30,7 +30,7 @@
     "@newhighsco/next-plugin-robots": "1.1.1",
     "@newhighsco/next-plugin-sitemap": "1.0.5",
     "@newhighsco/next-plugin-svgr": "1.0.2",
-    "next": "9.4.1",
+    "next": "9.4.2",
     "next-compose-plugins": "2.2.0",
     "next-fonts": "1.1.0",
     "next-ga": "2.3.4",
