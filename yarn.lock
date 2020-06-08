@@ -1232,14 +1232,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-3.2.2.tgz#285da421609dc7243b587bc946dee9b91810b772"
-  integrity sha512-IvWaMRwRuyZBImriKkf7/CVQxyBtWMMsMLMgZLgYGBjNTro3luHClygsr25KIMSgI5DxXMlqcasKvWyTMbYn/g==
+"@newhighsco/chipset@3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-3.2.3.tgz#0ee6a9da47e151a2b0e4238a39cadf3057ad0d9f"
+  integrity sha512-COvXHyifyRAO4oDEgrQnZ6y9q5wF9h3rWNgwS1tSrNU6QyXN/yiSxdWjpZeTZQ3LxwoOi8ixE0olzdfrMS6NNQ==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.1.0"
     classnames "2.2.6"
-    react-ga "2.7.0"
+    react-ga "3.0.0"
     url-parse "1.4.7"
 
 "@newhighsco/commitlint-config@1.0.1":
@@ -9189,7 +9189,12 @@ react-dom@16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-ga@2.7.0, react-ga@^2.5.3:
+react-ga@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.0.0.tgz#4d665389cf0c489c36c5fdf97722a7e53efdfc5b"
+  integrity sha512-IKqqCtSMe0IfSRNvbHAiwXwIXbuza4VvHvB/2N3hEiMFGSjv8fNI6obPH6bkDdIjDpwzbUqKs8895OxBckWJ2g==
+
+react-ga@^2.5.3:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.7.0.tgz#24328f157f31e8cffbf4de74a3396536679d8d7c"
   integrity sha512-AjC7UOZMvygrWTc2hKxTDvlMXEtbmA0IgJjmkhgmQQ3RkXrWR11xEagLGFGaNyaPnmg24oaIiaNPnEoftUhfXA==
