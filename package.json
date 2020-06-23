@@ -53,7 +53,7 @@
     "@newhighsco/release-config": "1.0.25",
     "@newhighsco/renovate-config": "1.4.0",
     "@newhighsco/stylelint-config": "2.0.18",
-    "eslint": "7.3.0",
+    "eslint": "7.3.1",
     "husky": "4.2.5",
     "npm-run-all": "4.1.5",
     "prettier": "2.0.5",
