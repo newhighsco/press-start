@@ -1,3 +1,10 @@
+## [1.13.35](https://github.com/newhighsco/press-start/compare/v1.13.34...v1.13.35) (2020-07-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v4.0.3 ([9598f45](https://github.com/newhighsco/press-start/commit/9598f45acbb2646b519d95297f7b0e10dcecd03d))
+
 ## [1.13.34](https://github.com/newhighsco/press-start/compare/v1.13.33...v1.13.34) (2020-07-07)
 
 
