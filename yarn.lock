@@ -1223,10 +1223,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@friendsofreactjs/react-css-themr@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@friendsofreactjs/react-css-themr/-/react-css-themr-4.1.0.tgz#94c7d902282f7691d821c60521d66ae0e071313e"
-  integrity sha512-X3jddw6aMVB9FxRLLNhtzVM8lWquIi5YQ+Qs1cQu5DpFWAIWj5fc0FvAh8VNLQHv133K57mX3UGA7igzN/t05g==
+"@friendsofreactjs/react-css-themr@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@friendsofreactjs/react-css-themr/-/react-css-themr-4.2.0.tgz#4ecb3bb141ec1a947a60a558e1def0e8e7c2ea67"
+  integrity sha512-BfxGcPgITxepQzO2kAu6qg/NiuDob2BtlHB94vkBA7QzPj7Cp2/YwzeBSfv+NEIxgsGkR6buHxV48XoKWrjq3A==
   dependencies:
     hoist-non-react-statics "^3.3.0"
     invariant "^2.2.4"
@@ -1251,12 +1251,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-4.0.3.tgz#2f0c89bbbb24b5d7b324d800d038e22685301fc3"
-  integrity sha512-HAOAIczu4eIyeeLoR83BeF8+9WHekQG2Op5OVMKVbWJqM/lHrv0WC/loiqnBJBHwinOjSp9Ja5V9798YbDdLFA==
+"@newhighsco/chipset@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-4.0.4.tgz#da794975208c6724fd1f10c64b8ccf093a20e692"
+  integrity sha512-R8U/iDelL0VGb1Nxyty+7Q679YksIzQav8ihNOCXbTyI6og4PXWzrw6qbni3vUKNEwK7kKttwlZfqZBJG1hSTQ==
   dependencies:
-    "@friendsofreactjs/react-css-themr" "4.1.0"
+    "@friendsofreactjs/react-css-themr" "4.2.0"
     classnames "2.2.6"
     react-ga "3.1.2"
 
