@@ -7497,10 +7497,10 @@ next-transpile-modules@3.3.0:
     micromatch "^4.0.2"
     slash "^3.0.0"
 
-next-videos@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/next-videos/-/next-videos-1.1.4.tgz#6372531bfdb6c5bca30cde8e3f310f7562ed79ff"
-  integrity sha512-6c5iylcWNZn4WflG1+jjFkPzh24pltjTtIYOOsZlsXBaT8hTBLi+uhf5uictU8AglMRZ0bpRC4QCGA0YYAliIg==
+next-videos@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/next-videos/-/next-videos-1.2.0.tgz#4049165672e469b01c8c9a932392073080cee34a"
+  integrity sha512-C+JlNXTjW4a/8ZhD74hbgkWK+sefmkfFF7muZRStcUCxiyz4xMpvPh9GqYr+wHiBzMULfZNm4m1v5mI9LOx9Zg==
   dependencies:
     file-loader "^4.2.0"
 
