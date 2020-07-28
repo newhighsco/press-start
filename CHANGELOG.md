@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/newhighsco/press-start/compare/v1.14.0...v1.14.1) (2020-07-28)
+
+
+### Bug Fixes
+
+* **deps:** updates next to v9.5.0 ([4a5c16f](https://github.com/newhighsco/press-start/commit/4a5c16f240706d91750ff5ea1007744dd522094b))
+
 # [1.14.0](https://github.com/newhighsco/press-start/compare/v1.13.45...v1.14.0) (2020-07-28)
 
 
