@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/newhighsco/press-start/compare/v1.13.45...v1.14.0) (2020-07-28)
+
+
+### Features
+
+* uses pure CSS modules ([e87ad92](https://github.com/newhighsco/press-start/commit/e87ad92bef894a7068acb050a39ae005f5e6fef6))
+
 ## [1.13.45](https://github.com/newhighsco/press-start/compare/v1.13.44...v1.13.45) (2020-07-27)
 
 
