@@ -8,7 +8,6 @@ const withRobots = require('@newhighsco/next-plugin-robots')
 const withSvgr = require('@newhighsco/next-plugin-svgr')
 const withFonts = require('next-fonts')
 const withVideos = require('next-videos')
-const withCssOptions = require('@newhighsco/next-plugin-css-options')
 
 const nextConfig = {
   poweredByHeader: false,
@@ -38,7 +37,6 @@ module.exports = withPlugins(
         }
       }
     ],
-    [withCssOptions, { cssModulesOptions: { mode: 'local' } }],
     [withFonts],
     [withVideos],
     [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],

@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "@newhighsco/chipset": "4.0.9",
-    "@newhighsco/next-plugin-css-options": "1.0.1",
     "@newhighsco/next-plugin-robots": "1.1.1",
     "@newhighsco/next-plugin-sitemap": "1.0.9",
     "@newhighsco/next-plugin-svgr": "1.0.2",
