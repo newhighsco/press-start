@@ -1392,10 +1392,10 @@
     classnames "2.2.6"
     react-ga "3.1.2"
 
-"@newhighsco/commitlint-config@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.3.tgz#6435d8dd7a41db400166621f32346259f5da197f"
-  integrity sha512-P+RgixXwppU2tnNjIEbgzYTxr9xah26cBtjeB6y3LFneJALVzVK77x4/QsANC+rP7jPu2nQRzhfZjKoeJBb9VQ==
+"@newhighsco/commitlint-config@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.5.tgz#64415caea3a7b5641fee675a7363b89e65d10c1a"
+  integrity sha512-xBh9AGaoCOh/UP1Etkta/SpPBvWNTkEoW6klQlPAnXlI3X+ATOOgO8g9ditWe5Jn/h57208r/03BKTH3AIrPbA==
 
 "@newhighsco/editor-config@1.1.1":
   version "1.1.1"
@@ -1421,24 +1421,24 @@
     eslint-plugin-react "7.20.5"
     eslint-plugin-standard "4.0.1"
 
-"@newhighsco/next-plugin-robots@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-robots/-/next-plugin-robots-1.1.1.tgz#a0fb469c1da77c20ea96b69d1e041bbd5f32b102"
-  integrity sha512-8RDNUnfR2nNQjOOCKqzEipjL6kIoQ/h0BmEYqwXG096sbTrmu/1Bzzy/G132DLPfJMx/xBDgWOHlG50dHMyzug==
+"@newhighsco/next-plugin-robots@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-robots/-/next-plugin-robots-1.1.2.tgz#47906ee88c451716b2936fc9f999eca1e381be56"
+  integrity sha512-VkxCWDlGRzZs+dV6xkBDPG4FhK480924Bi+PBdN8iAOSI+rMDxSsdZIy0CLm6037ptVj0u5gShpRNqiFqfy4pw==
   dependencies:
     url-join "4.0.1"
 
-"@newhighsco/next-plugin-sitemap@1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.9.tgz#0af4e7310d923b4835fa670db014b5b4ef9eb6b2"
-  integrity sha512-xLb8VVuFhXNx1snuOMqLr1iHLNNVBgZuiKk5zQEacxxF6w3clIkUAKS9J3siy1CE1vy5jXQRloOvolsuvPZcHw==
+"@newhighsco/next-plugin-sitemap@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.10.tgz#cca24cb0f60053f2ab2b8283f142be2dbc8e9529"
+  integrity sha512-OQbdpYxEl9+FHL8TS0hamaMq2qwTdkgwEut9GX2ckYrL7PDUeT67G8yoTJL6x6lXhJZj+ZAvKZyb28ZTKwyivA==
   dependencies:
     sitemap "6.2.0"
 
-"@newhighsco/next-plugin-svgr@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-1.0.2.tgz#1110598f097642fcf8fa51b6ce5bfb6673f69c7c"
-  integrity sha512-YmYzzf5OH+reDpKyVQmhpRj50AK51y6ohtf1Vmox0ZhFTUfg2ZXralWNhTGprExYeH1n3hx/g8anxyudXUOx5Q==
+"@newhighsco/next-plugin-svgr@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-1.0.3.tgz#83cfe25dfbd76018f4472cad4a8990caaffdae7c"
+  integrity sha512-3m06ePptGeoTrWcrtOR8j8GwhpRrH2eagaB2812IkhcGwvwXCPPgy4QMqjDpiIglS7KgZDVdaYRrQ/uPClDV4w==
   dependencies:
     "@svgr/webpack" "5.4.0"
     file-loader "6.0.0"

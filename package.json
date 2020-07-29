@@ -26,9 +26,9 @@
   },
   "dependencies": {
     "@newhighsco/chipset": "4.0.10",
-    "@newhighsco/next-plugin-robots": "1.1.1",
-    "@newhighsco/next-plugin-sitemap": "1.0.9",
-    "@newhighsco/next-plugin-svgr": "1.0.2",
+    "@newhighsco/next-plugin-robots": "1.1.2",
+    "@newhighsco/next-plugin-sitemap": "1.0.10",
+    "@newhighsco/next-plugin-svgr": "1.0.3",
     "next": "9.5.0",
     "next-compose-plugins": "2.2.0",
     "next-fonts": "1.4.0",
@@ -45,7 +45,7 @@
   "devDependencies": {
     "@commitlint/cli": "9.1.1",
     "@newhighsco/browserslist-config": "1.0.2",
-    "@newhighsco/commitlint-config": "1.0.3",
+    "@newhighsco/commitlint-config": "1.0.5",
     "@newhighsco/editor-config": "1.1.1",
     "@newhighsco/eslint-config": "2.2.14",
     "@newhighsco/postcss-config": "1.0.2",
