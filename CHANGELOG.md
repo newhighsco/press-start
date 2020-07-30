@@ -1,3 +1,10 @@
+## [1.14.6](https://github.com/newhighsco/press-start/compare/v1.14.5...v1.14.6) (2020-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-images to v1.4.1 ([0d7d16a](https://github.com/newhighsco/press-start/commit/0d7d16a2570f2d56d61fce50adce596dd1604619))
+
 ## [1.14.5](https://github.com/newhighsco/press-start/compare/v1.14.4...v1.14.5) (2020-07-30)
 
 
