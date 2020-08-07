@@ -1383,13 +1383,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-4.1.1.tgz#db3b957317300c8fffc393033e0f72ae9a977a9f"
-  integrity sha512-7ssjmj1hRSoo2m1NDC+8VX4YTlrWsMF2FMYW1g0EMr28Jdu7Fh0eRjDWqF/A8wsgnpPcnC87Wpdx3iCtPwcBYw==
+"@newhighsco/chipset@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-4.1.2.tgz#6bf696dcc37f5ad2113e6e5d87cd8d6a6723a92f"
+  integrity sha512-VvwDxZU28PZM20P5fzkLs2mpoJAF8QkJXHpxx6XuAmXoe2YJ1fi+8rYkHuM1K4focM4oICGw48Ga1mvNt8xl8A==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.3.2"
     classnames "2.2.6"
+    react-device-detect "1.13.1"
     react-ga "3.1.2"
 
 "@newhighsco/commitlint-config@1.0.5":
@@ -9778,6 +9779,13 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-device-detect@1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-1.13.1.tgz#27ac0e86a03969e440e973d179aaa19e80a5ba66"
+  integrity sha512-XTPgAMsUVHC5lMNUGiAeO2UfAfhMfjq0CBUM67eHnc9XfO7iESh6h/cffKV8VGgrZBX+dyuqJl23bLLHoav5Ig==
+  dependencies:
+    ua-parser-js "^0.7.21"
+
 react-dom@16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
@@ -11743,6 +11751,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+ua-parser-js@^0.7.21:
+  version "0.7.21"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
+  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
 
 uglify-js@^3.1.4:
   version "3.9.2"
