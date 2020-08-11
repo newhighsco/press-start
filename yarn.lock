@@ -1438,24 +1438,24 @@
     eslint-plugin-react "7.20.5"
     eslint-plugin-standard "4.0.1"
 
-"@newhighsco/next-plugin-robots@1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-robots/-/next-plugin-robots-1.1.3.tgz#13efea4333b71f6a8acf9c1a500fc008ef274e1b"
-  integrity sha512-mWAoIESe7D/mBsMpYkSXa5Ian8ZJe7pnlR4Vxbq5Mrp+sPp4cjanVA3kVIC7dt8HkzN96M0ba7G6Ly9x5jFzfQ==
+"@newhighsco/next-plugin-robots@1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-robots/-/next-plugin-robots-1.1.4.tgz#8990bfdb9e3182a78f36ec4d85fc9a7c3dee2e5f"
+  integrity sha512-9DOr0+ZU1+UGgKbk+iHemAEG31yS/r3r7OoWR9l0Q2cHbuTeIZ9hyfALEW7fZLqioLZvFgNUt01TNNT6e0KraA==
   dependencies:
     url-join "4.0.1"
 
-"@newhighsco/next-plugin-sitemap@1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.11.tgz#c0fda19a5a9c883ce3e2b68bde19cc5aeec9c922"
-  integrity sha512-LdKXBqi9ecJRQ2+v8KwIVpbOFaQl97xwnd7yyGQ9xNluJg2XuD2lRPNvkRV/btQ8d0tWwHUHqTrH8ncDPPJb0Q==
+"@newhighsco/next-plugin-sitemap@1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.12.tgz#5e37706c091465323b3fbcd6dd24504bfe0325ba"
+  integrity sha512-gJS9AlSrnlmNPpIxVxTjsK2gWvbrBnRtACXh/Za2W/kRnMbIapkK9BxcjBKPqj5jPwgsdWoJaNTnMkynItONLw==
   dependencies:
     sitemap "6.2.0"
 
-"@newhighsco/next-plugin-svgr@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-1.0.4.tgz#aa3dc701a9ece7e1cf266a7ffa17847b026e37f5"
-  integrity sha512-eRCMacEC8d/zeydGEieE3bPcBFHyTsslF7LvSdiTBWilXasDeNsneQKpqiwK06ErG/gsKMaDI+HaLLPjR0CCww==
+"@newhighsco/next-plugin-svgr@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-1.0.5.tgz#c1c1ce13611d54589bbd6d878758ae4a728eacfd"
+  integrity sha512-zF4WHfkV48hiWZJkhX/n1zOhpzGEtSZD+lZdimfrtJyfmkwDzeMPkSVxUJ8RSurUH14fW/gjKo/COp17LeQp7A==
   dependencies:
     "@svgr/webpack" "5.4.0"
     file-loader "6.0.0"
