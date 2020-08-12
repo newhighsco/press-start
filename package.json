@@ -25,7 +25,7 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "4.1.2",
+    "@newhighsco/chipset": "4.3.0",
     "@newhighsco/next-plugin-robots": "1.1.4",
     "@newhighsco/next-plugin-sitemap": "1.0.12",
     "@newhighsco/next-plugin-svgr": "1.0.5",
