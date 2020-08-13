@@ -1445,10 +1445,10 @@
   dependencies:
     url-join "4.0.1"
 
-"@newhighsco/next-plugin-sitemap@1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.12.tgz#5e37706c091465323b3fbcd6dd24504bfe0325ba"
-  integrity sha512-gJS9AlSrnlmNPpIxVxTjsK2gWvbrBnRtACXh/Za2W/kRnMbIapkK9BxcjBKPqj5jPwgsdWoJaNTnMkynItONLw==
+"@newhighsco/next-plugin-sitemap@1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-sitemap/-/next-plugin-sitemap-1.0.14.tgz#c912342505aef5f561c73eb9229b92984151fea8"
+  integrity sha512-kNfz406vw74gXgx/je4VP6DA7Oqvusqpy/HiFygIU/sHp9Mh2hm9DcbcPQm5bP5PfuSiQdIaKUdqMwtrju+PdA==
   dependencies:
     sitemap "6.2.0"
 
