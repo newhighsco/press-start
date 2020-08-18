@@ -38,7 +38,7 @@ module.exports = withPlugins(
       }
     ],
     [withFonts],
-    [withVideos],
+    [withVideos, { assetDirectory: 'static' }],
     [withSitemap, { sitemap: { hostname: nextConfig.env.SITE_URL } }],
     [
       withRobots,
