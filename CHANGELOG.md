@@ -1,3 +1,19 @@
+# [1.15.0](https://github.com/newhighsco/press-start/compare/v1.14.15...v1.15.0) (2020-08-18)
+
+
+### Bug Fixes
+
+* typo ([a6ffdc6](https://github.com/newhighsco/press-start/commit/a6ffdc66915a878479a8f3191dee9e801302a411))
+* **seo:** remove top of page landmark ([65c8a34](https://github.com/newhighsco/press-start/commit/65c8a34ec097650e6a7cee58688ea2c7cc0d9124))
+* move body color ([61e7d33](https://github.com/newhighsco/press-start/commit/61e7d3315f5cdb84e2a4af2c774ec03fafb361c7))
+* **analytics:** disable by default ([492648a](https://github.com/newhighsco/press-start/commit/492648a59de4857d2aace384565498c5c4a52abe))
+* **videos:** uses correct folder path ([5dabbe2](https://github.com/newhighsco/press-start/commit/5dabbe2956ccbc15c1040698881ca2a0f551a90b))
+
+
+### Features
+
+* optimize images ([e71763e](https://github.com/newhighsco/press-start/commit/e71763e9a88fc829c3fb75916b1c7e125b9c9650))
+
 ## [1.14.15](https://github.com/newhighsco/press-start/compare/v1.14.14...v1.14.15) (2020-08-14)
 
 
