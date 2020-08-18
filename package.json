@@ -14,8 +14,9 @@
     "url": "https://github.com/newhighsco/press-start/issues"
   },
   "scripts": {
-    "start": "next dev",
+    "dev": "next dev",
     "build": "next build && next export --outdir build",
+    "start": "next start",
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
