@@ -23,4 +23,6 @@ AppPage.propTypes = {
   pageProps: object
 }
 
-export default withGA(config.googleTrackingId, Router)(AppPage)
+export default config.googleTrackingId
+  ? withGA(config.googleTrackingId, Router)(AppPage)
+  : AppPage
