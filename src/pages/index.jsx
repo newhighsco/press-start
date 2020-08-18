@@ -1,7 +1,8 @@
 import React from 'react'
 import { object } from 'prop-types'
-import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import urlJoin from 'url-join'
+import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
+import { Prose } from '@newhighsco/chipset'
 import { PageContainer } from '../components'
 import { config, socialLinks } from '../../site.config'
 
@@ -14,6 +15,9 @@ const HomePage = ({ meta }) => (
       sameAs={[socialLinks.twitter]}
     />
     <LogoJsonLd url={config.url} logo={config.logo} />
+    <Prose>
+      <p>Get a theme-able Next.js site up and running quickly</p>
+    </Prose>
   </PageContainer>
 )
 
