@@ -2,6 +2,8 @@
 @use '../styles/fonts';
 
 body {
+  background-color: colors.$white;
+  color: colors.$black;
   font-size: 16px;
   line-height: 1.5;
   font-family: fonts.$body;
