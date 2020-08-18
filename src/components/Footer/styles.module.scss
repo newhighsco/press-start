@@ -1,12 +1,19 @@
 @use '../../styles/functions';
 
-.link {
-  display: inline-block;
-  margin-left: functions.spacing(1);
-  vertical-align: middle;
+.link a {
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 .icon {
   fill: currentColor;
   width: functions.spacing(4);
+}
+
+.credits {
+  font-size: smaller;
+  margin-top: functions.spacing(2);
 }

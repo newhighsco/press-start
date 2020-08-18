@@ -39,5 +39,6 @@ export const meta = {
 }
 
 export const socialLinks = {
-  twitter: `https://twitter.com/newhighsco`
+  github: 'https://github.com/newhighsco/press-start',
+  twitter: 'https://twitter.com/newhighsco'
 }
