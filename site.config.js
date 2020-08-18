@@ -1,14 +1,19 @@
 import urlJoin from 'url-join'
 import colors from './src/styles/_colors.module.scss'
+import logoUrl from './src/images/logo.png'
 import openGraphImageUrl from './src/images/sharing.jpg'
+
+const url = process.env.SITE_URL
 
 export const config = {
   lang: 'en',
-  url: process.env.SITE_URL,
+  url,
   name: 'Press Start',
   shortName: null,
   title: 'Press Start - Chipset + Next.js site starter by New High Score',
   description: 'Get a theme-able Next.js site up and running quickly',
+  logo: urlJoin(url, logoUrl),
+  openGraphImage: urlJoin(url, openGraphImageUrl),
   themeColor: colors.black,
   twitterHandle: 'newhighsco',
   googleTrackingId: null,
@@ -23,7 +28,7 @@ export const meta = {
   openGraph: {
     site_name: config.name,
     type: 'website',
-    images: [{ url: urlJoin(config.url, openGraphImageUrl) }]
+    images: [{ url: config.openGraphImage }]
   },
   twitter: {
     cardType: 'summary',
@@ -34,5 +39,5 @@ export const meta = {
 }
 
 export const socialLinks = {
-  twitter: `https://twitter.com/${config.twitterHandle}`
+  twitter: `https://twitter.com/newhighsco`
 }
