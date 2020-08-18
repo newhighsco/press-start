@@ -10,6 +10,7 @@ import {
 } from '@newhighsco/chipset'
 import icons from '../../images/icons'
 import { homepage, version } from '../../../package.json'
+import { config } from '../../../site.config'
 
 import styles from './styles.module.scss'
 
@@ -30,7 +31,10 @@ const Footer = () => (
           </li>
           <li>
             <SmartLink href={homepage} className={styles.link}>
-              <Icon theme={{ wrapper: styles.icon }}>
+              <Icon
+                alt={`View ${config.name} on Github`}
+                theme={{ wrapper: styles.icon }}
+              >
                 <GithubSvg />
               </Icon>
             </SmartLink>
