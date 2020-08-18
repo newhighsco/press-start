@@ -16,7 +16,7 @@ yarn install
 All project processes can be started using the following:
 
 ```
-yarn start
+yarn dev
 ```
 
 ## Testing
