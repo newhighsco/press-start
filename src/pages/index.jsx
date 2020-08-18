@@ -1,11 +1,9 @@
 import React from 'react'
 import { object } from 'prop-types'
-import urlJoin from 'url-join'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
-import { PageContainer } from '../components/PageContainer'
+import urlJoin from 'url-join'
+import { PageContainer } from '../components'
 import { config, socialLinks } from '../../site.config'
-
-import logoUrl from '../images/logo.png'
 
 const HomePage = ({ meta }) => (
   <PageContainer meta={meta}>
@@ -15,7 +13,7 @@ const HomePage = ({ meta }) => (
       url={config.url}
       sameAs={[socialLinks.twitter]}
     />
-    <LogoJsonLd url={config.url} logo={urlJoin(config.url, logoUrl)} />
+    <LogoJsonLd url={config.url} logo={config.logo} />
   </PageContainer>
 )
 
@@ -27,7 +25,7 @@ export async function getStaticProps() {
   return {
     props: {
       meta: {
-        slug: '/',
+        canonical: urlJoin(config.url, '/'),
         customTitle: true,
         title: config.title
       }
