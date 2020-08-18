@@ -1,3 +1,11 @@
+# [1.16.0](https://github.com/newhighsco/press-start/compare/v1.15.1...v1.16.0) (2020-08-18)
+
+
+### Features
+
+* **footer:** add basic layout out of the box ([966a151](https://github.com/newhighsco/press-start/commit/966a1519b7b75199748ee450986a0b8d0cf07f3f))
+* **header:** add basic layout out of the box ([b902669](https://github.com/newhighsco/press-start/commit/b902669247d9556ef160faefd17bf9bca55fa05e))
+
 ## [1.15.1](https://github.com/newhighsco/press-start/compare/v1.15.0...v1.15.1) (2020-08-18)
 
 
