@@ -1407,10 +1407,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-4.6.0.tgz#ca0e584215a358e67e7a3a1d20924c94078a0275"
-  integrity sha512-VigVG8qZlWQpP6XwwqVqmTG9H8BcM6kcn5/WV0gbXpcYcjORiOzgYDO9d0F0AmMJn6BG92Z0u44uuRnzRSUDcg==
+"@newhighsco/chipset@4.6.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-4.6.1.tgz#861c09800f896b8f20ec724e99cacc50d004f237"
+  integrity sha512-T2W2WQZES3zpai4xhYwUqgjmGlsKR5xAq8fRL/RWXXHV4uCrDMuaw99jsoBaR9cw9/4/ruSBccmX7XUw7bcViw==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.3.2"
     classnames "2.2.6"
@@ -1427,10 +1427,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.18":
-  version "2.2.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.18.tgz#cfe1393dde5ac5acccb2b5910599c7ed475d0fae"
-  integrity sha512-RyOZN6osunWIZwokG6apCnk7bl33i4gCuHIKEg5++9n0RgaoIZb4LIOy8JWmma0fw/cGcq6/0aiPMNqLa5rkyw==
+"@newhighsco/eslint-config@2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.19.tgz#2f48b5319c2901b9058237756ee9aa6b991776b1"
+  integrity sha512-lu1/5awJKLn070yPBOSqBuG8+KbdD6O0JTLOBHHc9trPkLgEbdun/BvfGD+7ZrVieKplhAiavsrtvNR4RHhIug==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "6.11.0"

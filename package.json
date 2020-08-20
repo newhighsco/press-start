@@ -26,7 +26,7 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "4.6.0",
+    "@newhighsco/chipset": "4.6.1",
     "@newhighsco/next-plugin-robots": "1.1.4",
     "@newhighsco/next-plugin-sitemap": "1.0.14",
     "@newhighsco/next-plugin-svgr": "1.0.5",
@@ -50,7 +50,7 @@
     "@newhighsco/browserslist-config": "1.0.2",
     "@newhighsco/commitlint-config": "1.0.6",
     "@newhighsco/editor-config": "1.1.1",
-    "@newhighsco/eslint-config": "2.2.18",
+    "@newhighsco/eslint-config": "2.2.19",
     "@newhighsco/postcss-config": "1.0.3",
     "@newhighsco/prettier-config": "2.0.3",
     "@newhighsco/release-config": "1.0.26",
