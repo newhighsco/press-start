@@ -1468,10 +1468,10 @@
   dependencies:
     sitemap "6.2.0"
 
-"@newhighsco/next-plugin-svgr@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-1.0.5.tgz#c1c1ce13611d54589bbd6d878758ae4a728eacfd"
-  integrity sha512-zF4WHfkV48hiWZJkhX/n1zOhpzGEtSZD+lZdimfrtJyfmkwDzeMPkSVxUJ8RSurUH14fW/gjKo/COp17LeQp7A==
+"@newhighsco/next-plugin-svgr@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-2.0.0.tgz#95e3848197f654c6a00f61fdc8fcb26be98d369e"
+  integrity sha512-19ZR23B/NhLVvlljZGIREyassijRDbTxc8sRLh9pu/g2BEx7LEbHVNytyJFLAq4aoy5G46SgvyOBKjXzvtTrZg==
   dependencies:
     "@svgr/webpack" "5.4.0"
     file-loader "6.0.0"

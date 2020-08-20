@@ -29,7 +29,7 @@
     "@newhighsco/chipset": "4.6.1",
     "@newhighsco/next-plugin-robots": "1.1.4",
     "@newhighsco/next-plugin-sitemap": "1.0.14",
-    "@newhighsco/next-plugin-svgr": "1.0.5",
+    "@newhighsco/next-plugin-svgr": "2.0.0",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
     "next": "9.5.2",
