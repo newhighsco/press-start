@@ -6,15 +6,14 @@ import {
   Grid,
   GridItem,
   Icon,
-  List,
-  SmartLink
+  SmartLink,
+  Navigation
 } from '@newhighsco/chipset'
 import icons from '../../images/icons'
 import { config, socialLinks } from '../../../site.config'
 import { links } from '../../data/footer.json'
 
-import theme from './theme.module.scss'
-import styles from './styles.module.scss'
+import styles from './Footer.module.scss'
 
 const iconLinks = [
   {
@@ -26,46 +25,35 @@ const iconLinks = [
 ]
 
 const Footer = () => (
-  <ContentContainer as="footer" role="contentinfo" theme={theme} gutter>
+  <ContentContainer
+    as="footer"
+    role="contentinfo"
+    theme={{ wrapper: styles.wrapper }}
+    gutter
+  >
     <Grid valign="middle">
       <GridItem sizes={['one-half']}>
-        {!!links && (
-          <List className={styles.links} unstyled>
-            {links.map(({ href, text, target }, i) => (
-              <li key={i} className={styles.link}>
-                {target ? (
-                  <SmartLink href={href} target={target}>
-                    {text}
-                  </SmartLink>
-                ) : (
-                  <Link href="[...slug]" as={href} passHref>
-                    <SmartLink>{text}</SmartLink>
-                  </Link>
-                )}
-              </li>
-            ))}
-          </List>
-        )}
+        <Navigation
+          links={links}
+          renderLink={({ href, children, ...rest }) => (
+            <Link href={href} as={href} passHref>
+              <SmartLink {...rest}>{children}</SmartLink>
+            </Link>
+          )}
+          theme={{ link: styles.link }}
+        />
       </GridItem>
       <GridItem sizes={['one-half']} align="right">
-        {!!iconLinks.length && (
-          <List className={styles.iconLinks} inline>
-            {iconLinks.map(({ href, text, icon: IconSvg, target }, i) => (
-              <li key={i}>
-                <SmartLink
-                  className={styles.iconLink}
-                  href={href}
-                  title={text}
-                  target={target}
-                >
-                  <Icon theme={{ wrapper: styles.icon }} alt={text}>
-                    {IconSvg && <IconSvg />}
-                  </Icon>
-                </SmartLink>
-              </li>
-            ))}
-          </List>
-        )}
+        <Navigation
+          links={iconLinks}
+          renderLink={({ text, icon: IconSvg, ...rest }) => (
+            <SmartLink {...rest}>
+              <Icon theme={{ wrapper: styles.icon }} alt={text}>
+                {IconSvg && <IconSvg />}
+              </Icon>
+            </SmartLink>
+          )}
+        />
       </GridItem>
       <GridItem className={styles.credits}>
         <CreditLockup />
