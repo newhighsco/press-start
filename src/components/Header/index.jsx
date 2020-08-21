@@ -4,18 +4,23 @@ import {
   ContentContainer,
   Grid,
   GridItem,
-  List,
+  Navigation,
   SmartLink
 } from '@newhighsco/chipset'
 import { LogoLockup } from '..'
 import { links } from '../../data/header.json'
 
-import theme from './theme.module.scss'
-import styles from './styles.module.scss'
+import styles from './Header.module.scss'
 
 const Header = () => (
   <>
-    <ContentContainer id="top" as="header" role="banner" gutter theme={theme}>
+    <ContentContainer
+      id="top"
+      as="header"
+      role="banner"
+      gutter
+      theme={{ wrapper: styles.wrapper }}
+    >
       <Grid flex valign="middle">
         <GridItem className={styles.logo}>
           <Link href="/" passHref>
@@ -25,23 +30,15 @@ const Header = () => (
           </Link>
         </GridItem>
         <GridItem className={styles.links}>
-          {!!links && (
-            <List unstyled>
-              {links.map(({ href, text, target }, i) => (
-                <li key={i} className={styles.link}>
-                  {target ? (
-                    <SmartLink href={href} target={target}>
-                      {text}
-                    </SmartLink>
-                  ) : (
-                    <Link href={href} as={href} passHref>
-                      <SmartLink>{text}</SmartLink>
-                    </Link>
-                  )}
-                </li>
-              ))}
-            </List>
-          )}
+          <Navigation
+            links={links}
+            renderLink={({ href, children, ...rest }) => (
+              <Link href={href} as={href} passHref>
+                <SmartLink {...rest}>{children}</SmartLink>
+              </Link>
+            )}
+            theme={{ link: styles.link }}
+          />
         </GridItem>
       </Grid>
     </ContentContainer>
