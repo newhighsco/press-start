@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import { Icon } from '@newhighsco/chipset'
 import { config } from '../../../site.config'
 
-import styles from './styles.module.scss'
+import styles from './LogoLockup.module.scss'
 import { ReactComponent as LogoSvg } from '../../images/logo.url.svg'
 
 const LogoLockup = ({ className }) => (
