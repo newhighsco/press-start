@@ -1,3 +1,16 @@
+# [1.17.0](https://github.com/newhighsco/press-start/compare/v1.16.4...v1.17.0) (2020-08-21)
+
+
+### Bug Fixes
+
+* **404:** typo ([a61e144](https://github.com/newhighsco/press-start/commit/a61e144c313a0b0f11d3d3aba2d4281276e7e89e))
+
+
+### Features
+
+* **footer:** add Navigation component ([d3678d8](https://github.com/newhighsco/press-start/commit/d3678d8fef5a72eb48a060cd08810990cf5554fc))
+* **header:** adds Navigation component ([8d84258](https://github.com/newhighsco/press-start/commit/8d8425814092a40212fab2d46be2ca75c18cb273))
+
 ## [1.16.4](https://github.com/newhighsco/press-start/compare/v1.16.3...v1.16.4) (2020-08-20)
 
 
