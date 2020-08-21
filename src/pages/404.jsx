@@ -20,7 +20,7 @@ export async function getStaticProps() {
   return {
     props: {
       meta: {
-        title: 'Paget not found',
+        title: 'Page not found',
         description: 'Sorry, this page could not be found',
         noindex: true,
         nofollow: true
