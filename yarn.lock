@@ -1554,10 +1554,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.20":
-  version "2.2.20"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.20.tgz#b4d35faf90d04024d9f1edb3bd8dc123bafaac5a"
-  integrity sha512-oEnPhwVdXKJ/eecXa1TCNk6ahZMQojkGYT/6h+1SzWs9RuTO1zK74TTrPWarbxccu2jUc4M51QSPbExUa606PQ==
+"@newhighsco/eslint-config@2.2.21":
+  version "2.2.21"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.21.tgz#4323a894cac69aca8edc341ef262ad00feb8b770"
+  integrity sha512-/TIAcHhDTlYK+tv9vWXpM2lFdv0a5WctCMqEbMVgwgsejVvSGRxr2kjAixwzkPlXpr41laBnCKFIsxEZdJCepw==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "6.11.0"
@@ -1606,10 +1606,10 @@
     postcss-flexbugs-fixes "4.2.1"
     postcss-preset-env "6.7.0"
 
-"@newhighsco/prettier-config@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.3.tgz#93b0890a85811d974c470eabc52416b51812f4bc"
-  integrity sha512-CSM7psOyseGde8oJ+cGx6qQ0TLlADpCNDTs3R91Z/H/9hXcFyLSk3E+TUC81jATGE6L5r35O7zf8csX+zM9PqA==
+"@newhighsco/prettier-config@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.4.tgz#512040223e48def054ebc516ca5bdad70500b64d"
+  integrity sha512-MNkO4uvb5qw8I3uu+F/j742u+1OeeVvTbQY//8VZ2Dvkwq/OE8skVp3J7f1STSpWJW2U4MoMRc1HBbvEm57jHQ==
 
 "@newhighsco/release-config@1.0.26":
   version "1.0.26"
@@ -1628,10 +1628,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/renovate-config/-/renovate-config-1.4.0.tgz#820fcb746e461191550bea59194cca3438e355ab"
   integrity sha512-XVUHGUgijzhS0NHcIuYpRYmuZcTvU4uANH5Rk4kb5MHwPMizhNeFH7dZJur02uCesOjA11sGKrsCD/8rymewWg==
 
-"@newhighsco/stylelint-config@2.0.18":
-  version "2.0.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.18.tgz#a9ed2f4a87ed87025cef02aa799d345e312db52d"
-  integrity sha512-35y64xQcM6SpV76iLbINFPgn+8Vzsxh8hUctMBRNytjEI8qN7DX2y/i+ThqA9HOgl0v+4WJWvHL1msUv0OFeGw==
+"@newhighsco/stylelint-config@2.0.19":
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.19.tgz#793b2b4687f1205d36b1845d174ac0e1da6e0348"
+  integrity sha512-1CjKfE1wGrgPKYBBOLBeAXhCvPOrpDgKzbJHjfB4lY4PYFTzT+F4C/WljnvY/ZRLdQ5tgcFvKGxxXup90zxZHA==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
