@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/newhighsco/press-start/compare/v1.17.1...v1.17.2) (2020-08-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-videos to v1.3.0 ([cff989e](https://github.com/newhighsco/press-start/commit/cff989e50efb64fd86da2a5ae1fbd7c2932f6a72))
+
 ## [1.17.1](https://github.com/newhighsco/press-start/compare/v1.17.0...v1.17.1) (2020-08-21)
 
 
