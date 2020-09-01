@@ -4,17 +4,19 @@ import urlJoin from 'url-join'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { Prose } from '@newhighsco/chipset'
 import { PageContainer } from '../components'
-import { config, socialLinks } from '../../site.config'
+import { config as settings, socialLinks } from '../../site.config'
+
+const { name, title, url, logo } = settings
 
 const HomePage = ({ meta }) => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd
       type="Organization"
-      name={config.name}
-      url={config.url}
+      name={name}
+      url={url}
       sameAs={[socialLinks.twitter]}
     />
-    <LogoJsonLd url={config.url} logo={config.logo} />
+    <LogoJsonLd url={url} logo={logo} />
     <Prose>
       <p>Get a theme-able Next.js site up and running quickly</p>
     </Prose>
@@ -29,9 +31,9 @@ export async function getStaticProps() {
   return {
     props: {
       meta: {
-        canonical: urlJoin(config.url, '/'),
+        canonical: urlJoin(url, '/'),
         customTitle: true,
-        title: config.title
+        title
       }
     }
   }
