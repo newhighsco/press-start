@@ -1,3 +1,10 @@
+## [1.17.5](https://github.com/newhighsco/press-start/compare/v1.17.4...v1.17.5) (2020-09-01)
+
+
+### Bug Fixes
+
+* **deps:** updates next to v9.5.3 ([7aff47d](https://github.com/newhighsco/press-start/commit/7aff47d508b9dfaa2f8b23be1e10ace0160a63c8))
+
 ## [1.17.4](https://github.com/newhighsco/press-start/compare/v1.17.3...v1.17.4) (2020-09-01)
 
 
