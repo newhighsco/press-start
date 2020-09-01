@@ -1,3 +1,10 @@
+## [1.17.4](https://github.com/newhighsco/press-start/compare/v1.17.3...v1.17.4) (2020-09-01)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages (major) ([0968595](https://github.com/newhighsco/press-start/commit/096859534ad8908a901c52713e87b38ef448d3b2))
+
 ## [1.17.3](https://github.com/newhighsco/press-start/compare/v1.17.2...v1.17.3) (2020-08-31)
 
 
