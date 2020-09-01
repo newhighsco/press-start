@@ -1544,10 +1544,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-4.7.0.tgz#181f253ad56492f21b2c0aee46f519cd989ae0fd"
-  integrity sha512-vtCs2ztcNKAW6DMSrM9IAiPcYzhTiSW7yuRBtAQZ4EvnbMM+Gy2x34+SshczxBw/z4nMME4AdrU72zY7ChyOLw==
+"@newhighsco/chipset@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-5.0.0.tgz#8665b3c373a6f554365af58bbe758c928d217f75"
+  integrity sha512-ZSD6gyweRsgL4dBildjVGVnZLR8BqKEIvMGJpBtj3UjyvZBvRAvjwz33NpJeAYdZuIUqv3w/jzvL69XCjtm+GA==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.3.2"
     classnames "2.2.6"
@@ -1597,10 +1597,10 @@
   dependencies:
     sitemap "6.2.0"
 
-"@newhighsco/next-plugin-svgr@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-2.0.1.tgz#1c871b0f0c41cf5018f323a84f39219901d0aaf4"
-  integrity sha512-e9xLkWlxnGvkkwYziv+4JN5NvPUeRymgiXF71KSpJcxoODrCQbk+xtxD87silC3jLC0GhxSqwkFU1chRp3CFSA==
+"@newhighsco/next-plugin-svgr@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.0.tgz#9048b893503be1640a63518e3f57063a84a6d3c5"
+  integrity sha512-GAWyTbUh6069hQ0CzDgY1yMdwIlxC9KiRH00g6ZfjHkr/QIjOb8S4ayeeN8LHv5aig2AiFq0gWGMVRnZ3YoiWw==
   dependencies:
     "@svgr/webpack" "5.4.0"
     file-loader "6.1.0"
