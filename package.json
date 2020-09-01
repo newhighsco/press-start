@@ -14,9 +14,8 @@
     "url": "https://github.com/newhighsco/press-start/issues"
   },
   "scripts": {
-    "dev": "next dev",
+    "start": "next dev",
     "build": "next build && next export --outdir build",
-    "start": "next start",
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
@@ -26,10 +25,10 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "4.7.0",
+    "@newhighsco/chipset": "5.0.0",
     "@newhighsco/next-plugin-robots": "1.1.4",
     "@newhighsco/next-plugin-sitemap": "1.0.14",
-    "@newhighsco/next-plugin-svgr": "2.0.1",
+    "@newhighsco/next-plugin-svgr": "3.0.0",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
     "next": "9.5.2",

@@ -8,7 +8,7 @@ const icon = name => {
   const key = paramCase(name)
   const logoKey = `./${key}.svg`
   const Svg = svgs.keys().find(key => key === logoKey)
-    ? svgs(logoKey).default
+    ? svgs(logoKey).ReactComponent
     : null
 
   return Svg

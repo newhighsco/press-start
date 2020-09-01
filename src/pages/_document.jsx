@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { config } from '../../site.config'
 import loadConfig from 'next/dist/next-server/server/config'
 
-import logoUrl from '../images/logo.url.svg'
+import logoUrl from '../images/logo.svg'
 
 class DocumentPage extends Document {
   render() {
