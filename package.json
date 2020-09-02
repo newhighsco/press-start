@@ -14,6 +14,7 @@
     "url": "https://github.com/newhighsco/press-start/issues"
   },
   "scripts": {
+    "clean": "rm -rf {.next,build}",
     "start": "next dev",
     "build": "next build && next export --outdir build",
     "postbuild": "next-sitemap",
