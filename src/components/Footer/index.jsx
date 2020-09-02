@@ -4,7 +4,6 @@ import {
   ContentContainer,
   CreditLockup,
   Grid,
-  GridItem,
   Icon,
   SmartLink,
   Navigation
@@ -32,7 +31,7 @@ const Footer = () => (
     gutter
   >
     <Grid valign="middle">
-      <GridItem sizes={['one-half']}>
+      <Grid.Item sizes={['one-half']}>
         <Navigation
           links={links}
           renderLink={({ href, children, ...rest }) => (
@@ -42,8 +41,8 @@ const Footer = () => (
           )}
           theme={{ link: styles.link }}
         />
-      </GridItem>
-      <GridItem sizes={['one-half']} align="right">
+      </Grid.Item>
+      <Grid.Item sizes={['one-half']} align="right">
         <Navigation
           links={iconLinks}
           renderLink={({ text, icon: IconSvg, ...rest }) => (
@@ -54,10 +53,10 @@ const Footer = () => (
             </SmartLink>
           )}
         />
-      </GridItem>
-      <GridItem className={styles.credits}>
+      </Grid.Item>
+      <Grid.Item className={styles.credits}>
         <CreditLockup />
-      </GridItem>
+      </Grid.Item>
     </Grid>
   </ContentContainer>
 )

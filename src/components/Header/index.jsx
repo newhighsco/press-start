@@ -3,7 +3,6 @@ import Link from 'next/link'
 import {
   ContentContainer,
   Grid,
-  GridItem,
   Navigation,
   SmartLink
 } from '@newhighsco/chipset'
@@ -22,14 +21,14 @@ const Header = () => (
       theme={{ wrapper: styles.wrapper }}
     >
       <Grid flex valign="middle">
-        <GridItem className={styles.logo}>
+        <Grid.Item className={styles.logo}>
           <Link href="/" passHref>
             <SmartLink>
               <LogoLockup />
             </SmartLink>
           </Link>
-        </GridItem>
-        <GridItem className={styles.links}>
+        </Grid.Item>
+        <Grid.Item className={styles.links}>
           <Navigation
             links={links}
             renderLink={({ href, children, ...rest }) => (
@@ -39,7 +38,7 @@ const Header = () => (
             )}
             theme={{ link: styles.link }}
           />
-        </GridItem>
+        </Grid.Item>
       </Grid>
     </ContentContainer>
   </>
