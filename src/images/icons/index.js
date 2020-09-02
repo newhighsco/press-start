@@ -1,17 +1,15 @@
-import { paramCase } from 'param-case'
-
-const svgs = require.context('.', false, /\.svg$/)
+import dynamic from 'next/dynamic'
 
 const icon = name => {
   if (!name) return null
 
-  const key = paramCase(name)
-  const logoKey = `./${key}.svg`
-  const Svg = svgs.keys().find(key => key === logoKey)
-    ? svgs(logoKey).ReactComponent
-    : null
-
-  return Svg
+  try {
+    return dynamic(() =>
+      import(`./${name}.svg`).then(({ ReactComponent }) => ReactComponent)
+    )
+  } catch {
+    return null
+  }
 }
 
 export default icon
