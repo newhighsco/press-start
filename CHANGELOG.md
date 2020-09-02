@@ -1,3 +1,16 @@
+# [1.18.0](https://github.com/newhighsco/press-start/compare/v1.17.5...v1.18.0) (2020-09-02)
+
+
+### Bug Fixes
+
+* dynamically loads SVG icons ([3d82135](https://github.com/newhighsco/press-start/commit/3d821353df33c3a684eed95d1ff8c589795f026a))
+
+
+### Features
+
+* **deps:** update dependency @newhighsco/chipset to v6 ([5557c49](https://github.com/newhighsco/press-start/commit/5557c49cbcfa83b0e59440a191bc73c7553089e3))
+* **sitemap:** replaces sitemap and robots plugins with `next-sitemap` ([b4155a0](https://github.com/newhighsco/press-start/commit/b4155a05e65c19194ec6d1ed156c835b734f2c0b))
+
 ## [1.17.5](https://github.com/newhighsco/press-start/compare/v1.17.4...v1.17.5) (2020-09-01)
 
 
