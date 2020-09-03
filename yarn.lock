@@ -8022,10 +8022,10 @@ next-seo@4.7.3:
   resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.7.3.tgz#8da82dca4f425c84392c4a8462f215dfcb4195b0"
   integrity sha512-hEl6fVbYU6h0EqGTqsVM3aEbn+ejlV7JjjIRLzT8at5TDxXQWs1Ypd0UA9oalHfVo7rDbWawD9rrvMe+PWl4kw==
 
-next-sitemap@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.2.2.tgz#dc90008c87e11633cd2eac74fde3bee5b11a2c93"
-  integrity sha512-X8Kt2ZgizM7KvmknPlqcYSs2akaFV6X90YYoYIwQc12J7X8Ow8f+hNt2rcG03d1JLvDgM9A/YfU6KrW1uefbKA==
+next-sitemap@1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.2.4.tgz#6f4b94563da26133f265920ab9779c15e49639eb"
+  integrity sha512-Dpitr8mdRpdpEj7iE/3llrAw/uHK0UB6zf68FX3Zxlt5DvdxzwtXzbQc8s6V6DPtOvwfctj5LXvQr+C4NEpImw==
   dependencies:
     "@corex/deepmerge" "^2.4.6"
 
