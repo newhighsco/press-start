@@ -52,7 +52,7 @@
     "@newhighsco/eslint-config": "2.2.24",
     "@newhighsco/postcss-config": "2.0.3",
     "@newhighsco/prettier-config": "2.0.5",
-    "@newhighsco/release-config": "1.0.28",
+    "@newhighsco/release-config": "1.0.29",
     "@newhighsco/renovate-config": "1.4.0",
     "@newhighsco/stylelint-config": "2.0.21",
     "eslint": "7.8.1",
