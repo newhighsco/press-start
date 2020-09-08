@@ -1,3 +1,10 @@
+## [1.18.5](https://github.com/newhighsco/press-start/compare/v1.18.4...v1.18.5) (2020-09-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-videos to v1.4.0 ([f4f3e1f](https://github.com/newhighsco/press-start/commit/f4f3e1ffe97051a83b36588d6bd98949a8fcaaa7))
+
 ## [1.18.4](https://github.com/newhighsco/press-start/compare/v1.18.3...v1.18.4) (2020-09-05)
 
 
