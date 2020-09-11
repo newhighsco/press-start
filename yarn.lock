@@ -1463,10 +1463,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/renovate-config/-/renovate-config-1.4.0.tgz#820fcb746e461191550bea59194cca3438e355ab"
   integrity sha512-XVUHGUgijzhS0NHcIuYpRYmuZcTvU4uANH5Rk4kb5MHwPMizhNeFH7dZJur02uCesOjA11sGKrsCD/8rymewWg==
 
-"@newhighsco/stylelint-config@2.0.21":
-  version "2.0.21"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.21.tgz#0a5837982308196c6558de55c6380a2f21348cb4"
-  integrity sha512-BVB58jdi7EIPXHYjr1E0lPv61YST15cGP2ykEsXAigQJBx+uxGmJFebOtn7FtSwhzItE8BbqjtiZN9o5+pn1wg==
+"@newhighsco/stylelint-config@2.0.22":
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.22.tgz#f4d56384bf9b6ddbe556330a6eadc3c2174ef243"
+  integrity sha512-IZUCasodkNilLq5ZgmYtQew5KNaIaYxWV7mOS7atfQzCGaktSdd67rIsOzy4rXKtsSS/lYlx+/dmWZAjlQFSnw==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
