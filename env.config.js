@@ -1,5 +1,5 @@
 module.exports = {
-  master: {
+  main: {
     SITE_URL: 'https://starter.newhighsco.re/',
     DISALLOW_ROBOTS: false
   },
