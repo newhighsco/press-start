@@ -1383,14 +1383,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.2.0.tgz#f6f069101d6c5a193960cbc94201f96ff852527c"
-  integrity sha512-5/iSSfm9eRTexxMsIhtNOn4sHRUF758g9FiA488CDn8DlcAd6sWbilLRi/0aopqm3PJ3/k72Ahn5YdXwOtVpQQ==
+"@newhighsco/chipset@6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.2.1.tgz#c35e949e8ed4fc57cc30867414fda548da425811"
+  integrity sha512-gB6rLYtSX7Xou90BZ3ggExIUGjmW9zekwYv+Wvcn07aTe17xyROaFq7Z6pr2GcOqjgs9QgxNfslFEbvAwBuhTg==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.3.2"
     classnames "2.2.6"
-    react-device-detect "1.13.1"
+    react-device-detect "1.14.0"
     react-ga "3.1.2"
 
 "@newhighsco/commitlint-config@1.0.7":
@@ -9981,12 +9981,12 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-device-detect@1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-1.13.1.tgz#27ac0e86a03969e440e973d179aaa19e80a5ba66"
-  integrity sha512-XTPgAMsUVHC5lMNUGiAeO2UfAfhMfjq0CBUM67eHnc9XfO7iESh6h/cffKV8VGgrZBX+dyuqJl23bLLHoav5Ig==
+react-device-detect@1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-1.14.0.tgz#ae8bf8cff85055c030f97aa491a0c2b06c472644"
+  integrity sha512-fXFsZoTeLVrONrUr2sqCAXvnbouwyuqlBWoa3K92goCiPM1lUBvZqekv5TY3C02U/IrdoKLOBPFITYluwxKFyw==
   dependencies:
-    ua-parser-js "^0.7.21"
+    ua-parser-js "^0.7.22"
 
 react-dom@16.13.1:
   version "16.13.1"
@@ -12041,10 +12041,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-ua-parser-js@^0.7.21:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+ua-parser-js@^0.7.22:
+  version "0.7.22"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.22.tgz#960df60a5f911ea8f1c818f3747b99c6e177eae3"
+  integrity sha512-YUxzMjJ5T71w6a8WWVcMGM6YWOTX27rCoIQgLXiWaxqXSx9D7DNjiGWn1aJIRSQ5qr0xuhra77bSIh6voR/46Q==
 
 uglify-js@^3.1.4:
   version "3.10.3"
