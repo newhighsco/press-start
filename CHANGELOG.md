@@ -1,3 +1,10 @@
+## [1.18.12](https://github.com/newhighsco/press-start/compare/v1.18.11...v1.18.12) (2020-10-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.26.12 ([bb95458](https://github.com/newhighsco/press-start/commit/bb954585e5a0ef903010e5622fc56193fef736c4))
+
 ## [1.18.11](https://github.com/newhighsco/press-start/compare/v1.18.10...v1.18.11) (2020-10-05)
 
 
