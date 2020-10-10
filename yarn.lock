@@ -1442,10 +1442,10 @@
     eslint-plugin-react "7.21.4"
     eslint-plugin-standard "4.0.1"
 
-"@newhighsco/next-plugin-svgr@3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.4.tgz#efe68916ee710db465fd95918b449e2347e8de9a"
-  integrity sha512-PYMQPU7p4bHomAG7yCdthmU8T5Z2KJVO1ublw8watXd4xtaT4PJ4IWUvhmfWcX2uW3BG6tVaIXPCENWA1vC+2w==
+"@newhighsco/next-plugin-svgr@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.5.tgz#7d51309fe0d4f63f2be0d64888fb1703d0049761"
+  integrity sha512-YWFnKK0WONVAMKfMoY9Q6ox+UjX3/xYU1wDCnqDlEaU4Snorvkz1jAQ6EwPr18TVDqXR9j15J9iwb/wW6QZtnw==
   dependencies:
     "@svgr/webpack" "5.4.0"
     file-loader "6.1.1"
