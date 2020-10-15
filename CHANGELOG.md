@@ -1,3 +1,10 @@
+## [1.18.23](https://github.com/newhighsco/press-start/compare/v1.18.22...v1.18.23) (2020-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-seo to v4.13.0 ([4773bd5](https://github.com/newhighsco/press-start/commit/4773bd58ff2166f32b61ebdbdbdd3c671403ec11))
+
 ## [1.18.22](https://github.com/newhighsco/press-start/compare/v1.18.21...v1.18.22) (2020-10-15)
 
 
