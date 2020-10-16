@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/press-start",
   "description": "Chipset + Next.js site starter by New High Score",
-  "version": "1.18.23",
+  "version": "1.18.24",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "private": true,
