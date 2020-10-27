@@ -1211,10 +1211,10 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
 
-"@corex/deepmerge@^2.4.17":
-  version "2.4.17"
-  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-2.4.17.tgz#f5e49f256e7f50b9002ceec8fb652b5cfc06c019"
-  integrity sha512-7HfPMbiva8ppj4PyfLySLbd8H9LvzdcGIMOwjv9TwGmLT/40JuCXIr3n/4g+7GZnJdf2E2pQZIdIt117jPKziA==
+"@corex/deepmerge@^2.4.24":
+  version "2.4.24"
+  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-2.4.24.tgz#d02aa2bf1a5c7f3847d4227d6700419450909f63"
+  integrity sha512-TBYXnhxYU9kqDhUXm/rgDRRAxHVpX8Y3ZX+zmTmQuhRF9p7orsrx+P/lVXS7PcPnOFFVE3ZvyE5MIYFipecy8g==
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
@@ -8199,12 +8199,12 @@ next-seo@4.14.0:
   resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.14.0.tgz#8a3243286f65606da81f6fdb0f8b1673ab5dd5a6"
   integrity sha512-HHL82n2bx1Aj0z8kpy31LoJxzWpZwC/RlXleoO5zNNjJjEGtNS7uZ+wrvAbFGUqC4V54I1sZa4f0WZV+mpOx6w==
 
-next-sitemap@1.2.10:
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.2.10.tgz#1655f6087818b12ff0bbe6f6fe5aa64d94c3a549"
-  integrity sha512-aVY1qvTwRgxl4Il8jsZ6jyocFTKCXP8MtFepyymmTu6maSsQzAwmbeISzXHk5oAC+iR2XXJ1kYkGO417w7s5eQ==
+next-sitemap@1.2.17:
+  version "1.2.17"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.2.17.tgz#3b0a0c72f632ad3c92bd3ae236d428b1dcdfd238"
+  integrity sha512-dFj4Zuqd56F6zQlb5m6kNbFgtSYQXQtUXJvcXgmIIS6z7yrLJ/GXojg8d2h+VemzIZ9m0UIR0sP+zetgSP9HQw==
   dependencies:
-    "@corex/deepmerge" "^2.4.17"
+    "@corex/deepmerge" "^2.4.24"
 
 next-tick@~1.0.0:
   version "1.0.0"
