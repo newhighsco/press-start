@@ -8199,10 +8199,10 @@ next-seo@4.14.0:
   resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.14.0.tgz#8a3243286f65606da81f6fdb0f8b1673ab5dd5a6"
   integrity sha512-HHL82n2bx1Aj0z8kpy31LoJxzWpZwC/RlXleoO5zNNjJjEGtNS7uZ+wrvAbFGUqC4V54I1sZa4f0WZV+mpOx6w==
 
-next-sitemap@1.2.17:
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.2.17.tgz#3b0a0c72f632ad3c92bd3ae236d428b1dcdfd238"
-  integrity sha512-dFj4Zuqd56F6zQlb5m6kNbFgtSYQXQtUXJvcXgmIIS6z7yrLJ/GXojg8d2h+VemzIZ9m0UIR0sP+zetgSP9HQw==
+next-sitemap@1.2.19:
+  version "1.2.19"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.2.19.tgz#2de1ef6c7124bb2a62341322dde5d78563908e20"
+  integrity sha512-Ag55yq2j50+SySIvyVDQ3rOeR5uc7MLX3NVGMeGoRkFCIxc5TisE1orJiQM/6hVtqr5OIJ5UpKMhuxlvPZY1Wg==
   dependencies:
     "@corex/deepmerge" "^2.4.24"
 
