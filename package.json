@@ -40,8 +40,8 @@
     "next-sitemap": "1.2.20",
     "next-transpile-modules": "4.1.0",
     "next-videos": "1.4.0",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "sass": "1.28.0"
   },
   "devDependencies": {
