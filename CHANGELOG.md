@@ -1,3 +1,10 @@
+## [1.18.34](https://github.com/newhighsco/press-start/compare/v1.18.33...v1.18.34) (2020-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v17 ([b6de725](https://github.com/newhighsco/press-start/commit/b6de725107d3ad74ad9f4c1cbff1b0d9b316deca))
+
 ## [1.18.33](https://github.com/newhighsco/press-start/compare/v1.18.32...v1.18.33) (2020-10-30)
 
 
