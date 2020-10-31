@@ -1423,14 +1423,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.44":
-  version "2.2.44"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.44.tgz#a9d131d22e19f27197442e449d73bd0fcf9cc471"
-  integrity sha512-DYKzHl8h0Bx33drk006QK6bLzz5gs+7wzSmXHl/+a96KJK2fzJR0QDt4I64/ZFSS4KSgeIGtn7LUEPvN+RvQSw==
+"@newhighsco/eslint-config@2.2.45":
+  version "2.2.45"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.45.tgz#aafc6182ce55a0912c7fe57d24ea2ea56535d1d3"
+  integrity sha512-Jnt3L6Hzi3QF5aYLY3YlKYgiDQ67UwpJg1eOwUIynt1cWFuLmjXAJz3aUjXeGj/GuCXCrUlfzgprVWq9Ds38Sw==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "6.15.0"
-    eslint-config-standard "14.1.1"
+    eslint-config-standard "16.0.1"
     eslint-config-standard-react "9.2.0"
     eslint-plugin-import "2.22.1"
     eslint-plugin-json-format "2.0.1"
@@ -1451,15 +1451,15 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.0.11":
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.11.tgz#1b4995650c9e8543a778ae0d5ae6bbec0d62d28e"
-  integrity sha512-CXfJczCBuFAdnxG59guum+WztShVr4aJWZybIvm8AgvkEHJE43guWkfgoHr/gdb4CelaQatSB2tj1SJxA6XrXQ==
+"@newhighsco/postcss-config@3.0.12":
+  version "3.0.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.12.tgz#9b89f6ca33fe380178faf8dea2d8e125e9648602"
+  integrity sha512-kWt5SwNLEMiymNHEnlIuKesWiP0HtKCg3CKsdaqcQQWiyYM0qnxcuEVpQJOjX6A5NstiYGBRpncSI8ntMmpZoA==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.0.0"
     autoprefixer "10.0.1"
     postcss "8.1.4"
-    postcss-flexbugs-fixes "4.2.1"
+    postcss-flexbugs-fixes "5.0.0"
     postcss-preset-env "6.7.0"
 
 "@newhighsco/prettier-config@2.0.6":
@@ -4858,10 +4858,10 @@ eslint-config-standard-react@9.2.0:
   dependencies:
     eslint-config-standard-jsx "^8.0.0"
 
-eslint-config-standard@14.1.1:
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-14.1.1.tgz#830a8e44e7aef7de67464979ad06b406026c56ea"
-  integrity sha512-Z9B+VR+JIXRxz21udPTL9HpFMyoMUEeX1G251EQ6e05WD9aPVtVBn09XUmZ259wCMlCDmYDSZG62Hhm+ZTJcUg==
+eslint-config-standard@16.0.1:
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.1.tgz#9a385eea27f96b7918cb53f07e01e9d10cc56401"
+  integrity sha512-WBBiQQZdaPyL+4sPkGWhWrHCDtvJoU195B9j8yXE9uFQnX34gMXI5CeBRm95gx3PMEZPM5OpwET10hH4F4SxCA==
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
@@ -9593,12 +9593,10 @@ postcss-env-function@^2.0.2:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-flexbugs-fixes@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-4.2.1.tgz#9218a65249f30897deab1033aced8578562a6690"
-  integrity sha512-9SiofaZ9CWpQWxOwRh1b/r85KD5y7GgvsNt1056k6OYLvWUun0czCvogfJgylC22uJTwW1KzY3Gz65NZRlvoiQ==
-  dependencies:
-    postcss "^7.0.26"
+postcss-flexbugs-fixes@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-5.0.0.tgz#b68f71e914079501e7174f966394b63b868f6716"
+  integrity sha512-WXt2F6FnFB16rCwWVJnBsvfztnTi6O4SYRcpnGHOnDyMoKcqjC3uKHWbhFz0z1ic9UMyQm1hleTBGavZZGE1KA==
 
 postcss-focus-visible@^4.0.0:
   version "4.0.0"
