@@ -27,7 +27,7 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "6.2.2",
+    "@newhighsco/chipset": "6.2.3",
     "@newhighsco/next-plugin-svgr": "3.0.7",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
