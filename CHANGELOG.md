@@ -1,3 +1,10 @@
+## [1.18.45](https://github.com/newhighsco/press-start/compare/v1.18.44...v1.18.45) (2020-11-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-compose-plugins to v2.2.1 ([03cc210](https://github.com/newhighsco/press-start/commit/03cc21064c443141e6508df9e0bc2e4338aff1d4))
+
 ## [1.18.44](https://github.com/newhighsco/press-start/compare/v1.18.43...v1.18.44) (2020-11-09)
 
 
