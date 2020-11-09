@@ -32,7 +32,7 @@
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
     "next": "10.0.1",
-    "next-compose-plugins": "2.2.0",
+    "next-compose-plugins": "2.2.1",
     "next-fonts": "1.4.0",
     "next-ga": "2.3.4",
     "next-optimized-images": "2.6.2",
