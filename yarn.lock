@@ -2312,16 +2312,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.2.4":
-  version "6.2.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.2.4.tgz#07161d1f496a76bd80dd0299d9454ea825317be3"
-  integrity sha512-rYRTmBrioxCZV9GC+1W8skvsMZOtJGdnjzKHS2Wa6ssdHplUk9KHQv+Cec88gx4jGLXd25QiqjYWFRrDLmIDvw==
+"@newhighsco/chipset@6.2.5":
+  version "6.2.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.2.5.tgz#3dd9c07fbfe8fd9edc7fbef4d4c11797b3214194"
+  integrity sha512-FyuR7wL0IyTzfjcVbra9XnmNwY4v0jZ62K0Eej63ix3yo0frtLJteLO5V3Qtpk2oIHfTjZpxxPCqPAKLbsW5MA==
   dependencies:
     "@friendsofreactjs/react-css-themr" "4.3.2"
     "@newhighsco/storybook-preset" "^3.1.2"
     classnames "2.2.6"
     react-device-detect "1.14.0"
-    react-ga "3.2.1"
+    react-ga "3.3.0"
 
 "@newhighsco/commitlint-config@1.0.7":
   version "1.0.7"
@@ -14173,10 +14173,10 @@ react-fast-compare@^3.2.0:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-ga@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.2.1.tgz#ad2a6f848cc9555d63c188d37d6e11798393e4ed"
-  integrity sha512-uRwNVd7seL2I2lZBE7et8Ul0r/xNDIQkZ43QmnMrcZwY8dNB5UgPjPJA6E18xFtArLgDK/dy/O0TzYqWCsMHDg==
+react-ga@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.0.tgz#c91f407198adcb3b49e2bc5c12b3fe460039b3ca"
+  integrity sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
 
 react-ga@^2.5.3:
   version "2.7.0"
