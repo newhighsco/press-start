@@ -2373,10 +2373,10 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
-"@newhighsco/prettier-config@2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.7.tgz#bf7b36a7c61ab77d911dc905179e6d0d749258d8"
-  integrity sha512-8VcQCv2Wdl0oiDK4R10yFhjclaq+pF8bydbnPyrfH6L6jf5DHKXLrWpgEIJkC+HGwQDefdFKdA0UTnjfvb8klg==
+"@newhighsco/prettier-config@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.8.tgz#b9b36e271ea4319d751c8477bf5d1a998a51b226"
+  integrity sha512-zKHc6e7Eq6jIYqGwAlNi3pw3kromQqnY1loOq5Foj1Vx4C3zF2c9OILJyDSHFI9C7AMWcs5kX3mMi18pC8cQ2w==
 
 "@newhighsco/release-config@1.0.40":
   version "1.0.40"
