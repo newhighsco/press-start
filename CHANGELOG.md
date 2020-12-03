@@ -1,3 +1,11 @@
+## [1.18.63](https://github.com/newhighsco/press-start/compare/v1.18.62...v1.18.63) (2020-12-03)
+
+
+### Bug Fixes
+
+* remove as prop from links ([55c148c](https://github.com/newhighsco/press-start/commit/55c148c13b7bf5c7b83259a95a7ee127407d4574))
+* **deps:** update newhighsco packages ([04f501e](https://github.com/newhighsco/press-start/commit/04f501e4ddd880088b6c39ff17ec5b01b0c14cdf))
+
 ## [1.18.62](https://github.com/newhighsco/press-start/compare/v1.18.61...v1.18.62) (2020-12-03)
 
 
