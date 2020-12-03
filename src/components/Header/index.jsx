@@ -32,7 +32,7 @@ const Header = () => (
           <Navigation
             links={links}
             renderLink={({ href, children, ...rest }) => (
-              <Link href={href} as={href} passHref>
+              <Link href={href} passHref>
                 <SmartLink {...rest}>{children}</SmartLink>
               </Link>
             )}
