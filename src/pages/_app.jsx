@@ -10,7 +10,7 @@ import theme from '../theme'
 import './_app.scss'
 
 const AppPage = ({ Component, pageProps }) => (
-  <ThemeProvider theme={theme}>
+  <ThemeProvider themes={theme}>
     <SiteContainer>
       <DefaultSeo {...meta} />
       <Component {...pageProps} />

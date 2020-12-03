@@ -18,7 +18,7 @@ const Header = () => (
       as="header"
       role="banner"
       gutter
-      theme={{ wrapper: styles.wrapper }}
+      theme={{ root: styles.root }}
     >
       <Grid flex valign="middle">
         <Grid.Item className={styles.logo}>

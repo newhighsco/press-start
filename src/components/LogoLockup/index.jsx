@@ -8,8 +8,8 @@ import styles from './LogoLockup.module.scss'
 import { ReactComponent as LogoSvg } from '../../images/logo.svg'
 
 const LogoLockup = ({ className }) => (
-  <div className={classNames(styles.wrapper, className)}>
-    <Icon alt={config.name} theme={{ wrapper: styles.icon }}>
+  <div className={classNames(styles.root, className)}>
+    <Icon alt={config.name} theme={{ root: styles.icon }}>
       <LogoSvg />
     </Icon>
   </div>

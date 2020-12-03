@@ -27,7 +27,7 @@ const Footer = () => (
   <ContentContainer
     as="footer"
     role="contentinfo"
-    theme={{ wrapper: styles.wrapper }}
+    theme={{ root: styles.root }}
     gutter
   >
     <Grid valign="middle">
@@ -47,7 +47,7 @@ const Footer = () => (
           links={iconLinks}
           renderLink={({ text, icon: IconSvg, ...rest }) => (
             <SmartLink {...rest}>
-              <Icon theme={{ wrapper: styles.icon }} alt={text}>
+              <Icon theme={{ root: styles.icon }} alt={text}>
                 {IconSvg && <IconSvg />}
               </Icon>
             </SmartLink>
