@@ -1,3 +1,10 @@
+## [1.18.64](https://github.com/newhighsco/press-start/compare/v1.18.63...v1.18.64) (2020-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v6.3.1 ([6f5b6e4](https://github.com/newhighsco/press-start/commit/6f5b6e4ce085426b7079154b7faff573f3bbf7e4))
+
 ## [1.18.63](https://github.com/newhighsco/press-start/compare/v1.18.62...v1.18.63) (2020-12-03)
 
 
