@@ -1877,15 +1877,15 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.0.31":
-  version "3.0.31"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.31.tgz#8446c60f8029d6c93e7633ce192adcdbfda0cc42"
-  integrity sha512-/LmgI+AguBOkZyQnSL60Zayfimlt2fK8xy73tY1sxLW+PMcdPS4ZnyJo2HxoykAae/a20erTdsOjXheyXGdcbw==
+"@newhighsco/postcss-config@3.0.32":
+  version "3.0.32"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.32.tgz#a1603847ea77e17cc60aa186cca30f77e3200405"
+  integrity sha512-rU2vYDfMopRVDxXSwN/0R4+3iO48C5whHal3dNABLZUNL0DMLjYIt3XaU81HsHcdZUrv3JAogVC17W5OM4Dz9A==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.0.0"
     autoprefixer "10.1.0"
     caniuse-lite "1.0.30001165"
-    postcss "8.1.14"
+    postcss "8.2.0"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -13089,15 +13089,6 @@ postcss@7.0.32, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.2
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@8.1.14:
-  version "8.1.14"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.14.tgz#77d6a5db2fdc0afa918e24af5323a53fb8727f2e"
-  integrity sha512-KatkyVPBKfENS+c3dpXJoDXnDD5UZs5exAnDksLqaRJPKwYphEPZt4N0m0i049v2/BtWVQibAhxW4ilXXcolpA==
-  dependencies:
-    colorette "^1.2.1"
-    nanoid "^3.1.20"
-    source-map "^0.6.1"
-
 postcss@8.1.7:
   version "8.1.7"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.7.tgz#ff6a82691bd861f3354fd9b17b2332f88171233f"
@@ -13106,6 +13097,15 @@ postcss@8.1.7:
     colorette "^1.2.1"
     line-column "^1.0.2"
     nanoid "^3.1.16"
+    source-map "^0.6.1"
+
+postcss@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.0.tgz#214be4eda36db762eb8a89d7c7362b9341156eb5"
+  integrity sha512-vZ8cb6AlN53hHlnPvR+oj7fA46LU05Ysv7O7sNh1ixQrCbtx+d8/h+5tDER9XAccVhkf3aYskAiWmh0DdjNLbw==
+  dependencies:
+    colorette "^1.2.1"
+    nanoid "^3.1.20"
     source-map "^0.6.1"
 
 postcss@^7.0.0, postcss@^7.0.35:
