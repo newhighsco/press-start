@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/newhighsco/press-start/compare/v1.19.5...v1.20.0) (2020-12-15)
+
+
+### Features
+
+* **app:** removes Google Analytics ([8c1842c](https://github.com/newhighsco/press-start/commit/8c1842cf1c24ff71b42f2897a6c79435292ffc69))
+
 ## [1.19.5](https://github.com/newhighsco/press-start/compare/v1.19.4...v1.19.5) (2020-12-15)
 
 
