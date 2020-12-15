@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/newhighsco/press-start/compare/v1.20.0...v1.20.1) (2020-12-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fullhuman/postcss-purgecss to v3.1.3 ([058978d](https://github.com/newhighsco/press-start/commit/058978da851c7a34390058c3ae23b9c5545ca190))
+
 # [1.20.0](https://github.com/newhighsco/press-start/compare/v1.19.5...v1.20.0) (2020-12-15)
 
 
