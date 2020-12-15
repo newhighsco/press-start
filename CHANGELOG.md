@@ -1,3 +1,10 @@
+## [1.19.5](https://github.com/newhighsco/press-start/compare/v1.19.4...v1.19.5) (2020-12-15)
+
+
+### Bug Fixes
+
+* **deps:** adds postcss-purgecss ([aa3e374](https://github.com/newhighsco/press-start/commit/aa3e3747d6c28460ca7412baf81f494b09aa8321))
+
 ## [1.19.4](https://github.com/newhighsco/press-start/compare/v1.19.3...v1.19.4) (2020-12-11)
 
 
