@@ -1,10 +1,8 @@
 import React from 'react'
 import { func, object } from 'prop-types'
-import Router from 'next/router'
-import withGA from 'next-ga'
 import { DefaultSeo } from 'next-seo'
 import { SiteContainer, ThemeProvider } from '@newhighsco/chipset'
-import { config, meta } from '../../site.config'
+import { meta } from '../../site.config'
 import theme from '../theme'
 
 import './_app.scss'
@@ -23,6 +21,4 @@ AppPage.propTypes = {
   pageProps: object
 }
 
-export default config.googleTrackingId
-  ? withGA(config.googleTrackingId, Router)(AppPage)
-  : AppPage
+export default AppPage
