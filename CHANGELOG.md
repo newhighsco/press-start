@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/newhighsco/press-start/compare/v1.20.1...v1.20.2) (2020-12-15)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([95b3072](https://github.com/newhighsco/press-start/commit/95b30723f8acbbe5a0e3a3dcc5fb838c494a714c))
+
 ## [1.20.1](https://github.com/newhighsco/press-start/compare/v1.20.0...v1.20.1) (2020-12-15)
 
 
