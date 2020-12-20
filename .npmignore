@@ -1,7 +1,0 @@
-.*
-npm-debug.log
-yarn-error.log
-build
-__mocks__
-__tests__
-*.stories.{js,mdx}

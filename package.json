@@ -13,6 +13,15 @@
   "bugs": {
     "url": "https://github.com/newhighsco/press-start/issues"
   },
+  "files": [
+    "public",
+    "src",
+    "env.config.js",
+    "next-sitemap.js",
+    "next.config.js",
+    "postcss.config.js",
+    "site.config.js"
+  ],
   "scripts": {
     "clean": "rm -rf {.next,build}",
     "start": "next dev",
