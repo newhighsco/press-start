@@ -1,3 +1,10 @@
+## [1.20.13](https://github.com/newhighsco/press-start/compare/v1.20.12...v1.20.13) (2021-01-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v10.0.5 ([#476](https://github.com/newhighsco/press-start/issues/476)) ([ae98b61](https://github.com/newhighsco/press-start/commit/ae98b6132ff7a9a0d4493f31f40a8c3cce7d0dc9))
+
 ## [1.20.12](https://github.com/newhighsco/press-start/compare/v1.20.11...v1.20.12) (2021-01-07)
 
 
