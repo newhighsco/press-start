@@ -1833,14 +1833,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.4.1":
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.4.1.tgz#ff3fa4fa9096bd5534a66d2cb9bea62755e374e0"
-  integrity sha512-nbxteLdxnSGGjLRS2D5xOZSfjJQBPjw7o2rRfSp5Z6cg98EGT+Gpo3XZ0Ewxx3/SzN8CFNTX3O/h7m8DxnAymg==
+"@newhighsco/chipset@6.4.3":
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.4.3.tgz#69a132f47ec657ff2a5662d6425f2898c7c9ffa6"
+  integrity sha512-240vaOVjp18vj3+l9Y82sJA+43QIvQ55IGCyu44Tf4mZC1MXe7QMIWLxxjGZS8UG3dRpWf8IhVEmAW6ldJaT/w==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.0"
     "@fullhuman/postcss-purgecss" "3.1.3"
-    "@newhighsco/storybook-preset" "3.1.17"
+    "@newhighsco/storybook-preset" "3.1.20"
     classnames "2.2.6"
     react-device-detect "1.15.0"
     react-ga "3.3.0"
@@ -1875,10 +1875,10 @@
     eslint-plugin-react "7.22.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/next-plugin-svgr@3.0.12":
-  version "3.0.12"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.12.tgz#dfd46b89672892042606742e437735f8549fc212"
-  integrity sha512-E47zXXckBUxzqz8fLejOgnhE3xn8nIo8wTTqdHbcwwQN66BwXwNRvW6Fl3uRsRXqDvgvbUklVx2PbNgQ85p7Uw==
+"@newhighsco/next-plugin-svgr@3.0.13":
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.13.tgz#6d7b490f919b0621537e1d78e6e5ae3db9f308f5"
+  integrity sha512-WBDfF2l63pdumDC3gKgBKUanqi0R20c2HjofcRZE7kc53o7ZwcEGtcgxNOpPgdVTg7JBLLXp6zFOyJ6mPB3AnA==
   dependencies:
     "@svgr/webpack" "5.5.0"
     file-loader "6.2.0"
@@ -1913,10 +1913,10 @@
     "@semantic-release/npm" "7.0.9"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@3.1.17":
-  version "3.1.17"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.1.17.tgz#79026c51f0e5d0769bd0876c6a7c435150509293"
-  integrity sha512-hPWlpZOMUFZRHOjclcHud6acsJ/2cw/9SRh4cRRnuXolKS/ROTGjTFdhwUdbBfcOzGCFxIVY67Qf4v/SpVKCOg==
+"@newhighsco/storybook-preset@3.1.20":
+  version "3.1.20"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.1.20.tgz#f335eb92c1ec1075b27632e2eaab1a800caf992c"
+  integrity sha512-exXosYe6AD4txV+JSAl68/0NzU5JcUdXWP7MjNw+mwpfZSfl6LZ4EEdCc8+ugKdeaiOsfdPqXZygTOjgl09Auw==
   dependencies:
     "@storybook/addon-actions" "6.1.11"
     "@storybook/addon-docs" "6.1.11"
@@ -1924,7 +1924,7 @@
     "@storybook/addons" "6.1.11"
     "@svgr/webpack" "5.5.0"
     react-is "17.0.1"
-    sass "1.30.0"
+    sass "1.32.2"
     sass-loader "10.1.0"
 
 "@newhighsco/stylelint-config@2.0.27":
@@ -14520,13 +14520,6 @@ sass-loader@10.1.0:
     neo-async "^2.6.2"
     schema-utils "^3.0.0"
     semver "^7.3.2"
-
-sass@1.30.0:
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.30.0.tgz#60bbbbaf76ba10117e61c6c24f00161c3d60610e"
-  integrity sha512-26EUhOXRLaUY7+mWuRFqGeGGNmhB1vblpTENO1Z7mAzzIZeVxZr9EZoaY1kyGLFWdSOZxRMAufiN2mkbO6dAlw==
-  dependencies:
-    chokidar ">=2.0.0 <4.0.0"
 
 sass@1.32.2:
   version "1.32.2"
