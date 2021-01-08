@@ -1833,10 +1833,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.4.4.tgz#41917a2717503f49e7d7d6aea75b4899364a0c4a"
-  integrity sha512-QEiHgp7Tss/X17SYNEz5J4IbRnhnM9XJouOhyl+1WT5Aem7qrKl2jgVQTwxX/yZ9hPp273Qk3cRUCsZOe/5V/g==
+"@newhighsco/chipset@6.4.5":
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.4.5.tgz#8470dc9c2be348f2b20c7654c07600f20d4532b4"
+  integrity sha512-1RB+54PQKYTDq1DXY8Wkr2gclyNmvdXNfzY1xDLP3LHEElFHafHeRfaHrS3Y4rdvtADEEhRudTQYjPpO/Wpv4A==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.0"
     "@fullhuman/postcss-purgecss" "3.1.3"
