@@ -1,3 +1,10 @@
+## [1.20.22](https://github.com/newhighsco/press-start/compare/v1.20.21...v1.20.22) (2021-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.32.4 ([#490](https://github.com/newhighsco/press-start/issues/490)) ([d766709](https://github.com/newhighsco/press-start/commit/d766709fee6e783ffed2304a0ebd9a8a6f2b8447))
+
 ## [1.20.21](https://github.com/newhighsco/press-start/compare/v1.20.20...v1.20.21) (2021-01-11)
 
 
