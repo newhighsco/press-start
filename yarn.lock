@@ -1264,7 +1264,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.12.5", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5":
+"@babel/runtime@7.12.5", "@babel/runtime@^7.12.5":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
@@ -1545,12 +1545,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dr.pogodin/react-themes@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.3.0.tgz#88737a9881d977edf49860935493f47e3717385c"
-  integrity sha512-DpVQm6EFYW2WmQUsVMJu/9sk2ztUY5fjPZ49SqDApki8m1YIp99cAvZ4gW7ck9RD74dgm+vjZuHjFxWH3N0MEQ==
+"@dr.pogodin/react-themes@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.3.1.tgz#bdb7a7e50498d410a98547d7ee8992e1a00c047b"
+  integrity sha512-cQyqVXzV/ynZBaYIWNWVoPMtOEfoRA+3f7GBEViX1fPRa0x9XkktlfD8CAUmvzHDqj9Z5P8bIyh++kyLEvGahw==
   dependencies:
-    "@babel/runtime" "^7.12.1"
+    "@babel/runtime" "^7.12.5"
 
 "@emotion/cache@^10.0.27":
   version "10.0.29"
@@ -1833,12 +1833,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.4.8":
-  version "6.4.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.4.8.tgz#dd265819259a606a0ce963e1b0aa467781a7e417"
-  integrity sha512-pSPlUb0XgXLert1tj/5lFWqaNapbFUfyfYAb1JLKziTD69zQH2Su2r9VTJLGm9xKLSmHShM+upIEZisJGQSseQ==
+"@newhighsco/chipset@6.4.9":
+  version "6.4.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.4.9.tgz#4f0087f77bf76143b3e7d862ec41ff11697f6202"
+  integrity sha512-lB+fvwoMEPhPCcFOL9O+LDa4M4QHvWyDkJruv3Wqvpu18dE8pgW/n6A5pViX3mKrgje/cWVQZIWzIdZ+wkJsqQ==
   dependencies:
-    "@dr.pogodin/react-themes" "1.3.0"
+    "@dr.pogodin/react-themes" "1.3.1"
     "@fullhuman/postcss-purgecss" "3.1.3"
     "@newhighsco/storybook-preset" "3.1.24"
     classnames "2.2.6"
