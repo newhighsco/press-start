@@ -61,7 +61,7 @@
     "@newhighsco/eslint-config": "2.2.63",
     "@newhighsco/postcss-config": "3.0.51",
     "@newhighsco/prettier-config": "2.0.8",
-    "@newhighsco/release-config": "1.0.47",
+    "@newhighsco/release-config": "1.0.48",
     "@newhighsco/stylelint-config": "2.0.28",
     "eslint": "7.18.0",
     "husky": "4.3.8",
