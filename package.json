@@ -41,7 +41,7 @@
     "@newhighsco/next-plugin-svgr": "3.0.14",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
-    "next": "10.0.6",
+    "next": "10.0.7",
     "next-compose-plugins": "2.2.1",
     "next-fonts": "1.5.1",
     "next-optimized-images": "2.6.2",
