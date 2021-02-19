@@ -1782,14 +1782,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.5.3":
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.5.3.tgz#4aad0e123e6c27efa40b50cf0bad7e83eda2a3e2"
-  integrity sha512-T54G/GPbvh/M8VKS03XKZ6TC6XFMzlRZEzmrOaPEL7c1rbzRvHq2mugdW+hcjy8XmKp98HysIeL7YnjezxVkNQ==
+"@newhighsco/chipset@6.5.4":
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.5.4.tgz#1db397c6ccd08c92dc2d5712a2a4c3dbd710c829"
+  integrity sha512-NFjv846eGWz25y4W7jqPda2oRdRBTlrCWx8jI0hUWuGMPDH8cMezRd7sOF8jJ8+DfLLe4obrXRv5awty3Pryiw==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.1"
     "@fullhuman/postcss-purgecss" "4.0.0"
-    "@newhighsco/storybook-preset" "3.2.5"
+    "@newhighsco/storybook-preset" "3.2.6"
     classnames "2.2.6"
     react-device-detect "1.15.0"
     react-ga "3.3.0"
@@ -1833,14 +1833,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.0.60":
-  version "3.0.60"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.60.tgz#2f866c5783cf6e7d27d17a29345151a4e0f8b94d"
-  integrity sha512-Qve5ZqUZr1ZgnQo+toR+UmkhUD5MzxYd+1tYkejE+q9K4UhutO5z4toloeaujvv/FfEcx4C6w8n2xSVMqARgQw==
+"@newhighsco/postcss-config@3.0.61":
+  version "3.0.61"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.61.tgz#199ef782af05615608535f89886e1ec5127bc469"
+  integrity sha512-BuKojCONPq2Kii34QJoMp+7HFpr+dIDI77HDlZEuPZ0KvNbX5qAH4vC3gQYE3pDS+Gpv87DRZF3Uolpyz1LQZw==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.0"
     autoprefixer "10.2.4"
-    caniuse-lite "1.0.30001187"
+    caniuse-lite "1.0.30001189"
     postcss "8.2.6"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
@@ -1862,10 +1862,10 @@
     "@semantic-release/npm" "7.0.10"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.2.5.tgz#a35e584c117922357ad9a1187150ca559f2efa2f"
-  integrity sha512-nz27qqTtGOSYJwPuWHSIzCEelkjSTYzttFn4h5npD+cPKu5dmauT3YovKTPIbB3AvFSQd/PGN3dEUAxRUyPLLA==
+"@newhighsco/storybook-preset@3.2.6":
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.2.6.tgz#19536711d6140a0a52b3e14cf3c5b2fd814cc4bb"
+  integrity sha512-iPLxNLKyvHHMJVAARPzTo6+47bb9OAv11zvCUVi9AvGLrIf4wH3NZ6N0O/H4JpM3dFGi/DrJXwJLhBDvigCpEw==
   dependencies:
     "@storybook/addon-actions" "6.1.18"
     "@storybook/addon-docs" "6.1.18"
@@ -1875,7 +1875,7 @@
     "@svgr/webpack" "5.5.0"
     postcss "8.2.6"
     react-is "17.0.1"
-    sass "1.32.7"
+    sass "1.32.8"
     sass-loader "10.1.1"
 
 "@newhighsco/stylelint-config@2.0.30":
@@ -4814,10 +4814,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001187:
-  version "1.0.30001187"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001187.tgz#5706942631f83baa5a0218b7dfa6ced29f845438"
-  integrity sha512-w7/EP1JRZ9552CyrThUnay2RkZ1DXxKe/Q2swTC4+LElLh9RRYrL1Z+27LlakB8kzY0fSmHw9mc7XYDUKAKWMA==
+caniuse-lite@1.0.30001189:
+  version "1.0.30001189"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001189.tgz#f8547299b9db78d3882b0dea1cae891fed1651e8"
+  integrity sha512-BSfxClP/UWCD0RX1h1L+vLDexNSJY7SfOtbJtW10bcnatfj3BcoietUFYNwWreOCk+SNvGUaNapGqUNPiGAiSA==
 
 caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001111:
   version "1.0.30001122"
@@ -14441,13 +14441,6 @@ sass-loader@10.1.1:
     neo-async "^2.6.2"
     schema-utils "^3.0.0"
     semver "^7.3.2"
-
-sass@1.32.7:
-  version "1.32.7"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.7.tgz#632a9df2b85dc4b346977fcaf2d5e6f2b7039fd8"
-  integrity sha512-C8Z4bjqGWnsYa11o8hpKAuoyFdRhrSHcYjCr+XAWVPSIQqC8mp2f5Dx4em0dKYehPzg5XSekmCjqJnEZbIls9A==
-  dependencies:
-    chokidar ">=2.0.0 <4.0.0"
 
 sass@1.32.8:
   version "1.32.8"
