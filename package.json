@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "4.0.0",
-    "@newhighsco/chipset": "6.5.4",
+    "@newhighsco/chipset": "6.5.5",
     "@newhighsco/next-plugin-svgr": "3.0.15",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
