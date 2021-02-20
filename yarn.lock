@@ -1782,14 +1782,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.5.4":
-  version "6.5.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.5.4.tgz#1db397c6ccd08c92dc2d5712a2a4c3dbd710c829"
-  integrity sha512-NFjv846eGWz25y4W7jqPda2oRdRBTlrCWx8jI0hUWuGMPDH8cMezRd7sOF8jJ8+DfLLe4obrXRv5awty3Pryiw==
+"@newhighsco/chipset@6.5.5":
+  version "6.5.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.5.5.tgz#bb55c49385d4af0b47b571805bc98154f34e1c1f"
+  integrity sha512-vzbpIY+hts5DabkbWkHS/lwOvKOU1hE3hB2Me3nZE1mFqAaKDvY69flyOZTa5BK1to29OZDQtEAMYYMejiyV1Q==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.1"
     "@fullhuman/postcss-purgecss" "4.0.0"
-    "@newhighsco/storybook-preset" "3.2.6"
+    "@newhighsco/storybook-preset" "3.3.0"
     classnames "2.2.6"
     react-device-detect "1.15.0"
     react-ga "3.3.0"
@@ -1862,16 +1862,17 @@
     "@semantic-release/npm" "7.0.10"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@3.2.6":
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.2.6.tgz#19536711d6140a0a52b3e14cf3c5b2fd814cc4bb"
-  integrity sha512-iPLxNLKyvHHMJVAARPzTo6+47bb9OAv11zvCUVi9AvGLrIf4wH3NZ6N0O/H4JpM3dFGi/DrJXwJLhBDvigCpEw==
+"@newhighsco/storybook-preset@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.3.0.tgz#854b2e835521837d68b5a276d7e3200741196f1e"
+  integrity sha512-Ty/3PiHkd2X0cibhVK8RBy0Ike6XGUCauD4oIJDz2cM9nwInsOYBPylkOjroB8WwGX3Fc6LYvVfzXyqeH3AJ1Q==
   dependencies:
     "@storybook/addon-actions" "6.1.18"
     "@storybook/addon-docs" "6.1.18"
     "@storybook/addon-links" "6.1.18"
     "@storybook/addon-postcss" "2.0.0"
     "@storybook/addons" "6.1.18"
+    "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
     postcss "8.2.6"
     react-is "17.0.1"
@@ -2634,6 +2635,11 @@
   integrity sha512-QVj3VbgdCPHO+nrB1zOyEwdr5pLpMyf257Sqk+wR3pcEdewEYoVMP9sxUULBlQqPYSzPVzlZzgyAzGWZlCE/jA==
   dependencies:
     core-js "^3.0.1"
+
+"@storybook/preset-scss@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-scss/-/preset-scss-1.0.3.tgz#8ac834545c642dada0f64f510ef08dfb882e9737"
+  integrity sha512-o9Iz6wxPeNENrQa2mKlsDKynBfqU2uWaRP80HeWp4TkGgf7/x3DVF2O7yi9N0x/PI1qzzTTpxlQ90D62XmpiTw==
 
 "@storybook/router@6.1.18":
   version "6.1.18"
