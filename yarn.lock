@@ -1579,13 +1579,6 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fullhuman/postcss-purgecss@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.0.2.tgz#6e4809293f006957dfa2d6b4fc9c77d26091177e"
-  integrity sha512-Qm8M89v4HVUTBQwuWREtzQojSqAbdp98kALMEw2NTrtrgHVqbLQrdiTBr0DAiNmG3hcqXSEexF/78uNUthMM9w==
-  dependencies:
-    purgecss "^4.0.2"
-
 "@fullhuman/postcss-purgecss@4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.0.3.tgz#55d71712ec1c7a88e0d1ba5f10ce7fb6aa05beb4"
@@ -1732,13 +1725,13 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.5.9":
-  version "6.5.9"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.5.9.tgz#4d1c9dbfdb1ffefd2624b880cc0e9e3c1f77bd0c"
-  integrity sha512-7WN8Vrn6FNfNOcFNfR8Zm4f3wsC8U/8/Al10WgqAqFxwgMLFvqnL9BFmOABHnHxiWJ22L+7Jb486JVQ1M6YTmg==
+"@newhighsco/chipset@6.5.10":
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.5.10.tgz#a537877d69ea2da012db6923e9267b0f425b76d6"
+  integrity sha512-r8kOVBuE+w/P7nXOn2sqdVYz5QibMn7Tot8o/S6nd+eAov7y0RjuqSoaN//PfBZNsq5due9n/ZbS1BSnOHsBnQ==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.1"
-    "@fullhuman/postcss-purgecss" "4.0.2"
+    "@fullhuman/postcss-purgecss" "4.0.3"
     "@newhighsco/storybook-preset" "3.3.5"
     classnames "2.2.6"
     react-device-detect "1.17.0"
@@ -1783,12 +1776,12 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.0.76":
-  version "3.0.76"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.76.tgz#e3909593f2fa388e8444f9639bd6052ade1dbe95"
-  integrity sha512-KphD0dYnNyRvsxE1u3X6IBWaC1dCxnulOHsRubeT+6EmD3hDCrqKsHcpcmHFwUFjz6iRVsOGumDNUXxMgew8yQ==
+"@newhighsco/postcss-config@3.0.77":
+  version "3.0.77"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.77.tgz#9e155b9bcded63729d5507756ec548c9ecc3e5bd"
+  integrity sha512-CTwgRsOxUYxVVMjEB5FRkbboG7B5RpKMqt25L51StwYOTkbJs83P2Zc+N2U58kKhNILWxcndtACT6uTSh4zLdQ==
   dependencies:
-    "@fullhuman/postcss-purgecss" "4.0.2"
+    "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.5"
     caniuse-lite "1.0.30001203"
     postcss "8.2.8"
@@ -13121,16 +13114,6 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-purgecss@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.0.2.tgz#7281f233c08b4f41e1c5d85c66a2d064e6d7e1b3"
-  integrity sha512-6J1zOEAZJX6VbfcaJHgdQf4uPhxVXvHz7dGgWYXLOI9q7QFZ5feh8NZ2+G3ysii/Sr8OyUe5yhQ5Z/xZ5gIRnQ==
-  dependencies:
-    commander "^6.0.0"
-    glob "^7.0.0"
-    postcss "^8.2.1"
-    postcss-selector-parser "^6.0.2"
 
 purgecss@^4.0.3:
   version "4.0.3"
