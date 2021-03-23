@@ -1,3 +1,10 @@
+## [1.20.76](https://github.com/newhighsco/press-start/compare/v1.20.75...v1.20.76) (2021-03-23)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v17.0.2 ([#628](https://github.com/newhighsco/press-start/issues/628)) ([1d146ec](https://github.com/newhighsco/press-start/commit/1d146ec890c2ce5de1b44c00597e1d82a7b7a0c2))
+
 ## [1.20.75](https://github.com/newhighsco/press-start/compare/v1.20.74...v1.20.75) (2021-03-22)
 
 
