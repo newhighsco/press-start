@@ -2473,13 +2473,13 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.83":
-  version "2.2.83"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.83.tgz#4dea54b18e61e6ce547f27c00255da34ee7da397"
-  integrity sha512-JQqdAuU0Y7JHXYQrT/TTwlaTf7HHiDjEbsZDqPk3S/1kw8OEaplBH1ft7VEHtvw5Muzo0Ob+wDWvY2jYLQ7vNA==
+"@newhighsco/eslint-config@2.2.84":
+  version "2.2.84"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.84.tgz#5596479087b1ea78b77dc1f714b1557dbb298e14"
+  integrity sha512-4SrJGt2i6QSHvbfV49AQOoM6D50N1+IojRWHGVI67oj9AH7wh0/yj8gvc8Utc3M2Jvg+fv+OoAJkX/xnSaGRFg==
   dependencies:
     babel-eslint "10.1.0"
-    eslint-config-prettier "8.2.0"
+    eslint-config-prettier "8.3.0"
     eslint-config-standard "16.0.2"
     eslint-config-standard-jsx "10.0.0"
     eslint-config-standard-react "11.0.1"
@@ -2548,14 +2548,14 @@
     sass "1.32.11"
     sass-loader "10.1.1"
 
-"@newhighsco/stylelint-config@2.0.34":
-  version "2.0.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.34.tgz#0b027e9250682c89d1cfb4297bf20249c7490da9"
-  integrity sha512-9lMR4OVsFm8SWNRS0A0jH83ug8iTHHLqUO+gIOUoYgCAn4DmOCDbQaanKxpmzkIaWK2Sq5dB8EMDood9lSfoVA==
+"@newhighsco/stylelint-config@2.0.36":
+  version "2.0.36"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.36.tgz#54b3cfdbd3b2de0aecbf653fee8ff9a322a057ad"
+  integrity sha512-dI5XbEUZX3hLllbIFcIlm9NSUYQzF4HVJ3Jxuu5FCRsopP0YxXrZd9CMnHQkUhGnf7BXRQqL3/1MJBYve8GPcw==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
-    stylelint-config-standard "21.0.0"
+    stylelint-config-standard "22.0.0"
     stylelint-prettier "1.2.0"
     stylelint-scss "3.19.0"
 
@@ -7562,10 +7562,10 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.2.0.tgz#78de77d63bca8e9e59dae75a614b5299925bb7b3"
-  integrity sha512-dWV9EVeSo2qodOPi1iBYU/x6F6diHv8uujxbxr77xExs3zTAlNXvVZKiyLsQGNz7yPV2K49JY5WjPzNIuDc2Bw==
+eslint-config-prettier@8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
+  integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
 eslint-config-standard-jsx@10.0.0:
   version "10.0.0"
@@ -16550,17 +16550,17 @@ stylelint-config-prettier@8.0.2:
   resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-8.0.2.tgz#da9de33da4c56893cbe7e26df239a7374045e14e"
   integrity sha512-TN1l93iVTXpF9NJstlvP7nOu9zY2k+mN0NSFQ/VEGz15ZIP9ohdDZTtCWHs5LjctAhSAzaILULGbgiM0ItId3A==
 
-stylelint-config-recommended@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-4.0.0.tgz#665a0034065e6704d5032ba51bf4efa37d328ef9"
-  integrity sha512-sgna89Ng+25Hr9kmmaIxpGWt2LStVm1xf1807PdcWasiPDaOTkOHRL61sINw0twky7QMzafCGToGDnHT/kTHtQ==
+stylelint-config-recommended@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-5.0.0.tgz#fb5653f495a60b4938f2ad3e77712d9e1039ae78"
+  integrity sha512-c8aubuARSu5A3vEHLBeOSJt1udOdS+1iue7BmJDTSXoCBmfEQmmWX+59vYIj3NQdJBY6a/QRv1ozVFpaB9jaqA==
 
-stylelint-config-standard@21.0.0:
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-21.0.0.tgz#4942cfa27301eb6702fa8fc46a44da35d1a5cfd7"
-  integrity sha512-Yf6mx5oYEbQQJxWuW7X3t1gcxqbUx52qC9SMS3saC2ruOVYEyqmr5zSW6k3wXflDjjFrPhar3kp68ugRopmlzg==
+stylelint-config-standard@22.0.0:
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-22.0.0.tgz#c860be9a13ebbc1b084456fa10527bf13a44addf"
+  integrity sha512-uQVNi87SHjqTm8+4NIP5NMAyY/arXrBgimaaT7skvRfE9u3JKXRK9KBkbr4pVmeciuCcs64kAdjlxfq6Rur7Hw==
   dependencies:
-    stylelint-config-recommended "^4.0.0"
+    stylelint-config-recommended "^5.0.0"
 
 stylelint-prettier@1.2.0:
   version "1.2.0"
