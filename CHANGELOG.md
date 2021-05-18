@@ -1,3 +1,10 @@
+## [1.20.107](https://github.com/newhighsco/press-start/compare/v1.20.106...v1.20.107) (2021-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-transpile-modules to v7.1.1 ([#725](https://github.com/newhighsco/press-start/issues/725)) ([c2faaed](https://github.com/newhighsco/press-start/commit/c2faaede8dbccfe4368c01cdc9cc6da7ca0b1065))
+
 ## [1.20.106](https://github.com/newhighsco/press-start/compare/v1.20.105...v1.20.106) (2021-05-17)
 
 
