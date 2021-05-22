@@ -2457,14 +2457,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.6.0":
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.6.0.tgz#55eaa62dcb105ebd448fe3db355f4b3b568ed71f"
-  integrity sha512-I4Fw8EuwdYRMXjmhxHtaJ+OwwqLGp6xXjCE/a43wnY/jzEULqXHMdCOIgjArbIde6RyqmSuKMjOPvAW8bQDWig==
+"@newhighsco/chipset@6.6.1":
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.6.1.tgz#c32eb90c14c453846ece4d00e281f0dbc5c5dfdc"
+  integrity sha512-nMg1Ed7EDu3EMYQ1Nr7717nF68BOtA3nJul9L16/dfSkqiYj5DKCgs/RmoWr8Fb+fq5TokQZvQN3QZOMAaK+yA==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.2"
     "@fullhuman/postcss-purgecss" "4.0.3"
-    "@newhighsco/storybook-preset" "3.3.20"
+    "@newhighsco/storybook-preset" "3.3.27"
     classnames "2.3.1"
     react-device-detect "1.17.0"
     react-ga "3.3.0"
@@ -2537,10 +2537,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.2"
 
-"@newhighsco/storybook-preset@3.3.20":
-  version "3.3.20"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.3.20.tgz#1ea9cddf31852aae5c23aeb64d79741d83bd5bb8"
-  integrity sha512-TDfnWM/EG8eCVFDRL+Qg93UydFr7Y+XgqFDY15+gdsU44qPgGG9gFOF3grC1hji6qUz47H4YGVzR+J0rs8i6lA==
+"@newhighsco/storybook-preset@3.3.27":
+  version "3.3.27"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.3.27.tgz#5c8755e4aa7fb1aed73f14c56f669644f30f1d63"
+  integrity sha512-muRidP9SE+f7hGpcUKc9lK4fO7Gs0ip1skQLcFTGe17cmDKFeFj8cT/Uf9c6DfTtH82pIPwDmD0yubxQMWtJYg==
   dependencies:
     "@storybook/addon-actions" "6.2.9"
     "@storybook/addon-docs" "6.2.9"
@@ -2549,10 +2549,10 @@
     "@storybook/addons" "6.2.9"
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
-    postcss "8.2.13"
+    postcss "8.3.0"
     react-is "17.0.2"
-    sass "1.32.12"
-    sass-loader "10.1.1"
+    sass "1.34.0"
+    sass-loader "10.2.0"
 
 "@newhighsco/stylelint-config@2.0.38":
   version "2.0.38"
@@ -15566,23 +15566,16 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.1.1.tgz#4ddd5a3d7638e7949065dd6e9c7c04037f7e663d"
-  integrity sha512-W6gVDXAd5hR/WHsPicvZdjAWHBcEJ44UahgxcIE196fW2ong0ZHMPO1kZuI5q0VlvMQZh32gpv69PLWQm70qrw==
+sass-loader@10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.2.0.tgz#3d64c1590f911013b3fa48a0b22a83d5e1494716"
+  integrity sha512-kUceLzC1gIHz0zNJPpqRsJyisWatGYNFRmv2CKZK2/ngMJgLqxTbXwe/hJ85luyvZkgqU3VlJ33UVF2T/0g6mw==
   dependencies:
     klona "^2.0.4"
     loader-utils "^2.0.0"
     neo-async "^2.6.2"
     schema-utils "^3.0.0"
     semver "^7.3.2"
-
-sass@1.32.12:
-  version "1.32.12"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.12.tgz#a2a47ad0f1c168222db5206444a30c12457abb9f"
-  integrity sha512-zmXn03k3hN0KaiVTjohgkg98C3UowhL1/VSGdj4/VAAiMKGQOE80PFPxFP2Kyq0OUskPKcY5lImkhBKEHlypJA==
-  dependencies:
-    chokidar ">=3.0.0 <4.0.0"
 
 sass@1.34.0:
   version "1.34.0"
