@@ -1,3 +1,10 @@
+## [1.20.121](https://github.com/newhighsco/press-start/compare/v1.20.120...v1.20.121) (2021-05-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-sitemap to v1.6.99 ([#749](https://github.com/newhighsco/press-start/issues/749)) ([c67222c](https://github.com/newhighsco/press-start/commit/c67222c94ef736c7d8e347faf3c839e6aa550551))
+
 ## [1.20.120](https://github.com/newhighsco/press-start/compare/v1.20.119...v1.20.120) (2021-05-31)
 
 
