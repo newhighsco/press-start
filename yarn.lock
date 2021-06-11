@@ -2509,15 +2509,15 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.0.110":
-  version "3.0.110"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.110.tgz#97891d06e7ea56f88b3bba812162916288c90109"
-  integrity sha512-sGip3/zp1hzQ72oU858QJOVhvsiYnKXXfKlJwjuGExdXHmmVzvIS1CqhX3CEo9kPfm+TVLo1pAhvuH+87mc1yA==
+"@newhighsco/postcss-config@3.0.111":
+  version "3.0.111"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.111.tgz#33e036f9fce3844bfd1140d130e1ea484d271749"
+  integrity sha512-uLqzklBy9MRxz3lJ+HrLkMpBY7/ZvN246wxyAXZoc1AWYvYRKWefPThIJr6CJkRSiIZMiIMQ7v0iXeD0iwap4A==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.6"
     caniuse-lite "1.0.30001236"
-    postcss "8.3.1"
+    postcss "8.3.2"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -14669,10 +14669,10 @@ postcss@8.3.0, postcss@^8.2.15:
     nanoid "^3.1.23"
     source-map-js "^0.6.2"
 
-postcss@8.3.1:
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.1.tgz#71f380151c227f83b898294a46481f689f86b70a"
-  integrity sha512-9qH0MGjsSm+fjxOi3GnwViL1otfi7qkj+l/WX5gcRGmZNGsIcqc+A5fBkE6PUobEQK4APqYVaES+B3Uti98TCw==
+postcss@8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.2.tgz#ed3ec489f5428af5740cd6effcc216b4d455ee64"
+  integrity sha512-y1FK/AWdZlBF5lusS5j5l4/vF67+vQZt1SXPVJ32y1kRGDQyrs1zk32hG1cInRTu14P0V+orPz+ifwW/7rR4bg==
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
