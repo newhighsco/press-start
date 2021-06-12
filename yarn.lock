@@ -2457,15 +2457,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/chipset@6.7.3":
-  version "6.7.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.7.3.tgz#2acf899a5c4f4cc39950dfd7fcead7c2851c91e8"
-  integrity sha512-O/A7NYGR3cwf7d2H2bHkug68EsZrWY9L7ONGybmIDt+RTFPHyWDRXbDQD44Hvf5uZeBNq1dOKANvH9Jw1q51Tg==
+"@newhighsco/chipset@6.7.4":
+  version "6.7.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.7.4.tgz#bf93022094da501b772ee223cf36597d1b5e5df8"
+  integrity sha512-wA+x7Te/qnWO17QboYRC5pJxYW/Xr4zQ8nABWAy7XzK4WW4La0dJObnzxX1UqVjGdu57kuDxDFki8OGDuZL8gw==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.2"
     "@fullhuman/postcss-purgecss" "4.0.3"
-    "@newhighsco/storybook-preset" "4.0.0"
-    caniuse-lite "1.0.30001236"
+    "@newhighsco/storybook-preset" "4.0.3"
+    caniuse-lite "1.0.30001237"
     classnames "2.3.1"
     react-device-detect "1.17.0"
     react-ga "3.3.0"
@@ -2509,14 +2509,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.0.111":
-  version "3.0.111"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.111.tgz#33e036f9fce3844bfd1140d130e1ea484d271749"
-  integrity sha512-uLqzklBy9MRxz3lJ+HrLkMpBY7/ZvN246wxyAXZoc1AWYvYRKWefPThIJr6CJkRSiIZMiIMQ7v0iXeD0iwap4A==
+"@newhighsco/postcss-config@3.0.112":
+  version "3.0.112"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.112.tgz#090e76877e14b15c00d528020ec9f3f878db173b"
+  integrity sha512-7Xgqz8U7NbyZrDxbR7RYzlwf5RdtmvSCIeezPY44ZiIYpy14/ePzbEH1+nAoX5iQ4pNZhlsH/z44TSSLgcHBgQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.6"
-    caniuse-lite "1.0.30001236"
+    caniuse-lite "1.0.30001237"
     postcss "8.3.2"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
@@ -2538,10 +2538,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.0.tgz#5e57cc7710e938c883837140c078ad7fe0b76bd4"
-  integrity sha512-PAfRbiy7NPGO8yaNkOptg73gWFIwe2YbA/DJ1xfW1Y3W9ic2Dav52gVkYLrgG1HtVx7tMW0e9J2AlbTbxaTGgA==
+"@newhighsco/storybook-preset@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.3.tgz#36edb06e1dae66068ec77158a0f230c0e967c884"
+  integrity sha512-Ns0LddjrvCRd06Yy7R0aVcY8b8Aok9LLjqt9Emnw/ZjWn+RjO1114ifpY+/YTBbkvTj9+MhSKt/eeDDMRIMrhA==
   dependencies:
     "@storybook/addon-actions" "6.2.9"
     "@storybook/addon-docs" "6.2.9"
@@ -2551,10 +2551,10 @@
     "@storybook/builder-webpack5" "6.2.9"
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
-    postcss "8.3.0"
+    postcss "8.3.2"
     react-is "17.0.2"
     sass "1.34.1"
-    sass-loader "12.0.0"
+    sass-loader "12.1.0"
 
 "@newhighsco/stylelint-config@2.0.39":
   version "2.0.39"
@@ -5841,10 +5841,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001236:
-  version "1.0.30001236"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001236.tgz#0a80de4cdf62e1770bb46a30d884fc8d633e3958"
-  integrity sha512-o0PRQSrSCGJKCPZcgMzl5fUaj5xHe8qA2m4QRvnyY4e1lITqoNkr7q/Oh1NcpGSy0Th97UZ35yoKcINPoq7YOQ==
+caniuse-lite@1.0.30001237:
+  version "1.0.30001237"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001237.tgz#4b7783661515b8e7151fc6376cfd97f0e427b9e5"
+  integrity sha512-pDHgRndit6p1NR2GhzMbQ6CkRrp4VKuSsqbcLeOQppYPKOYkKT/6ZvZDvKJUqcmtyWIAHuZq3SVS2vc1egCZzw==
 
 caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001111:
   version "1.0.30001122"
@@ -14660,15 +14660,6 @@ postcss@8.2.13:
     nanoid "^3.1.22"
     source-map "^0.6.1"
 
-postcss@8.3.0, postcss@^8.2.15:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.0.tgz#b1a713f6172ca427e3f05ef1303de8b65683325f"
-  integrity sha512-+ogXpdAjWGa+fdYY5BQ96V/6tAo+TdSSIMP5huJBIygdWwKtVoB5JWZ7yUd4xZ8r+8Kvvx4nyg/PQ071H4UtcQ==
-  dependencies:
-    colorette "^1.2.2"
-    nanoid "^3.1.23"
-    source-map-js "^0.6.2"
-
 postcss@8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.2.tgz#ed3ec489f5428af5740cd6effcc216b4d455ee64"
@@ -14704,6 +14695,15 @@ postcss@^8.2.1:
     colorette "^1.2.1"
     nanoid "^3.1.20"
     source-map "^0.6.1"
+
+postcss@^8.2.15:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.0.tgz#b1a713f6172ca427e3f05ef1303de8b65683325f"
+  integrity sha512-+ogXpdAjWGa+fdYY5BQ96V/6tAo+TdSSIMP5huJBIygdWwKtVoB5JWZ7yUd4xZ8r+8Kvvx4nyg/PQ071H4UtcQ==
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -16011,10 +16011,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.0.0.tgz#ba91df5725cb9676c8e0937002a647ab011eb94a"
-  integrity sha512-LJQMyDdNdhcvoO2gJFw7KpTaioVFDeRJOuatRDUNgCIqyu4s4kgDsNofdGzAZB1zFOgo/p3fy+aR/uGXamcJBg==
+sass-loader@12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.1.0.tgz#b73324622231009da6fba61ab76013256380d201"
+  integrity sha512-FVJZ9kxVRYNZTIe2xhw93n3xJNYZADr+q69/s98l9nTCrWASo+DR2Ot0s5xTKQDDEosUkatsGeHxcH4QBp5bSg==
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
