@@ -12,7 +12,10 @@ const env = envConfig[process.env.VERCEL_GITHUB_COMMIT_REF] || envConfig.preview
 
 const nextConfig = {
   poweredByHeader: false,
-  env
+  env,
+  eslint: {
+    ignoreDuringBuilds: true
+  }
 }
 
 module.exports = withPlugins(
