@@ -1,3 +1,12 @@
+## [1.20.142](https://github.com/newhighsco/press-start/compare/v1.20.141...v1.20.142) (2021-06-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v11 ([debf073](https://github.com/newhighsco/press-start/commit/debf0730ccc13167b1558a17d0d8cee2fc93c633))
+* **deps:** update dependency next-transpile-modules to v8 ([92ae81e](https://github.com/newhighsco/press-start/commit/92ae81e268f3f9cb52d141ef182da0c9a96528ec))
+* **next:** ignore eslint errors on build ([ad5f637](https://github.com/newhighsco/press-start/commit/ad5f6378a9852930c0890143e98636969574de63))
+
 ## [1.20.141](https://github.com/newhighsco/press-start/compare/v1.20.140...v1.20.141) (2021-06-21)
 
 
