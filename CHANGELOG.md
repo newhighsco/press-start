@@ -1,3 +1,10 @@
+## [1.20.146](https://github.com/newhighsco/press-start/compare/v1.20.145...v1.20.146) (2021-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#799](https://github.com/newhighsco/press-start/issues/799)) ([fb5effa](https://github.com/newhighsco/press-start/commit/fb5effa82ef0ba8b6c7a9143271aaca5db676219))
+
 ## [1.20.145](https://github.com/newhighsco/press-start/compare/v1.20.144...v1.20.145) (2021-06-26)
 
 
