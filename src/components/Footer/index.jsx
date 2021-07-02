@@ -10,7 +10,7 @@ import {
 } from '@newhighsco/chipset'
 import icons from '../../images/icons'
 import { config, socialLinks } from '../../../site.config'
-import { links } from '../../data/footer.json'
+import footer from '../../data/footer.json'
 
 import styles from './Footer.module.scss'
 
@@ -33,7 +33,7 @@ const Footer = () => (
     <Grid valign="middle">
       <Grid.Item sizes={['one-half']}>
         <Navigation
-          links={links}
+          links={footer.links}
           renderLink={({ href, children, ...rest }) => (
             <Link href={href} passHref>
               <SmartLink {...rest}>{children}</SmartLink>

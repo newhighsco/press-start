@@ -7,7 +7,7 @@ import {
   SmartLink
 } from '@newhighsco/chipset'
 import { LogoLockup } from '..'
-import { links } from '../../data/header.json'
+import header from '../../data/header.json'
 
 import styles from './Header.module.scss'
 
@@ -30,7 +30,7 @@ const Header = () => (
         </Grid.Item>
         <Grid.Item className={styles.links}>
           <Navigation
-            links={links}
+            links={header.links}
             renderLink={({ href, children, ...rest }) => (
               <Link href={href} passHref>
                 <SmartLink {...rest}>{children}</SmartLink>
