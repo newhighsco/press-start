@@ -1,3 +1,10 @@
+## [1.20.148](https://github.com/newhighsco/press-start/compare/v1.20.147...v1.20.148) (2021-07-02)
+
+
+### Bug Fixes
+
+* don't use default imports on JSON ([88c4a6f](https://github.com/newhighsco/press-start/commit/88c4a6fb7943a3a18d0eae6eee37b5acf6b7e84d))
+
 ## [1.20.147](https://github.com/newhighsco/press-start/compare/v1.20.146...v1.20.147) (2021-07-02)
 
 
