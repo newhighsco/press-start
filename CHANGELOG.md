@@ -1,3 +1,10 @@
+## [1.20.147](https://github.com/newhighsco/press-start/compare/v1.20.146...v1.20.147) (2021-07-02)
+
+
+### Bug Fixes
+
+* link to sitemap.xml ([2c63d05](https://github.com/newhighsco/press-start/commit/2c63d055b8b961451c81d9655d290999e340bf57))
+
 ## [1.20.146](https://github.com/newhighsco/press-start/compare/v1.20.145...v1.20.146) (2021-06-29)
 
 
