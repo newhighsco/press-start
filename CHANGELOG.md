@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/newhighsco/press-start/compare/v1.21.1...v1.21.2) (2021-07-05)
+
+
+### Bug Fixes
+
+* **icons:** don't export all icons ([19f8fd6](https://github.com/newhighsco/press-start/commit/19f8fd6bc18008369462c9aa3cbdc4d31b4b2a92))
+
 ## [1.21.1](https://github.com/newhighsco/press-start/compare/v1.21.0...v1.21.1) (2021-07-05)
 
 
