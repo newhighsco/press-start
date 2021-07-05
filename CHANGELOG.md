@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/newhighsco/press-start/compare/v1.20.149...v1.21.0) (2021-07-05)
+
+
+### Features
+
+* remove custom _document ([bbac927](https://github.com/newhighsco/press-start/commit/bbac9276e7ad8c6449e624b61efee1c68de9e28f))
+
 ## [1.20.149](https://github.com/newhighsco/press-start/compare/v1.20.148...v1.20.149) (2021-07-04)
 
 
