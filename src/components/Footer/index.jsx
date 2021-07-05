@@ -8,7 +8,7 @@ import {
   SmartLink,
   Navigation
 } from '@newhighsco/chipset'
-import icons from '../../images/icons'
+import { ReactComponent as GithubIcon } from '../../images/icons/github.svg'
 import { config, socialLinks } from '../../../site.config'
 import footer from '../../data/footer.json'
 
@@ -18,7 +18,7 @@ const iconLinks = [
   {
     href: socialLinks.github,
     text: `View ${config.name} on Github`,
-    icon: icons('github'),
+    icon: GithubIcon,
     target: '_blank'
   }
 ]
