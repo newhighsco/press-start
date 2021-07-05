@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/newhighsco/press-start/compare/v1.21.0...v1.21.1) (2021-07-05)
+
+
+### Bug Fixes
+
+* restore missing CSS ([920cff0](https://github.com/newhighsco/press-start/commit/920cff034a863fd1850caeee23b41af452685f0c))
+
 # [1.21.0](https://github.com/newhighsco/press-start/compare/v1.20.149...v1.21.0) (2021-07-05)
 
 
