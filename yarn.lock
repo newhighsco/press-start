@@ -2699,14 +2699,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.3.tgz#e4a8ee575fbe5a21bc9df809a4998e1959713524"
   integrity sha512-iV6oB/iFrObsOBVQIAsV2PBDPSm2cLktnKEvT0k9AjiL15+R6I40OIddzBDve0buW1i/zDNtWJj5WH/P9ugQcw==
 
-"@newhighsco/chipset@6.7.13":
-  version "6.7.13"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.7.13.tgz#f7abe08a91f35fec1d2ca1f2a08250ba2eb28a9d"
-  integrity sha512-qWsWF+SulKurJYNimQxdw0r9epEebVACUyRYKJhNt6k4m/sS1dDTuMme0W7tMYYWKMHIa5Ha0uZ3dQD6gpkexQ==
+"@newhighsco/chipset@6.7.14":
+  version "6.7.14"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.7.14.tgz#3f1178d2caf96957c1d455b414d510bc553ed478"
+  integrity sha512-L1CzWsjnOmhhJmgEXNMJSdbldhNdzd3C3wdGJEk7A4zhWWujjMHNh4oWJ4T0f0gHitotC5uuSW9O2K6kamkfPQ==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.2"
     "@fullhuman/postcss-purgecss" "4.0.3"
-    "@newhighsco/storybook-preset" "4.0.10"
+    "@newhighsco/storybook-preset" "4.0.11"
     caniuse-lite "1.0.30001243"
     classnames "2.3.1"
     react-device-detect "1.17.0"
@@ -2781,10 +2781,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.0.10":
-  version "4.0.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.10.tgz#cb5d6df6d198a7b122aa3ac99d0961b7b6a58b5a"
-  integrity sha512-eew5941TqenN0XdqbZ5ngb3d2lw3d7siJ0OFYnT7bezHpe4att8Gj5Rni3WFAnLELO1MRxV6S1SW5Ch7LBXKqw==
+"@newhighsco/storybook-preset@4.0.11":
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.11.tgz#e844a2cbde1cab08eec04a730ae9fcb42380979d"
+  integrity sha512-4y8oJz8/mPgXTRlpgAkKGztpgw7ceGutDtNsqlM7K+xxMQPgCwSRbksoegfDVsOGrnt1PGzQ2prjAt6fiCcikQ==
   dependencies:
     "@storybook/addon-actions" "6.3.3"
     "@storybook/addon-docs" "6.3.3"
@@ -2797,7 +2797,7 @@
     "@svgr/webpack" "5.5.0"
     postcss "8.3.5"
     react-is "17.0.2"
-    sass "1.35.1"
+    sass "1.35.2"
     sass-loader "12.1.0"
 
 "@newhighsco/stylelint-config@2.0.41":
@@ -16333,13 +16333,6 @@ sass-loader@12.1.0:
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
-
-sass@1.35.1:
-  version "1.35.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.35.1.tgz#90ecf774dfe68f07b6193077e3b42fb154b9e1cd"
-  integrity sha512-oCisuQJstxMcacOPmxLNiLlj4cUyN2+8xJnG7VanRoh2GOLr9RqkvI4AxA4a6LHVg/rsu+PmxXeGhrdSF9jCiQ==
-  dependencies:
-    chokidar ">=3.0.0 <4.0.0"
 
 sass@1.35.2:
   version "1.35.2"
