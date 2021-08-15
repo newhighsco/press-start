@@ -15,6 +15,9 @@ const nextConfig = {
   env,
   eslint: {
     ignoreDuringBuilds: true
+  },
+  images: {
+    disableStaticImages: true
   }
 }
 
