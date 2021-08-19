@@ -2777,14 +2777,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.3.tgz#e4a8ee575fbe5a21bc9df809a4998e1959713524"
   integrity sha512-iV6oB/iFrObsOBVQIAsV2PBDPSm2cLktnKEvT0k9AjiL15+R6I40OIddzBDve0buW1i/zDNtWJj5WH/P9ugQcw==
 
-"@newhighsco/chipset@6.7.29":
-  version "6.7.29"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.7.29.tgz#efe78efaf44c1ddef9adeadbf16f5b3dcac15691"
-  integrity sha512-AgbTwIgSIUDx9Q+eebXAJkwjGIr+ogAXJZAwN2aBkOyKDt7ZA+oYczDwcZbmWuOdQvjwWeRTf4GcG9/7Cp7u9w==
+"@newhighsco/chipset@6.7.31":
+  version "6.7.31"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.7.31.tgz#57190859a775a789d0f646bd8192c52136bb5101"
+  integrity sha512-WIas9MefOsmBc5sX3s/oufpRxNpbvO4yRSYSEEk6LgV7OFq8SpZ9eSpFww3EIG4w0DfOFnwb+LAv+yCb4ri+Pw==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.2"
     "@fullhuman/postcss-purgecss" "4.0.3"
-    "@newhighsco/storybook-preset" "4.0.21"
+    "@newhighsco/storybook-preset" "4.1.0"
     caniuse-lite "1.0.30001251"
     classnames "2.3.1"
     react-device-detect "1.17.0"
@@ -2859,12 +2859,13 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.0.21":
-  version "4.0.21"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.21.tgz#8301c703e723d268c106c563bc6faea6b065d795"
-  integrity sha512-J3ntoceA3l6PyIUQ6bVIiyq7zWtxIesUdtxaaOPGjzHVT4VD7u7R6trxp4f8q9m8DifXRkSpDcIAJEXrVA8FRw==
+"@newhighsco/storybook-preset@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.1.0.tgz#24a3c37b4fec88ec6926e146b6648a85c581b1a5"
+  integrity sha512-f1zwJibiU1azYHxaMU5nT2VkM4TxKMRJUioBXVGNB5JoxpnDFvmHonWGP7AkhXwfsDFRXZvSP5SZbO/lfNBY9Q==
   dependencies:
     "@storybook/addon-actions" "6.3.7"
+    "@storybook/addon-backgrounds" "6.3.7"
     "@storybook/addon-docs" "6.3.7"
     "@storybook/addon-links" "6.3.7"
     "@storybook/addon-postcss" "2.0.0"
@@ -3439,6 +3440,24 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
     uuid-browser "^3.1.0"
+
+"@storybook/addon-backgrounds@6.3.7":
+  version "6.3.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-6.3.7.tgz#b8ed464cf1000f77678570912640972c74129a2e"
+  integrity sha512-NH95pDNILgCXeegbckG+P3zxT5SPmgkAq29P+e3gX7YBOTc6885YCFMJLFpuDMwW4lA0ovXosp4PaUHLsBnLDg==
+  dependencies:
+    "@storybook/addons" "6.3.7"
+    "@storybook/api" "6.3.7"
+    "@storybook/client-logger" "6.3.7"
+    "@storybook/components" "6.3.7"
+    "@storybook/core-events" "6.3.7"
+    "@storybook/theming" "6.3.7"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    memoizerific "^1.11.3"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
 
 "@storybook/addon-docs@6.3.7":
   version "6.3.7"
