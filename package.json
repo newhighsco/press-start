@@ -27,13 +27,13 @@
     "start": "next dev",
     "build": "next build && next export --outdir build",
     "postbuild": "next-sitemap",
-    "test": "npm run lint",
+    "test": "yarn lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
     "lint:css": "stylelint '**/*.{css,scss}' --cache",
     "format": "npm-run-all --parallel format:*",
-    "format:js": "npm run lint:js -- --fix",
-    "format:css": "npm run lint:css -- --fix"
+    "format:js": "yarn lint:js --fix",
+    "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "4.0.3",
