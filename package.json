@@ -27,18 +27,18 @@
     "start": "next dev",
     "build": "next build && next export --outdir build",
     "postbuild": "next-sitemap",
-    "test": "npm run lint",
+    "test": "yarn lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
     "lint:css": "stylelint '**/*.{css,scss}' --cache",
     "format": "npm-run-all --parallel format:*",
-    "format:js": "npm run lint:js -- --fix",
-    "format:css": "npm run lint:css -- --fix"
+    "format:js": "yarn lint:js --fix",
+    "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "4.0.3",
-    "@newhighsco/chipset": "6.7.35",
-    "@newhighsco/next-plugin-svgr": "3.0.26",
+    "@newhighsco/chipset": "6.7.36",
+    "@newhighsco/next-plugin-svgr": "3.0.27",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
     "next": "11.1.2",
@@ -49,6 +49,8 @@
     "next-sitemap": "1.6.164",
     "next-transpile-modules": "8.0.0",
     "next-videos": "1.4.0",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-preset-env": "6.7.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "1.38.2"
