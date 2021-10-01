@@ -23,3 +23,6 @@ yarn-error.log
 # Project specific
 .eslintcache
 .stylelintcache
+.next
+public/robots.txt
+public/sitemap.xml

@@ -1,0 +1,24 @@
+@use '~@newhighsco/chipset/styles/normalize';
+@use '@styles/breakpoints.module';
+@use '@styles/colors.module';
+@use '@styles/fonts.module';
+@use '@styles/font-faces';
+
+body {
+  background-color: colors.$white;
+  color: colors.$black;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: fonts.$body;
+  font-weight: normal;
+  min-width: breakpoints.$mobile;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
+}

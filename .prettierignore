@@ -1,10 +1,5 @@
 # dependencies
 /node_modules
 
-# production
-/.next
-/build
-/src/data
-
 # misc
 npm-debug.log*
