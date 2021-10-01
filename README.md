@@ -1,40 +1,14 @@
-# ⚡️ Press Start [![Github version](https://img.shields.io/github/v/release/newhighsco/press-start)](https://github.com/newhighsco/press-start/releases)
+# ⚡️ Press Start [![NPM version](https://img.shields.io/npm/v/@newhighsco/press-start.svg)](https://npmjs.com/@newhighsco/press-start)
+
+[Chipset](https://chipset.newhighsco.re/) + Next.js site starter
+
+## Usage
 
 Get a theme-able Next.js site up and running quickly
 
-## Setup
-
-Install dependencies
-
 ```
-nvm install
-yarn install
+npx create-next-app -e https://github.com/newhighsco/press-start --example-path template
 ```
 
-## Run
-
-All project processes can be started using the following:
-
-```
-yarn start
-```
-
-## Testing
-
-Runs all the automated QA tools
-
-This can be run using:
-
-```
-yarn test
-```
-
-## Build
-
-Generate a production build of the site using the following:
-
-```
-yarn build
-```
 
 ## [CHANGELOG](CHANGELOG.md)
