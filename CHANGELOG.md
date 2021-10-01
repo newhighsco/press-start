@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/newhighsco/press-start/compare/v1.21.57...v2.0.0) (2021-10-01)
+
+
+### Features
+
+* publish package and move template ([#929](https://github.com/newhighsco/press-start/issues/929)) ([f32f780](https://github.com/newhighsco/press-start/commit/f32f78037df5388b5fe6771cf555e78a62a3c60e))
+
+
+### BREAKING CHANGES
+
+* This repository is no longer a Github project template and is instead a template for `npx create-next-app`
+
 ## [1.21.57](https://github.com/newhighsco/press-start/compare/v1.21.56...v1.21.57) (2021-09-17)
 
 
