@@ -1319,6 +1319,13 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
+"@newhighsco/press-start@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.0.1.tgz#c1aeab918716ae5c8f788435ed777b9fa2bc2232"
+  integrity sha512-zdj699vhlVvWdfWUoIMsLis+ZB0YOQQIw3pmCHq0e/g2vRLsnvg+86Jm37E+J7ZjgpxEbUYOWtmWClDUOBIPQQ==
+  dependencies:
+    next-seo "4.27.0"
+
 "@newhighsco/prettier-config@2.0.14":
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.14.tgz#947debbd11494d33e4d4ec055eb20548b74c95fc"
