@@ -17,7 +17,7 @@ const HomePage = ({ meta }) => (
       url={url}
       sameAs={[socialLinks.twitter]}
     />
-    <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />
+    {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <Prose>
       <p>Get a theme-able Next.js site up and running quickly</p>
     </Prose>

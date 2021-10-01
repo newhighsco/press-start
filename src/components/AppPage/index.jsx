@@ -7,38 +7,39 @@ import { SiteContainer, ThemeProvider } from '@newhighsco/chipset'
 const AppPage = ({ Component, pageProps, theme, config, meta }) => {
   const { name, description, openGraphImage, twitterHandle, themeColor, logo } =
     config
+  const icon = logo?.vector || logo?.bitmap
   const url = process.env.NEXT_PUBLIC_SITE_URL
 
   meta = {
     ...meta,
-    titleTemplate: `%s | ${name}`,
+    titleTemplate: name && `%s | ${name}`,
     description,
     openGraph: {
       site_name: name,
       type: 'website',
-      images: [{ url: urlJoin(url, openGraphImage) }]
+      ...(openGraphImage && { images: [{ url: urlJoin(url, openGraphImage) }] })
     },
-    twitter: {
+    twitter: twitterHandle && {
       cardType: 'summary',
       site: `@${twitterHandle}`,
       handle: `@${twitterHandle}`
     },
     additionalMetaTags: [
       ...(meta?.additionalMetaTags || []),
-      { name: 'theme-color', content: themeColor }
-    ],
+      themeColor && { name: 'theme-color', content: themeColor }
+    ].filter(Boolean),
     additionalLinkTags: [
       ...(meta?.additionalLinkTags || []),
-      {
+      icon && {
         rel: 'icon',
-        href: logo.vector
+        href: icon
       },
       {
         rel: 'sitemap',
         type: 'application/xml',
         href: '/sitemap.xml'
       }
-    ]
+    ].filter(Boolean)
   }
 
   return (
