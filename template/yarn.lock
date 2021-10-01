@@ -1257,30 +1257,29 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.3.tgz#e4a8ee575fbe5a21bc9df809a4998e1959713524"
   integrity sha512-iV6oB/iFrObsOBVQIAsV2PBDPSm2cLktnKEvT0k9AjiL15+R6I40OIddzBDve0buW1i/zDNtWJj5WH/P9ugQcw==
 
-"@newhighsco/chipset@6.10.0":
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.10.0.tgz#8fc3b3518fc441c6a4dca4fa25bef1b1661c7e70"
-  integrity sha512-zDyYNgh/klh0B3vb9fj2UoIkfQjsJWkX3lg/x4Mgt+p9/Z7gQprxS2y6sW3cIPLF5sgu1SZCYUdBN0KT8UaICA==
+"@newhighsco/chipset@6.11.0":
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.11.0.tgz#b74cb684423af103e8cabcedd9a8d61d82da3c8d"
+  integrity sha512-7qYI/3et7reCbGppEgBVuGyIhvGq+171LRtj8VAJ7iXTYkKHJGRoIMtWKi0YA0PvWP/KZUWqINPDg0cmWJl39Q==
   dependencies:
     "@dr.pogodin/react-themes" "1.3.3"
     classnames "2.3.1"
     react-device-detect "2.0.0"
-    react-ga "3.3.0"
 
-"@newhighsco/commitlint-config@1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.14.tgz#b3229e4b220732fe5989e233a94863904eca65ca"
-  integrity sha512-FUC5zWkIzgyh1M+ggjVwtFq0CtSoNfvGEDrls6fTA1z1RIt26THnXphAXM/lGeml9LricV6zBnnPOOAzCvC+kg==
+"@newhighsco/commitlint-config@1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.15.tgz#e8258f32a7bbd23879f2d60203861566a6a7794e"
+  integrity sha512-6SuqGnLeLAxk6GgGL+N6k8lGyMQlqYpwEj+MbVk/wjO26FQ04HmlN3UUuUav3UBKcil4BCFIWDhsZcmx+Drq0g==
 
 "@newhighsco/editor-config@1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.28":
-  version "2.3.28"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.28.tgz#55415d0cb4e8c615594e56fe61934063e0ad2cbb"
-  integrity sha512-9c4FgDSQ3blVBZROdXHnPjWO5QgrLkNmVe6LKywYJmXjcVktLpCsS2jWag3KDPC+SjS06ULt/ZqxovEH/qeJeg==
+"@newhighsco/eslint-config@2.3.30":
+  version "2.3.30"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.30.tgz#ea6bfc868a949ba9566cd654135b6596b1414024"
+  integrity sha512-OKtuImLDA26dIi7DOkt2XbLKfyQO3IL99wmenSY/UTQ9yZ7Ep9DmUvv7oz2pm1+j8p3G8umrMYhHPiROxd2H+w==
   dependencies:
     "@babel/core" "7.15.5"
     "@babel/eslint-parser" "7.15.7"
@@ -1295,7 +1294,7 @@
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "4.0.0"
     eslint-plugin-promise "5.1.0"
-    eslint-plugin-react "7.25.3"
+    eslint-plugin-react "7.26.1"
     eslint-plugin-standard "4.1.0"
 
 "@newhighsco/next-plugin-svgr@3.0.27":
@@ -1307,14 +1306,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.0.tgz#75b0a9182be5c4e9c1c9adfe8f21e4f6a9098d88"
-  integrity sha512-SujJvKFc4s3gtVvOtVRsOXqfme/XWaBQWu7gUWTNQqvyIAqHoWCXEAuVRGC8pY0O74ctLROSfWbrGglPIc90ag==
+"@newhighsco/postcss-config@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.1.tgz#1d3484310bc4e80318d039c28d96872b4ac96e25"
+  integrity sha512-ZezTt4i1O40AvHcXkYgNTeDfOE019ylRiAlxaByntfee0FS+grNL2KZ755pXDYx2QmQZcRAFVstlniXxL3OLvA==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.3.6"
-    caniuse-lite "1.0.30001261"
+    caniuse-lite "1.0.30001263"
     postcss "8.3.8"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
@@ -1331,15 +1330,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.14.tgz#947debbd11494d33e4d4ec055eb20548b74c95fc"
   integrity sha512-Vrh2QM6JBp7YpjJcAYkKmB5HPNIwVBdxYcFNZ5AeqmYRFxpOoww4qrsXc/uQuvd43fy3SSzskL9LxnPCUbKX3w==
 
-"@newhighsco/release-config@1.0.68":
-  version "1.0.68"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.68.tgz#a089dc56dd24146a219fbea75851b7763848d367"
-  integrity sha512-kMetQKpXZrqoEC6XPTpyXiA92d10UN8ameFEBHy5zygMuclpMz54wCHNiuvG2nHn4ggoNvG6ilzaEx4JiG8TTQ==
+"@newhighsco/release-config@1.0.71":
+  version "1.0.71"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.71.tgz#7333d462a74b8988c6b78c0d9befe7bd043fb0d8"
+  integrity sha512-c4/esD4IbRu77RrmNpwXI/LVfUZsZyXIO3Na2GiaQibMXg+rtCfFLYluGylmfBCXPIc62+ugQtGE1KOt1rpjnw==
   dependencies:
-    "@semantic-release/changelog" "5.0.1"
+    "@semantic-release/changelog" "6.0.0"
     "@semantic-release/commit-analyzer" "9.0.1"
-    "@semantic-release/git" "9.0.1"
-    "@semantic-release/github" "8.0.0"
+    "@semantic-release/git" "10.0.0"
+    "@semantic-release/github" "8.0.1"
     "@semantic-release/npm" "8.0.0"
     "@semantic-release/release-notes-generator" "10.0.2"
 
@@ -1692,10 +1691,10 @@
   dependencies:
     "@octokit/openapi-types" "^10.6.3"
 
-"@semantic-release/changelog@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-5.0.1.tgz#50a84b63e5d391b7debfe021421589fa2bcdafe4"
-  integrity sha512-unvqHo5jk4dvAf2nZ3aw4imrlwQ2I50eVVvq9D47Qc3R+keNqepx1vDYwkjF8guFXnOYaYcR28yrZWno1hFbiw==
+"@semantic-release/changelog@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-6.0.0.tgz#b16636009bfbde9c09c6c1b89463af257d4a7142"
+  integrity sha512-X01Me+QVMykvILockNGlXXl3dgr1QqpbRQsknQoOJQCXQGXoqY3DNQ3rBQuI8/SUK7RZwYLctg0NbPNArlo6eQ==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^3.0.0"
@@ -1725,10 +1724,10 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-3.0.0.tgz#30a3b97bbb5844d695eb22f9d3aa40f6a92770c2"
   integrity sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==
 
-"@semantic-release/git@9.0.1":
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-9.0.1.tgz#7b5486578460084d8914c1aa4c4fff5087afa32a"
-  integrity sha512-75P03s9v0xfrH9ffhDVWRIX0fgWBvJMmXhUU0rMTKYz47oMXU5O95M/ocgIKnVJlWZYoC+LpIe4Ye6ev8CrlUQ==
+"@semantic-release/git@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-10.0.0.tgz#41dda434e9c2fe222d030f12060e6f5a8696e7ba"
+  integrity sha512-/BljvngXJzwbFFJouxHHvSzAhi5iaucF7l0kQPszD4m7Y79+FHyvQl5Q/HK7T/e8MIwU9hz321KjOZn9yfSpPg==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^3.0.0"
@@ -1739,29 +1738,7 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.0.tgz#154586837f29b7ff8033f177e40dc14ce2c66570"
-  integrity sha512-TSDlqWeUo7fWlbp6SAMu0T/980s3/SC155ua4rhFj89hC2MYVXDI8o7Mgc5Qw21phQb6+PxHIe5DbFjg9CbeNQ==
-  dependencies:
-    "@octokit/rest" "^18.0.0"
-    "@semantic-release/error" "^2.2.0"
-    aggregate-error "^3.0.0"
-    bottleneck "^2.18.1"
-    debug "^4.0.0"
-    dir-glob "^3.0.0"
-    fs-extra "^10.0.0"
-    globby "^11.0.0"
-    http-proxy-agent "^4.0.0"
-    https-proxy-agent "^5.0.0"
-    issue-parser "^6.0.0"
-    lodash "^4.17.4"
-    mime "^2.4.3"
-    p-filter "^2.0.0"
-    p-retry "^4.0.0"
-    url-join "^4.0.0"
-
-"@semantic-release/github@^8.0.0":
+"@semantic-release/github@8.0.1", "@semantic-release/github@^8.0.0":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.1.tgz#58d6bc5cdb4b4beaa0a106a9a9ad420318144e4f"
   integrity sha512-T01lfh4yBZodAeo8t0U+W5hmPYR9BdnfwLDerXnGaYeLXm8+KMx4mQEBAf/UbRVlzmIKTqMx+/s9fY/mSQNV0A==
@@ -2910,15 +2887,15 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001261, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001202, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001228, caniuse-lite@^1.0.30001261:
-  version "1.0.30001261"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001261.tgz#96d89813c076ea061209a4e040d8dcf0c66a1d01"
-  integrity sha512-vM8D9Uvp7bHIN0fZ2KQ4wnmYFpJo/Etb4Vwsuc+ka0tfGDHvOPrFm6S/7CCNLSOkAUjenT2HnUPESdOIL91FaA==
-
-caniuse-lite@^1.0.30001260:
+caniuse-lite@1.0.30001263, caniuse-lite@^1.0.30001260:
   version "1.0.30001263"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001263.tgz#7ce7a6fb482a137585cbc908aaf38e90c53a16a4"
   integrity sha512-doiV5dft6yzWO1WwU19kt8Qz8R0/8DgEziz6/9n2FxUasteZNwNNYSmJO3GLBH8lCVE73AB1RPDPAeYbcO5Cvw==
+
+caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001202, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001228, caniuse-lite@^1.0.30001261:
+  version "1.0.30001261"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001261.tgz#96d89813c076ea061209a4e040d8dcf0c66a1d01"
+  integrity sha512-vM8D9Uvp7bHIN0fZ2KQ4wnmYFpJo/Etb4Vwsuc+ka0tfGDHvOPrFm6S/7CCNLSOkAUjenT2HnUPESdOIL91FaA==
 
 cardinal@^2.1.1:
   version "2.1.1"
@@ -4285,10 +4262,10 @@ eslint-plugin-promise@5.1.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.1.0.tgz#fb2188fb734e4557993733b41aa1a688f46c6f24"
   integrity sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==
 
-eslint-plugin-react@7.25.3:
-  version "7.25.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.25.3.tgz#3333a974772745ddb3aecea84621019b635766bc"
-  integrity sha512-ZMbFvZ1WAYSZKY662MBVEWR45VaBT6KSJCiupjrNlcdakB90juaZeDCbJq19e73JZQubqFtgETohwgAt8u5P6w==
+eslint-plugin-react@7.26.1:
+  version "7.26.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.26.1.tgz#41bcfe3e39e6a5ac040971c1af94437c80daa40e"
+  integrity sha512-Lug0+NOFXeOE+ORZ5pbsh6mSKjBKXDXItUD2sQoT+5Yl0eoT82DqnXeTMfUare4QVCn9QwXbfzO/dBLjLXwVjQ==
   dependencies:
     array-includes "^3.1.3"
     array.prototype.flatmap "^1.2.4"
@@ -4302,6 +4279,7 @@ eslint-plugin-react@7.25.3:
     object.values "^1.1.4"
     prop-types "^15.7.2"
     resolve "^2.0.0-next.3"
+    semver "^6.3.0"
     string.prototype.matchall "^4.0.5"
 
 eslint-plugin-standard@4.1.0:
@@ -5465,7 +5443,7 @@ http-errors@1.7.3:
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
 
-http-proxy-agent@^4.0.0, http-proxy-agent@^4.0.1:
+http-proxy-agent@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/http-proxy-agent/-/http-proxy-agent-4.0.1.tgz#8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a"
   integrity sha512-k0zdNgqWTGA6aeIRVpvfVob4fL52dTfaehylg0Y4UvSySvOq/Y+BOyPrgpUrA7HylqvU8vIZGsRuXmspskV0Tg==
@@ -8952,11 +8930,6 @@ react-dom@17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
-
-react-ga@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.0.tgz#c91f407198adcb3b49e2bc5c12b3fe460039b3ca"
-  integrity sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
 
 react-is@17.0.2:
   version "17.0.2"
