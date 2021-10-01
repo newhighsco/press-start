@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/newhighsco/press-start/compare/v2.0.0...v2.0.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* replace `postinstall` with `prepare` ([1aabfb2](https://github.com/newhighsco/press-start/commit/1aabfb22d141ff6c791e8c662dc25ed80ac3f426))
+
 # [2.0.0](https://github.com/newhighsco/press-start/compare/v1.21.57...v2.0.0) (2021-10-01)
 
 
