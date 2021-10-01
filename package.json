@@ -17,7 +17,7 @@
     "src"
   ],
   "scripts": {
-    "postinstall": "yarn --cwd template install",
+    "prepare": "yarn --cwd template install",
     "prestart": "yarn start:yalc",
     "start": "yarn --cwd template start",
     "prebuild": "yarn yalc",
