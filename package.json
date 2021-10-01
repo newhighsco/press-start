@@ -18,19 +18,20 @@
   ],
   "scripts": {
     "prepare": "yarn --cwd template install",
+    "prestart": "yalc publish && cd template && yalc link $npm_package_name",
     "start": "yarn --cwd template start",
+    "prebuild": "yarn format:deps",
     "build": "yarn --cwd template build",
     "serve": "yarn --cwd template serve",
     "test": "yarn lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
     "lint:css": "stylelint '**/*.{css,scss}' --cache",
+    "lint:deps": "cd template && yalc check",
     "format": "npm-run-all --parallel format:*",
     "format:js": "yarn lint:js --fix",
     "format:css": "yarn lint:css --fix",
-    "yalc": "yalc publish && cd template && yalc add $npm_package_name",
-    "yalc:check": "cd template && yalc check",
-    "yalc:remove": "cd template && yalc remove $npm_package_name && yarn install"
+    "format:deps": "cd template && yalc remove $npm_package_name && yarn unlink $npm_package_name && yarn install --check-files"
   },
   "dependencies": {
     "next-seo": "4.27.0"
@@ -67,7 +68,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn yalc:check && yarn lint"
+      "pre-commit": "yarn lint"
     }
   },
   "prettier": "@newhighsco/prettier-config",
