@@ -17,10 +17,7 @@
     "src"
   ],
   "scripts": {
-    "preinstall": "cd template && yalc remove $npm_package_name",
     "postinstall": "yarn --cwd template install",
-    "yalc": "yalc publish && cd template && yalc add $npm_package_name",
-    "yalc:check": "cd template && yalc check",
     "prestart": "yarn start:yalc",
     "start": "yarn --cwd template start",
     "prebuild": "yarn yalc",
@@ -32,7 +29,10 @@
     "lint:css": "stylelint '**/*.{css,scss}' --cache",
     "format": "npm-run-all --parallel format:*",
     "format:js": "yarn lint:js --fix",
-    "format:css": "yarn lint:css --fix"
+    "format:css": "yarn lint:css --fix",
+    "yalc": "yalc publish && cd template && yalc add $npm_package_name",
+    "yalc:check": "cd template && yalc check",
+    "yalc:remove": "cd template && yalc remove $npm_package_name"
   },
   "dependencies": {
     "next-seo": "4.27.0"
