@@ -18,9 +18,7 @@
   ],
   "scripts": {
     "prepare": "yarn --cwd template install",
-    "prestart": "yarn start:yalc",
     "start": "yarn --cwd template start",
-    "prebuild": "yarn yalc",
     "build": "yarn --cwd template build",
     "serve": "yarn --cwd template serve",
     "test": "yarn lint",
@@ -32,7 +30,7 @@
     "format:css": "yarn lint:css --fix",
     "yalc": "yalc publish && cd template && yalc add $npm_package_name",
     "yalc:check": "cd template && yalc check",
-    "yalc:remove": "cd template && yalc remove $npm_package_name"
+    "yalc:remove": "cd template && yalc remove $npm_package_name && yarn install"
   },
   "dependencies": {
     "next-seo": "4.27.0"
@@ -85,6 +83,16 @@
     ],
     "baseBranches": [
       "main"
+    ],
+    "pathRules": [
+      {
+        "paths": [
+          "template/package.json"
+        ],
+        "extends": [
+          "@newhighsco"
+        ]
+      }
     ]
   },
   "stylelint": {

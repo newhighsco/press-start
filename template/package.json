@@ -102,7 +102,7 @@
       "main"
     ]
   },
-  "renovate": {
+  "TODO:renovate": {
     "extends": [
       "@newhighsco"
     ],
