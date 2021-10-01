@@ -1,3 +1,12 @@
+## [2.0.3](https://github.com/newhighsco/press-start/compare/v2.0.2...v2.0.3) (2021-10-01)
+
+
+### Bug Fixes
+
+* **deps:** remove duplicate dependency ([cf44b00](https://github.com/newhighsco/press-start/commit/cf44b00a834d138817d565db9e08486e3dffed43))
+* **deps:** set template to always use latest version ([4c6c221](https://github.com/newhighsco/press-start/commit/4c6c22169dfccd27a8e8b30bab50abfc084d0c27))
+* **meta:** handle missing `site.config` values ([e3ce7bd](https://github.com/newhighsco/press-start/commit/e3ce7bdaab65afa6767c268e8cc799ef57c13775))
+
 ## [2.0.2](https://github.com/newhighsco/press-start/compare/v2.0.1...v2.0.2) (2021-10-01)
 
 
