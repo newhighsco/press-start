@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/newhighsco/press-start/compare/v2.0.1...v2.0.2) (2021-10-01)
+
+
+### Bug Fixes
+
+* **template:** reference parent package in template ([04273bf](https://github.com/newhighsco/press-start/commit/04273bfa62ea2fb919eaddccbe89258a8f0a7338))
+
 ## [2.0.1](https://github.com/newhighsco/press-start/compare/v2.0.0...v2.0.1) (2021-10-01)
 
 
