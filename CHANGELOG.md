@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/newhighsco/press-start/compare/v2.0.4...v2.1.0) (2021-10-05)
+
+
+### Features
+
+* **config:** move URL to config file ([ccee7e1](https://github.com/newhighsco/press-start/commit/ccee7e1a97be9a512bd82df4a31202d039310583))
+
 ## [2.0.4](https://github.com/newhighsco/press-start/compare/v2.0.3...v2.0.4) (2021-10-01)
 
 
