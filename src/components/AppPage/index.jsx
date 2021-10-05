@@ -5,10 +5,16 @@ import { DefaultSeo } from 'next-seo'
 import { SiteContainer, ThemeProvider } from '@newhighsco/chipset'
 
 const AppPage = ({ Component, pageProps, theme, config, meta }) => {
-  const { name, description, openGraphImage, twitterHandle, themeColor, logo } =
-    config
+  const {
+    name,
+    description,
+    openGraphImage,
+    twitterHandle,
+    themeColor,
+    logo,
+    url
+  } = config
   const icon = logo?.vector || logo?.bitmap
-  const url = process.env.NEXT_PUBLIC_SITE_URL
 
   meta = {
     ...meta,
