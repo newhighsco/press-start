@@ -585,13 +585,13 @@
     "@semantic-release/npm" "8.0.0"
     "@semantic-release/release-notes-generator" "10.0.2"
 
-"@newhighsco/stylelint-config@2.0.47":
-  version "2.0.47"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.47.tgz#15c2d1cf921dfbc01cb42a094ca03cc5bb9037b3"
-  integrity sha512-moLSPe34Xdsw1aR6V8VjD9x9jn6ZXZ3+eUxDYGjmdhI8g2jJ+36UdB3xzKkJ7RIku7vVWq96ffug/KERgODJ+w==
+"@newhighsco/stylelint-config@2.0.48":
+  version "2.0.48"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.48.tgz#fe40593f3f7c65a43e028f372fda71ce749593a1"
+  integrity sha512-JKJ2CDhL2WqxHnB2fDfBDfwSqj+ZZ9sMGUxR9EHNzRQTxj86DLY0hfw1BchfsNE/KzE+bisZE69FQ3EwMnwl4g==
   dependencies:
     stylelint-config-css-modules "2.2.0"
-    stylelint-config-prettier "9.0.2"
+    stylelint-config-prettier "9.0.3"
     stylelint-config-standard "22.0.0"
     stylelint-prettier "1.2.0"
     stylelint-scss "3.21.0"
@@ -5835,10 +5835,10 @@ stylelint-config-css-modules@2.2.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-2.2.0.tgz#8ed2a54b1bdf637219e37cdeea1950405fd022ff"
   integrity sha512-+zjcDbot+zbuxy1UA31k4G2lUG+nHUwnLyii3uT2F09B8kT2YrT9LZYNfMtAWlDidrxr7sFd5HX9EqPHGU3WKA==
 
-stylelint-config-prettier@9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-9.0.2.tgz#f1d591f7f973169fe5186f8aa4d70f174e9832dc"
-  integrity sha512-M93Q+8+t0Z5LFb7B32cDfuPd3rbvvln2WNRF0n9RQDujXEz7+LANVTpZIG1fb7t2BwiZ+vibuongFIc3fEwrXQ==
+stylelint-config-prettier@9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-9.0.3.tgz#0dccebeff359dcc393c9229184408b08964d561c"
+  integrity sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==
 
 stylelint-config-recommended@^5.0.0:
   version "5.0.0"
