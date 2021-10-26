@@ -1,8 +1,9 @@
+@use 'sass:color';
 @use '@styles/colors.module';
 @use '@styles/functions';
 
 .root {
-  border-top: 1px solid lighten(colors.$black, 75);
+  border-top: 1px solid color.adjust(colors.$black, $lightness: 75%);
 }
 
 .link {
