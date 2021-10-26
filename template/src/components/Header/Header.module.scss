@@ -2,7 +2,7 @@
 @use '@styles/colors.module';
 
 .root {
-  border-bottom: 1px solid color.adjust(colors.$black, $lightness: 75);
+  border-bottom: 1px solid color.adjust(colors.$black, $lightness: 75%);
 }
 
 .logo {
