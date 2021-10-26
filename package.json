@@ -43,7 +43,7 @@
     "@newhighsco/eslint-config": "2.3.36",
     "@newhighsco/prettier-config": "2.0.14",
     "@newhighsco/release-config": "1.0.73",
-    "@newhighsco/stylelint-config": "3.0.1",
+    "@newhighsco/stylelint-config": "3.0.2",
     "eslint": "8.1.0",
     "husky": "7.0.4",
     "npm-run-all": "4.1.5",
