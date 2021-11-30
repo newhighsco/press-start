@@ -1373,12 +1373,12 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fullhuman/postcss-purgecss@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.1.2.tgz#9cbdb9a3ec993862213bd4b24ec2e92f91036924"
-  integrity sha512-FcqFy89Q6Qf4MTrIlxucjn2oKavN4b8w/f3sCXqshtUAbZHDpiMwNqSv8flPVYbcJaNZB+V+gE9kUDEnW6bNig==
+"@fullhuman/postcss-purgecss@4.1.3":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.1.3.tgz#e4eb21fc7a49257e4081c6a3a86b338618e61fce"
+  integrity sha512-jqcsyfvq09VOsMXxJMPLRF6Fhg/NNltzWKnC9qtzva+QKTxerCO4esG6je7hbnmkpZtaDyPTwMBj9bzfWorsrw==
   dependencies:
-    purgecss "^4.1.2"
+    purgecss "^4.1.3"
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
@@ -1505,12 +1505,12 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.4.25":
-  version "3.4.25"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.25.tgz#85940854a2451666c7d20ed7ae347a2f6344b47f"
-  integrity sha512-1mSTTklgEqlh+4zVPpO0XnHGK73BwxP/0cYcs2vo30AMFlyRFOGotvsT1tHL2bGnF8OlKJFk6gGdamjIvtwNKw==
+"@newhighsco/postcss-config@3.4.26":
+  version "3.4.26"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.26.tgz#4211df3ef340efb407c2e4a2d89d662f1d6becb1"
+  integrity sha512-/a4wmOWbaUXQRG8PKM8jhwM2kTxmcPCQ1H/5R2/2524FXqNgTZd9zqeyjtDYp2X0lJ1E9xkBSk9boKqsxiAl7Q==
   dependencies:
-    "@fullhuman/postcss-purgecss" "4.1.2"
+    "@fullhuman/postcss-purgecss" "4.1.3"
     autoprefixer "10.4.0"
     caniuse-lite "1.0.30001283"
     postcss-flexbugs-fixes "5.0.2"
@@ -10218,10 +10218,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-purgecss@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.1.2.tgz#0bbc21886f22f9fb74f899b29b7a79e4895b054f"
-  integrity sha512-e7Gz4nj4Lams6toFQ40YJiMrKWKE3nVPmdvhkJDxg8O/xj6gFudzrUa9qrQL+3DU0e8/c47MzxX9VXVbnPLR6A==
+purgecss@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.1.3.tgz#683f6a133c8c4de7aa82fe2746d1393b214918f7"
+  integrity sha512-99cKy4s+VZoXnPxaoM23e5ABcP851nC2y2GROkkjS8eJaJtlciGavd7iYAw2V84WeBqggZ12l8ef44G99HmTaw==
   dependencies:
     commander "^8.0.0"
     glob "^7.1.7"
