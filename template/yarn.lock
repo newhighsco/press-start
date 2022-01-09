@@ -8242,13 +8242,6 @@ marked@^2.0.0:
   resolved "https://registry.yarnpkg.com/marked/-/marked-2.1.3.tgz#bd017cef6431724fd4b27e0657f5ceb14bff3753"
   integrity sha512-/Q+7MGzaETqifOMWYEA7HVMaZb4XbcRfaOzcSsHZEith83KGlvaSG33u0SKu89Mj5h+T8V2hM+8O45Qc5XTgwA==
 
-matcher@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/matcher/-/matcher-4.0.0.tgz#a42a05a09aaed92e2d241eb91fddac689461ea51"
-  integrity sha512-S6x5wmcDmsDRRU/c2dkccDwQPXoFczc5+HpQ2lON8pnvHlnvHAHj5WlLVvw6n6vNyHuVugYrFohYxbS+pvFpKQ==
-  dependencies:
-    escape-string-regexp "^4.0.0"
-
 mathml-tag-names@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/mathml-tag-names/-/mathml-tag-names-2.1.3.tgz#4ddadd67308e780cf16a47685878ee27b736a0a3"
@@ -8741,13 +8734,12 @@ next-seo@4.27.0:
   resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.27.0.tgz#9e6d1b9b49c09c3f5e1e86443dc04854b4edbd48"
   integrity sha512-nodRrdEePRjFBo+2osYpDCVi+EbO45/MmCnLQpmS59HuEXBDePa3gpM67kJk9cCJ9dKkfp/MwYtmNbhDImMvmg==
 
-next-sitemap@1.6.261:
-  version "1.6.261"
-  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.6.261.tgz#550aeb40b6b1273628237ff7efcfacf9d0244f26"
-  integrity sha512-4RGogAJE2IsMffeH1Lfa6eT85BI1TWO8Fn1hmwX1h40UnvIaJKephlLnp+3F4C4jXKDAZ6P+xHLtVPmyQznVPQ==
+next-sitemap@1.8.4:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.8.4.tgz#70c8c2babe037f018ca127ef7609d2bff0f0003b"
+  integrity sha512-UYk2HQiZk+0EM+Az7uRfj0Vxl8fJ/6FMiVPtTgQo7WwavGgkX57Ol5lcKjcty/vJyVdZOUIuyjGtGzz4QzajVA==
   dependencies:
     "@corex/deepmerge" "^2.6.148"
-    matcher "^4.0.0"
     minimist "^1.2.5"
 
 next-transpile-modules@9.0.0:
