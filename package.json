@@ -34,7 +34,7 @@
     "format:deps": "cd template && yalc remove $npm_package_name && yarn unlink $npm_package_name && yarn install --check-files"
   },
   "dependencies": {
-    "next-seo": "4.28.1"
+    "next-seo": "4.29.0"
   },
   "devDependencies": {
     "@commitlint/cli": "16.0.3",
