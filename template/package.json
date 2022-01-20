@@ -38,7 +38,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "6.13.2",
+    "@newhighsco/chipset": "6.13.3",
     "@newhighsco/next-plugin-svgr": "3.0.40",
     "@newhighsco/press-start": "*",
     "imagemin-mozjpeg": "9.0.0",
@@ -58,7 +58,7 @@
   "devDependencies": {
     "@commitlint/cli": "16.1.0",
     "@newhighsco/browserslist-config": "1.0.3",
-    "@newhighsco/commitlint-config": "1.0.21",
+    "@newhighsco/commitlint-config": "1.0.22",
     "@newhighsco/editor-config": "1.1.2",
     "@newhighsco/eslint-config": "2.3.58",
     "@newhighsco/postcss-config": "3.4.46",
