@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@newhighsco/chipset": "6.13.3",
-    "@newhighsco/next-plugin-svgr": "3.0.41",
+    "@newhighsco/next-plugin-svgr": "3.0.42",
     "@newhighsco/press-start": "*",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-optipng": "8.0.0",
