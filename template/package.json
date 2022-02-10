@@ -60,7 +60,7 @@
     "@newhighsco/browserslist-config": "1.0.3",
     "@newhighsco/commitlint-config": "1.0.22",
     "@newhighsco/editor-config": "1.1.2",
-    "@newhighsco/eslint-config": "2.3.62",
+    "@newhighsco/eslint-config": "3.0.0",
     "@newhighsco/postcss-config": "3.4.58",
     "@newhighsco/prettier-config": "2.0.16",
     "@newhighsco/release-config": "1.1.5",
@@ -82,7 +82,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "@newhighsco/eslint-config/react"
+      "@newhighsco/eslint-config"
     ],
     "root": true
   },
