@@ -62,7 +62,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "@newhighsco/eslint-config/react"
+      "@newhighsco/eslint-config"
     ]
   },
   "husky": {
