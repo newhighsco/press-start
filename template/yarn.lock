@@ -1596,16 +1596,16 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.4.62":
-  version "3.4.62"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.62.tgz#fdb3124f57313a794c9d7f9333cb90259f825e38"
-  integrity sha512-Z3GAyENqLNGvr/LL0q2n/fjo0YQuy59cezsF+FkHHEqdBgIKYsfQos/t65fvg/WSyAeKHcEN74iRzn5X/5vXlA==
+"@newhighsco/postcss-config@3.4.63":
+  version "3.4.63"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.63.tgz#93369eebafd0c8f6800595a579430173c2f85e5a"
+  integrity sha512-Qo3r+xbQnk3r1PSfEXqzfNfctHKtslyqzzorBd9hoznIOTXEmECIe60CwWPGCciyYBm256hB71HJA81DIsi0ow==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.1.3"
     autoprefixer "10.4.2"
     caniuse-lite "1.0.30001312"
     postcss-flexbugs-fixes "5.0.2"
-    postcss-preset-env "7.4.0"
+    postcss-preset-env "7.4.1"
 
 "@newhighsco/press-start@*":
   version "2.0.2"
@@ -9448,12 +9448,12 @@ postcss-attribute-case-insensitive@^5.0.0:
   dependencies:
     postcss-selector-parser "^6.0.2"
 
-postcss-clamp@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-clamp/-/postcss-clamp-3.0.0.tgz#09cb1ad64243b46c9159ded5e8d3e8349150a09e"
-  integrity sha512-QENQMIF/Grw0qX0RzSPJjw+mAiGPIwG2AnsQDIoR/WJ5Q19zLB0NrZX8cH7CzzdDWEerTPGCdep7ItFaAdtItg==
+postcss-clamp@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-clamp/-/postcss-clamp-4.0.0.tgz#766d3dbaa2dc56e8bea1b690291b632c0c5bf728"
+  integrity sha512-FsMmeBZtymFN7Jtlnw9is8I4nB+qEEb/qS0ZLTIqcKiwZyHBq44Yhv29Q+VQsTGHYFqIr/s/9tqvNM7j+j1d+g==
   dependencies:
-    postcss-value-parser "^4.1.0"
+    postcss-value-parser "^4.2.0"
 
 postcss-color-functional-notation@^4.2.2:
   version "4.2.2"
@@ -9610,10 +9610,10 @@ postcss-place@^7.0.4:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@7.4.0:
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-7.4.0.tgz#f857ae123e96a7aa2472c75c5595e2d270c2c492"
-  integrity sha512-nWC9bDW6nQ4a15RZ/UKgpxZT8xbv0gl+/2q6PROAwwzsxiEb4pjsChAbS0sltepvAjqXbQhff+38FXDxJCCobw==
+postcss-preset-env@7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-7.4.1.tgz#ca6131c6e0d0e0bcc429dbef3e8f8d03250041ea"
+  integrity sha512-UvBVvPJ2vb4odAtckSbryndyBz+Me1q8wawqq0qznpDXy188I+8W5Sa929sCPqw2/NSYnqpHJbo41BKso3+I9A==
   dependencies:
     "@csstools/postcss-color-function" "^1.0.2"
     "@csstools/postcss-font-format-keywords" "^1.0.0"
@@ -9630,7 +9630,7 @@ postcss-preset-env@7.4.0:
     css-prefers-color-scheme "^6.0.3"
     cssdb "^6.3.1"
     postcss-attribute-case-insensitive "^5.0.0"
-    postcss-clamp "^3.0.0"
+    postcss-clamp "^4.0.0"
     postcss-color-functional-notation "^4.2.2"
     postcss-color-hex-alpha "^8.0.3"
     postcss-color-rebeccapurple "^7.0.2"
