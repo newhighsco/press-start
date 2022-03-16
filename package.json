@@ -47,7 +47,7 @@
     "eslint": "8.11.0",
     "husky": "7.0.4",
     "npm-run-all": "4.1.5",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "semantic-release": "19.0.2",
     "stylelint": "14.5.3",
     "yalc": "1.0.0-pre.53"
