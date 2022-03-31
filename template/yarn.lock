@@ -1161,7 +1161,7 @@
     core-js-pure "^3.16.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.14.6", "@babel/runtime@^7.8.4":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -1172,6 +1172,13 @@
   version "7.16.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.3.tgz#b86f0db02a04187a3c17caa77de69840165d42d5"
   integrity sha512-WBwekcqacdY2e9AF/Q7WLFUWmdJGJTkbjqTjoMDgXkVZ3ZRUvOPsLb5KdwISoQVsbP+DQzVZW4Zhci0DvpbNTQ==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.17.8":
+  version "7.17.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.8.tgz#3e56e4aff81befa55ac3ac6a0967349fd1c5bca2"
+  integrity sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1467,12 +1474,12 @@
   dependencies:
     postcss-value-parser "^4.2.0"
 
-"@dr.pogodin/react-themes@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.4.1.tgz#3c374fe83269044f67a27134499ad3526516176a"
-  integrity sha512-zhmZfqmB6pg4QnL+yaXpCM/Hq+EQFxEc9/edU3W5rD2x8SLhwUkTHgLFwLvOCuZcrookT60Aro1i5V8mZ5ypgA==
+"@dr.pogodin/react-themes@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.4.2.tgz#21fcd897e89871ee8830a0a37305ae9cf450428b"
+  integrity sha512-/H9lYk3idRYlyQGW9kdyKSaQ1gNglyk2tM6+/upGPyWwL0hRThW5lid/hexc6dRlKs6h+s8PBalgqMn3PoZqwQ==
   dependencies:
-    "@babel/runtime" "^7.15.4"
+    "@babel/runtime" "^7.17.8"
 
 "@eslint/eslintrc@^1.2.1":
   version "1.2.1"
@@ -1604,12 +1611,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/chipset@6.14.0":
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.14.0.tgz#cb4f30f27c04b13e4f82e3bfcb72af7ebc8367ad"
-  integrity sha512-tBNuxupQ69Vbj3lY9KgZUM3T9jS5TWplB5PBbKpAybGg24KmoDV5ftlkGlPiQVSqtp4GjZflbfnid+8ZEslhOA==
+"@newhighsco/chipset@6.14.1":
+  version "6.14.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.14.1.tgz#c0811a6e0fbd073fb8ce4e61dce24a16f9b264ea"
+  integrity sha512-OpsP7tbLBOMnSvkRp2wsYXAMkpRuxdYU84NJvf/mwlzAcZf8yx9iQIyjebgWlYJ1MeCoNvnfO9MGYKxkeif2Lg==
   dependencies:
-    "@dr.pogodin/react-themes" "1.4.1"
+    "@dr.pogodin/react-themes" "1.4.2"
     classnames "2.3.1"
     react-device-detect "2.1.2"
 
@@ -1644,23 +1651,23 @@
     eslint-plugin-react "7.29.4"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/next-plugin-svgr@3.0.46":
-  version "3.0.46"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.46.tgz#696db7ad5e9fc50d6ec3c3de54c0383c72ced133"
-  integrity sha512-LB1mcY9y/t0FT47V0KAYUMihxA04AM66Y+7g9Bkx5vXeKFKVC1iRGisYiNEjLQKWe1xUArzRNzJoLhiCJ+uP6g==
+"@newhighsco/next-plugin-svgr@3.0.48":
+  version "3.0.48"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.48.tgz#f03f7eafa7c0284070360b7c58317933f0bdaaed"
+  integrity sha512-Jai/k/71vF6wXsF2savnMPyM4DiVPdMgK3rgxzIg0raDfNSUQpCjDNmc2mgY+kDezjXXL7FYTQ16FgatuLMYyg==
   dependencies:
     "@svgr/webpack" "6.2.1"
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.4.74":
-  version "3.4.74"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.74.tgz#c95a712441c8ebd9f1924458dd298753cd0ada99"
-  integrity sha512-hSF3lVpy0ZIFSNXR3ky99hTzeazAgmLob7X4VDIQldKe7iVlmz8wIwm8PTTGgd2xIhnRz4maw81LSiPRBvXWJA==
+"@newhighsco/postcss-config@3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.1.tgz#6de4281f0ac5d616d2ae6ff8d0e6103f161df181"
+  integrity sha512-kDQjlMZzJFDu4qy4K7nQyBZwl/q+3HDz6D362TCGk/i9NIsEC4Bv6Q8vhntxJqFNepz3yySyDCPeYTcDUGCxkg==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.1.3"
     autoprefixer "10.4.4"
-    caniuse-lite "1.0.30001322"
+    caniuse-lite "1.0.30001323"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.4.3"
 
@@ -1671,15 +1678,15 @@
   dependencies:
     next-seo "4.27.0"
 
-"@newhighsco/prettier-config@2.0.18":
-  version "2.0.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.18.tgz#a8ca13812e1ec2e5419c59f7222c05f81c826743"
-  integrity sha512-d2tDzI4SnDIHp+Y76ugexKtLXNkvYz8b+Y31uciuN6S5z72TIA20n48MYz32+RtOW8lnC3AZLuJQxL8RrHYGnA==
+"@newhighsco/prettier-config@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.0.tgz#f4b8305a62401362bfc883e27c4255fe66b27c66"
+  integrity sha512-H1+Fuq0E4pNckSHyNmDHflH9YnnPfdqbKAgXvVeyIlPO+lrJy1DY6BFIIixdzITTOslNnfuGmWxy6FgCmTYxUA==
 
-"@newhighsco/release-config@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.1.tgz#bc1e0736fee470bd6bd80866694b33e3cbd3294d"
-  integrity sha512-mWCYK5pA7fEJFMNrnUFk0I6FdlM5uaSbyZuRz7MY0/pTn6CVPLNsW2bnVp3iA6eb255qFn6/Ha5zVU8ghtnYsg==
+"@newhighsco/release-config@1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.4.tgz#115db0d265fa9c5540ff30998a88ba3d9f64d6a0"
+  integrity sha512-tOegSFVxKiq3KL21ghtywHBt9O3r9eDsBd9QRjseIIOAX5sqcA5Ct5l3ybGtKzrVR5wApBa0L14dZJfNSRGaLg==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
     "@semantic-release/commit-analyzer" "9.0.2"
@@ -3590,10 +3597,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001322:
-  version "1.0.30001322"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001322.tgz#2e4c09d11e1e8f852767dab287069a8d0c29d623"
-  integrity sha512-neRmrmIrCGuMnxGSoh+x7zYtQFFgnSY2jaomjU56sCkTA6JINqQrxutF459JpWcWRajvoyn95sOXq4Pqrnyjew==
+caniuse-lite@1.0.30001323:
+  version "1.0.30001323"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001323.tgz#a451ff80dec7033016843f532efda18f02eec011"
+  integrity sha512-e4BF2RlCVELKx8+RmklSEIVub1TWrmdhvA5kEUueummz1XyySW0DVk+3x9HyhU9MuWTa2BhqLgEuEmUwASAdCA==
 
 caniuse-lite@^1.0.30001261:
   version "1.0.30001261"
