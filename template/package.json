@@ -24,6 +24,7 @@
     "site.config.js"
   ],
   "scripts": {
+    "prepare": "is-ci || husky install",
     "clean": "rm -rf {.next,public/robots.txt,public/sitemap.xml}",
     "start": "next dev",
     "build": "next build",
@@ -68,6 +69,7 @@
     "@newhighsco/stylelint-config": "3.0.23",
     "eslint": "8.12.0",
     "husky": "7.0.4",
+    "is-ci": "3.0.1",
     "npm-run-all": "4.1.5",
     "prettier": "2.6.1",
     "semantic-release": "19.0.2",
@@ -86,12 +88,6 @@
       "@newhighsco/eslint-config"
     ],
     "root": true
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint"
-    }
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
