@@ -52,8 +52,8 @@
     "next-transpile-modules": "9.0.0",
     "next-videos": "1.4.0",
     "postcss": "8.4.12",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
     "sass": "1.51.0"
   },
   "devDependencies": {
