@@ -42,7 +42,7 @@
     "@newhighsco/chipset": "6.14.3",
     "@newhighsco/next-plugin-svgr": "3.0.49",
     "@newhighsco/press-start": "*",
-    "imagemin-mozjpeg": "9.0.0",
+    "imagemin-mozjpeg": "10.0.0",
     "imagemin-optipng": "8.0.0",
     "next": "12.1.5",
     "next-compose-plugins": "2.2.1",
