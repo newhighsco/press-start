@@ -1623,10 +1623,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/chipset@6.14.3":
-  version "6.14.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.14.3.tgz#d49765509186f20cf72b4a7bd7232758578c25b9"
-  integrity sha512-wIbnV5G64p6auwDVRimvTbYTW3681XPB6r6spn7hNpsxEz9mEoIGAU7c8/jT1qCrZW974GG2jb1h9s/HHj0SCQ==
+"@newhighsco/chipset@6.14.4":
+  version "6.14.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.14.4.tgz#dc3214230d35f89da414885b1d1ac77c7c9129a0"
+  integrity sha512-QyVgTNrp/NJGS+XWlswgh7lq38sgv/7owEykAJG9Ia5tnAfI40kn2gL9EZNoxmlrzYln27vV+kA/UPQAvIQ2xg==
   dependencies:
     "@dr.pogodin/react-themes" "1.4.3"
     classnames "2.3.1"
