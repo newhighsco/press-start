@@ -4,7 +4,6 @@ const withTranspileModules = require('next-transpile-modules')([
   '@newhighsco/press-start'
 ])
 const withSvgr = require('@newhighsco/next-plugin-svgr')
-const withFonts = require('next-fonts')
 const withVideos = require('next-videos')
 
 const nextConfig = {
@@ -19,15 +18,18 @@ const nextConfig = {
     locales: ['en'],
     defaultLocale: 'en'
   },
-  poweredByHeader: false
+  poweredByHeader: false,
+  webpack: config => {
+    config.module.rules.push({
+      test: /\.(txt|xml|woff(2)?)$/,
+      use: 'file-loader'
+    })
+
+    return config
+  }
 }
 
 module.exports = withPlugins(
-  [
-    [withTranspileModules],
-    [withSvgr, { inlineImageLimit: -1 }],
-    [withFonts],
-    [withVideos, { assetDirectory: 'static' }]
-  ],
+  [[withTranspileModules], [withSvgr, { inlineImageLimit: -1 }], [withVideos]],
   nextConfig
 )
