@@ -3,39 +3,33 @@ const withTranspileModules = require('next-transpile-modules')([
   '@newhighsco/chipset',
   '@newhighsco/press-start'
 ])
-const withImages = require('next-optimized-images')
 const withSvgr = require('@newhighsco/next-plugin-svgr')
-const withFonts = require('next-fonts')
 const withVideos = require('next-videos')
 
 const nextConfig = {
-  poweredByHeader: false,
   eslint: {
     ignoreDuringBuilds: true
   },
+  generateBuildId: () => 'build',
   images: {
-    disableStaticImages: true
+    formats: ['image/avif', 'image/webp']
   },
   i18n: {
     locales: ['en'],
     defaultLocale: 'en'
+  },
+  poweredByHeader: false,
+  webpack: config => {
+    config.module.rules.push({
+      test: /\.(txt|xml|woff(2)?)$/,
+      use: 'file-loader'
+    })
+
+    return config
   }
 }
 
 module.exports = withPlugins(
-  [
-    [withTranspileModules],
-    [
-      withImages,
-      {
-        inlineImageLimit: -1,
-        handleImages: ['jpeg', 'png', 'webp', 'gif', 'ico'],
-        removeOriginalExtension: true
-      }
-    ],
-    [withSvgr],
-    [withFonts],
-    [withVideos, { assetDirectory: 'static' }]
-  ],
+  [[withTranspileModules], [withSvgr, { inlineImageLimit: -1 }], [withVideos]],
   nextConfig
 )
