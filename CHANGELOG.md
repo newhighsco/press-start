@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/newhighsco/press-start/compare/v2.1.7...v2.2.0) (2022-06-01)
+
+
+### Features
+
+* **images:** remove `next-optimized-images` ([#1328](https://github.com/newhighsco/press-start/issues/1328)) ([ae3b3a1](https://github.com/newhighsco/press-start/commit/ae3b3a12e1f3a951daeca4660862020460e5e477))
+
 ## [2.1.7](https://github.com/newhighsco/press-start/compare/v2.1.6...v2.1.7) (2022-04-06)
 
 
