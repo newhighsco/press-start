@@ -11,7 +11,7 @@ const config = {
   description: 'Get a theme-able Next.js site up and running quickly',
   logo: {
     bitmap: logoBitmap.src,
-    vector: logoVector.src
+    vector: logoVector
   },
   openGraphImage: openGraphImage.src,
   themeColor: colors.black,
