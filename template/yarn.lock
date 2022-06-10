@@ -1683,14 +1683,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.26":
-  version "3.5.26"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.26.tgz#f8bc0adbd6b2fdedc7b728e1031a841e71c8bdef"
-  integrity sha512-ccYjowg5Fo73vGI6nV7NRm6R6EFRqydu50EM+6BNluGHM9FiHNTpTZQR/ZGw14LFOHyhCRyHnuBuxGFWyH78Ug==
+"@newhighsco/postcss-config@3.5.28":
+  version "3.5.28"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.28.tgz#51e15dc1f2b0327befe14ab30cf4e50a6774b854"
+  integrity sha512-9acN/gmXzk9chIuzVcPGzNsKS2asMndXXzMX710NCSGo0NVwm/e3AAnHuS2iB765Q/7f18fNaUunKaREu00IYA==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.1.3"
     autoprefixer "10.4.7"
-    caniuse-lite "1.0.30001349"
+    caniuse-lite "1.0.30001352"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.7.1"
 
@@ -1706,10 +1706,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.1.tgz#3c7dde1b6ee61ce36c73105e080c8aa13a957fc8"
   integrity sha512-E0Prmn8LguzXSHGtg0NCC+OYrUlbBrBI1G3xht67YATpwla70bR49edS19kO9s1XIktFyackqNkfAGUs3Wg9WA==
 
-"@newhighsco/release-config@1.3.4":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.4.tgz#115db0d265fa9c5540ff30998a88ba3d9f64d6a0"
-  integrity sha512-tOegSFVxKiq3KL21ghtywHBt9O3r9eDsBd9QRjseIIOAX5sqcA5Ct5l3ybGtKzrVR5wApBa0L14dZJfNSRGaLg==
+"@newhighsco/release-config@1.3.5":
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.5.tgz#f507c262d1e18d3651dfd310a6f1418eea8a686c"
+  integrity sha512-w5FbQ6aCR8fa0wTSR5R/3ea8BQERt2dDNQG10Y9VAia7Jk41mII1W520a0vGoosURvSblVm0EgHRrkjPIlAFhQ==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
     "@semantic-release/commit-analyzer" "9.0.2"
@@ -1719,10 +1719,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.10":
-  version "3.1.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.10.tgz#fb379a7521175dc84fda8a58e9a2b92ffa12b55c"
-  integrity sha512-A2qLC5nVgiiTSVldWxFyYSsS+tyrcSCpnHTQK9CZCJmaLDgFFwlQF2A85498rb5onjTdXlg7ume9w1SqXUW7Sw==
+"@newhighsco/stylelint-config@3.1.11":
+  version "3.1.11"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.11.tgz#58d6225040406133a73249362332c3cc2c70d478"
+  integrity sha512-cZa7TqLhIOs2Epf15ZoIPg7OC7LoJ3yO6OpfvH/GOblJMAyuRKQlDZwT9IrYXLuHhAe061hIlUhXlAn3FjohVw==
   dependencies:
     stylelint-config-css-modules "4.1.0"
     stylelint-config-prettier "9.0.3"
@@ -3344,10 +3344,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001349:
-  version "1.0.30001349"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001349.tgz#90740086a2eb2e825084944169d313c9793aeba4"
-  integrity sha512-VFaWW3jeo6DLU5rwdiasosxhYSduJgSGil4cSyX3/85fbctlE58pXAkWyuRmVA0r2RxsOSVYUTZcySJ8WpbTxw==
+caniuse-lite@1.0.30001352:
+  version "1.0.30001352"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001352.tgz#cc6f5da3f983979ad1e2cdbae0505dccaa7c6a12"
+  integrity sha512-GUgH8w6YergqPQDGWhJGt8GDRnY0L/iJVQcU3eJ46GYf52R8tk0Wxp0PymuFVZboJYXGiCqwozAYZNRjVj6IcA==
 
 caniuse-lite@^1.0.30001261:
   version "1.0.30001261"
