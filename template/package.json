@@ -25,7 +25,7 @@
   ],
   "scripts": {
     "prepare": "is-ci || husky install",
-    "clean": "rm -rf {.next,public/robots.txt,public/sitemap.xml}",
+    "clean": "rm -rf {.next,public/{robots.txt,sitemap*.xml}}",
     "start": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap",
@@ -44,7 +44,7 @@
     "@newhighsco/press-start": "*",
     "next": "12.1.6",
     "next-compose-plugins": "2.2.1",
-    "next-sitemap": "2.5.28",
+    "next-sitemap": "3.0.5",
     "next-transpile-modules": "9.0.0",
     "next-videos": "1.4.0",
     "postcss": "8.4.14",
