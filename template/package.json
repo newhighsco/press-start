@@ -25,7 +25,7 @@
   ],
   "scripts": {
     "prepare": "is-ci || husky install",
-    "clean": "rm -rf {.next,public/robots.txt,public/sitemap.xml}",
+    "clean": "rm -rf {.next,public/{robots.txt,sitemap*.xml}}",
     "start": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap",
