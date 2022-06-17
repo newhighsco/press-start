@@ -1654,10 +1654,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.2.22":
-  version "3.2.22"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.22.tgz#62fbfbdfeb0e4237338a382f002a04cd87112aca"
-  integrity sha512-caWSIe0IPQB7VptpUXo29oriVOS1FirtAlHdbuEDt21zOYyM5gSfcs3YeyL1ct0rukf9G4vmB1UvODHMli5L3Q==
+"@newhighsco/eslint-config@3.2.23":
+  version "3.2.23"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.23.tgz#a82b19765415f37f256e41f8252042c9b3daecfa"
+  integrity sha512-AWW+NYmdzhcZ3aGqMPyzh8kg8OvuAMlWJGKqHGaPBTnUIYNzWbpMaPR6PpE/rfXm3rw4gY3k0k3+bWkaXfvA6A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.28.0"
     "@typescript-eslint/parser" "5.28.0"
@@ -1684,14 +1684,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.29":
-  version "3.5.29"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.29.tgz#3891f2bd19e906c018148353f9a74176585f82e4"
-  integrity sha512-blFf1CqUELHq9uE6hgFGgXJSGlhqgH/MgjnmPyKIBn9H/UMgXfXQr++/y1veKj3nQQL1p6xSA3v+14fEAcogtg==
+"@newhighsco/postcss-config@3.5.30":
+  version "3.5.30"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.30.tgz#8373f1640cfe951e48041574d682750eae475b8f"
+  integrity sha512-QVJQo+Y6gM/wbgJBOsIJRZotXVD3RaPTSwLAjFnXaWdT9WGrBil5uHlGk6VySgccbsViCQbqWLWd+t1hJWak9Q==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.1.3"
     autoprefixer "10.4.7"
-    caniuse-lite "1.0.30001354"
+    caniuse-lite "1.0.30001355"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.7.1"
 
@@ -1702,10 +1702,10 @@
   dependencies:
     next-seo "4.27.0"
 
-"@newhighsco/prettier-config@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.2.tgz#b059794e0f4cfc5aea15f7273dee868ef424b8a6"
-  integrity sha512-C0vTh9Gu5EW4IZMhQUahGJR9vb2t3j7bsV8XfNSlbQsRtD70b7ob2JQ1eHzYb1VPcOn6jMCJa6SCMCIzjB/Z8g==
+"@newhighsco/prettier-config@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.3.tgz#102844cbb1c575b208eaef1ebe9420f316bfce8f"
+  integrity sha512-3NY5xco747/URzleM2cC3F+oWUU379OOM0BdOI3bS02S+j85hrPANq3K7gb9vaKWH+G0dynI1FY/IdReRvcabw==
 
 "@newhighsco/release-config@1.3.5":
   version "1.3.5"
@@ -1720,10 +1720,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.13":
-  version "3.1.13"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.13.tgz#21032c35ec0ca222928866fd0dd1ccd1f3b44bf3"
-  integrity sha512-6Hj4CtBEif58m2o7r4pdPVBdhTiF95D6oOEWs0qlGjo+XVZtZpHKgEA5GNKLJ4v6TuXvwfLmZoSLDvRRHj0u7g==
+"@newhighsco/stylelint-config@3.1.14":
+  version "3.1.14"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.14.tgz#6a2d9d9950aa25d73c73344fd79a2018a2bdb678"
+  integrity sha512-+uP+q3Bqn5nZ8wNtOtW8nzOGV7XfHmhaBk/sclFkrB4k9qRBAGCn/tONtZlQ6ulQ/e0BtUFTkfeGIOrewKFn3Q==
   dependencies:
     stylelint-config-css-modules "4.1.0"
     stylelint-config-prettier "9.0.3"
@@ -3345,10 +3345,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001354:
-  version "1.0.30001354"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001354.tgz#95c5efdb64148bb4870771749b9a619304755ce5"
-  integrity sha512-mImKeCkyGDAHNywYFA4bqnLAzTUvVkqPvhY4DV47X+Gl2c5Z8c3KNETnXp14GQt11LvxE8AwjzGxJ+rsikiOzg==
+caniuse-lite@1.0.30001355:
+  version "1.0.30001355"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001355.tgz#e240b7177443ed0198c737a7f609536976701c77"
+  integrity sha512-Sd6pjJHF27LzCB7pT7qs+kuX2ndurzCzkpJl6Qct7LPSZ9jn0bkOA8mdgMgmqnQAWLVOOGjLpc+66V57eLtb1g==
 
 caniuse-lite@^1.0.30001261:
   version "1.0.30001261"
