@@ -1525,10 +1525,10 @@
     ufo "^0.8.0"
     unstorage "^0.2.8"
 
-"@netlify/plugin-nextjs@4.21.2":
-  version "4.21.2"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.21.2.tgz#d38f043c7854673e7b1b4530f140d3554da10673"
-  integrity sha512-3/f0r98cc7xyoWj+iBjY4bLZqBUY4k1iL8+Ft8KKMko+99mjMazGLxCGMXCnymjGd2noTegliIqzNhZaVSXTPg==
+"@netlify/plugin-nextjs@4.22.0":
+  version "4.22.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.22.0.tgz#1bd1bed0df718417fd8dc66d68b2df5c42c91d54"
+  integrity sha512-TyK4xEkUXnnB5O3LzWu/P2a6BGQ/gbowd+Km3h71cREUQb81nXR2pVlwK+/C7FWsGDgLYhMMBoMjEI3dMJNDXA==
   dependencies:
     "@netlify/esbuild" "0.14.25"
     "@netlify/functions" "^1.2.0"
