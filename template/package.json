@@ -42,7 +42,7 @@
     "@newhighsco/chipset": "6.14.7",
     "@newhighsco/next-plugin-svgr": "3.0.59",
     "@newhighsco/press-start": "*",
-    "next": "12.2.5",
+    "next": "12.3.0",
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "3.1.21",
     "next-transpile-modules": "9.0.0",

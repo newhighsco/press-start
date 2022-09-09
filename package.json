@@ -54,7 +54,7 @@
     "yalc": "1.0.0-pre.53"
   },
   "peerDependencies": {
-    "next": "12.2.5"
+    "next": "12.3.0"
   },
   "commitlint": {
     "extends": [
