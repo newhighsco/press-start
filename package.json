@@ -37,7 +37,7 @@
     "next-seo": "5.11.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.1.2",
+    "@commitlint/cli": "17.2.0",
     "@newhighsco/commitlint-config": "1.1.8",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "3.4.0",
