@@ -1610,10 +1610,10 @@
     eslint-plugin-storybook "0.6.7"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/next-plugin-svgr@3.0.70":
-  version "3.0.70"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.70.tgz#cff0021db04cd628fa9e0a184a6891bec84c8c68"
-  integrity sha512-KfEXAT9QsyYi4jRxWYUfv9rVKKmnaP1S8M0y5RCJjjebr60smi0QZD5qZKrK9AuLGWVWnq32y8VTmbhqExtwyA==
+"@newhighsco/next-plugin-svgr@3.0.71":
+  version "3.0.71"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.71.tgz#c021793c2b8aec3fff1a8bb01c277638e341e8c5"
+  integrity sha512-LCi3rbFDQrAqanL3czK+pZujyt7VEb5cuqPHq4HPWmo3PAfDPv9rSaHlF6aT8sIUa6tdqt7PnITNU1G+G6uQ2A==
   dependencies:
     "@svgr/webpack" "6.5.1"
     file-loader "6.2.0"
@@ -1655,10 +1655,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.26":
-  version "3.1.26"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.26.tgz#8f3ba3317b80bbe297686147fd1b35b805cb4c3b"
-  integrity sha512-o4/q4m0LdnWOPWbwWq96vU4pkR2zsVzykNRkET716sLa+3EMfVAXsVMbKhrF/zDSlvJ1PmmlYfiq7drM17SEQQ==
+"@newhighsco/stylelint-config@3.1.27":
+  version "3.1.27"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.27.tgz#cb45469ee5d18625fec4c7e19f98b1a5767a5555"
+  integrity sha512-0VAgtt/foAaIwvUWWqEToMXKfJY0gaGIt+Ff8wN4WK48x/o3+ag9dp+mMTOt5YJc3DVFdJ7hvWRAaTde48ErIQ==
   dependencies:
     stylelint-config-css-modules "4.1.0"
     stylelint-config-prettier "9.0.4"
