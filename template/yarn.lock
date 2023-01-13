@@ -1610,10 +1610,10 @@
     eslint-plugin-storybook "0.6.10"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/next-plugin-svgr@3.0.75":
-  version "3.0.75"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.75.tgz#a4a0e729f69405d09f29c0f22c50f411141f9c09"
-  integrity sha512-x4UDJGPQ9BcKL7hRuRB7+nI1TksgvH9kbZl5bDVZMJwAO2lIIyiS14+ilSJC28rHZmvXqSTNINlxFKgTZ1C0Bw==
+"@newhighsco/next-plugin-svgr@3.0.76":
+  version "3.0.76"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.76.tgz#ee394fa46c670b5a8f83e4eba53322fc13650584"
+  integrity sha512-zdPMEXr2LlzTt741bO9Cfd5UQ6kup7XmzfEhSf7bz2hiqTxPhz994VFATLMLpOrUsxER6krIzCXVgNkXcdl5NQ==
   dependencies:
     "@svgr/webpack" "6.5.1"
     file-loader "6.2.0"
