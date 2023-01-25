@@ -1,6 +1,6 @@
-import React from 'react'
-import { array, bool, node, object, string } from 'prop-types'
 import { NextSeo } from 'next-seo'
+import { array, bool, node, object, string } from 'prop-types'
+import React from 'react'
 
 const Meta = ({
   children,

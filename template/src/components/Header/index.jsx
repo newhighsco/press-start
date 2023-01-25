@@ -1,13 +1,13 @@
-import React from 'react'
-import Link from 'next/link'
+import LogoLockup from '@components/LogoLockup'
+import header from '@data/header.json'
 import {
   Grid,
   HeaderContainer,
   Navigation,
   SmartLink
 } from '@newhighsco/chipset'
-import LogoLockup from '@components/LogoLockup'
-import header from '@data/header.json'
+import Link from 'next/link'
+import React from 'react'
 
 import styles from './Header.module.scss'
 
