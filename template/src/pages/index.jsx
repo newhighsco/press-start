@@ -1,10 +1,10 @@
-import React from 'react'
-import { object } from 'prop-types'
-import urlJoin from 'url-join'
-import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
-import { Prose } from '@newhighsco/chipset'
 import PageContainer from '@components/PageContainer'
 import config from '@config'
+import { Prose } from '@newhighsco/chipset'
+import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
+import { object } from 'prop-types'
+import React from 'react'
+import urlJoin from 'url-join'
 
 const { name, title, logo, socialLinks, url } = config
 

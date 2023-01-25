@@ -1,11 +1,11 @@
-import React from 'react'
-import { string } from 'prop-types'
-import classNames from 'classnames'
-import { Icon } from '@newhighsco/chipset'
 import config from '@config'
+import { ReactComponent as LogoSvg } from '@images/logo.svg'
+import { Icon } from '@newhighsco/chipset'
+import classNames from 'classnames'
+import { string } from 'prop-types'
+import React from 'react'
 
 import styles from './LogoLockup.module.scss'
-import { ReactComponent as LogoSvg } from '@images/logo.svg'
 
 const { name } = config
 

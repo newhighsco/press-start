@@ -1,7 +1,7 @@
-import React from 'react'
-import { object } from 'prop-types'
-import { Prose } from '@newhighsco/chipset'
 import PageContainer from '@components/PageContainer'
+import { Prose } from '@newhighsco/chipset'
+import { object } from 'prop-types'
+import React from 'react'
 
 const NotFoundPage = ({ meta }) => (
   <PageContainer meta={meta}>
