@@ -297,10 +297,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.11.tgz#479ffd1e25685c945bf02416e24717c7f8faae32"
-  integrity sha512-0NblLyjN+HRqWUzCPP8QC5BQLlZlsS/J8p6pTH9zVuiurKcvxn3/px/I7OvlSWoMCy/dmimgNN0GwvE2awy39Q==
+"@newhighsco/eslint-config@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.12.tgz#495a5ed7a0e20af6dc8cd0f62297758056a4514a"
+  integrity sha512-QNA9MFufAbEwtJ16qs4esEriFddstz65T+gHk8wpsyHt3BuIzHmbUOz9vRIqvJmh4Yx+SYKXfpY82uwkywBeFw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.51.0"
     "@typescript-eslint/parser" "5.51.0"
@@ -342,13 +342,13 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.34":
-  version "3.1.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.34.tgz#e610b49a88209c560f8001761b8f22a79cc2d88d"
-  integrity sha512-PUSasqclxNzYKLKUffLiSe7u4uY/ZB/yyWnPQqBkSYK8dFb+2YeRLUkTnBFVf++7UzmA/G5XTbyr/wqj8LXQZA==
+"@newhighsco/stylelint-config@3.1.36":
+  version "3.1.36"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.36.tgz#aff5eaee54fda2a4e4fa22b979c04ff1823aad6b"
+  integrity sha512-IxCXIQOSc4AfBWVYp+Wdejg8ywAfaXWL+dxjSLARXGA4r1STZNwvxl7MrXhXtQdWWe25/bQt4JbPvCNaz6vinQ==
   dependencies:
-    stylelint-config-css-modules "4.1.0"
-    stylelint-config-prettier "9.0.4"
+    stylelint-config-css-modules "4.2.0"
+    stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "6.1.0"
     stylelint-prettier "2.0.0"
 
@@ -8104,17 +8104,17 @@ style-search@^0.1.0:
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
 
-stylelint-config-css-modules@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.1.0.tgz#b507bc074ba5bfda9f40f0be79b540db249f0c78"
-  integrity sha512-w6d552NscwvpUEaUcmq8GgWXKRv6lVHLbDj6QIHSM2vCWr83qRqRvXBJCfXDyaG/J3Zojw2inU9VvU99ZlXuUw==
+stylelint-config-css-modules@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.2.0.tgz#0196347d5c143eff9e2a3e97b1ba980253b6b8bf"
+  integrity sha512-5x7lzPNCc42puQEAFdr7dSzQ00aIg1vCVyV+QPUiSp2oZILpAt8HTgveXaDttazxcwWPBNJrxrLpa556xUP7Bw==
   optionalDependencies:
-    stylelint-scss "^4.2.0"
+    stylelint-scss "^4.3.0"
 
-stylelint-config-prettier@9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-9.0.4.tgz#1b1dda614d5b3ef6c1f583fa6fa55f88245eb00b"
-  integrity sha512-38nIGTGpFOiK5LjJ8Ma1yUgpKENxoKSOhbDNSemY7Ep0VsJoXIW9Iq/2hSt699oB9tReynfWicTAoIHiq8Rvbg==
+stylelint-config-prettier@9.0.5:
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-9.0.5.tgz#9f78bbf31c7307ca2df2dd60f42c7014ee9da56e"
+  integrity sha512-U44lELgLZhbAD/xy/vncZ2Pq8sh2TnpiPvo38Ifg9+zeioR+LAkHu0i6YORIOxFafZoVg0xqQwex6e6F25S5XA==
 
 stylelint-config-recommended-scss@^8.0.0:
   version "8.0.0"
@@ -8152,10 +8152,10 @@ stylelint-prettier@2.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@^4.0.0, stylelint-scss@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.2.0.tgz#e25fd390ee38a7e89fcfaec2a8f9dce2ec6ddee8"
-  integrity sha512-HHHMVKJJ5RM9pPIbgJ/XA67h9H0407G68Rm69H4fzFbFkyDMcTV1Byep3qdze5+fJ3c0U7mJrbj6S0Fg072uZA==
+stylelint-scss@^4.0.0, stylelint-scss@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.3.0.tgz#638800faf823db11fff60d537c81051fe74c90fa"
+  integrity sha512-GvSaKCA3tipzZHoz+nNO7S02ZqOsdBzMiCx9poSmLlb3tdJlGddEX/8QzCOD8O7GQan9bjsvLMsO5xiw6IhhIQ==
   dependencies:
     lodash "^4.17.21"
     postcss-media-query-parser "^0.2.3"
