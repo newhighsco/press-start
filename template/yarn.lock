@@ -1726,10 +1726,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.39":
-  version "3.1.39"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.39.tgz#d95c6a6dc1831354ad4a91413e974fbc4bfe628e"
-  integrity sha512-DD7lmi//yDfL7Zi1vCzeO9Aear2uto8NyB1Nhxz6uLtcn0Thb9SPeGIjvfwzJ89bc5PPLt0lAUe5VmUBuI6NxA==
+"@newhighsco/stylelint-config@3.1.40":
+  version "3.1.40"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.40.tgz#680e3630f5e4fc5e23916cad668a93c28931c87e"
+  integrity sha512-jMdJdZwDlZzN6uiI3Djk9fQhuL4+xgyoscFq0MN3T3qlXhfCRZrRuJMp87xqII27tsh2U/gUtt+8bY52AKgQuw==
   dependencies:
     stylelint-config-css-modules "4.2.0"
     stylelint-config-prettier "9.0.5"
