@@ -44,7 +44,7 @@
     "@newhighsco/press-start": "2.2.10",
     "next": "13.2.3",
     "next-compose-plugins": "2.2.1",
-    "next-sitemap": "3.1.55",
+    "next-sitemap": "4.0.1",
     "next-videos": "1.5.0",
     "postcss": "8.4.21",
     "react": "18.2.0",
