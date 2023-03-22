@@ -18,7 +18,7 @@ function listFilesSync(dir) {
 function fileAndSize(file) {
   return {
     file,
-    size: fs.statSync(file).size
+    size: fs.statSync(file).size / 1024 ** 2
   }
 }
 module.exports = {
