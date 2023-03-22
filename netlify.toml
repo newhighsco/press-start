@@ -1,2 +1,2 @@
 [[plugins]]
-package = "netlify-plugin-debug-cache"
+  package = "/plugins/debug-cache"
