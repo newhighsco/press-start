@@ -1,5 +1,5 @@
 const fs = require('fs')
-// const path = require('path')
+const path = require('path')
 // const { promisify } = require('util')
 // const writeFile = promisify(fs.writeFile)
 
@@ -11,10 +11,12 @@ module.exports = {
   onPreBuild: async ({ constants, inputs, utils }) => {
     console.log(DEFAULT_CACHE_DIR)
 
-    const files = fs.readdirSync(DEFAULT_CACHE_DIR)
+    const files = fs.readdirSync(path.resolve(DEFAULT_CACHE_DIR))
 
     files.forEach(file => {
-      console.log(file)
+      const { size } = fs.statSync(file)
+
+      console.log(file, size)
     })
 
     // const { PUBLISH_DIR } = constants
