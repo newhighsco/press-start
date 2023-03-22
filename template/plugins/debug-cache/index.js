@@ -1,38 +1,38 @@
 const fs = require('fs')
 const path = require('path')
 
-const getAllFiles = function (dirPath, arrayOfFiles) {
-  const files = fs.readdirSync(dirPath)
+function listFilesSync(dir) {
+  let fileList = []
+  fs.readdirSync(dir).forEach(file => {
+    const fullPath = path.join(dir, file)
 
-  arrayOfFiles = arrayOfFiles || []
-
-  files.forEach(function (file) {
-    if (fs.statSync(dirPath + '/' + file).isDirectory()) {
-      arrayOfFiles = getAllFiles(dirPath + '/' + file, arrayOfFiles)
+    if (fs.lstatSync(fullPath).isDirectory()) {
+      fileList = fileList.concat(listFilesSync(fullPath))
     } else {
-      arrayOfFiles.push(path.join(__dirname, dirPath, '/', file))
+      fileList.push(fullPath)
     }
   })
-
-  return arrayOfFiles
+  return fileList
 }
 
+function fileAndSize(file) {
+  return {
+    file,
+    size: fs.statSync(file).size
+  }
+}
 module.exports = {
   onPreBuild: async ({ constants, inputs, utils }) => {
-    const files = await utils.cache.list()
+    const dirs = await utils.cache.list()
 
-    console.log('Cached folder count', files.length)
+    console.log('Cached directory count', dirs.length)
 
-    files.forEach(file => {
-      console.log(111, file)
+    dirs.forEach(dir => {
+      const files = listFilesSync(dir)
+      const filesAndSizes = files.map(fileAndSize)
 
-      const all = getAllFiles(file)
-
-      all.forEach(a => {
-        const { size } = fs.statSync(a)
-
-        console.log(222, a, size)
-      })
+      console.log(dir, files.length)
+      console.log(JSON.stringify(filesAndSizes, null, 2))
     })
   }
 }
