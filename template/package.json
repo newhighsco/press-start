@@ -52,7 +52,7 @@
     "sass": "1.59.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.4.4",
+    "@commitlint/cli": "17.5.0",
     "@netlify/plugin-nextjs": "4.32.2",
     "@newhighsco/browserslist-config": "1.1.0",
     "@newhighsco/commitlint-config": "1.1.15",
