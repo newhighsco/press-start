@@ -949,10 +949,10 @@
     "@babel/helper-validator-option" "^7.21.0"
     "@babel/plugin-transform-typescript" "^7.21.0"
 
-"@babel/runtime@^7.14.6", "@babel/runtime@^7.20.1", "@babel/runtime@^7.20.7", "@babel/runtime@^7.8.4":
-  version "7.20.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.7.tgz#fcb41a5a70550e04a7b708037c7c32f7f356d8fd"
-  integrity sha512-UF0tvkUtxwAgZ5W/KrkHf0Rn0fdnLDU9ScxBrEVNUprE/MzirjK4MJUX1/BVDv00Sv8cljtukVK1aky++X1SjQ==
+"@babel/runtime@^7.14.6", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0", "@babel/runtime@^7.8.4":
+  version "7.21.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
+  integrity sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==
   dependencies:
     regenerator-runtime "^0.13.11"
 
@@ -1335,12 +1335,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz#2cbcf822bf3764c9658c4d2e568bd0c0cb748016"
   integrity sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==
 
-"@dr.pogodin/react-themes@1.4.7":
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.4.7.tgz#ecdb41fc54dc46ad9e27e5cf22afcc0fc1996792"
-  integrity sha512-RXgnXLIx623TNvS3JaKlClasweMUFREthfuT6Hi7Nukp+0iUHILSpvx/HwANnDcu1dy309Gx8rc3OB1FrPVd1w==
+"@dr.pogodin/react-themes@1.4.8":
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.4.8.tgz#d494a303601491f0338ff0fb2f4e97db8b09dc6e"
+  integrity sha512-aGRYmYj64ec1Rmouo6zFCjpIiujk0EHFRYL1vXZ4K0auGrjnBmK9ks1cHjpKkBEmb9DPAMh5t1Q2speLqC1BhA==
   dependencies:
-    "@babel/runtime" "^7.20.1"
+    "@babel/runtime" "^7.21.0"
 
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.2.0"
@@ -1655,12 +1655,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/chipset@6.14.14":
-  version "6.14.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.14.14.tgz#2169a607e242495c8e68637d5b28381a1f6c1d89"
-  integrity sha512-BIvH0Qc/VeVCV0StNmjHqUkLPQBUFCNNVHCfSMK8zFxp8UxQFR2c6mMggWotXMwyiIt+TYJWnNbRtBbiNNyndw==
+"@newhighsco/chipset@6.14.15":
+  version "6.14.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.14.15.tgz#48d136eab7bacbb293eef42764a08a0cbb491cef"
+  integrity sha512-rYjUcKp0Lq0s+CnG15ErZWXUu6RppHBJuCsN5+9/GXiDVSLIQqqA6Lfg0nCv6WBVJ7AUtmQpMBEVwazI4vDw4A==
   dependencies:
-    "@dr.pogodin/react-themes" "1.4.7"
+    "@dr.pogodin/react-themes" "1.4.8"
     classnames "2.3.2"
     react-device-detect "2.2.3"
 
