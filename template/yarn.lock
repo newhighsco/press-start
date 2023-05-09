@@ -1621,10 +1621,10 @@
     ufo "^1.0.0"
     unstorage "^1.0.0"
 
-"@netlify/plugin-nextjs@4.36.0":
-  version "4.36.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.36.0.tgz#148c00c3034b8e350772ca0a9d3f121341dea8b9"
-  integrity sha512-xFcfYyK/p52xYWoCxWkIAVBsD/gzbyfLYJ70OFZm8NnlLMOqxJvNsO4XofJHJlNshteVZTF339oZTT4dgQ48Uw==
+"@netlify/plugin-nextjs@4.36.1":
+  version "4.36.1"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.36.1.tgz#2bfb1960d377dad6a34bbdab46f9599ec7682520"
+  integrity sha512-e7vmZht8OFWTueiCcMyp//u1sXYjGfjturUlh0wGjynvdFRBpYhJAl85gToRJGTvAthwJNGq9aLcgBuJWRMRIg==
   dependencies:
     "@netlify/esbuild" "0.14.39"
     "@netlify/functions" "^1.4.0"
