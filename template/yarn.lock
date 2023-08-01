@@ -1730,10 +1730,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/chipset@6.14.16":
-  version "6.14.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.14.16.tgz#0470ac729db404c9ba2e635c251f6273c4d20283"
-  integrity sha512-wFktaj/5t0ugaMIqpnaUsDXLp7UguJ6tuao2o99c1SFFoyTeOR+5sNisSjR+PJKGIsnnxVw4cP+oy2cXlPNLeg==
+"@newhighsco/chipset@6.15.0":
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.15.0.tgz#b42147e994d3553adc9e88b4dc0a50f4178c2d7f"
+  integrity sha512-dphaMApw5it+Tq456BNjw1auKgsC+rYz3bty75hZ6VC75R0HenWwNjcRX9xF82B9qa+1rRpASvtL1yDVeTKZAw==
   dependencies:
     "@dr.pogodin/react-themes" "1.4.8"
     classnames "2.3.2"
