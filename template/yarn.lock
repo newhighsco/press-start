@@ -1777,10 +1777,10 @@
     eslint-plugin-testing-library "5.11.1"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/next-plugin-svgr@3.0.104":
-  version "3.0.104"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.104.tgz#f2ad3d3373333d6cb75f8ca9cd5c18461660e2b9"
-  integrity sha512-ipxzXFhp5/btFdt3D/hTG4qRFAnu7JWO3qwBhliYlrnsnPgPP5ciznT84w8n+jTWZxa/tYKH2tXT8UfiH+1CjQ==
+"@newhighsco/next-plugin-svgr@3.0.105":
+  version "3.0.105"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.105.tgz#b02ce67a4a07be4874f39b022f35774050e0445d"
+  integrity sha512-LxIyC+YB79TMJith7KK7qlcnQohFI9CUN3njeiEOQee/0tgrut/GR2HtfpBfv9TUahtPI5WJlEAIDqytWKrVGQ==
   dependencies:
     "@svgr/webpack" "8.0.1"
     file-loader "6.2.0"
