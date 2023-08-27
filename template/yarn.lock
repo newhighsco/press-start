@@ -1754,10 +1754,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.62":
-  version "4.0.62"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.62.tgz#f7662caf9d817939e6c4a266bccbf47e573acd4c"
-  integrity sha512-YwmDQefkAA/F6fMa30p1OmDvGea7GsHxO8QDKuY56Sf3xQD0Ut/pAEOmisR8XLHEDxqYPRHcg7KSDRvwsjIVYw==
+"@newhighsco/eslint-config@4.0.63":
+  version "4.0.63"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.63.tgz#9043712edcf131837ce2da51f2184b6531d45b2f"
+  integrity sha512-FTkRu0BpDfoQLPER8mmjjkvHekZNKWcy3avoWSTS20gC7okr81TqO90M26P+IbRxUpw9eLS9diize79mCP7Qcg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.4.1"
     "@typescript-eslint/parser" "6.4.1"
@@ -1765,7 +1765,7 @@
     eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
-    eslint-config-standard-with-typescript "38.0.0"
+    eslint-config-standard-with-typescript "38.1.0"
     eslint-plugin-cypress "2.14.0"
     eslint-plugin-import "2.28.1"
     eslint-plugin-json-format "2.0.1"
@@ -1791,14 +1791,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.147":
-  version "3.5.147"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.147.tgz#393ca537c5c4199c4f8d71b0c5c3329d43bd5663"
-  integrity sha512-zwy8oXWX+n2XlMinT0ErQfLNH6ilemtXScAhplHUC/+DG+9BdG+nS+cDi8fDIK24UikpH7YaHkbqN5Lm/Okb6w==
+"@newhighsco/postcss-config@3.5.148":
+  version "3.5.148"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.148.tgz#ccca8a687b5964c6286d20bd4ad5251056455e29"
+  integrity sha512-q6DfVdPW2rgzhJ3hePfj2RPZVWSjsOE05A5uxGZxFPDKYAXGhzsYSW/GYHW4t4tmiBSrRpPfw8W/3EG2f5OOtQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.15"
-    caniuse-lite "1.0.30001523"
+    caniuse-lite "1.0.30001524"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.1.1"
 
@@ -3477,10 +3477,10 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001523, caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001517, caniuse-lite@^1.0.30001520:
-  version "1.0.30001523"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001523.tgz#b838f70b1a98c556776b998fafb47d2b64146d4f"
-  integrity sha512-I5q5cisATTPZ1mc588Z//pj/Ox80ERYDfR71YnvY7raS/NOk8xXlZcB0sF7JdqaV//kOaa6aus7lRfpdnt1eBA==
+caniuse-lite@1.0.30001524, caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001517, caniuse-lite@^1.0.30001520:
+  version "1.0.30001524"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001524.tgz#1e14bce4f43c41a7deaeb5ebfe86664fe8dadb80"
+  integrity sha512-Jj917pJtYg9HSJBF95HVX3Cdr89JUyLT4IZ8SvM5aDRni95swKgYi3TgYLH5hnGfPE/U1dg6IfZ50UsIlLkwSA==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -4734,10 +4734,10 @@ eslint-config-standard-react@13.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-13.0.0.tgz#dcc85bc3210dac858bc94ac53d024a5488ce5568"
   integrity sha512-HrVPGj8UncHfV+BsdJTuJpVsomn6AIrke3Af2Fh4XFvQQDU+iO6N2ZL+UsC+scExft4fU3uf7fJwj7PKWnXJDA==
 
-eslint-config-standard-with-typescript@38.0.0:
-  version "38.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-38.0.0.tgz#4e25e47011d51a30c8c68934e65e7d744b222cda"
-  integrity sha512-G7JR6I8tmWEQjzbESo/9gVq4AQctbVO4J8PINQj8l2lgbJF/W9KCJ4uDLiKmLMjWszW/F5SsucoA/5VpHvfwOQ==
+eslint-config-standard-with-typescript@38.1.0:
+  version "38.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-38.1.0.tgz#26e981539db7fcd4728caf88694ffc9e24a3e0cc"
+  integrity sha512-sdgN8Gf7BMVhVKlY7/mB426yO/MozU1zV7TKnh0z1wIoPq4lD0CHQ+b/UkgqKfiZ4Io0j3xIY1j+lHhVXQck0g==
   dependencies:
     "@typescript-eslint/parser" "^6.1.0"
     eslint-config-standard "17.1.0"
