@@ -75,10 +75,7 @@
   },
   "renovate": {
     "extends": [
-      "@newhighsco"
-    ],
-    "baseBranches": [
-      "main"
+      "local>newhighsco/.github:renovate-config"
     ],
     "pathRules": [
       {
@@ -86,7 +83,7 @@
           "template/package.json"
         ],
         "extends": [
-          "@newhighsco"
+          "local>newhighsco/.github:renovate-config"
         ]
       }
     ]
