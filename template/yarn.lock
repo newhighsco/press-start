@@ -1791,14 +1791,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.154":
-  version "3.5.154"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.154.tgz#1f64d881b6dd735c059425c0115d792d05f5f853"
-  integrity sha512-00wgHXyh5o8L+andLWiLYPIPz0jKLAeGDIIjAD6zkM+5wbJo9JjWQt0HLMhYGcWcoHRCQOJbPLeT1LK3gV6m8w==
+"@newhighsco/postcss-config@3.5.155":
+  version "3.5.155"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.155.tgz#2dd49a51db560f05895a5a1293f28dc293b1adfc"
+  integrity sha512-qtQxmqSM5ojU+UwJOywE8IsvmwBasOqmsZioo4OJfYQaCDWDbrnHk7FZ5T/sYg8UnY7BXazB81zs5+fcHAQ1DQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.15"
-    caniuse-lite "1.0.30001529"
+    caniuse-lite "1.0.30001532"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.1.3"
 
@@ -3477,10 +3477,10 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001529, caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001517, caniuse-lite@^1.0.30001520:
-  version "1.0.30001529"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001529.tgz#c1f2a411e85fdaace4b1560e1bad078b00ac3181"
-  integrity sha512-n2pUQYGAkrLG4QYj2desAh+NqsJpHbNmVZz87imptDdxLAtjxary7Df/psdfyDGmskJK/9Dt9cPnx5RZ3CU4Og==
+caniuse-lite@1.0.30001532, caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001517, caniuse-lite@^1.0.30001520:
+  version "1.0.30001532"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001532.tgz#c6a4d5d2da6d2b967f0ee5e12e7f680db6ad2fca"
+  integrity sha512-FbDFnNat3nMnrROzqrsg314zhqN5LGQ1kyyMk2opcrwGbVGpHRhgCWtAgD5YJUqNAiQ+dklreil/c3Qf1dfCTw==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
