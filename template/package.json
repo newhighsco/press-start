@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.2",
-    "@netlify/plugin-nextjs": "4.40.1",
+    "@netlify/plugin-nextjs": "4.40.2",
     "@newhighsco/browserslist-config": "1.1.0",
     "@newhighsco/commitlint-config": "1.1.20",
     "@newhighsco/editor-config": "1.2.0",
