@@ -55,7 +55,7 @@
     "@commitlint/cli": "17.8.0",
     "@netlify/plugin-nextjs": "4.40.2",
     "@newhighsco/browserslist-config": "1.1.0",
-    "@newhighsco/commitlint-config": "1.1.20",
+    "@newhighsco/commitlint-config": "1.1.21",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.85",
     "@newhighsco/postcss-config": "3.5.170",
