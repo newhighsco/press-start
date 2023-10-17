@@ -50,7 +50,7 @@
     "npm-run-all": "4.1.5",
     "prettier": "3.0.3",
     "semantic-release": "22.0.5",
-    "stylelint": "15.10.3",
+    "stylelint": "15.11.0",
     "yalc": "1.0.0-pre.53"
   },
   "peerDependencies": {
