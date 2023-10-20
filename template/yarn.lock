@@ -1740,10 +1740,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/node-cookies/-/node-cookies-0.1.0.tgz#dda912ba618527695cf519fafa221c5e6777c612"
   integrity sha512-OAs1xG+FfLX0LoRASpqzVntVV/RpYkgpI0VrUnw2u0Q1qiZUzcPffxRK8HF3gc4GjuhG5ahOEMJ9bswBiZPq0g==
 
-"@netlify/plugin-nextjs@4.41.0":
-  version "4.41.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.41.0.tgz#34c4af80b8f1575d6053d38f59e9b1e0aa1c3321"
-  integrity sha512-Yq1hw/Ip3OGhQhG9xVNIf+lyY6XIbkDzxpXV3wIFbfZDOzgXxBfHixB+AWRoztiYPDknIRC3UOQKwdlRkHyqhw==
+"@netlify/plugin-nextjs@4.41.1":
+  version "4.41.1"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-4.41.1.tgz#fd71b02d6b13c3058328d0a0ef5e3d8c6e95d170"
+  integrity sha512-/r4Lfp/A9kqyu2KrRPijXDGDdNMGo3rjYrHpc5kNehTZrsFCyAwNVDvOV/akfUlT8wnpibjsoAmlurF9+zfjRA==
   dependencies:
     "@netlify/blobs" "^2.2.0"
     "@netlify/esbuild" "0.14.39"
