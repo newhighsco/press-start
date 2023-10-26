@@ -39,7 +39,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "6.15.3",
+    "@newhighsco/chipset": "6.15.4",
     "@newhighsco/next-plugin-svgr": "3.0.115",
     "@newhighsco/press-start": "2.2.12",
     "next": "13.5.6",
@@ -55,7 +55,7 @@
     "@commitlint/cli": "18.2.0",
     "@netlify/plugin-nextjs": "4.41.1",
     "@newhighsco/browserslist-config": "1.1.0",
-    "@newhighsco/commitlint-config": "1.1.24",
+    "@newhighsco/commitlint-config": "1.1.25",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.89",
     "@newhighsco/postcss-config": "3.5.174",
