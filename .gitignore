@@ -23,5 +23,3 @@ yarn-error.log
 # Project specific
 .eslintcache
 .stylelintcache
-.yalc
-yalc.lock
