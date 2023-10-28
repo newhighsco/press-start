@@ -31,7 +31,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "next-seo": "6.1.0"
+    "next-seo": "6.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "18.2.0",
