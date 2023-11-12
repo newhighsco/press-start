@@ -54,7 +54,7 @@
   "devDependencies": {
     "@commitlint/cli": "18.4.1",
     "@newhighsco/browserslist-config": "1.1.0",
-    "@newhighsco/commitlint-config": "1.1.26",
+    "@newhighsco/commitlint-config": "1.1.27",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.96",
     "@newhighsco/postcss-config": "3.5.180",
