@@ -1562,13 +1562,13 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/chipset@6.15.5":
-  version "6.15.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.15.5.tgz#0c16d25399aa0e02f79a6e20755eb3c65ab2e7ee"
-  integrity sha512-kK9kUW28FvHszti3kZ8DgWLJyKAZ92Y8NImopo/zzStdwqxdGR3kQ0/1mtAN1TpIkGdjeOPJ604MQYELUBngzQ==
+"@newhighsco/chipset@6.15.6":
+  version "6.15.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.15.6.tgz#e514046210bddfd6c5fcc23ae261865d380c562e"
+  integrity sha512-66WyqJmBW47wheBLz8qUbfzmGiEYgdBw6lC6OdsdP/f860eZBmwy6hizdDesxWJlKLpSpQsM9jkEObALbLw9QQ==
   dependencies:
     "@dr.pogodin/react-themes" "1.5.1"
-    classnames "2.3.3"
+    classnames "2.4.0"
     react-device-detect "2.2.3"
 
 "@newhighsco/commitlint-config@1.1.29":
@@ -3507,10 +3507,10 @@ cidr-regex@^3.1.1:
   dependencies:
     ip-regex "^4.1.0"
 
-classnames@2.3.3:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.3.tgz#897b59920fa3e336571c164366efad73e9d6418b"
-  integrity sha512-1inzZmicIFcmUya7PGtUQeXtcF7zZpPnxtQoYOrz0uiOBGlLFa4ik4361seYL2JCcRDIyfdFHiwQolESFlw+Og==
+classnames@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.4.0.tgz#78011af2612f5c552195e2e657bd5fe2de973cac"
+  integrity sha512-lWxiIlphgAhTLN657pwU/ofFxsUTOWc2CRIFeoV5st0MGRJHStUnWIUJgDHxjUO/F0mXzGufXIM4Lfu/8h+MpA==
 
 clean-stack@^2.0.0:
   version "2.2.0"
