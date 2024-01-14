@@ -1579,10 +1579,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.135":
-  version "4.0.135"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.135.tgz#8a54d6241b254ca7cebe1b7e290a94fde1168fc9"
-  integrity sha512-7ZOUItuILueMQOoKzt5zrgTkQXrk5V+J8lzj/oNBrc0b3xMcOc8CLSbIfM0EjKzsfpgml1s6nqo4h0uoU12j5A==
+"@newhighsco/eslint-config@4.0.137":
+  version "4.0.137"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.137.tgz#9d920bbb9bf5d86529ba0ae5745710878844a60f"
+  integrity sha512-D1aN3nq1FhdYgTQ2CfunacHQPBaCYxsquVHQq3bVwh15iD9tEIszZ64af90ReghsP0NcBKws/grJOZ5+6pDRjg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.18.1"
     "@typescript-eslint/parser" "6.18.1"
@@ -1595,7 +1595,7 @@
     eslint-plugin-import "2.29.1"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.8.0"
-    eslint-plugin-mdx "3.1.4"
+    eslint-plugin-mdx "3.1.5"
     eslint-plugin-n "16.6.2"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "5.1.3"
@@ -1634,10 +1634,10 @@
   dependencies:
     next-seo "6.4.0"
 
-"@newhighsco/prettier-config@2.1.18":
-  version "2.1.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.18.tgz#f4f6ea846d9d01c42c7da6c50d115fada56226b9"
-  integrity sha512-BbO3fIxEEaedMCMnM2+yija+AN6k6TbQw+lFe9xTnmPxInz6MMS2k/1Hny0gl3ey7Tey+emwRQk6gUKbUsNHkQ==
+"@newhighsco/prettier-config@2.1.19":
+  version "2.1.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.19.tgz#b474582b65731da1d6df92a3957d4c3c6aed2cba"
+  integrity sha512-0p7zuGu9xeWnvW1TeTRlFS+IvHqpjZXB+h1E0QZg1syf14LXIf9LzsQLbQBZ7hZBiP9KyRe/GGqv/YJJOQOxqA==
 
 "@newhighsco/release-config@1.3.56":
   version "1.3.56"
@@ -1652,10 +1652,10 @@
     "@semantic-release/release-notes-generator" "12.1.0"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@3.1.71":
-  version "3.1.71"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.71.tgz#b767cdb1e5a25e57de90260b9ae8a3fe15ee6a9c"
-  integrity sha512-67seMI/uvOMMvTGDHF7+M5fp10Vljz/J9LnTTANn+E/bU4yEpK78rdm7EZlPLwjLiIQ/M9gUR6lejkHqVsAygw==
+"@newhighsco/stylelint-config@3.1.72":
+  version "3.1.72"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.72.tgz#ba70db4e6c72a8db94da61d553a08ce3ce03853d"
+  integrity sha512-wqACmueXdj7f6mO1vH6XnGiKdXt/K6bpZWWsC5NMOvvAaqCjA0yua5xQBcBPybTIuQJshU50ArZvr2dCPfrbmw==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
@@ -4500,10 +4500,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-mdx@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.1.4.tgz#50a144b1046593ecec25f1b5f6bb6402348cf49e"
-  integrity sha512-e8INdT4Up8bPT/QuaoUYOXJHOI8XZKq9qtHMPkTV5BVwolu6Cgfo4qqOtEDDSUFo9Nmw/8CQ8dJB5ncZvPG1Dw==
+eslint-mdx@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.1.5.tgz#e0276cad5649a4a174ffb27a7fbca83be7f580cb"
+  integrity sha512-ynztX0k7CQ3iDL7fDEIeg3g0O/d6QPv7IBI9fdYLhXp5fAp0fi8X22xF/D3+Pk0f90R27uwqa1clHpay6t0l8Q==
   dependencies:
     acorn "^8.11.3"
     acorn-jsx "^5.3.2"
@@ -4617,12 +4617,12 @@ eslint-plugin-markdown@^3.0.1:
   dependencies:
     mdast-util-from-markdown "^0.8.5"
 
-eslint-plugin-mdx@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.1.4.tgz#7adbea8b9fb807e0d2d1334786475a3274c0792a"
-  integrity sha512-KTeauZahLAhA5J+NcqnpuZzhv9lmI2paKbesmPj6Q6rgeSg8jorfIhhcLSoUiSIobl7MSYgjULR2FDb8KE6PKg==
+eslint-plugin-mdx@3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.1.5.tgz#8f20d899c24272c0d471715c1f80d1332ec933c4"
+  integrity sha512-lUE7tP7IrIRHU3gTtASDe5u4YM2SvQveYVJfuo82yn3MLh/B/v05FNySURCK4aIxIYF1QYo3IRemQG/lyQzpAg==
   dependencies:
-    eslint-mdx "^3.1.4"
+    eslint-mdx "^3.1.5"
     eslint-plugin-markdown "^3.0.1"
     remark-mdx "^3.0.0"
     remark-parse "^11.0.0"
