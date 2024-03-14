@@ -17,7 +17,7 @@
     "src"
   ],
   "scripts": {
-    "prepare": "(is-ci || husky install) && yarn --cwd template install --ignore-scripts",
+    "prepare": "husky && yarn --cwd template install --ignore-scripts",
     "start": "yarn --cwd template start",
     "prebuild": "yarn format:deps",
     "build": "yarn --cwd template build",
@@ -44,7 +44,6 @@
     "concurrently": "8.2.2",
     "eslint": "8.57.0",
     "husky": "9.0.11",
-    "is-ci": "3.0.1",
     "prettier": "3.2.5",
     "semantic-release": "23.0.2",
     "stylelint": "16.2.1"
