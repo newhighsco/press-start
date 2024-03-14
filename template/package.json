@@ -24,7 +24,7 @@
     "site.config.js"
   ],
   "scripts": {
-    "prepare": "is-ci || husky install",
+    "prepare": "husky",
     "clean": "rm -rf {.next,public/{robots.txt,sitemap*.xml}}",
     "start": "next dev",
     "build": "next build",
@@ -64,7 +64,6 @@
     "concurrently": "8.2.2",
     "eslint": "8.57.0",
     "husky": "9.0.11",
-    "is-ci": "3.0.1",
     "prettier": "3.2.5",
     "semantic-release": "23.0.2",
     "stylelint": "16.2.1"
