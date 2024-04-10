@@ -1,6 +1,6 @@
 # ⚡️ Press Start [![NPM version](https://img.shields.io/npm/v/@newhighsco/press-start.svg)](https://npmjs.com/@newhighsco/press-start)
 
-[Chipset](https://chipset.newhighsco.re/) + Next.js site starter
+[Chipset](https://github.com/newhighsco/chipset) + Next.js site starter
 
 ## Usage
 
