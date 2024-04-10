@@ -62,7 +62,7 @@
     "@newhighsco/release-config": "1.3.71",
     "@newhighsco/stylelint-config": "3.1.79",
     "concurrently": "8.2.2",
-    "eslint": "8.57.0",
+    "eslint": "9.0.0",
     "husky": "9.0.11",
     "prettier": "3.2.5",
     "semantic-release": "23.0.8",
