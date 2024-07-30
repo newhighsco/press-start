@@ -46,7 +46,7 @@
     "husky": "9.1.4",
     "prettier": "3.3.3",
     "semantic-release": "24.0.0",
-    "stylelint": "16.8.0"
+    "stylelint": "16.8.1"
   },
   "peerDependencies": {
     "next": "14.2.5"
