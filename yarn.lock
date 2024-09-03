@@ -301,10 +301,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.209":
-  version "4.0.209"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.209.tgz#006d66899eb3b126e8ac1635b5ae43b263576863"
-  integrity sha512-6iMr0PJ2eD1EFikXTei5FIakPjWnHbpuUsg/s/x3vzpuxlvp9HMd2EHtt1q5PaXL2HwC/fJGeZrcXlWRa/UiIw==
+"@newhighsco/eslint-config@4.0.210":
+  version "4.0.210"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.210.tgz#0d1c91ac33c051a65f527d2b1ffb2fcfba30a2d6"
+  integrity sha512-3Ig9rSDWKxwMlZNkQSZQbUTo8Mf8Dhs/hp/ljnQEiLxkzcbzjJpJDEeVkEsb+34Mg4KjDaFdYwmVgpjEut7lxg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -321,7 +321,7 @@
     eslint-plugin-n "17.10.2"
     eslint-plugin-prettier "5.2.1"
     eslint-plugin-promise "7.1.0"
-    eslint-plugin-react "7.35.0"
+    eslint-plugin-react "7.35.1"
     eslint-plugin-react-hooks "4.6.2"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.8.0"
@@ -333,15 +333,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
   integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
-"@newhighsco/release-config@1.3.83":
-  version "1.3.83"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.83.tgz#c2210e6135a9943efeef913067198cf94743fefc"
-  integrity sha512-LVQ3o7sgn/lGA/Y5A8ZqkE7rR9JM2a63d1OqKaLGj5ekLD3zY6ZnGOHuOaGQ/Rq4FumI6TBTYbo4ukl3m//kJA==
+"@newhighsco/release-config@1.3.84":
+  version "1.3.84"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.84.tgz#f89211ccbaf5294c551298cd0928aeca42a99f85"
+  integrity sha512-yJ01BA7n/u7r3zGXHgUZYFebOgm7LjcoIOQHU0eP7e64XEyXxNF1AnOkm+se3Y3icOKQnZOZCm5AACWOAbAOeA==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "10.1.7"
+    "@semantic-release/github" "10.3.0"
     "@semantic-release/npm" "12.0.1"
     "@semantic-release/release-notes-generator" "14.0.1"
     semantic-release-circleci-orb "1.1.1"
@@ -727,10 +727,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.1.7", "@semantic-release/github@^10.0.0":
-  version "10.1.7"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.1.7.tgz#ff31351050859b28298a0c75b9fa3e3cff413dd4"
-  integrity sha512-QnhP4k1eqzYLz6a4kpWrUQeKJYXqHggveMykvUFbSquq07GF85BXvr/QLhpOD7bpDcmEfL8VnphRA7KT5i9lzQ==
+"@semantic-release/github@10.3.0", "@semantic-release/github@^10.0.0":
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.3.0.tgz#2c6fa6650f606afb30d92773bfff19fca42093e3"
+  integrity sha512-30ix6pw6PLW3tU0t8fNqPetCJq8IX1TX/sGMVCX6zhGa+7lkkvRMtx3Dar6slmiysPmF0o8iaQK1m5JoHyjYIQ==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
@@ -3048,10 +3048,10 @@ eslint-plugin-react-hooks@4.6.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
   integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
 
-eslint-plugin-react@7.35.0:
-  version "7.35.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.35.0.tgz#00b1e4559896710e58af6358898f2ff917ea4c41"
-  integrity sha512-v501SSMOWv8gerHkk+IIQBkcGRGrO2nfybfj5pLxuJNFTPxxA3PSryhXTK+9pNbtkggheDdsC0E9Q8CuPk6JKA==
+eslint-plugin-react@7.35.1:
+  version "7.35.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.35.1.tgz#afc80387031aa99dd6e0a14437c77d02e5700b47"
+  integrity sha512-B5ok2JgbaaWn/zXbKCGgKDNL2tsID3Pd/c/yvjcpsd9HQDwyYc/TQv3AZMmOvrJgCs3AnYNUHRCQEMMQAYJ7Yg==
   dependencies:
     array-includes "^3.1.8"
     array.prototype.findlast "^1.2.5"
