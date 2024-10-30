@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@newhighsco/chipset": "6.16.4",
-    "@newhighsco/next-plugin-svgr": "3.0.143",
+    "@newhighsco/next-plugin-svgr": "3.0.144",
     "@newhighsco/press-start": "2.2.16",
     "next": "15.0.2",
     "next-compose-plugins": "2.2.1",
