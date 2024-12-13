@@ -1,90 +1,9 @@
 {
-  "name": "@newhighsco/press-start",
-  "description": "Chipset + Next.js site starter by New High Score",
-  "version": "2.2.16",
-  "author": "New High Score",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/newhighsco/press-start.git"
-  },
-  "homepage": "https://github.com/newhighsco/press-start#readme",
-  "bugs": {
-    "url": "https://github.com/newhighsco/press-start/issues"
-  },
-  "main": "src/index.js",
-  "files": [
-    "src"
-  ],
-  "scripts": {
-    "prepare": "husky && yarn --cwd template install --ignore-scripts",
-    "start": "yarn --cwd template start",
-    "build": "yarn --cwd template build",
-    "serve": "yarn --cwd template serve",
-    "test": "yarn lint",
-    "lint": "concurrently yarn:lint:*",
-    "lint:js": "eslint --cache --ignore-path .gitignore .",
-    "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
-    "format": "concurrently yarn:format:*",
-    "format:js": "yarn lint:js --fix",
-    "format:css": "yarn lint:css --fix"
-  },
-  "dependencies": {
-    "next-seo": "6.6.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "19.6.0",
-    "@newhighsco/commitlint-config": "1.1.44",
-    "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.0.246",
-    "@newhighsco/prettier-config": "2.1.28",
-    "@newhighsco/release-config": "1.3.95",
-    "@newhighsco/stylelint-config": "3.1.97",
-    "concurrently": "9.1.0",
-    "eslint": "8.57.1",
-    "husky": "9.1.7",
-    "prettier": "3.4.2",
-    "semantic-release": "24.2.0",
-    "stylelint": "16.11.0"
-  },
-  "peerDependencies": {
-    "next": "15.1.0"
-  },
-  "commitlint": {
-    "extends": [
-      "@newhighsco"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "@newhighsco/eslint-config"
-    ]
-  },
-  "prettier": "@newhighsco/prettier-config",
-  "release": {
-    "extends": "@newhighsco/release-config",
-    "branches": [
-      "main"
-    ]
-  },
-  "renovate": {
-    "extends": [
-      "local>newhighsco/.github:renovate-config"
-    ],
-    "pathRules": [
-      {
-        "paths": [
-          "template/package.json"
-        ],
-        "extends": [
-          "local>newhighsco/.github:renovate-config"
-        ]
-      }
-    ]
-  },
-  "stylelint": {
-    "extends": [
-      "@newhighsco/stylelint-config"
-    ]
-  }
+  "extends": ["local>newhighsco/.github:renovate-config"],
+  "packageRules": [
+    {
+      "matchFileNames": ["template/package.json"],
+      "extends": ["local>newhighsco/.github:renovate-config"]
+    }
+  ]
 }
