@@ -39,7 +39,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "6.16.4",
+    "@newhighsco/chipset": "6.16.5",
     "@newhighsco/next-plugin-svgr": "3.0.147",
     "@newhighsco/press-start": "2.2.16",
     "next": "15.1.0",
