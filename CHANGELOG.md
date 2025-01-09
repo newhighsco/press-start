@@ -1,3 +1,10 @@
+## [2.2.69](https://github.com/newhighsco/press-start/compare/v2.2.68...v2.2.69) (2025-01-09)
+
+
+### Bug Fixes
+
+* **husky:** prepare for v10 ([#2593](https://github.com/newhighsco/press-start/issues/2593)) ([18879f8](https://github.com/newhighsco/press-start/commit/18879f87dc78699fc6d064be7c3678bdac05cde4))
+
 ## [2.2.68](https://github.com/newhighsco/press-start/compare/v2.2.67...v2.2.68) (2025-01-09)
 
 
