@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/newhighsco/press-start/compare/v2.2.71...v2.3.0) (2025-01-10)
+
+
+### Features
+
+* **meta:** read `titleTemplate` from `meta` ([#2596](https://github.com/newhighsco/press-start/issues/2596)) ([68739cc](https://github.com/newhighsco/press-start/commit/68739cc203ccc24e1a830a1cc238408c9f244eab))
+
 ## [2.2.71](https://github.com/newhighsco/press-start/compare/v2.2.70...v2.2.71) (2025-01-10)
 
 
