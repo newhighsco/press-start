@@ -7,6 +7,7 @@ import urlJoin from 'url-join'
 const AppPage = ({ Component, pageProps, theme, config, meta }) => {
   const {
     name,
+    titleTemplate = name => `%s | ${name}`,
     description,
     openGraphImage,
     twitterHandle,
@@ -18,7 +19,7 @@ const AppPage = ({ Component, pageProps, theme, config, meta }) => {
 
   meta = {
     ...meta,
-    titleTemplate: name && `%s | ${name}`,
+    titleTemplate: name && titleTemplate(name),
     description,
     openGraph: {
       site_name: name,
