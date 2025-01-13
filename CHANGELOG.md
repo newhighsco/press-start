@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/newhighsco/press-start/compare/v2.3.4...v2.3.5) (2025-01-13)
+
+
+### Bug Fixes
+
+* **link:** restore `legacyBehavior` ([#2604](https://github.com/newhighsco/press-start/issues/2604)) ([08807dc](https://github.com/newhighsco/press-start/commit/08807dc29b8b023082536e10efb9ee6a98b3fe6d))
+
 ## [2.3.4](https://github.com/newhighsco/press-start/compare/v2.3.3...v2.3.4) (2025-01-13)
 
 
