@@ -31,7 +31,7 @@ const Footer = () => (
         <Navigation
           links={footer.links}
           renderLink={({ href, children, ...rest }) => (
-            <Link href={href} passHref>
+            <Link href={href} passHref legacyBehavior>
               <SmartLink {...rest}>{children}</SmartLink>
             </Link>
           )}

@@ -16,7 +16,7 @@ const Header = () => (
     <HeaderContainer gutter theme={{ root: styles.root }}>
       <Grid flex valign="middle">
         <Grid.Item className={styles.logo}>
-          <Link href="/" passHref>
+          <Link href="/" passHref legacyBehavior>
             <SmartLink>
               <LogoLockup />
             </SmartLink>
@@ -26,7 +26,7 @@ const Header = () => (
           <Navigation
             links={header.links}
             renderLink={({ href, children, ...rest }) => (
-              <Link href={href} passHref>
+              <Link href={href} passHref legacyBehavior>
                 <SmartLink {...rest}>{children}</SmartLink>
               </Link>
             )}
