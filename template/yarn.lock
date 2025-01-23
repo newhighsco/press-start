@@ -1789,10 +1789,10 @@
     eslint-plugin-testing-library "7.1.1"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/next-plugin-svgr@3.0.152":
-  version "3.0.152"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.152.tgz#ae08271bcf1df7cd4f28527d6d9fa6783fb94f94"
-  integrity sha512-gU48QZ9ze3JBwKmfmJKHxHY+X9nSOECzl4BBTVPudXiVU8sx6tnxN+A0fEU1RcFYSrlap4QNlMToxHsdpevj4A==
+"@newhighsco/next-plugin-svgr@3.0.153":
+  version "3.0.153"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.153.tgz#fa3c32a1486c83eed71a523202e0b54c2b315c33"
+  integrity sha512-VWaANr0m93WDXOUB4qHgCijFc4I6YHHJ7FduJxgvtVolF3qR0rC9YoiRyWehIZH0egfXdjfFlkHStrnIAckPwA==
   dependencies:
     "@svgr/webpack" "8.1.0"
     file-loader "6.2.0"
@@ -1809,10 +1809,10 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.1.3"
 
-"@newhighsco/press-start@2.3.22":
-  version "2.3.22"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.22.tgz#c4d819732b06fde2ec8c746e5404016640e5d7f3"
-  integrity sha512-D61sQ54MSTh38un4HX2RYc9hqOxPHQxsTd45TC1M9Tm5ME9R26QK87uniko/rxT4CgUJabRIMcaKJGmJKVXyOg==
+"@newhighsco/press-start@2.3.24":
+  version "2.3.24"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.24.tgz#ff19d8838eba7895774594608396f6e80cc321d9"
+  integrity sha512-vIDr+2vt/jXXxnARVQjaLn3Kxne5FP/Tfl8yN0eQPykaw3pcdT9EkN7juRLW1oC2wjhRH9Lfo/yT3+UnwRDa0Q==
   dependencies:
     next-seo "6.6.0"
 
