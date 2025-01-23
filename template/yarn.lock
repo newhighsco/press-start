@@ -1743,10 +1743,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/chipset@6.17.0":
-  version "6.17.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.17.0.tgz#88de33bf65e9a791bc01c9c48da4f69113f16f01"
-  integrity sha512-aEEeOUPyM/pRC3vtDzzs004Mq1+lnGBWAXfRtfDDnkf0f7mSd9EiFtAb6pG8yJGjqaE+gzyMdc7olfX53xG7ww==
+"@newhighsco/chipset@6.17.2":
+  version "6.17.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.17.2.tgz#aba8064692fdf281b6ec88522ea4ef1d57893cdd"
+  integrity sha512-E+3BBUmyar9joWpax4QKIvwY6fNuHOuQYHBusPV2KnPx8+tmmg6669VtIEsjZ4LV5gUoJbCaz5Pj3WTrPTPzPA==
   dependencies:
     "@dr.pogodin/react-themes" "1.8.0"
     classnames "2.5.1"
@@ -1809,10 +1809,10 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.1.3"
 
-"@newhighsco/press-start@2.3.25":
-  version "2.3.25"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.25.tgz#ae5a59e8d946b2ad2ad32c44ac76e9142b57fee3"
-  integrity sha512-hGX6qMn945SXOy3ZcnUudDgmk1HRLpkdeWtPhajPBOQAggWT4L5xvhuTRpT5nWJwgFhtMaiY/UboxLhn5B22Fw==
+"@newhighsco/press-start@2.3.26":
+  version "2.3.26"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.26.tgz#ac2b0ded9d4c62dbbdf758ccdd1354f2777b4ac0"
+  integrity sha512-CUO/0IXQ9ABsTNk3mRBUhw/zg0WZxPuyBA9bXxqRcTDhJpviof5Vi7GGOErvbU5KsnElWShT0v+DM9IIcSxSsQ==
   dependencies:
     next-seo "6.6.0"
 
