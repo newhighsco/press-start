@@ -1809,10 +1809,10 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.1.3"
 
-"@newhighsco/press-start@2.3.34":
-  version "2.3.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.34.tgz#ba4cfa9aa1c42ddf2a45d58aee9928c8e19464a7"
-  integrity sha512-jgXGcCB+c1D6AsyGc1l2zW8XwvucQ+Pcox+xPko74mzI0CVKhwRE5rkIzjw+Z4fwfQ2g8vCBybsP0SJLezzkzg==
+"@newhighsco/press-start@2.3.35":
+  version "2.3.35"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.35.tgz#3c400a6c1c0283bb0851f6be8382b7ce8a0e58d8"
+  integrity sha512-XAvdt4W7XkYVwOQeGf0UG24STbdgShb6Hehv1hu0tC+ddOc5vjo1Z4ejZUVqZpzY7xdIPSV8aJ/0zer0aQCcrA==
   dependencies:
     next-seo "6.6.0"
 
@@ -1834,10 +1834,10 @@
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/stylelint-config@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.4.tgz#991cfaac48e98829047c3665ac0757eb1fa33a87"
-  integrity sha512-2Vxo48i4jhmkwSI1pFLJeiYhp0OTUQl1Qudr+0W2lRuzSdALpvyzS0azmnkbkG4rbfyB9Y4EkvJvVr4+Yrmdgg==
+"@newhighsco/stylelint-config@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.5.tgz#7efe8a73d9399a2a9e72a36211bf9ebef33a2954"
+  integrity sha512-PtpO5I8sMlFfu3kTzbvPwJpar92JsgVjUBzV8/11oCbAlZU+8qiRwtd26JZUhDObfIJ9/rEhroFLSF6j9i1a9w==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
