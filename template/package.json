@@ -52,7 +52,7 @@
     "sass": "1.83.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.6.1",
+    "@commitlint/cli": "19.7.1",
     "@newhighsco/browserslist-config": "1.1.0",
     "@newhighsco/commitlint-config": "1.1.45",
     "@newhighsco/editor-config": "1.2.0",
