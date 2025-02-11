@@ -48,7 +48,7 @@
     "stylelint": "16.14.1"
   },
   "peerDependencies": {
-    "next": "15.1.6"
+    "next": "15.1.7"
   },
   "commitlint": {
     "extends": [
