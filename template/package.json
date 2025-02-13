@@ -41,7 +41,7 @@
   "dependencies": {
     "@newhighsco/chipset": "6.17.2",
     "@newhighsco/next-plugin-svgr": "3.0.155",
-    "@newhighsco/press-start": "2.3.72",
+    "@newhighsco/press-start": "2.3.73",
     "next": "15.1.7",
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
@@ -57,7 +57,7 @@
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.254",
-    "@newhighsco/postcss-config": "3.5.311",
+    "@newhighsco/postcss-config": "3.5.312",
     "@newhighsco/prettier-config": "2.1.29",
     "@newhighsco/release-config": "1.4.2",
     "@newhighsco/stylelint-config": "4.0.6",
