@@ -1,3 +1,10 @@
+## [2.3.85](https://github.com/newhighsco/press-start/compare/v2.3.84...v2.3.85) (2025-02-17)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#2696](https://github.com/newhighsco/press-start/issues/2696)) ([5369f8b](https://github.com/newhighsco/press-start/commit/5369f8bf397bb978dd8a8523e883d61cece6f10f))
+
 ## [2.3.84](https://github.com/newhighsco/press-start/compare/v2.3.83...v2.3.84) (2025-02-17)
 
 
