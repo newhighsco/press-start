@@ -1762,10 +1762,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.256":
-  version "4.0.256"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.256.tgz#4c0395ded4cac4ce874a890f357c611146a8c714"
-  integrity sha512-0H7ZCdJg6nCqZ2fClW3SEF5zn/BtMSPLJmoJBYfDE8EjnOFjG8bOon/LY3+hvzlTUEWpfECbi7cmVV1wzoa40g==
+"@newhighsco/eslint-config@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.0.tgz#6f8be9c1c1bac09344d1076cd3ef489ed5825c77"
+  integrity sha512-Bec2jvTXjYF9HaGYtiztr120QEhOb/DjK9pyO9Ne4VCZgVNd5Fa1bjIfyRX+FVpStEeHieTk/rhv5KvyhB+92Q==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1809,10 +1809,10 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.1.4"
 
-"@newhighsco/press-start@2.3.92":
-  version "2.3.92"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.92.tgz#140dc42d7216e7f51670fdaa8c120572ff1b0b43"
-  integrity sha512-gjZKZe7zMEvUsHqlSUHblE7n5vlsFWzIfzjPGBWcuP2pWXeLuQ4U1LodLcrdPf+55T7CEPFS2H0uDiiWDi6OIg==
+"@newhighsco/press-start@2.3.93":
+  version "2.3.93"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.93.tgz#4d5547587f56706da1a6a7250b213a26af6c43b4"
+  integrity sha512-Jpufc4quvVaXgZ4pYvxleeOWs0RHAnHrZEJmh4ODMRhnORVyMLQDw3o1pkxmo9l3ZQ63QnUWCUrecB/jQGi2uQ==
   dependencies:
     next-seo "6.6.0"
 
