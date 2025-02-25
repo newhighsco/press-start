@@ -1,3 +1,10 @@
+## [2.3.106](https://github.com/newhighsco/press-start/compare/v2.3.105...v2.3.106) (2025-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.85.1 ([#2719](https://github.com/newhighsco/press-start/issues/2719)) ([f5eea9a](https://github.com/newhighsco/press-start/commit/f5eea9a421734b87c03696fc3a0ffc21b59855b6))
+
 ## [2.3.105](https://github.com/newhighsco/press-start/compare/v2.3.104...v2.3.105) (2025-02-24)
 
 
