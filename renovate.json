@@ -1,0 +1,9 @@
+{
+  "extends": ["local>newhighsco/.github:renovate-config"],
+  "packageRules": [
+    {
+      "matchFileNames": ["template/package.json"],
+      "extends": ["local>newhighsco/.github:renovate-config"]
+    }
+  ]
+}

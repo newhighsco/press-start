@@ -13,9 +13,7 @@
     "url": "https://github.com/newhighsco/press-start/issues"
   },
   "main": "src/index.js",
-  "files": [
-    "src"
-  ],
+  "files": ["src"],
   "scripts": {
     "prepare": "husky && yarn --cwd template install --ignore-scripts",
     "start": "yarn --cwd template start",
@@ -51,40 +49,17 @@
     "next": "15.2.1"
   },
   "commitlint": {
-    "extends": [
-      "@newhighsco"
-    ]
+    "extends": ["@newhighsco"]
   },
   "eslintConfig": {
-    "extends": [
-      "@newhighsco/eslint-config"
-    ]
+    "extends": ["@newhighsco/eslint-config"]
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
     "extends": "@newhighsco/release-config",
-    "branches": [
-      "main"
-    ]
-  },
-  "renovate": {
-    "extends": [
-      "local>newhighsco/.github:renovate-config"
-    ],
-    "pathRules": [
-      {
-        "paths": [
-          "template/package.json"
-        ],
-        "extends": [
-          "local>newhighsco/.github:renovate-config"
-        ]
-      }
-    ]
+    "branches": ["main"]
   },
   "stylelint": {
-    "extends": [
-      "@newhighsco/stylelint-config"
-    ]
+    "extends": ["@newhighsco/stylelint-config"]
   }
 }
