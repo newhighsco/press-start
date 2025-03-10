@@ -1809,10 +1809,10 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.1.5"
 
-"@newhighsco/press-start@2.3.136":
-  version "2.3.136"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.136.tgz#249e0695087696757a16156aa898d5f6c4622c21"
-  integrity sha512-AQQ0+lho0VtbbUdkDZPyexNwqpyZaz2amEBXq5oRZdU4UVI7ZyWWdk/OlYeqm0sRmBwj8LMqu7vDWkEb02BbAw==
+"@newhighsco/press-start@2.3.137":
+  version "2.3.137"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.137.tgz#3f5f346f6e8c0e9d103aa364f649a449ab2f3439"
+  integrity sha512-T6DYjPSwf+IIHHmXv8iGftQVi/0nrjGqtBBJ/e22Q0DuBoThVVV4/oxsOupiwVVyV+4M9qGc/a8qGYmmzLEluw==
   dependencies:
     next-seo "6.6.0"
 
