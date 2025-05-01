@@ -1,3 +1,10 @@
+## [2.3.217](https://github.com/newhighsco/press-start/compare/v2.3.216...v2.3.217) (2025-05-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.3.216 ([#2838](https://github.com/newhighsco/press-start/issues/2838)) ([88abae6](https://github.com/newhighsco/press-start/commit/88abae618a804de1c3ec5dec7672095e64f379d5))
+
 ## [2.3.216](https://github.com/newhighsco/press-start/compare/v2.3.215...v2.3.216) (2025-04-29)
 
 
