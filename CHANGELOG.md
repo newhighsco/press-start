@@ -1,3 +1,10 @@
+## [2.3.232](https://github.com/newhighsco/press-start/compare/v2.3.231...v2.3.232) (2025-05-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-seo to v6.8.0 ([#2857](https://github.com/newhighsco/press-start/issues/2857)) ([903b7b9](https://github.com/newhighsco/press-start/commit/903b7b916f4f462663364c8f2185a65828487562))
+
 ## [2.3.231](https://github.com/newhighsco/press-start/compare/v2.3.230...v2.3.231) (2025-05-21)
 
 
