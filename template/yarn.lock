@@ -1812,12 +1812,12 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.1.6"
 
-"@newhighsco/press-start@2.3.230":
-  version "2.3.230"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.230.tgz#b35951f6b00a7dcbe31e4413213440c1d06c4248"
-  integrity sha512-+T0zL4W2q4d6u7Lxnt9zNKvw2ZCBgex2iwloCcd3DMYEeAPvRePVLrNj2hUA/XsbGaWik8/fRHEa+zh598D2Wg==
+"@newhighsco/press-start@2.3.232":
+  version "2.3.232"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.232.tgz#f4429bdd49d6efec3ff725033c52be75f120388f"
+  integrity sha512-7EAZfOIvSXKW1w+1k7JbLwO3/4oRIhviWur0jgdj+CzvE5hgXIvxOK3ANw+sy+VBa/gfiPv/zy73+fK2BkVmPw==
   dependencies:
-    next-seo "6.7.1"
+    next-seo "6.8.0"
 
 "@newhighsco/prettier-config@2.1.32":
   version "2.1.32"
@@ -8248,10 +8248,10 @@ next-compose-plugins@2.2.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.2.1.tgz#020fc53f275a7e719d62521bef4300fbb6fde5ab"
   integrity sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==
 
-next-seo@6.7.1:
-  version "6.7.1"
-  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-6.7.1.tgz#2dab385fe2a8b7e8ca76316e6d0e093fbae530cf"
-  integrity sha512-eEpTwyO4XYplOfawipRLx4Fcm02OvFDN8by6Yo/zYAYafNZYYbndgbGIZHu//gdYU9o0/78jAm3FHIoNAVpJNQ==
+next-seo@6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-6.8.0.tgz#0265ec75ad5ddca3d2a11dd86534a15065043651"
+  integrity sha512-zcxaV67PFXCSf8e6SXxbxPaOTgc8St/esxfsYXfQXMM24UESUVSXFm7f2A9HMkAwa0Gqn4s64HxYZAGfdF4Vhg==
 
 next-sitemap@4.2.3:
   version "4.2.3"
