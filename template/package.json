@@ -46,7 +46,7 @@
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
     "next-videos": "1.5.0",
-    "postcss": "8.5.3",
+    "postcss": "8.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "sass": "1.89.0"
