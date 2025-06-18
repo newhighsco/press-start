@@ -1,3 +1,10 @@
+## [2.3.249](https://github.com/newhighsco/press-start/compare/v2.3.248...v2.3.249) (2025-06-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.6 ([#2876](https://github.com/newhighsco/press-start/issues/2876)) ([6bf31d9](https://github.com/newhighsco/press-start/commit/6bf31d93c277a1aef301229aa8dac0d2459e9815))
+
 ## [2.3.248](https://github.com/newhighsco/press-start/compare/v2.3.247...v2.3.248) (2025-06-17)
 
 
