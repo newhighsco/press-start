@@ -1,3 +1,10 @@
+## [2.3.250](https://github.com/newhighsco/press-start/compare/v2.3.249...v2.3.250) (2025-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.3.4 ([#2877](https://github.com/newhighsco/press-start/issues/2877)) ([86bf1bc](https://github.com/newhighsco/press-start/commit/86bf1bcd489232b16ed0f76e2944ffe15113e71f))
+
 ## [2.3.249](https://github.com/newhighsco/press-start/compare/v2.3.248...v2.3.249) (2025-06-18)
 
 
