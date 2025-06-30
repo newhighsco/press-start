@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
-    "@newhighsco/browserslist-config": "1.1.0",
+    "@newhighsco/browserslist-config": "2.0.0",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.1.34",
