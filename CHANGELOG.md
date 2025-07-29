@@ -1,3 +1,10 @@
+## [2.3.271](https://github.com/newhighsco/press-start/compare/v2.3.270...v2.3.271) (2025-07-29)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.1.1 ([#2909](https://github.com/newhighsco/press-start/issues/2909)) ([3963b6d](https://github.com/newhighsco/press-start/commit/3963b6de6d98b0f7578485d21dc156bf169690cd))
+
 ## [2.3.270](https://github.com/newhighsco/press-start/compare/v2.3.269...v2.3.270) (2025-07-28)
 
 
