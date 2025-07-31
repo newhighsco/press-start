@@ -2,22 +2,22 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@components/*": [
+      "~components/*": [
         "src/components/*"
       ],
-      "@config": [
+      "~config": [
         "site.config"
       ],
-      "@data/*": [
+      "~data/*": [
         "src/data/*"
       ],
-      "@images/*": [
+      "~images/*": [
         "src/images/*"
       ],
-      "@styles/*": [
+      "~styles/*": [
         "src/styles/*"
       ],
-      "@theme": [
+      "~theme": [
         "src/theme"
       ]
     }

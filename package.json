@@ -22,6 +22,7 @@
     "build": "yarn --cwd template build",
     "serve": "yarn --cwd template serve",
     "test": "yarn lint",
+    "analyze": "omlet analyze",
     "lint": "concurrently yarn:lint:*",
     "lint:js": "eslint --cache --ignore-path .gitignore .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
@@ -40,6 +41,7 @@
     "@newhighsco/prettier-config": "2.1.32",
     "@newhighsco/release-config": "1.4.6",
     "@newhighsco/stylelint-config": "4.0.17",
+    "@omlet/cli": "2.0.0",
     "concurrently": "9.2.0",
     "eslint": "8.57.1",
     "husky": "9.1.7",
@@ -58,6 +60,14 @@
   "eslintConfig": {
     "extends": [
       "@newhighsco/eslint-config"
+    ]
+  },
+  "omlet": {
+    "exports": {
+      ".": "src/index.js"
+    },
+    "ignore": [
+      "template/**"
     ]
   },
   "prettier": "@newhighsco/prettier-config",

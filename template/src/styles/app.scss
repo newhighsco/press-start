@@ -1,8 +1,8 @@
 @use '~@newhighsco/chipset/styles/normalize';
-@use '@styles/breakpoints.module';
-@use '@styles/colors.module';
-@use '@styles/fonts.module';
-@use '@styles/font-faces';
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/fonts.module';
+@use '~styles/font-faces';
 
 body {
   background-color: colors.$white;
