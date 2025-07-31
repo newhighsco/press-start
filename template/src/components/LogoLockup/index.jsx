@@ -1,9 +1,10 @@
-import config from '@config'
-import { ReactComponent as LogoSvg } from '@images/logo.svg'
 import { Icon } from '@newhighsco/chipset'
 import classNames from 'classnames'
 import { string } from 'prop-types'
 import React from 'react'
+
+import config from '~config'
+import { ReactComponent as LogoSvg } from '~images/logo.svg'
 
 import styles from './LogoLockup.module.scss'
 

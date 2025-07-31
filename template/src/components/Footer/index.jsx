@@ -1,6 +1,3 @@
-import config from '@config'
-import footer from '@data/footer.json'
-import { ReactComponent as GithubIcon } from '@images/icons/github.svg'
 import {
   CreditLockup,
   FooterContainer,
@@ -11,6 +8,10 @@ import {
 } from '@newhighsco/chipset'
 import Link from 'next/link'
 import React from 'react'
+
+import config from '~config'
+import footer from '~data/footer.json'
+import { ReactComponent as GithubIcon } from '~images/icons/github.svg'
 
 import styles from './Footer.module.scss'
 

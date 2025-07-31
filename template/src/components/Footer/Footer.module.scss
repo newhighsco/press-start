@@ -1,6 +1,6 @@
 @use 'sass:color';
-@use '@styles/colors.module';
-@use '@styles/functions';
+@use '~styles/colors.module';
+@use '~styles/functions';
 
 .root {
   border-top: 1px solid color.adjust(colors.$black, $lightness: 75%);

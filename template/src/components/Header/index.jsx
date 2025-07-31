@@ -1,5 +1,3 @@
-import LogoLockup from '@components/LogoLockup'
-import header from '@data/header.json'
 import {
   Grid,
   HeaderContainer,
@@ -8,6 +6,9 @@ import {
 } from '@newhighsco/chipset'
 import Link from 'next/link'
 import React from 'react'
+
+import LogoLockup from '~components/LogoLockup'
+import header from '~data/header.json'
 
 import styles from './Header.module.scss'
 
