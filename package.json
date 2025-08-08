@@ -50,7 +50,7 @@
     "stylelint": "16.23.1"
   },
   "peerDependencies": {
-    "next": "15.4.5"
+    "next": "15.4.6"
   },
   "commitlint": {
     "extends": [
