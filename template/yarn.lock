@@ -1774,10 +1774,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
-"@newhighsco/chipset@6.17.6":
-  version "6.17.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.17.6.tgz#1fb5d0d2000b1487c29ff66a1461e5149f6d8e42"
-  integrity sha512-iRpoDbTXItZF/m1u5lqMyHTOO4UguDpjg+OXjar3/ZK0KDz5NOEd/hhKKPmIlRfZtlRqZ2IhWWHjv8tHot/FNQ==
+"@newhighsco/chipset@6.18.0":
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.18.0.tgz#e45cddf9bb15c9ded6457666802e01e54e8fb1cc"
+  integrity sha512-Gvx5WAAd7FID5dquKAVChpCdHhwvhdLEjH7ZkZjuoZ8+EsZhpWFqJWFGKx3qAeWjYBzsNfeF4c205ICOX5mhHw==
   dependencies:
     "@dr.pogodin/react-themes" "1.9.2"
     classnames "2.5.1"
@@ -1829,21 +1829,21 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.341":
-  version "3.5.341"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.341.tgz#e06afc948199d86f5b7d5433b3db1e97bcfe21af"
-  integrity sha512-QlEGtQBl2y6ocuLreZEyTUvLuK8NYT7T4dJ1Nn5iBf6O/LN9EBm3a9eQ+Bwz9nXgs3+JT+y/55iUtM5/rz4DSg==
+"@newhighsco/postcss-config@3.5.342":
+  version "3.5.342"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.342.tgz#e000861795c2d259fba565da2fa02d80344c8c89"
+  integrity sha512-jjaQmafFKstQKvPzmziGYcfN3OAUxOe5oKHZN2xxlWDhVK0HZVwvEfg0r+VA5RfijBpIx4F0mkjblZabkT5VCw==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
-    caniuse-lite "1.0.30001733"
+    caniuse-lite "1.0.30001734"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.2.4"
 
-"@newhighsco/press-start@2.3.279":
-  version "2.3.279"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.279.tgz#736fa7e2c24350e06cba499736740cd5edd5e0dd"
-  integrity sha512-HERx9ijbqJJv01TGpJKXp0eBp3aYoQMcQJDPfFtVkmX94Boi5QI/8sbjxBABZSD0EKNaAndnN7E6G8tRmxa9cg==
+"@newhighsco/press-start@2.3.280":
+  version "2.3.280"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.280.tgz#d58874f53871a1408e76f43502caa7eedb486d31"
+  integrity sha512-FRRHc8yJCM/YeFciTsZvYdQ2VxQCFeVl9b1sa6szTl5Vo3aSvbc5bJTW8JMH789uBMhzQ9mbnIA5XSOFjsIyFw==
   dependencies:
     next-seo "6.8.0"
 
@@ -1852,15 +1852,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.6.tgz#8ec00f2da59f232a5ffe36b444dc6c2263fd567b"
-  integrity sha512-cVx5pUPt+VANNMWrDTAwvn3BRraY8DfMpqWKu8/q96cgOQVj77Cl3QPxCdSG1mcYe7U7sKNomi2OjW/qh7vSlw==
+"@newhighsco/release-config@1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.7.tgz#9b2d5648c0cd37143305ccde52eea371b6579ea8"
+  integrity sha512-yPw6Rvx4UdIDaXFe38zGBbiGAXGQClT1XFrguXiVU0F2yLYtYgkH+t8IxgBAZHj5/ixJtkAB6rgfH8kgp++2JQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "11.0.3"
+    "@semantic-release/github" "11.0.4"
     "@semantic-release/npm" "12.0.2"
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
@@ -2406,10 +2406,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@11.0.3", "@semantic-release/github@^11.0.0":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.3.tgz#00d1bcaeab651db89134ccd47b63970f5aa7cf93"
-  integrity sha512-T2fKUyFkHHkUNa5XNmcsEcDPuG23hwBKptfUVcFXDVG2cSjXXZYDOfVYwfouqbWo/8UefotLaoGfQeK+k3ep6A==
+"@semantic-release/github@11.0.4", "@semantic-release/github@^11.0.0":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.4.tgz#dfc665acea9d7cb6385ce1b3838467bea8f696c5"
+  integrity sha512-fU/nLSjkp9DmB0h7FVO5imhhWJMvq2LjD4+3lz3ZAzpDLY9+KYwC+trJ+g7LbZeJv9y3L9fSFSg2DduUpiT6bw==
   dependencies:
     "@octokit/core" "^7.0.0"
     "@octokit/plugin-paginate-rest" "^13.0.0"
@@ -3565,10 +3565,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001733, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
-  version "1.0.30001733"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001733.tgz#918405ed6647a62840fb328832cf5a03f986974b"
-  integrity sha512-e4QKw/O2Kavj2VQTKZWrwzkt3IxOmIlU6ajRb6LP64LHpBo1J67k2Hi4Vu/TgJWsNtynurfS0uK3MaUTCPfu5Q==
+caniuse-lite@1.0.30001734, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
+  version "1.0.30001734"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001734.tgz#f97e08599e2d75664543ae4b6ef25dc2183c5cc6"
+  integrity sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
