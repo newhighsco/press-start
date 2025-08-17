@@ -1793,10 +1793,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.43":
-  version "4.1.43"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.43.tgz#1a904d825e4e3360faf81120bb8c8d11f2f61ddf"
-  integrity sha512-5QvoWwo7ydPlQvESQySGHjnHmIyD9lYZIXi6hzQKAJt0+798arJnfeAOhorfm4XKGYCRZsom6wbl61WjBzUf1g==
+"@newhighsco/eslint-config@4.1.44":
+  version "4.1.44"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.44.tgz#64f9a8c51d6cff9636946e846aeb910b079cc2fd"
+  integrity sha512-EqTmbG+tnTB+VsqIcRCMKqqMqVHSEQkC8kO7cB3XlmEduMsr1WenxX6/JN/g1XpBAW4QIb6lAcayzzRNeIB0pw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1817,7 +1817,7 @@
     eslint-plugin-react-hooks "5.2.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.6.3"
+    eslint-plugin-testing-library "7.6.6"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/next-plugin-svgr@3.0.157":
@@ -1829,21 +1829,21 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.342":
-  version "3.5.342"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.342.tgz#e000861795c2d259fba565da2fa02d80344c8c89"
-  integrity sha512-jjaQmafFKstQKvPzmziGYcfN3OAUxOe5oKHZN2xxlWDhVK0HZVwvEfg0r+VA5RfijBpIx4F0mkjblZabkT5VCw==
+"@newhighsco/postcss-config@3.5.343":
+  version "3.5.343"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.343.tgz#f682fc27819e097d8b203110c6d55537caa7bc91"
+  integrity sha512-7VIeMPpEKmNVU6cY3tCGAu3PnB+yQ0BsBgZQV9c6KwNMl1Xdx9k1FEx8dq7JjknEy1M6pKS6H0F0QmGzjNAXqQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
-    caniuse-lite "1.0.30001734"
+    caniuse-lite "1.0.30001735"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.2.4"
 
-"@newhighsco/press-start@2.3.280":
-  version "2.3.280"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.280.tgz#d58874f53871a1408e76f43502caa7eedb486d31"
-  integrity sha512-FRRHc8yJCM/YeFciTsZvYdQ2VxQCFeVl9b1sa6szTl5Vo3aSvbc5bJTW8JMH789uBMhzQ9mbnIA5XSOFjsIyFw==
+"@newhighsco/press-start@2.3.281":
+  version "2.3.281"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.281.tgz#544bb285b02917ed184374185dd0ec48d90b309a"
+  integrity sha512-o8VuxRZibo7ZeRer8hASXcEeB5BPeIpEOIWflnyfcb/brGSKKy9XBRIJvAVjAkdm6vq2uFRT8w76o82j/O8hMg==
   dependencies:
     next-seo "6.8.0"
 
@@ -3565,10 +3565,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001734, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
-  version "1.0.30001734"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001734.tgz#f97e08599e2d75664543ae4b6ef25dc2183c5cc6"
-  integrity sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A==
+caniuse-lite@1.0.30001735, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
+  version "1.0.30001735"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001735.tgz#ba658fd3fd24a4106fd68d5ce472a2c251494dbe"
+  integrity sha512-EV/laoX7Wq2J9TQlyIXRxTJqIw4sxfXS4OYgudGxBYRuTv0q7AM6yMEpU/Vo1I94thg9U6EZ2NfZx9GJq83u7w==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -5040,10 +5040,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.6.3:
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.6.3.tgz#b4478533abb1a107edabde0aa0db66044df9a234"
-  integrity sha512-tI/epV/DD4+nJ51VGg7MWfqajMAW0+U+9dTLFrnqrJHoPO2TyGRU8ASrPNFPe2zzDT1qwznkCeeqMzViALgiig==
+eslint-plugin-testing-library@7.6.6:
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.6.6.tgz#b0a1f42b32670ede4967f546410a0b0b0dedba8f"
+  integrity sha512-eSexC+OPhDLuCpLbFEC7Qrk0x4IE4Mn+UW0db8YAhUatVB6CzGHdeHv4pyoInglbhhQc0Z9auY/2HKyMZW5s7Q==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
