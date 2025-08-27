@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/newhighsco/press-start/compare/v2.4.0...v2.4.1) (2025-08-27)
+
+
+### Bug Fixes
+
+* **chipset:** use correct `LinkProvider` exports ([#2934](https://github.com/newhighsco/press-start/issues/2934)) ([1a683a7](https://github.com/newhighsco/press-start/commit/1a683a70197e067cb9b42edeb98b2b13a83c8cc6))
+
 # [2.4.0](https://github.com/newhighsco/press-start/compare/v2.3.289...v2.4.0) (2025-08-27)
 
 
