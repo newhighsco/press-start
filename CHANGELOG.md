@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/newhighsco/press-start/compare/v2.3.289...v2.4.0) (2025-08-27)
+
+
+### Features
+
+* use `LinkProvider` ([#2933](https://github.com/newhighsco/press-start/issues/2933)) ([2d638e7](https://github.com/newhighsco/press-start/commit/2d638e738dd689cf22da2678b2b2bc8c269ecd78))
+
 ## [2.3.289](https://github.com/newhighsco/press-start/compare/v2.3.288...v2.3.289) (2025-08-27)
 
 
