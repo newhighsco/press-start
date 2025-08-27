@@ -1,3 +1,10 @@
+## [2.4.2](https://github.com/newhighsco/press-start/compare/v2.4.1...v2.4.2) (2025-08-27)
+
+
+### Bug Fixes
+
+* **link-provider:** remove hard-code link content ([9757d1b](https://github.com/newhighsco/press-start/commit/9757d1bfc2b79c7c6bff253f4ad479b57293d54d))
+
 ## [2.4.1](https://github.com/newhighsco/press-start/compare/v2.4.0...v2.4.1) (2025-08-27)
 
 
