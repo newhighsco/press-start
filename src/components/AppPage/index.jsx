@@ -5,7 +5,7 @@ import { func, object } from 'prop-types'
 import React from 'react'
 import urlJoin from 'url-join'
 
-const renderLink = props => <Link {...props}>test</Link>
+const renderLink = props => <Link {...props} />
 
 const AppPage = ({ Component, pageProps, theme, config, meta }) => {
   const {
