@@ -1,8 +1,11 @@
-import { SiteContainer, ThemeProvider } from '@newhighsco/chipset'
+import { LinkProvider, SiteContainer, ThemeProvider } from '@newhighsco/chipset'
+import Link from 'next/link'
 import { DefaultSeo } from 'next-seo'
 import { func, object } from 'prop-types'
 import React from 'react'
 import urlJoin from 'url-join'
+
+const renderLink = props => <Link {...props}>test</Link>
 
 const AppPage = ({ Component, pageProps, theme, config, meta }) => {
   const {
@@ -51,10 +54,12 @@ const AppPage = ({ Component, pageProps, theme, config, meta }) => {
 
   return (
     <ThemeProvider themes={theme}>
-      <SiteContainer>
-        <DefaultSeo {...meta} />
-        <Component {...pageProps} />
-      </SiteContainer>
+      <LinkProvider renderLink={renderLink}>
+        <SiteContainer>
+          <DefaultSeo {...meta} />
+          <Component {...pageProps} />
+        </SiteContainer>
+      </LinkProvider>
     </ThemeProvider>
   )
 }
