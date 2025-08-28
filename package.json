@@ -81,9 +81,9 @@
     "extends": [
       "local>newhighsco/.github:renovate-config"
     ],
-    "pathRules": [
+    "packageRules": [
       {
-        "paths": [
+        "matchFileNames": [
           "template/package.json"
         ],
         "extends": [
