@@ -11,13 +11,13 @@ import { func, object } from 'prop-types'
 import React from 'react'
 import urlJoin from 'url-join'
 
-const renderImage = props => <Image {...props} />
-
-const renderLink = ({
+const renderImage = ({
   priority,
   loading = priority ? 'eager' : undefined,
   ...rest
-}) => <Link priority={priority} loading={loading} {...rest} />
+}) => <Image priority={priority} loading={loading} {...rest} />
+
+const renderLink = props => <Link {...props} />
 
 const AppPage = ({ Component, pageProps, theme, config, meta }) => {
   const {
