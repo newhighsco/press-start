@@ -1,3 +1,10 @@
+## @newhighsco/press-start [2.6.3](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.2...@newhighsco/press-start@2.6.3) (2025-08-29)
+
+
+### Bug Fixes
+
+* **image-provider:** handle non-empty `loading` prop ([#2944](https://github.com/newhighsco/press-start/issues/2944)) ([32d160e](https://github.com/newhighsco/press-start/commit/32d160e3c59272db30cfa953075f40425e3f1c66))
+
 ## @newhighsco/press-start [2.6.2](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.1...@newhighsco/press-start@2.6.2) (2025-08-29)
 
 
