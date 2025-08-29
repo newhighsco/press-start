@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/newhighsco/press-start/compare/v2.4.5...v2.5.0) (2025-08-29)
+
+
+### Features
+
+* **svg:** use `@newhighsco/svgr-config` ([#2938](https://github.com/newhighsco/press-start/issues/2938)) ([d9d6b86](https://github.com/newhighsco/press-start/commit/d9d6b861e0aa21b5b8d028354b2a577047154fa0))
+
 ## [2.4.5](https://github.com/newhighsco/press-start/compare/v2.4.4...v2.4.5) (2025-08-29)
 
 
