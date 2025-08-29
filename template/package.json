@@ -1,5 +1,5 @@
 {
-  "name": "@newhighsco/press-start-template",
+  "name": "@newhighsco/template",
   "description": "TODO: Description",
   "version": "1.0.0",
   "author": "New High Score",
@@ -56,7 +56,7 @@
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.1.44",
-    "@newhighsco/postcss-config": "3.5.346",
+    "@newhighsco/postcss-config": "3.5.347",
     "@newhighsco/prettier-config": "2.1.32",
     "@newhighsco/release-config": "1.4.7",
     "@newhighsco/stylelint-config": "4.0.17",

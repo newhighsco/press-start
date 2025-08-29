@@ -2204,10 +2204,10 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.346":
-  version "3.5.346"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.346.tgz#dda907505b78ec6207e31bdd240390c7cb0cca3d"
-  integrity sha512-sLmTUOs9PLdMFIu0QgvxO8xm5vsuWqNr6R6068zRgvgtXmp8MDQRXkHiEPLD7ylfn5F+BwCft3daZQl7pLF3Kw==
+"@newhighsco/postcss-config@3.5.347":
+  version "3.5.347"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.347.tgz#e64ec6e908a642b984a5c70d13ee9019e4ffd883"
+  integrity sha512-JXuskB6Uxd9oesRJdKL6XLvRBbYKX0k193F38PTbfkw/vrG3XVpST6Ttq0A3UUtPoZm5Z4zJtC3tw6azBi83bA==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
