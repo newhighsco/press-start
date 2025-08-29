@@ -77,6 +77,11 @@
       "template/**"
     ]
   },
+  "multi-release": {
+    "ignorePackages": [
+      "template"
+    ]
+  },
   "prettier": "@newhighsco/prettier-config",
   "release": {
     "extends": "@newhighsco/release-config",
