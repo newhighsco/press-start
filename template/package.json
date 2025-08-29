@@ -89,7 +89,7 @@
       "main"
     ]
   },
-  "renovate": {
+  "TODO:renovate": {
     "extends": [
       "local>newhighsco/.github:renovate-config"
     ]
