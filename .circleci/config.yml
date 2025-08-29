@@ -15,7 +15,6 @@ workflows:
     jobs:
       - newhighsco/setup:
           name: setup
-          install-command: yarn install --ignore-scripts
       - newhighsco/test:
           name: test
           requires:
@@ -23,7 +22,7 @@ workflows:
       - newhighsco/release:
           <<: *only-main
           name: release
-          command: yarn multi-semantic-release --sequential-init
+          command: yarn multi-semantic-release
           requires:
             - test
       - newhighsco/analyze:

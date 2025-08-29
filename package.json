@@ -80,7 +80,8 @@
   "multi-release": {
     "ignorePackages": [
       "template"
-    ]
+    ],
+    "sequentialInit": true
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
