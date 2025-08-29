@@ -1898,6 +1898,18 @@
     stylelint-order "7.0.0"
     stylelint-prettier "5.0.3"
 
+"@newhighsco/svgo-config@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/svgo-config/-/svgo-config-1.0.2.tgz#994162cdd7e3646e2c22c325608abc46e8f7706d"
+  integrity sha512-N0mMtBu0PGlRH7gsPRxoyiibfBsxLxGH13zW32ykMSoC/ab7JvWkw3VJKkVTReHA0/R6V3NEy1cvtlMtQAmOng==
+
+"@newhighsco/svgr-config@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/svgr-config/-/svgr-config-1.0.0.tgz#3b9d5fcb314b44aa992d9dcbc508571f12980524"
+  integrity sha512-yYD1c87wGNnpN/BLDC8QFwZJzpcEDOuSe0Eis2Ew5gLQvAELLT03MVYPHZuGw66atkAmHTBdvbU91jGxpj+3Fw==
+  dependencies:
+    "@newhighsco/svgo-config" "1.0.2"
+
 "@next/env@15.5.2":
   version "15.5.2"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-15.5.2.tgz#0c6b959313cd6e71afb69bf0deb417237f1d2f8a"
