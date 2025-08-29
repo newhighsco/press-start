@@ -7,8 +7,7 @@
 Get a theme-able Next.js site up and running quickly
 
 ```
-npx create-next-app -e https://github.com/newhighsco/press-start --example-path template
+yarn create next-app -e https://github.com/newhighsco/press-start --example-path template <dir>
 ```
-
 
 ## [CHANGELOG](CHANGELOG.md)

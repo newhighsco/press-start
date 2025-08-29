@@ -1,17 +1,17 @@
 {
   "name": "@newhighsco/template",
-  "description": "TODO: Description",
+  "description": "TODO:",
   "version": "1.0.0",
   "author": "New High Score",
   "license": "ISC",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/newhighsco/{TODO: Repo}.git"
+    "url": "https://github.com/newhighsco/TODO:.git"
   },
-  "homepage": "https://github.com/newhighsco/{TODO: Repo}#readme",
+  "homepage": "https://github.com/newhighsco/TODO:#readme",
   "bugs": {
-    "url": "https://github.com/newhighsco/{TODO: Repo}/issues"
+    "url": "https://github.com/newhighsco/TODO:/issues"
   },
   "files": [
     "public",
