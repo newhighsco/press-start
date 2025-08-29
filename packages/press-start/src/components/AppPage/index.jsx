@@ -11,11 +11,9 @@ import { func, object } from 'prop-types'
 import React from 'react'
 import urlJoin from 'url-join'
 
-const renderImage = ({
-  priority,
-  loading = priority ? 'eager' : undefined,
-  ...rest
-}) => <Image priority={priority} loading={loading} {...rest} />
+const renderImage = ({ priority, loading, ...rest }) => (
+  <Image priority={priority} loading={priority ? 'eager' : loading} {...rest} />
+)
 
 const renderLink = props => <Link {...props} />
 
