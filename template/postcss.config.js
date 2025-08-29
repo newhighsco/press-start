@@ -1,1 +1,1 @@
-module.exports = require('@newhighsco/postcss-config/purgecss')
+module.exports = require('@newhighsco/postcss-config')

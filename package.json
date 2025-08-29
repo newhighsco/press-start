@@ -18,6 +18,7 @@
   },
   "scripts": {
     "prepare": "husky",
+    "clean": "yarn workspace @newhighsco/press-start-template clean",
     "start": "yarn workspace @newhighsco/press-start-template start",
     "build": "yarn workspace @newhighsco/press-start-template build",
     "serve": "yarn workspace @newhighsco/press-start-template serve",

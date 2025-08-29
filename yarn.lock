@@ -2149,15 +2149,6 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
-"@newhighsco/chipset@6.20.0":
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.20.0.tgz#229fd2dbd5366c4c21f8d136710ed04d36d8eced"
-  integrity sha512-7PmPhJhLYEkvzshpd5ZJqRxjdA3tXwQ0oD5DOjQTaHvd4O+pqCoJ9Kn55dobWYlriMPodwvRFGcTTPysGFcGOw==
-  dependencies:
-    "@dr.pogodin/react-themes" "1.9.2"
-    classnames "2.5.1"
-    react-device-detect "2.2.3"
-
 "@newhighsco/chipset@6.22.0":
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.22.0.tgz#25cbef72ab61cb1cd2851e7f3093714fd4bb182a"
@@ -2223,13 +2214,6 @@
     caniuse-lite "1.0.30001737"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.3.1"
-
-"@newhighsco/press-start@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.5.0.tgz#77468031cd4ec1a1cfb89b1ffb876cd815a1c7d0"
-  integrity sha512-WcLkwOmSDWBuooTIG+2yeAnTOCSJP4MrbsOfRiCJSGwg/g/0+OHw2KbjXPA4hoVfaV5J9SQsPl6BTnaqhFbFPQ==
-  dependencies:
-    next-seo "6.8.0"
 
 "@newhighsco/prettier-config@2.1.32":
   version "2.1.32"
