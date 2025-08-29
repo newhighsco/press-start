@@ -42,6 +42,7 @@
     "@newhighsco/release-config": "1.4.7",
     "@newhighsco/stylelint-config": "4.0.17",
     "@omlet/cli": "2.0.0",
+    "@qiwi/multi-semantic-release": "7.1.2",
     "@swc/core": "1.13.5",
     "@swc/jest": "0.2.39",
     "@testing-library/dom": "10.4.1",
