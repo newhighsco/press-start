@@ -1,3 +1,10 @@
+## @newhighsco/press-start [2.6.2](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.1...@newhighsco/press-start@2.6.2) (2025-08-29)
+
+
+### Bug Fixes
+
+* **image-provider:** explicitly set `loading` when `priority` is set ([#2943](https://github.com/newhighsco/press-start/issues/2943)) ([a6f87b1](https://github.com/newhighsco/press-start/commit/a6f87b137eb0a58be9430386f4b8228e44ba4157))
+
 ## @newhighsco/press-start [2.6.1](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.0...@newhighsco/press-start@2.6.1) (2025-08-29)
 
 
