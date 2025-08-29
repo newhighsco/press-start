@@ -23,6 +23,7 @@ workflows:
       - newhighsco/release:
           <<: *only-main
           name: release
+          command: yarn multi-semantic-release --sequential-init
           requires:
             - test
       - newhighsco/analyze:

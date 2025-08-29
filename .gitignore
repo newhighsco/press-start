@@ -23,3 +23,6 @@ yarn-error.log
 # Project specific
 .eslintcache
 .stylelintcache
+.swc
+coverage
+reports
