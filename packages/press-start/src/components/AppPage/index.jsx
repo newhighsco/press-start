@@ -12,7 +12,12 @@ import React from 'react'
 import urlJoin from 'url-join'
 
 const renderImage = props => <Image {...props} />
-const renderLink = props => <Link {...props} />
+
+const renderLink = ({
+  priority,
+  loading = priority ? 'eager' : undefined,
+  ...rest
+}) => <Link priority={priority} loading={loading} {...rest} />
 
 const AppPage = ({ Component, pageProps, theme, config, meta }) => {
   const {
