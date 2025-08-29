@@ -1,4 +1,9 @@
 module.exports = {
+  moduleNameMapper: {
+    '\\.(scss)$': 'identity-obj-proxy',
+    '\\.(svg)$': '<rootDir>/__mocks__/svg.js',
+    '\\.(png|jpg|gif|eot|ttf|woff(2)?)$': '<rootDir>/__mocks__/file.js'
+  },
   coverageReporters: ['json', 'text-summary'],
   reporters: [
     'default',
