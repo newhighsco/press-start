@@ -27,5 +27,6 @@ workflows:
       - newhighsco/analyze:
           <<: *only-main
           name: analyze
+          disable: true
           requires:
             - release
