@@ -85,10 +85,7 @@
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
-    "extends": "@newhighsco/release-config",
-    "branches": [
-      "main"
-    ]
+    "extends": "@newhighsco/release-config"
   },
   "stylelint": {
     "extends": [
