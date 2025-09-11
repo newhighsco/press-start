@@ -22,6 +22,6 @@
     "next-seo": "6.8.0"
   },
   "peerDependencies": {
-    "next": "15.5.2"
+    "next": "15.5.3"
   }
 }
