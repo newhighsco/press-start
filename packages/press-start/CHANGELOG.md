@@ -1,3 +1,10 @@
+## @newhighsco/press-start [2.6.6](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.5...@newhighsco/press-start@2.6.6) (2025-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#2964](https://github.com/newhighsco/press-start/issues/2964)) ([9480a94](https://github.com/newhighsco/press-start/commit/9480a947d1436fa4c7aaed565e9a92796555d462))
+
 ## @newhighsco/press-start [2.6.5](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.4...@newhighsco/press-start@2.6.5) (2025-09-12)
 
 
