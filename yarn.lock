@@ -2176,10 +2176,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.2.tgz#df6f4f10b63707b78ac0ffdaa1e379823bedec20"
-  integrity sha512-B9PA6hKfFgyP0TSChdDHKK7w/yP7HvzyTkhjhWNynmD95kjiKXel6NxVMoh3RaUz9u6q6HugwJThfYOkJ9tAvA==
+"@newhighsco/eslint-config@4.2.4":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.4.tgz#ad8dff69907ca7be2287798aea9c6ecb66b9d54c"
+  integrity sha512-2XWBDUCBjPFkwPX4OIuKePGYD4PSzpaHExE3YPhhRLKaA3kLeMOCylCjOCe1yQ2txfrK/uha2VtZF+P0Tukg6A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -2200,7 +2200,7 @@
     eslint-plugin-react-hooks "5.2.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.8.0"
+    eslint-plugin-testing-library "7.10.0"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/next-plugin-svgr@3.0.157":
@@ -2212,14 +2212,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.351":
-  version "3.5.351"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.351.tgz#cdc45854fbd3c2acbef044ab81a05dc5af47fe97"
-  integrity sha512-+24FSIh1JihEoJbmEu7w9BorfRCNYMuNOVqV9QEMkb3i2C5iAbZHS1O0UvzS2EZtfJhgSxy5bZXhiVzuXrCZxg==
+"@newhighsco/postcss-config@3.5.352":
+  version "3.5.352"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.352.tgz#d865192b0b060f200ffbaa0bdc4cfafbc082785a"
+  integrity sha512-D8y/1TH8eg237ISetS7ZN9dYX0epXBEuR+RvsG3+SgT62s2vmkJcd18yw8XfYWRJ9k66YXvoWw2J+X/aOwOSAw==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
-    caniuse-lite "1.0.30001743"
+    caniuse-lite "1.0.30001745"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.4.0"
 
@@ -4990,10 +4990,10 @@ camelcase@^8.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
   integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
-caniuse-lite@1.0.30001743, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001741:
-  version "1.0.30001743"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001743.tgz#50ff91a991220a1ee2df5af00650dd5c308ea7cd"
-  integrity sha512-e6Ojr7RV14Un7dz6ASD0aZDmQPT/A+eZU+nuTNfjqmRrmkmQlnTNWH0SKmqagx9PeW87UVqapSurtAXifmtdmw==
+caniuse-lite@1.0.30001745, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001741:
+  version "1.0.30001745"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001745.tgz#ab2a36e3b6ed5bfb268adc002c476aab6513f859"
+  integrity sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ==
 
 cardinal@^2.1.1:
   version "2.1.1"
@@ -6421,10 +6421,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.8.0:
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.8.0.tgz#f18b95ad9710c32a7630c48fdfcba826e7c5d06a"
-  integrity sha512-zmu9xtpULN5KCtJBABBmXK3jfKZej2ZJ6QzCX4MtywP3UTJ7yn/Zful8Kn5mUiOCxX6KBt0to3OZf7Usuhtvfg==
+eslint-plugin-testing-library@7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.10.0.tgz#c49f6b90cbdbcf39dbd6d9978e66eea2d19ac889"
+  integrity sha512-0yctS5KjVPfDYzswJKQ6d/1767+qsmlu2TzjN9yB25wtfto5vMmSC0z3hDYcsTj9bekzKaxueSh8AReWm2Illg==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
