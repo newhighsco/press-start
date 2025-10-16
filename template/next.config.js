@@ -6,7 +6,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true
   },
-  generateBuildId: () => 'build',
   images: {
     formats: ['image/avif', 'image/webp']
   },
