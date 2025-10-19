@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "@newhighsco/chipset": "6.25.2",
-    "next-seo": "6.8.0"
+    "next-seo": "7.0.1"
   },
   "peerDependencies": {
     "next": "15.5.6"
