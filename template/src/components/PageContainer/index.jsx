@@ -13,10 +13,7 @@ const PageContainer = ({ meta, children }) => (
   </ThemedPageContainer>
 )
 
-PageContainer.propTypes = {
-  meta: object,
-  children: node
-}
+PageContainer.propTypes = { meta: object, children: node }
 
 export default PageContainer
 export { PageContainer }

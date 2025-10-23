@@ -18,9 +18,7 @@ const LogoLockup = ({ className }) => (
   </div>
 )
 
-LogoLockup.propTypes = {
-  className: string
-}
+LogoLockup.propTypes = { className: string }
 
 export default LogoLockup
 export { LogoLockup }

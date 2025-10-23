@@ -1,9 +1,1 @@
-{
-  "links": [
-    {
-      "href": "#top",
-      "children": "Top",
-      "target": ""
-    }
-  ]
-}
+{ "links": [{ "href": "#top", "children": "Top", "target": "" }] }

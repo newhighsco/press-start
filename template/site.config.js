@@ -9,10 +9,7 @@ const config = {
   shortName: null,
   title: 'Press Start - Chipset + Next.js site starter by New High Score',
   description: 'Get a theme-able Next.js site up and running quickly',
-  logo: {
-    bitmap: logoBitmap.src,
-    vector: logoVector
-  },
+  logo: { bitmap: logoBitmap.src, vector: logoVector },
   openGraphImage: openGraphImage.src,
   themeColor: colors.black,
   twitterHandle: 'newhighsco',

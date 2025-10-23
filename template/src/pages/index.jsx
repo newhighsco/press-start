@@ -24,19 +24,11 @@ const HomePage = ({ meta }) => (
   </PageContainer>
 )
 
-HomePage.propTypes = {
-  meta: object
-}
+HomePage.propTypes = { meta: object }
 
 export async function getStaticProps() {
   return {
-    props: {
-      meta: {
-        canonical: urlJoin(url, '/'),
-        customTitle: true,
-        title
-      }
-    }
+    props: { meta: { canonical: urlJoin(url, '/'), customTitle: true, title } }
   }
 }
 

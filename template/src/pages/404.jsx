@@ -13,9 +13,7 @@ const NotFoundPage = ({ meta }) => (
   </PageContainer>
 )
 
-NotFoundPage.propTypes = {
-  meta: object
-}
+NotFoundPage.propTypes = { meta: object }
 
 export async function getStaticProps() {
   return {
