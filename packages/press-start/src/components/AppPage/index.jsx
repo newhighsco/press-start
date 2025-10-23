@@ -50,15 +50,8 @@ const AppPage = ({ Component, pageProps, theme, config, meta }) => {
     ].filter(Boolean),
     additionalLinkTags: [
       ...(meta?.additionalLinkTags || []),
-      icon && {
-        rel: 'icon',
-        href: icon
-      },
-      {
-        rel: 'sitemap',
-        type: 'application/xml',
-        href: '/sitemap.xml'
-      }
+      icon && { rel: 'icon', href: icon },
+      { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' }
     ].filter(Boolean)
   }
 

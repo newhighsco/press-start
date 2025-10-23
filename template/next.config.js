@@ -3,16 +3,9 @@ const withSvgr = require('@newhighsco/next-plugin-svgr')
 const withVideos = require('next-videos')
 
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true
-  },
-  images: {
-    formats: ['image/avif', 'image/webp']
-  },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en'
-  },
+  eslint: { ignoreDuringBuilds: true },
+  images: { formats: ['image/avif', 'image/webp'] },
+  i18n: { locales: ['en'], defaultLocale: 'en' },
   poweredByHeader: false,
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],
   webpack: config => {
