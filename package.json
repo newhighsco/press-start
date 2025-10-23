@@ -39,7 +39,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "5.1.1",
     "@newhighsco/prettier-config": "2.3.0",
-    "@newhighsco/release-config": "1.4.15",
+    "@newhighsco/release-config": "1.4.16",
     "@newhighsco/stylelint-config": "4.0.18",
     "@omlet/cli": "2.0.0",
     "@qiwi/multi-semantic-release": "7.1.2",
