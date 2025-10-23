@@ -18,13 +18,7 @@ const Meta = ({
     titleTemplate: customTitle ? `%s` : titleTemplate,
     description,
     canonical,
-    openGraph: {
-      ...openGraph,
-      title,
-      description,
-      url: canonical,
-      images
-    }
+    openGraph: { ...openGraph, title, description, url: canonical, images }
   }
 
   return (
