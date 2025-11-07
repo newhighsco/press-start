@@ -28,8 +28,8 @@
   "scripts": {
     "prepare": "husky",
     "clean": "rm -rf {.next,public/{robots.txt,sitemap*.xml}}",
-    "start": "next dev",
-    "build": "next build",
+    "start": "next dev --webpack",
+    "build": "next build --webpack",
     "postbuild": "next-sitemap",
     "serve": "next start",
     "lint": "concurrently yarn:lint:*",
