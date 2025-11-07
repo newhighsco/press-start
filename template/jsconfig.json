@@ -6,7 +6,7 @@
       "~config": ["site.config"],
       "~data/*": ["src/data/*"],
       "~images/*": ["src/images/*"],
-      "~styles/*": ["src/styles/*"],
+      "~styles/*": ["src/styles/_*.scss", "src/styles/*.scss"],
       "~theme": ["src/theme"]
     }
   }

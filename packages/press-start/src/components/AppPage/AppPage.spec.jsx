@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import React from 'react'
 
-import config from '../../../../../template/site.config'
 import AppPage from '.'
 
 describe('Components/AppPage', () => {
@@ -10,7 +9,7 @@ describe('Components/AppPage', () => {
   }
 
   it('should', () => {
-    render(<AppPage Component={Component} config={config} />)
+    render(<AppPage Component={Component} config={{}} />)
 
     expect(screen.getByText('Content')).toBeInTheDocument()
   })
