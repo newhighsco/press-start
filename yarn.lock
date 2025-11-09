@@ -1561,10 +1561,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@dr.pogodin/react-themes@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.3.tgz#572e32cf2711ac7b700630586f0559d32321a161"
-  integrity sha512-3gr++vy5ArJaTRFSzE62ybBNVd6PhpDG4GDCA2HafX3q6vQwJ5IgOH6pe552JumtX084m1W4DjeE11/gKHdtHw==
+"@dr.pogodin/react-themes@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.4.tgz#f31305068a5a7a41e0432684d572a4058ec2212f"
+  integrity sha512-STq5zC1KJ4TDsuvPwCHjrmrkQlAql0kvoa6bvYPPVU+klZRUX926FDfBGxYP9gU2YwpU/TERK4H/cP/eN9Zcew==
   dependencies:
     "@babel/runtime" "^7.28.4"
 
@@ -2270,12 +2270,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
-"@newhighsco/chipset@6.25.2":
-  version "6.25.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.25.2.tgz#4a3d1f0d2d5fa08e79dfd56b38a5f1246018567e"
-  integrity sha512-XrKl3Sfn26hbZEsCJWPd4WqQDBkQxj+aQtVKD/XOFL+LwyYip7F0udWfaEN2HU4CoGGEJdttgZOHuaw/yEeW/g==
+"@newhighsco/chipset@6.25.3":
+  version "6.25.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.25.3.tgz#79d9487811321e300a4a9725889b4b37044c9f0b"
+  integrity sha512-c74+jRTIOLmG7Lh9GjO/r4h003aXLv6LQtmm3PAySBCPZ0mwntsS1+ZhtyZjTEuhZRFcjH5W5Kk6dsx1ipVKRg==
   dependencies:
-    "@dr.pogodin/react-themes" "1.9.3"
+    "@dr.pogodin/react-themes" "1.9.4"
     classnames "2.5.1"
     react-device-detect "2.2.3"
 
