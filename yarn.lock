@@ -1579,10 +1579,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@dr.pogodin/react-themes@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.4.tgz#f31305068a5a7a41e0432684d572a4058ec2212f"
-  integrity sha512-STq5zC1KJ4TDsuvPwCHjrmrkQlAql0kvoa6bvYPPVU+klZRUX926FDfBGxYP9gU2YwpU/TERK4H/cP/eN9Zcew==
+"@dr.pogodin/react-themes@1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.0.tgz#6541926ed0bff155cefa85b2cf4d4737b9d8ef95"
+  integrity sha512-uHTS7eS64jV0gT085KVYGn/UOWe+promTTQDtUeQWu4wezTzBUPU60JEEZRXssxWwuTOusMD9KdyZH/E5aYFyQ==
   dependencies:
     "@babel/runtime" "^7.28.4"
 
@@ -2303,12 +2303,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
-"@newhighsco/chipset@6.25.3":
-  version "6.25.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.25.3.tgz#79d9487811321e300a4a9725889b4b37044c9f0b"
-  integrity sha512-c74+jRTIOLmG7Lh9GjO/r4h003aXLv6LQtmm3PAySBCPZ0mwntsS1+ZhtyZjTEuhZRFcjH5W5Kk6dsx1ipVKRg==
+"@newhighsco/chipset@6.25.4":
+  version "6.25.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.25.4.tgz#16122db799e33a03a884e11979e870516e8ae255"
+  integrity sha512-DoTwoKPfUUylUCe7/UhaXArqnhQ9t3xc3KF3YVDOBdsUAgjMZvwpcycZhiSPZlmfhdLiSV9tDXk+cJSlUOqwWA==
   dependencies:
-    "@dr.pogodin/react-themes" "1.9.4"
+    "@dr.pogodin/react-themes" "1.10.0"
     classnames "2.5.1"
     react-device-detect "2.2.3"
 
@@ -2360,14 +2360,14 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-4.0.6.tgz#a0a2ef72cf18aae747a1115026499fca957cd131"
-  integrity sha512-05Ac0E594A/k1ZfGjWUWN2ymi+rY1moCuFoq7XZR5O+ZUMJEd6sa0+2gb8dmQOH/4K1s+u+mtz/szKIUE+V2KA==
+"@newhighsco/postcss-config@4.0.7":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-4.0.7.tgz#b54df21d43ed26e1a97f516e2e2132df92f58102"
+  integrity sha512-IvnIW2N0Q/48TnqQHjog4GT0QK1fITXu9SJjfS3L46CySPsQw2b7DOvp5cyjkHxQYLr5cK7ska+NKeSUqDaP8A==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.22"
-    caniuse-lite "1.0.30001756"
+    caniuse-lite "1.0.30001757"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.4.0"
 
@@ -5150,10 +5150,10 @@ camelcase@^8.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
   integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
-caniuse-lite@1.0.30001756, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001754:
-  version "1.0.30001756"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001756.tgz#fe80104631102f88e58cad8aa203a2c3e5ec9ebd"
-  integrity sha512-4HnCNKbMLkLdhJz3TToeVWHSnfJvPaq6vu/eRP0Ahub/07n484XHhBF5AJoSGHdVrS8tKFauUQz8Bp9P7LVx7A==
+caniuse-lite@1.0.30001757, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001754:
+  version "1.0.30001757"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001757.tgz#a46ff91449c69522a462996c6aac4ef95d7ccc5e"
+  integrity sha512-r0nnL/I28Zi/yjk1el6ilj27tKcdjLsNqAOZr0yVjWPrSQyHgKI2INaEWw21bAQSv2LXRt1XuCS/GomNpWOxsQ==
 
 cardinal@^2.1.1:
   version "2.1.1"
