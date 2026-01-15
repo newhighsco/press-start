@@ -68,7 +68,7 @@
     "husky": "9.1.7",
     "prettier": "3.8.0",
     "semantic-release": "25.0.2",
-    "stylelint": "16.26.1"
+    "stylelint": "17.0.0"
   },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
