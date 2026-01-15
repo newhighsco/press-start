@@ -1,3 +1,14 @@
+## @newhighsco/press-start [2.6.24](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.23...@newhighsco/press-start@2.6.24) (2026-01-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.10 ([#3066](https://github.com/newhighsco/press-start/issues/3066)) ([bdad9f6](https://github.com/newhighsco/press-start/commit/bdad9f67d5c5162e7e92cc413cd1c64cd334526a))
+* **deps:** update dependency next to v16.0.9 ([#3065](https://github.com/newhighsco/press-start/issues/3065)) ([60a79b9](https://github.com/newhighsco/press-start/commit/60a79b910629e9048c505facb30d20dfa508bfd0))
+* **deps:** update dependency next to v16.1.0 ([#3076](https://github.com/newhighsco/press-start/issues/3076)) ([5ff6593](https://github.com/newhighsco/press-start/commit/5ff6593098773628d2fbe81ed6f92715a6e625ce))
+* **deps:** update dependency next to v16.1.1 ([#3079](https://github.com/newhighsco/press-start/issues/3079)) ([ea96e87](https://github.com/newhighsco/press-start/commit/ea96e87786cefae7dc1116ebdbc06f6aebdc3b4c))
+* **deps:** update dependency next to v16.1.2 ([#3088](https://github.com/newhighsco/press-start/issues/3088)) ([db0fa81](https://github.com/newhighsco/press-start/commit/db0fa81595c73dbe393b53800442877f3976ec56))
+
 ## @newhighsco/press-start [2.6.23](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.22...@newhighsco/press-start@2.6.23) (2025-12-08)
 
 
