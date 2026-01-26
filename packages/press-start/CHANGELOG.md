@@ -1,3 +1,10 @@
+## @newhighsco/press-start [2.6.30](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.29...@newhighsco/press-start@2.6.30) (2026-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.5 ([#3114](https://github.com/newhighsco/press-start/issues/3114)) ([fd621d0](https://github.com/newhighsco/press-start/commit/fd621d0e31bc04d6adbe0a7942ec14b56bb1897a))
+
 ## @newhighsco/press-start [2.6.29](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.28...@newhighsco/press-start@2.6.29) (2026-01-22)
 
 
