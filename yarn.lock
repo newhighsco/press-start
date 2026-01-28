@@ -2530,10 +2530,10 @@
     eslint-plugin-storybook "10.2.1"
     eslint-plugin-testing-library "7.15.4"
 
-"@newhighsco/next-plugin-svgr@3.0.161":
-  version "3.0.161"
-  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.161.tgz#cfd1caa7aec019984b29f7f964bd637355e6cea6"
-  integrity sha512-EJA+AMnFsdAcT07qUk0VNYe5TR02GoHhrLYCe28Hc6MiiXqDpPMsmVwT192U61QuR1tidEnQ8wR40eM94wAANg==
+"@newhighsco/next-plugin-svgr@3.0.162":
+  version "3.0.162"
+  resolved "https://registry.yarnpkg.com/@newhighsco/next-plugin-svgr/-/next-plugin-svgr-3.0.162.tgz#19d6f40b5261da4feab926da917279e94dbcab95"
+  integrity sha512-LcaifRRfaFgSxw3azMSwvW02TY+7gcI++3VSDkXjjVoTcl10XYbyNqnBzWCDxLEGp1qnaIv8idgi/9Q0Dt1d0Q==
   dependencies:
     "@svgr/webpack" "8.1.0"
     file-loader "6.2.0"
