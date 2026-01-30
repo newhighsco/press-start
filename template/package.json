@@ -40,7 +40,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@newhighsco/chipset": "6.27.1",
+    "@newhighsco/chipset": "6.27.2",
     "@newhighsco/next-plugin-svgr": "3.0.162",
     "@newhighsco/press-start": "*",
     "next": "16.1.6",
@@ -57,11 +57,11 @@
     "@newhighsco/browserslist-config": "2.0.0",
     "@newhighsco/commitlint-config": "1.1.47",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "6.0.11",
+    "@newhighsco/eslint-config": "6.0.12",
     "@newhighsco/postcss-config": "4.0.15",
     "@newhighsco/prettier-config": "2.3.3",
     "@newhighsco/release-config": "1.4.20",
-    "@newhighsco/stylelint-config": "4.0.22",
+    "@newhighsco/stylelint-config": "4.0.23",
     "@newhighsco/svgr-config": "1.0.0",
     "concurrently": "9.2.1",
     "eslint": "9.39.2",
