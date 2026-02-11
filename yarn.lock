@@ -3511,9 +3511,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@newhighsco/eslint-config@npm:7.0.2"
+"@newhighsco/eslint-config@npm:7.0.3":
+  version: 7.0.3
+  resolution: "@newhighsco/eslint-config@npm:7.0.3"
   dependencies:
     "@eslint/compat": "npm:2.0.2"
     "@eslint/js": "npm:10.0.1"
@@ -3540,7 +3540,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/3288a44a0af21002823e5fd82de8971cc69476e442aa7c523f4eb73517f51ac6dec35394e62f69e3cd9ec3ce9655574d0eddf1b4d92fc0dda9f43644425f215b
+  checksum: 10c0/40aea36d93a309fbfaf7a7586063f2290f85dba22eee73b7ecda206590f6f944ac53fb3b8758f505cfb44a91cbca0e92286a0bd514e17c751c1e1ab28ac40ca9
   languageName: node
   linkType: hard
 
@@ -3653,7 +3653,7 @@ __metadata:
     "@newhighsco/chipset": "npm:6.27.3"
     "@newhighsco/commitlint-config": "npm:1.1.48"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.2"
+    "@newhighsco/eslint-config": "npm:7.0.3"
     "@newhighsco/next-plugin-svgr": "npm:3.0.162"
     "@newhighsco/postcss-config": "npm:4.0.19"
     "@newhighsco/press-start": "npm:*"
@@ -14885,7 +14885,7 @@ __metadata:
     "@commitlint/cli": "npm:20.4.1"
     "@newhighsco/commitlint-config": "npm:1.1.48"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.2"
+    "@newhighsco/eslint-config": "npm:7.0.3"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.24"
     "@newhighsco/stylelint-config": "npm:4.0.25"
