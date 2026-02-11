@@ -1,5 +1,5 @@
 {
-  "name": "@newhighsco/press-start",
+  "name": "press-start",
   "description": "Chipset + Next.js site starter by New High Score",
   "author": "New High Score",
   "license": "ISC",
@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/newhighsco/press-start/issues"
   },
+  "packageManager": "yarn@4.12.0",
   "scripts": {
     "prepare": "husky",
     "clean": "yarn workspace @newhighsco/template clean",
@@ -26,10 +27,10 @@
     "test": "jest --runInBand",
     "test:list": "jest --listTests",
     "analyze": "omlet analyze",
-    "lint": "concurrently yarn:lint:*",
+    "lint": "concurrently 'yarn:lint:*'",
     "lint:js": "eslint --cache .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
-    "format": "concurrently yarn:format:*",
+    "format": "concurrently 'yarn:format:*'",
     "format:js": "yarn lint:js --fix",
     "format:css": "yarn lint:css --fix"
   },
