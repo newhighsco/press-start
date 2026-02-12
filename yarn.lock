@@ -3582,14 +3582,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.4.24":
-  version: 1.4.24
-  resolution: "@newhighsco/release-config@npm:1.4.24"
+"@newhighsco/release-config@npm:1.4.25":
+  version: 1.4.25
+  resolution: "@newhighsco/release-config@npm:1.4.25"
   dependencies:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
     "@semantic-release/git": "npm:10.0.1"
-    "@semantic-release/github": "npm:12.0.5"
+    "@semantic-release/github": "npm:12.0.6"
     "@semantic-release/npm": "npm:13.1.4"
     "@semantic-release/release-notes-generator": "npm:14.1.0"
   peerDependencies:
@@ -3598,7 +3598,7 @@ __metadata:
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/11b37c27cf1f3f2b0f95253442772f27c4b60fdb89fc2911ffdf0786204ed0a7120d07d5618dd4879e76905c179c6635cc5acdbf29f6a8500612d064184426fc
+  checksum: 10c0/6739df67a12fa55387a8cbcf376bf482280b610d30efd8ba9c4b2e2f1f6b13740279d07881a48105fcaecd45991519571639b6b535a4ddbdfabf33a0da917e2d
   languageName: node
   linkType: hard
 
@@ -3648,7 +3648,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.19"
     "@newhighsco/press-start": "npm:*"
     "@newhighsco/prettier-config": "npm:2.3.3"
-    "@newhighsco/release-config": "npm:1.4.24"
+    "@newhighsco/release-config": "npm:1.4.25"
     "@newhighsco/stylelint-config": "npm:4.0.25"
     "@newhighsco/svgr-config": "npm:1.0.0"
     concurrently: "npm:9.2.1"
@@ -4847,9 +4847,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:12.0.5, @semantic-release/github@npm:^12.0.0":
-  version: 12.0.5
-  resolution: "@semantic-release/github@npm:12.0.5"
+"@semantic-release/github@npm:12.0.6, @semantic-release/github@npm:^12.0.0":
+  version: 12.0.6
+  resolution: "@semantic-release/github@npm:12.0.6"
   dependencies:
     "@octokit/core": "npm:^7.0.0"
     "@octokit/plugin-paginate-rest": "npm:^14.0.0"
@@ -4870,7 +4870,7 @@ __metadata:
     url-join: "npm:^5.0.0"
   peerDependencies:
     semantic-release: ">=24.1.0"
-  checksum: 10c0/84d71bd79e93e9945267c949cebcc4a7052eed14c32744194421e7569634dbe81d2589a0dbc6b23f9f5708bd342fc8c757c3d016afff88a49f3e23163765e801
+  checksum: 10c0/2f6b24d73790dbe14e3ac08814fc56f069ec4c96a0e471eeb5247d934b525b54cee9a6d296e90edb6566bb309cf81a04084551e8201362dfd82ca436a2813706
   languageName: node
   linkType: hard
 
@@ -14877,7 +14877,7 @@ __metadata:
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.5"
     "@newhighsco/prettier-config": "npm:2.3.3"
-    "@newhighsco/release-config": "npm:1.4.24"
+    "@newhighsco/release-config": "npm:1.4.25"
     "@newhighsco/stylelint-config": "npm:4.0.25"
     "@omlet/cli": "npm:2.0.0"
     "@qiwi/multi-semantic-release": "npm:7.1.2"
