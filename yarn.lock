@@ -2546,6 +2546,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify/react@npm:6.0.2":
+  version: 6.0.2
+  resolution: "@iconify/react@npm:6.0.2"
+  dependencies:
+    "@iconify/types": "npm:^2.0.0"
+  peerDependencies:
+    react: ">=16"
+  checksum: 10c0/1f53f588361d658c6f077fefcc31d52f6f5d375f06b63dd13cc73b71fd28cf9409edece921ea8fa5195a79d02ff9162aff8472c14e858c0178067eecc3128460
+  languageName: node
+  linkType: hard
+
+"@iconify/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@iconify/types@npm:2.0.0"
+  checksum: 10c0/65a3be43500c7ccacf360e136d00e1717f050b7b91da644e94370256ac66f582d59212bdb30d00788aab4fc078262e91c95b805d1808d654b72f6d2072a7e4b2
+  languageName: node
+  linkType: hard
+
 "@img/colour@npm:^1.0.0":
   version: 1.0.0
   resolution: "@img/colour@npm:1.0.0"
@@ -3462,17 +3480,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:6.27.3":
-  version: 6.27.3
-  resolution: "@newhighsco/chipset@npm:6.27.3"
+"@newhighsco/chipset@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@newhighsco/chipset@npm:7.0.0"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.10.3"
+    "@iconify/react": "npm:6.0.2"
     classnames: "npm:2.5.1"
     react-device-detect: "npm:2.2.3"
   peerDependencies:
     react: 19.2.4
     react-dom: 19.2.4
-  checksum: 10c0/d907d36d5f41b2783e776d36238833ca0805b63eed4c822cd1e919a192974f9fcb883cdd101fe494a88f35a908cbc69d63f1c3af99faa1d083f19fe4b0530b24
+  checksum: 10c0/f9b0231d6e58c5e697932ab952ab32fd591de37f28845f1e287c58d552e43c764e2054058dbb3a50687c8afd01666a922d9695ea1068c3ab6976fa0cb1c5a450
   languageName: node
   linkType: hard
 
@@ -3557,7 +3576,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/press-start@workspace:packages/press-start"
   dependencies:
-    "@newhighsco/chipset": "npm:6.27.3"
+    "@newhighsco/chipset": "npm:7.0.0"
     next-seo: "npm:6.8.0"
   peerDependencies:
     next: 16.1.6
@@ -3630,7 +3649,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:20.4.1"
     "@newhighsco/browserslist-config": "npm:2.0.0"
-    "@newhighsco/chipset": "npm:6.27.3"
+    "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.48"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.10"
