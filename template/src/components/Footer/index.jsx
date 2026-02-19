@@ -10,7 +10,6 @@ import React from 'react'
 
 import config from '~config'
 import footer from '~data/footer.json'
-import { ReactComponent as GithubIcon } from '~images/icons/github.svg'
 
 import styles from './Footer.module.scss'
 
@@ -19,7 +18,7 @@ const iconLinks = [
   {
     href: socialLinks.github,
     text: `View ${name} on Github`,
-    icon: GithubIcon,
+    name: 'simple-icons:github',
     target: '_blank'
   }
 ]
@@ -33,11 +32,9 @@ const Footer = () => (
       <Grid.Item sizes={['one-half']} align="right">
         <Navigation
           links={iconLinks}
-          renderLink={({ text, icon: IconSvg, ...rest }) => (
+          renderLink={({ text, name, ...rest }) => (
             <SmartLink {...rest}>
-              <Icon theme={{ root: styles.icon }} alt={text}>
-                {IconSvg && <IconSvg />}
-              </Icon>
+              <Icon name={name} theme={{ root: styles.icon }} alt={text} />
             </SmartLink>
           )}
         />
