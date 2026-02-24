@@ -3524,9 +3524,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.14":
-  version: 7.0.14
-  resolution: "@newhighsco/eslint-config@npm:7.0.14"
+"@newhighsco/eslint-config@npm:7.0.15":
+  version: 7.0.15
+  resolution: "@newhighsco/eslint-config@npm:7.0.15"
   dependencies:
     "@eslint/compat": "npm:2.0.2"
     "@eslint/js": "npm:10.0.1"
@@ -3539,7 +3539,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
-    eslint-plugin-storybook: "npm:10.2.11"
+    eslint-plugin-storybook: "npm:10.2.12"
     eslint-plugin-testing-library: "npm:7.16.0"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.56.1"
@@ -3553,7 +3553,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/7c94aa36415937bbfb2268d2bbfe64d81ab72cdf7087b76038bc5d235cfdcb23a236ac9e898ef1b72b69797822877ce8d1691f1bf6193ae9441ae6491233be4c
+  checksum: 10c0/258a1fd0efe408cf8005356205978e51e04e3344927932b805799b92e7e541c689b4ae2442367d820718055f65b240650acc250c5dc568489dc6adedbf7eecf9
   languageName: node
   linkType: hard
 
@@ -3665,7 +3665,7 @@ __metadata:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.49"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.14"
+    "@newhighsco/eslint-config": "npm:7.0.15"
     "@newhighsco/next-plugin-svgr": "npm:3.0.162"
     "@newhighsco/postcss-config": "npm:4.0.23"
     "@newhighsco/press-start": "npm:*"
@@ -9006,15 +9006,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.2.11":
-  version: 10.2.11
-  resolution: "eslint-plugin-storybook@npm:10.2.11"
+"eslint-plugin-storybook@npm:10.2.12":
+  version: 10.2.12
+  resolution: "eslint-plugin-storybook@npm:10.2.12"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.2.11
-  checksum: 10c0/a6c7496ccf382cff3ba9b84b1d3fbc4e782836e01a00fcef8183f22d20c7ebb74a0c3a2b1ea8f5fe5879a6389fe1ea5ca404bfdb650f5737e936220ef9a12cd7
+    storybook: ^10.2.12
+  checksum: 10c0/4002a71008cad352b0276c8e5fa1bfaaca079d57f2a70afc206eac8905bde7ecf04afb0ae93805f7113d8510d405935295ec1463f6579f2f4567ef3990848835
   languageName: node
   linkType: hard
 
@@ -15261,7 +15261,7 @@ __metadata:
     "@commitlint/cli": "npm:20.4.2"
     "@newhighsco/commitlint-config": "npm:1.1.49"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.14"
+    "@newhighsco/eslint-config": "npm:7.0.15"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.25"
     "@newhighsco/stylelint-config": "npm:4.0.27"
