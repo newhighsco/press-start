@@ -35,7 +35,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.4.2",
+    "@commitlint/cli": "20.4.4",
     "@newhighsco/commitlint-config": "1.1.49",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "7.0.16",
