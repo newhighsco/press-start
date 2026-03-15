@@ -3540,12 +3540,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/commitlint-config@npm:1.1.51":
-  version: 1.1.51
-  resolution: "@newhighsco/commitlint-config@npm:1.1.51"
+"@newhighsco/commitlint-config@npm:1.1.52":
+  version: 1.1.52
+  resolution: "@newhighsco/commitlint-config@npm:1.1.52"
   peerDependencies:
-    "@commitlint/cli": 20.4.4
-  checksum: 10c0/85b0f22162e3b338d65a93dea813c10f69112c47c580837f2af5f5b6b77b423e475d896e29157e92392a2699313517ee4184e62c1e7ccce66fda54ec658dfdd2
+    "@commitlint/cli": 20.5.0
+  checksum: 10c0/f0956c78e31fe10b7362885fe2cd6bf05c13e3bc9bccd3cc2e5bb9559f7553fa26d74df26ad5dba26881a10f727bbd8ddb66e12f4e4556c8e279b1c0fc460783
   languageName: node
   linkType: hard
 
@@ -3695,7 +3695,7 @@ __metadata:
     "@commitlint/cli": "npm:20.5.0"
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/chipset": "npm:7.0.0"
-    "@newhighsco/commitlint-config": "npm:1.1.51"
+    "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.24"
     "@newhighsco/next-plugin-svgr": "npm:3.0.162"
@@ -15297,7 +15297,7 @@ __metadata:
   resolution: "press-start@workspace:."
   dependencies:
     "@commitlint/cli": "npm:20.5.0"
-    "@newhighsco/commitlint-config": "npm:1.1.51"
+    "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.24"
     "@newhighsco/prettier-config": "npm:2.3.3"
