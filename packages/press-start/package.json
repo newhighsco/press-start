@@ -21,6 +21,6 @@
     "next-seo": "6.8.0"
   },
   "peerDependencies": {
-    "next": "16.1.6"
+    "next": "16.1.7"
   }
 }
