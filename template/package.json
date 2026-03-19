@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/newhighsco/TODO:/issues"
   },
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "yarn@4.13.0",
   "files": [
     "public",
     "src",
