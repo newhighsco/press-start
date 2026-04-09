@@ -2450,17 +2450,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:2.0.4":
-  version: 2.0.4
-  resolution: "@eslint/compat@npm:2.0.4"
+"@eslint/compat@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@eslint/compat@npm:2.0.5"
   dependencies:
-    "@eslint/core": "npm:^1.2.0"
+    "@eslint/core": "npm:^1.2.1"
   peerDependencies:
     eslint: ^8.40 || 9 || 10
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/9ac00129e5d1319c4dfcd0201d100b693c3f04582eef4941a0792cf81c2d902f1757c06541db072e53517f5f7a3e83e26f5e9e3a530eab9067de0624f86c0453
+  checksum: 10c0/c6e16c5bd826535dc84b6dfd4cfa8079ac564f6dc614b164e2f2e708e940d6efa9f3754fa6ddaace04b43d296c190aabbad4231c074f6269afab88d7e7b005a8
   languageName: node
   linkType: hard
 
@@ -3563,15 +3563,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.44":
-  version: 7.0.44
-  resolution: "@newhighsco/eslint-config@npm:7.0.44"
+"@newhighsco/eslint-config@npm:7.0.46":
+  version: 7.0.46
+  resolution: "@newhighsco/eslint-config@npm:7.0.46"
   dependencies:
-    "@eslint/compat": "npm:2.0.4"
+    "@eslint/compat": "npm:2.0.5"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:1.2.0"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-cypress: "npm:6.2.3"
+    eslint-plugin-cypress: "npm:6.3.0"
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.5"
@@ -3592,20 +3592,20 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/3ced3cbec0e9714eba657b29cd97da9eb3baf80d868ba0f3d0e352f1d9d8792d1ad761d1078d1f1abff3cc9b6571322418da1e25c77f3d2e94b108bd538493ec
+  checksum: 10c0/92c6adb45e1df72e84e8a1cf40909807e90d2337b6b4dc9e84dbe44eb5016fac2bb0b7cc44e8678d67153d20ea5c09ae12f69abd5c50fd04a2664d06c51f4c0e
   languageName: node
   linkType: hard
 
-"@newhighsco/next-plugin-svgr@npm:3.0.166":
-  version: 3.0.166
-  resolution: "@newhighsco/next-plugin-svgr@npm:3.0.166"
+"@newhighsco/next-plugin-svgr@npm:3.0.167":
+  version: 3.0.167
+  resolution: "@newhighsco/next-plugin-svgr@npm:3.0.167"
   dependencies:
     "@svgr/webpack": "npm:8.1.0"
     file-loader: "npm:6.2.0"
     url-loader: "npm:4.1.1"
   peerDependencies:
-    next: 16.2.2
-  checksum: 10c0/43fc4f654e923c99aadd49fbd96b5fe30e0de75dd9236a9f789d8eea9b0914646ecb709b2c1e9ebcbcc854f5c4f38773422dc8680171e5defe674ef07631eb8c
+    next: 16.2.3
+  checksum: 10c0/55de836ade958900dbd2053e1f21533cd4239298f02ff05bdb8966f8d6f83923117e77086ba44ee75ea1532bd59065b61774de3f1b2bd367c902422299a5093d
   languageName: node
   linkType: hard
 
@@ -3704,8 +3704,8 @@ __metadata:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.44"
-    "@newhighsco/next-plugin-svgr": "npm:3.0.166"
+    "@newhighsco/eslint-config": "npm:7.0.46"
+    "@newhighsco/next-plugin-svgr": "npm:3.0.167"
     "@newhighsco/postcss-config": "npm:4.0.38"
     "@newhighsco/press-start": "npm:*"
     "@newhighsco/prettier-config": "npm:2.3.3"
@@ -8925,14 +8925,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:6.2.3":
-  version: 6.2.3
-  resolution: "eslint-plugin-cypress@npm:6.2.3"
+"eslint-plugin-cypress@npm:6.3.0":
+  version: 6.3.0
+  resolution: "eslint-plugin-cypress@npm:6.3.0"
   dependencies:
     globals: "npm:^17.4.0"
   peerDependencies:
     eslint: ">=9"
-  checksum: 10c0/f4bb727f1e9bf9fe824d196d986caa5cd59e091ac08d4f7a03da978562332e628c41576ee9e8c0697f15915b52ba48a9603187671ad2baf51f6b733247626a4e
+  checksum: 10c0/78704a0fbaaa18593edee2e632448aadd7cb5e48291d2601f15393e6e41585635e49c2b45b1cee0d778dc40fc7d6cdace32a307e04c7847c7c997dd0a766650f
   languageName: node
   linkType: hard
 
@@ -15321,7 +15321,7 @@ __metadata:
     "@commitlint/cli": "npm:20.5.0"
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.44"
+    "@newhighsco/eslint-config": "npm:7.0.46"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/stylelint-config": "npm:4.0.33"
