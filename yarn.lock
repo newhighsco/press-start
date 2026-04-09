@@ -3629,7 +3629,7 @@ __metadata:
   resolution: "@newhighsco/press-start@workspace:packages/press-start"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
-    next-seo: "npm:7.2.0"
+    next-seo: "npm:6.8.0"
   peerDependencies:
     next: 16.2.3
   languageName: unknown
@@ -13403,13 +13403,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-seo@npm:7.2.0":
-  version: 7.2.0
-  resolution: "next-seo@npm:7.2.0"
+"next-seo@npm:6.8.0":
+  version: 6.8.0
+  resolution: "next-seo@npm:6.8.0"
   peerDependencies:
-    next: ">=13.4.0"
-    react: ">=18.2.0"
-  checksum: 10c0/0d747cc8e5503eeae4ed2ee375382d4c1fa541e84370b69404111f84d496b704f8b7d8c7b28057a2a7dae5bf17162afd317b38701b6a3cb80e2e6f5d0c983574
+    next: ^8.1.1-canary.54 || >=9.0.0
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
+  checksum: 10c0/63fe63dfb7e5dc8438185f698bec1428925b667808bc6ba5fc4f39758545c50ce049bc48c937d43246ee51913796673b995bd39afd10a8742108db89f0d11e52
   languageName: node
   linkType: hard
 
