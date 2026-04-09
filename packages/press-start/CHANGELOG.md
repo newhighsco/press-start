@@ -1,3 +1,10 @@
+## @newhighsco/press-start [2.6.39](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.38...@newhighsco/press-start@2.6.39) (2026-04-09)
+
+
+### Bug Fixes
+
+* **deps:** downgrade `next-seo` ([7cd7c7c](https://github.com/newhighsco/press-start/commit/7cd7c7cf98d122848de5df53dadcf78cf86b9c22))
+
 ## @newhighsco/press-start [2.6.38](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.37...@newhighsco/press-start@2.6.38) (2026-04-01)
 
 
