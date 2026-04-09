@@ -5,6 +5,11 @@
     {
       "matchFileNames": ["template/package.json"],
       "extends": ["local>newhighsco/.github:renovate-config"]
+    },
+    {
+      "description": "Pin next-seo to v6 as v7 requires re-write",
+      "matchPackageNames": ["next-seo"],
+      "allowedVersions": "<7"
     }
   ]
 }
