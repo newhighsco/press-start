@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/newhighsco/press-start/issues"
   },
-  "packageManager": "yarn@4.14.0",
+  "packageManager": "yarn@4.14.1",
   "scripts": {
     "prepare": "husky",
     "clean": "yarn workspace @newhighsco/template clean",
