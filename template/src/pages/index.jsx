@@ -15,7 +15,7 @@ const HomePage = ({ meta }) => (
       type="Organization"
       name={name}
       url={url}
-      sameAs={[socialLinks.twitter]}
+      sameAs={Object.values(socialLinks)}
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <Prose>
