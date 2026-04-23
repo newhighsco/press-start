@@ -14,8 +14,8 @@ const config = {
   themeColor: colors.black,
   twitterHandle: 'newhighsco',
   socialLinks: {
-    github: 'https://github.com/newhighsco/press-start',
-    twitter: 'https://twitter.com/newhighsco'
+    GithHub: 'https://github.com/newhighsco/press-start',
+    X: 'https://x.com/newhighsco'
   }
 }
 
