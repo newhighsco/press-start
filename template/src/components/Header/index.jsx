@@ -12,20 +12,18 @@ import header from '~data/header.json'
 import styles from './Header.module.scss'
 
 const Header = () => (
-  <>
-    <HeaderContainer gutter theme={{ root: styles.root }}>
-      <Grid flex valign="middle">
-        <Grid.Item className={styles.logo}>
-          <SmartLink href="/">
-            <LogoLockup />
-          </SmartLink>
-        </Grid.Item>
-        <Grid.Item className={styles.links}>
-          <Navigation links={header.links} theme={{ link: styles.link }} />
-        </Grid.Item>
-      </Grid>
-    </HeaderContainer>
-  </>
+  <HeaderContainer gutter theme={{ root: styles.root }}>
+    <Grid flex valign="middle">
+      <Grid.Item className={styles.logo}>
+        <SmartLink href="/">
+          <LogoLockup />
+        </SmartLink>
+      </Grid.Item>
+      <Grid.Item className={styles.links}>
+        <Navigation links={header.links} theme={{ link: styles.link }} />
+      </Grid.Item>
+    </Grid>
+  </HeaderContainer>
 )
 
 Header.propTypes = {}
