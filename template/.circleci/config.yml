@@ -22,11 +22,7 @@ workflows:
       - newhighsco/release:
           <<: *only-main
           name: release
+          context:
+            - release
           requires:
             - test
-      - newhighsco/analyze:
-          <<: *only-main
-          name: analyze
-          disabled: true
-          requires:
-            - release

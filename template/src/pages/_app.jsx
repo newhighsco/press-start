@@ -1,4 +1,4 @@
-import '~styles/app'
+import '~styles/app.scss'
 
 import { AppPage } from '@newhighsco/press-start'
 import React from 'react'

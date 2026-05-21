@@ -1,10 +1,9 @@
 @use '~styles/functions';
 
 .content {
-  padding: functions.spacing(2) 0;
+  padding-block: functions.spacing(2);
 }
 
 .gutter {
-  padding-left: functions.spacing(2);
-  padding-right: functions.spacing(2);
+  padding-inline: functions.spacing(2);
 }
