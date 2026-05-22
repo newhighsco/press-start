@@ -1,7 +1,11 @@
+@use 'sass:color';
+
 $black: #000;
+$grey: color.adjust($black, $lightness: 75%);
 $white: #fff;
 
 :export {
   black: $black;
+  grey: $grey;
   white: $white;
 }

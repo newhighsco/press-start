@@ -4,14 +4,14 @@ import {
   Navigation,
   SmartLink
 } from '@newhighsco/chipset'
-import React from 'react'
+import React, { type FC } from 'react'
 
 import LogoLockup from '~components/LogoLockup'
 import header from '~data/header.json'
 
 import styles from './Header.module.scss'
 
-const Header = () => (
+const Header: FC = () => (
   <HeaderContainer gutter theme={{ root: styles.root }}>
     <Grid flex valign="middle">
       <Grid.Item className={styles.logo}>
@@ -26,7 +26,4 @@ const Header = () => (
   </HeaderContainer>
 )
 
-Header.propTypes = {}
-
 export default Header
-export { Header }

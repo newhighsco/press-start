@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@newhighsco/ts-config/next",
   "compilerOptions": {
     "paths": {
       "~components/*": ["./src/components/*"],
@@ -6,7 +8,9 @@
       "~data/*": ["./src/data/*"],
       "~images/*": ["./src/images/*"],
       "~styles/*": ["./src/styles/_*", "./src/styles/*"],
-      "~theme": ["./src/theme"]
+      "~theme": ["./src/theme"],
+      "~types": ["./src/types"]
     }
-  }
+  },
+  "include": ["**/*"]
 }
