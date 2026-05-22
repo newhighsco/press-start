@@ -3493,7 +3493,6 @@ __metadata:
     next: "npm:16.2.6"
     next-compose-plugins: "npm:2.2.1"
     next-sitemap: "npm:4.2.3"
-    next-videos: "npm:1.5.0"
     postcss: "npm:8.5.15"
     prettier: "npm:3.8.3"
     react: "npm:19.2.6"
@@ -5477,7 +5476,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:^7.0.15, @types/json-schema@npm:^7.0.5, @types/json-schema@npm:^7.0.8":
+"@types/json-schema@npm:^7.0.15, @types/json-schema@npm:^7.0.8":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 10c0/a996a745e6c5d60292f36731dd41341339d4eeed8180bb09226e5c8d23759067692b1d88e5d91d72ee83dfc00d3aca8e7bd43ea120516c17922cbcb7c3e252db
@@ -6081,7 +6080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^6.12.4, ajv@npm:^6.12.5, ajv@npm:^6.14.0":
+"ajv@npm:^6.12.5, ajv@npm:^6.14.0":
   version: 6.15.0
   resolution: "ajv@npm:6.15.0"
   dependencies:
@@ -8909,18 +8908,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-loader@npm:^4.2.0":
-  version: 4.3.0
-  resolution: "file-loader@npm:4.3.0"
-  dependencies:
-    loader-utils: "npm:^1.2.3"
-    schema-utils: "npm:^2.5.0"
-  peerDependencies:
-    webpack: ^4.0.0
-  checksum: 10c0/e05171471b757ae8d35370e87e8ddecba680617c271ad27bbcae5de30a43ce1f745e35f6ed2a49ae1f4bb752249a7d0d7be654ff1cec8bb0f9f611386f1e2597
-  languageName: node
-  linkType: hard
-
 "fill-range@npm:^7.1.1":
   version: 7.1.1
   resolution: "fill-range@npm:7.1.1"
@@ -11279,7 +11266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^1.0.1, json5@npm:^1.0.2":
+"json5@npm:^1.0.2":
   version: 1.0.2
   resolution: "json5@npm:1.0.2"
   dependencies:
@@ -11700,17 +11687,6 @@ __metadata:
     pify: "npm:^3.0.0"
     strip-bom: "npm:^3.0.0"
   checksum: 10c0/6b48f6a0256bdfcc8970be2c57f68f10acb2ee7e63709b386b2febb6ad3c86198f840889cdbe71d28f741cbaa2f23a7771206b138cd1bdd159564511ca37c1d5
-  languageName: node
-  linkType: hard
-
-"loader-utils@npm:^1.2.3":
-  version: 1.4.2
-  resolution: "loader-utils@npm:1.4.2"
-  dependencies:
-    big.js: "npm:^5.2.2"
-    emojis-list: "npm:^3.0.0"
-    json5: "npm:^1.0.1"
-  checksum: 10c0/2b726088b5526f7605615e3e28043ae9bbd2453f4a85898e1151f3c39dbf7a2b65d09f3996bc588d92ac7e717ded529d3e1ea3ea42c433393be84a58234a2f53
   languageName: node
   linkType: hard
 
@@ -12574,15 +12550,6 @@ __metadata:
     next-sitemap: bin/next-sitemap.mjs
     next-sitemap-cjs: bin/next-sitemap.cjs
   checksum: 10c0/8a367c9db84ca249797ec900d06c267434265bf635a82bc0896d35bc0ce85eee0cf115d4340baa93dd20fde081e513115d38776b5e8a5b3fb604c7b34a8542ea
-  languageName: node
-  linkType: hard
-
-"next-videos@npm:1.5.0":
-  version: 1.5.0
-  resolution: "next-videos@npm:1.5.0"
-  dependencies:
-    file-loader: "npm:^4.2.0"
-  checksum: 10c0/41034b63c97bb3d5c731e2f4a45841cd89129721404ee351a475b8594e88be917a10019aef0121db6441d73e8504f3ca4d0a0ccb9bb5507ff06804894a3947f6
   languageName: node
   linkType: hard
 
@@ -15282,17 +15249,6 @@ __metadata:
   version: 0.27.0
   resolution: "scheduler@npm:0.27.0"
   checksum: 10c0/4f03048cb05a3c8fddc45813052251eca00688f413a3cee236d984a161da28db28ba71bd11e7a3dd02f7af84ab28d39fb311431d3b3772fed557945beb00c452
-  languageName: node
-  linkType: hard
-
-"schema-utils@npm:^2.5.0":
-  version: 2.7.1
-  resolution: "schema-utils@npm:2.7.1"
-  dependencies:
-    "@types/json-schema": "npm:^7.0.5"
-    ajv: "npm:^6.12.4"
-    ajv-keywords: "npm:^3.5.2"
-  checksum: 10c0/f484f34464edd8758712d5d3ba25a306e367dac988aecaf4ce112e99baae73f33a807b5cf869240bb6648c80720b36af2d7d72be3a27faa49a2d4fc63fa3f85f
   languageName: node
   linkType: hard
 

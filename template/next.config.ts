@@ -1,8 +1,6 @@
 import withSvgr from '@newhighsco/next-plugin-svgr'
 import type { NextConfig } from 'next'
 import withPlugins from 'next-compose-plugins'
-// @ts-expect-error replace
-import withVideos from 'next-videos'
 
 const nextConfig: NextConfig = {
   images: { formats: ['image/avif', 'image/webp'] },
@@ -19,7 +17,4 @@ const nextConfig: NextConfig = {
   }
 }
 
-export default withPlugins(
-  [[withSvgr, { inlineImageLimit: -1 }], [withVideos]],
-  nextConfig
-)
+export default withPlugins([[withSvgr, { inlineImageLimit: -1 }]], nextConfig)
