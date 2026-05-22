@@ -1,4 +1,5 @@
 import { Prose } from '@newhighsco/chipset'
+import type { NextPage } from 'next'
 import React from 'react'
 
 import PageContainer from '~components/PageContainer'
@@ -10,7 +11,7 @@ const meta = {
   nofollow: true
 }
 
-const NotFoundPage = () => (
+const NotFoundPage: NextPage = () => (
   <PageContainer meta={meta}>
     <Prose>
       <h1>{meta.title}</h1>

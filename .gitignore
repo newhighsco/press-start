@@ -25,6 +25,8 @@ yarn-error.log
 .eslintcache
 .stylelintcache
 .next
+tsconfig.tsbuildinfo
+next-env.d.ts
 .swc
 coverage
 reports

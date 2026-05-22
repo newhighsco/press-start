@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@newhighsco/ts-config",
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "~components/*": ["./src/components/*"],
+      "~config": ["./site.config"],
+      "~data/*": ["./src/data/*"],
+      "~images/*": ["./src/images/*"],
+      "~styles/*": ["./src/styles/_*", "./src/styles/*"],
+      "~theme": ["./src/theme"],
+      "~types": ["./src/types"]
+    }
+  },
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*"],
+  "exclude": ["node_modules"]
+}
