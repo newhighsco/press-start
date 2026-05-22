@@ -1,5 +1,4 @@
 import {
-  CreditLockup,
   FooterContainer,
   Grid,
   Icon,
@@ -42,9 +41,6 @@ const Footer: FC = () => (
             )
           }}
         />
-      </Grid.Item>
-      <Grid.Item className={styles.credits}>
-        <CreditLockup />
       </Grid.Item>
     </Grid>
   </FooterContainer>

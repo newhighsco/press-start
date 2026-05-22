@@ -3484,7 +3484,7 @@ __metadata:
     "@newhighsco/release-config": "npm:1.4.28"
     "@newhighsco/stylelint-config": "npm:4.0.43"
     "@newhighsco/svgr-config": "npm:1.0.0"
-    "@newhighsco/ts-config": "npm:1.1.0"
+    "@newhighsco/ts-config": "npm:1.2.2"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@types/react": "npm:19.2.15"
     concurrently: "npm:9.2.1"
@@ -3505,10 +3505,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@newhighsco/ts-config@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@newhighsco/ts-config@npm:1.1.0"
-  checksum: 10c0/2e70894a5f282a3b9cec4b4abe77d1d80a25b5a0cbc1474c7ced0b31c150d0b4faf997106e4817212791155d72b116194d6c5489c52f691ade2ff5735e1120f6
+"@newhighsco/ts-config@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@newhighsco/ts-config@npm:1.2.2"
+  dependencies:
+    "@tsconfig/next": "npm:2.0.6"
+    "@tsconfig/recommended": "npm:1.0.13"
+  checksum: 10c0/3f3aeabff4cd9ccf8b5ad8d9663410d8b171956b11565b2113b080c9776f1cfb7e61b166c43fcd2545c7629478b8e2288ab84dd0c9b2c6457a2a3ee7841e6a09
   languageName: node
   linkType: hard
 
@@ -5290,6 +5293,20 @@ __metadata:
   version: 2.0.1
   resolution: "@tootallnate/once@npm:2.0.1"
   checksum: 10c0/23b01a341485be711c602077936d70f8e695405bb88ab4433dc6d1e6cb4556401518789574d399eded790b70b27738136c9a8f02df7ae4219f4ba28bb22d586b
+  languageName: node
+  linkType: hard
+
+"@tsconfig/next@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@tsconfig/next@npm:2.0.6"
+  checksum: 10c0/0baa997441df66db5adab715eb490f2ba9ccdfb8a1c0872a9178a779607e486bb8b5c7cd3cff7919fe87d4cf25995ffa535cd2a27106c26c2cfbafa08e66d72a
+  languageName: node
+  linkType: hard
+
+"@tsconfig/recommended@npm:1.0.13":
+  version: 1.0.13
+  resolution: "@tsconfig/recommended@npm:1.0.13"
+  checksum: 10c0/b0fae7ff8243621da68cd7a259499e1fd536e1aa3b3e3be233d30ab8d5bf046ec3dcc4ff68fc640435f421575e41e56bc735f61a1fe8a47b4475f3f2bf5ed882
   languageName: node
   linkType: hard
 

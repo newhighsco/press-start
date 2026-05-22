@@ -1,9 +1,8 @@
-@use 'sass:color';
 @use '~styles/colors.module';
 @use '~styles/functions';
 
 .root {
-  border-top: 1px solid color.adjust(colors.$black, $lightness: 75%);
+  border-top: 1px solid colors.$grey;
 }
 
 .link {
@@ -16,9 +15,4 @@
 
 .icon {
   width: functions.spacing(4);
-}
-
-.credits {
-  font-size: smaller;
-  margin-top: functions.spacing(2);
 }
