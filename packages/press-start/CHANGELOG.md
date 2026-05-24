@@ -1,3 +1,10 @@
+## @newhighsco/press-start [2.6.43](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.42...@newhighsco/press-start@2.6.43) (2026-05-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v7.0.2 ([#3315](https://github.com/newhighsco/press-start/issues/3315)) ([839e76c](https://github.com/newhighsco/press-start/commit/839e76c591b803b38706a1250dd9e7dc60a1fab4))
+
 ## @newhighsco/press-start [2.6.42](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.41...@newhighsco/press-start@2.6.42) (2026-05-10)
 
 
