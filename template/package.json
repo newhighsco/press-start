@@ -70,7 +70,7 @@
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "@types/react": "19.2.15",
     "concurrently": "10.0.0",
-    "eslint": "10.4.0",
+    "eslint": "10.4.1",
     "husky": "9.1.7",
     "lint-staged": "17.0.5",
     "prettier": "3.8.3",
