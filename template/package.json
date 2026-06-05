@@ -68,7 +68,7 @@
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/ts-config": "1.2.2",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
-    "@types/react": "19.2.16",
+    "@types/react": "19.2.17",
     "concurrently": "10.0.3",
     "eslint": "10.4.1",
     "husky": "9.1.7",
