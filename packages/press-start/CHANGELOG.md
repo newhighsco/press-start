@@ -1,3 +1,9 @@
+## @newhighsco/press-start [2.7.1](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.7.0...@newhighsco/press-start@2.7.1) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update nextjs packages to v16.2.9 ([#3347](https://github.com/newhighsco/press-start/issues/3347)) ([d6b6a49](https://github.com/newhighsco/press-start/commit/d6b6a49895e044231cdd06f37a9a012056e39e1c))
+
 ## @newhighsco/press-start [2.7.0](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.44...@newhighsco/press-start@2.7.0) (2026-06-10)
 
 ### Features
