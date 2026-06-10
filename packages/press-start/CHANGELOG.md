@@ -1,3 +1,9 @@
+## @newhighsco/press-start [2.7.0](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.44...@newhighsco/press-start@2.7.0) (2026-06-10)
+
+### Features
+
+* **image:** use `fetchPriority` ([#3343](https://github.com/newhighsco/press-start/issues/3343)) ([dd46dec](https://github.com/newhighsco/press-start/commit/dd46dec36c67dc4532e64da2a13347bb30dc103c))
+
 ## @newhighsco/press-start [2.6.44](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.6.43...@newhighsco/press-start@2.6.44) (2026-06-02)
 
 ### Bug Fixes
