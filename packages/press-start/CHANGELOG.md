@@ -1,3 +1,9 @@
+## @newhighsco/press-start [2.8.0](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.7.2...@newhighsco/press-start@2.8.0) (2026-06-11)
+
+### Features
+
+* **utils:** canonical url function ([#3349](https://github.com/newhighsco/press-start/issues/3349)) ([6143aa7](https://github.com/newhighsco/press-start/commit/6143aa776647e6b7bff959c04ce178483b765e90))
+
 ## @newhighsco/press-start [2.7.2](https://github.com/newhighsco/press-start/compare/@newhighsco/press-start@2.7.1...@newhighsco/press-start@2.7.2) (2026-06-10)
 
 ### Bug Fixes
