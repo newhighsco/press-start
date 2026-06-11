@@ -2,14 +2,14 @@ import {
   ImageProvider,
   LinkProvider,
   SiteContainer,
-  ThemeProvider
+  ThemeProvider,
+  urlJoin
 } from '@newhighsco/chipset'
 import Image from 'next/image'
 import Link from 'next/link'
 import { DefaultSeo } from 'next-seo'
 import { func, object } from 'prop-types'
 import React from 'react'
-import urlJoin from 'url-join'
 
 const renderImage = ({ priority, fetchPriority, loading, ...rest }) => (
   <Image
