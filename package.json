@@ -37,7 +37,7 @@
     "@commitlint/cli": "21.1.0",
     "@newhighsco/commitlint-config": "1.3.2",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "7.1.14",
+    "@newhighsco/eslint-config": "7.1.15",
     "@newhighsco/lint-staged-config": "1.1.0",
     "@newhighsco/prettier-config": "2.3.7",
     "@newhighsco/release-config": "1.5.1",
