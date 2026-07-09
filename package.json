@@ -57,7 +57,7 @@
     "jest-environment-jsdom": "30.4.1",
     "jest-junit": "17.0.0",
     "lint-staged": "17.0.8",
-    "prettier": "3.9.4",
+    "prettier": "3.9.5",
     "semantic-release": "25.0.5",
     "stylelint": "17.14.0"
   },
