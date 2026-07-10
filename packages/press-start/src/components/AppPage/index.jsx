@@ -11,6 +11,17 @@ import { DefaultSeo } from 'next-seo'
 import { func, object } from 'prop-types'
 import React from 'react'
 
+const preloadFonts = ({ urls }) =>
+  urls
+    ?.split(',')
+    .map(href => ({
+      rel: 'preload',
+      href,
+      as: 'font',
+      type: `font/${href.split('.').at(-1)}`,
+      crossOrigin: 'anonymous'
+    }))
+
 const renderImage = ({ priority, fetchPriority, loading, ...rest }) => (
   <Image
     fetchPriority={priority ? 'high' : fetchPriority}
@@ -21,7 +32,7 @@ const renderImage = ({ priority, fetchPriority, loading, ...rest }) => (
 
 const renderLink = props => <Link {...props} />
 
-const AppPage = ({ Component, pageProps, theme, config, meta }) => {
+const AppPage = ({ Component, pageProps, theme, config, meta, fonts = {} }) => {
   const {
     name,
     titleTemplate = name => `%s | ${name}`,
@@ -55,7 +66,8 @@ const AppPage = ({ Component, pageProps, theme, config, meta }) => {
     additionalLinkTags: [
       ...(meta?.additionalLinkTags || []),
       icon && { rel: 'icon', href: icon },
-      { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' }
+      { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' },
+      ...(preloadFonts(fonts) || [])
     ].filter(Boolean)
   }
 
@@ -78,7 +90,8 @@ AppPage.propTypes = {
   pageProps: object,
   theme: object,
   config: object,
-  meta: object
+  meta: object,
+  fonts: object
 }
 
 export default AppPage

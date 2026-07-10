@@ -1,0 +1,10 @@
+@use '~@newhighsco/chipset/styles/mixins/font';
+@use '~styles/fonts.module';
+
+$font-faces: ();
+
+@include font.font-faces($font-faces);
+
+:export {
+  urls: font.font-urls($font-faces);
+}
