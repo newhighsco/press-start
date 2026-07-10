@@ -1,0 +1,13 @@
+@use '~@newhighsco/chipset/styles/mixins/font';
+@use '~styles/fonts.module';
+@use 'sass:list';
+@use 'sass:map';
+@use 'sass:string';
+
+$font-faces: ();
+
+@include font.font-faces($font-faces);
+
+:export {
+  urls: font.font-urls($font-faces);
+}

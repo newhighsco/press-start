@@ -3321,9 +3321,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.2.3":
-  version: 7.2.3
-  resolution: "@newhighsco/chipset@npm:7.2.3"
+"@newhighsco/chipset@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@newhighsco/chipset@npm:7.4.0"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.2"
@@ -3333,7 +3333,7 @@ __metadata:
   peerDependencies:
     react: 19.2.7
     react-dom: 19.2.7
-  checksum: 10c0/8a34316a5f55456a797ba70f474b547cebb3d04470fb794d525c2977ef89b3456189625c952ec7b24a6c7ffc8afaba8c80a4117ef33552a90c10309101d65013
+  checksum: 10c0/d399baf8f1060b7cf6ada7b604dc71502a8ff2bef35d7c22ed70c12f1ee6c1c3e36ce2f7810d943b996b21d3d3a22c331d7af26df3f44f88894aeff41c50167b
   languageName: node
   linkType: hard
 
@@ -3431,7 +3431,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/press-start@workspace:packages/press-start"
   dependencies:
-    "@newhighsco/chipset": "npm:7.2.3"
+    "@newhighsco/chipset": "npm:7.4.0"
     next-seo: "npm:6.8.0"
   peerDependencies:
     next: 16.2.10
@@ -3504,7 +3504,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:21.2.1"
     "@newhighsco/browserslist-config": "npm:3.0.1"
-    "@newhighsco/chipset": "npm:7.2.3"
+    "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/commitlint-config": "npm:1.3.4"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.18"
