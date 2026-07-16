@@ -3412,18 +3412,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.63":
-  version: 4.0.63
-  resolution: "@newhighsco/postcss-config@npm:4.0.63"
+"@newhighsco/postcss-config@npm:4.0.64":
+  version: 4.0.64
+  resolution: "@newhighsco/postcss-config@npm:4.0.64"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.5.3"
-    caniuse-lite: "npm:1.0.30001805"
+    caniuse-lite: "npm:1.0.30001806"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.3.2"
   peerDependencies:
     postcss: 8.5.19
-  checksum: 10c0/a06a882a33901d8655ec47e0bb5467228f7f79e4b3ca88ff05e81f81dc27cf7e7e0f8ba9bc06bcea11e76fa45a6e353335d13f6baea8e69a596bbfac5bd1ec32
+  checksum: 10c0/7c8fa98596f15b14fe6c2438193f1f79921ca9d60f5034f8e4200b01dcd72175e7627974783149f6025c69684cc3a8246fdd22502250a72121a5ab99d6c50c56
   languageName: node
   linkType: hard
 
@@ -3510,7 +3510,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.1.22"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
     "@newhighsco/next-plugin-svgr": "npm:3.0.173"
-    "@newhighsco/postcss-config": "npm:4.0.63"
+    "@newhighsco/postcss-config": "npm:4.0.64"
     "@newhighsco/press-start": "npm:*"
     "@newhighsco/prettier-config": "npm:2.3.12"
     "@newhighsco/release-config": "npm:1.5.4"
@@ -6960,10 +6960,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001805, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001803, caniuse-lite@npm:^1.0.30001805":
-  version: 1.0.30001805
-  resolution: "caniuse-lite@npm:1.0.30001805"
-  checksum: 10c0/5245ea10d6addc9e054da52c622bf7730747b717fb30f01a9ffc8917e101221d90352440da23ff46f686579e7eeaaac6134801e07638c3a388d65d52dc8b17ac
+"caniuse-lite@npm:1.0.30001806, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001803, caniuse-lite@npm:^1.0.30001805":
+  version: 1.0.30001806
+  resolution: "caniuse-lite@npm:1.0.30001806"
+  checksum: 10c0/9442c8afff0968e9b2ce0104a7340c1ce4a5c09f469ccb9eef10d25712ea0afe542486e5318c697c70dd502f988cfc04eaa1c9438c92ac3bcf4d708a2a17bee1
   languageName: node
   linkType: hard
 
