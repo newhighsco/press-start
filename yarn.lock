@@ -3356,9 +3356,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.1.22":
-  version: 7.1.22
-  resolution: "@newhighsco/eslint-config@npm:7.1.22"
+"@newhighsco/eslint-config@npm:7.1.23":
+  version: 7.1.23
+  resolution: "@newhighsco/eslint-config@npm:7.1.23"
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
@@ -3371,7 +3371,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.1.1"
     eslint-plugin-simple-import-sort: "npm:13.0.0"
-    eslint-plugin-storybook: "npm:10.5.0"
+    eslint-plugin-storybook: "npm:10.5.2"
     eslint-plugin-testing-library: "npm:7.16.2"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.64.0"
@@ -3385,7 +3385,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/7dd22352b73fcde2f12933b4c54196a98e36790b05b8fd21844b93fcc1922ab850aa46e63f9ba227f28614a2cbb8017cb8d0e44792521376a3e1bef15326d852
+  checksum: 10c0/1daee15f68e5fafb2c0ffeb88cb9e07b8c8d00c1aa1fcff1afb4f80302a655b58eb3f0587e4547f9b3987e0f4da674242cc2929721b0b9dd8a72295faf137dd1
   languageName: node
   linkType: hard
 
@@ -3412,18 +3412,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.64":
-  version: 4.0.64
-  resolution: "@newhighsco/postcss-config@npm:4.0.64"
+"@newhighsco/postcss-config@npm:4.0.65":
+  version: 4.0.65
+  resolution: "@newhighsco/postcss-config@npm:4.0.65"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
-    autoprefixer: "npm:10.5.3"
+    autoprefixer: "npm:10.5.4"
     caniuse-lite: "npm:1.0.30001806"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.3.2"
   peerDependencies:
     postcss: 8.5.19
-  checksum: 10c0/7c8fa98596f15b14fe6c2438193f1f79921ca9d60f5034f8e4200b01dcd72175e7627974783149f6025c69684cc3a8246fdd22502250a72121a5ab99d6c50c56
+  checksum: 10c0/4d8653e49ee5c570d47f939f93be42af23c5667390fce216d4d3cebff126e01036aae95232d9434171e946f964e6714b5ded40a14ea124ae64beac3558a774ac
   languageName: node
   linkType: hard
 
@@ -3507,10 +3507,10 @@ __metadata:
     "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/commitlint-config": "npm:1.3.4"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.22"
+    "@newhighsco/eslint-config": "npm:7.1.23"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
     "@newhighsco/next-plugin-svgr": "npm:3.0.173"
-    "@newhighsco/postcss-config": "npm:4.0.64"
+    "@newhighsco/postcss-config": "npm:4.0.65"
     "@newhighsco/press-start": "npm:*"
     "@newhighsco/prettier-config": "npm:2.3.12"
     "@newhighsco/release-config": "npm:1.5.4"
@@ -6464,12 +6464,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.5.3, autoprefixer@npm:^10.5.0":
-  version: 10.5.3
-  resolution: "autoprefixer@npm:10.5.3"
+"autoprefixer@npm:10.5.4, autoprefixer@npm:^10.5.0":
+  version: 10.5.4
+  resolution: "autoprefixer@npm:10.5.4"
   dependencies:
     browserslist: "npm:^4.28.6"
-    caniuse-lite: "npm:^1.0.30001805"
+    caniuse-lite: "npm:^1.0.30001806"
     fraction.js: "npm:^5.3.4"
     picocolors: "npm:^1.1.1"
     postcss-value-parser: "npm:^4.2.0"
@@ -6477,7 +6477,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 10c0/a166d39192a6ef735cd09c244c579cde560ae4bb7407073ac6ef2c0f26390bccd0ffa46f3b1b104526c862530e94755dddfa910b0c4d63073447e31de5d89d3e
+  checksum: 10c0/274ebc9fa50ac0d7a5aa9bc29baa502f2d2006f47a899dac2de4ba86c989defaa62b096e68692e15d53c9ed2b62c57dd047ceba61d344908d8b6e61f220a10e8
   languageName: node
   linkType: hard
 
@@ -6960,7 +6960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001806, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001803, caniuse-lite@npm:^1.0.30001805":
+"caniuse-lite@npm:1.0.30001806, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001803, caniuse-lite@npm:^1.0.30001806":
   version: 1.0.30001806
   resolution: "caniuse-lite@npm:1.0.30001806"
   checksum: 10c0/9442c8afff0968e9b2ce0104a7340c1ce4a5c09f469ccb9eef10d25712ea0afe542486e5318c697c70dd502f988cfc04eaa1c9438c92ac3bcf4d708a2a17bee1
@@ -8631,16 +8631,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.5.0":
-  version: 10.5.0
-  resolution: "eslint-plugin-storybook@npm:10.5.0"
+"eslint-plugin-storybook@npm:10.5.2":
+  version: 10.5.2
+  resolution: "eslint-plugin-storybook@npm:10.5.2"
   dependencies:
     "@typescript-eslint/types": "npm:^8.48.0"
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.5.0
-  checksum: 10c0/c6ae8a9ea203604adab39672743335e7e1bdda7b8943994e33c322b1dea75b7f52ed9b4327fc3f584b56706b57817d7aeda687495c22778840ced22f7174eb06
+    storybook: ^10.5.2
+  checksum: 10c0/d5c098e969319ed735d78a5de5cfa3415beb3d5da2513fa3b2922c2423e6ab5f513b7c7cfa0bce12ac30ca0f2211e9925b3c49ea50ce2bb265f4cafef97f902a
   languageName: node
   linkType: hard
 
@@ -14589,7 +14589,7 @@ __metadata:
     "@commitlint/cli": "npm:21.2.1"
     "@newhighsco/commitlint-config": "npm:1.3.4"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.22"
+    "@newhighsco/eslint-config": "npm:7.1.23"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
     "@newhighsco/prettier-config": "npm:2.3.12"
     "@newhighsco/release-config": "npm:1.5.4"
