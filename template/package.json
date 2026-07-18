@@ -63,7 +63,7 @@
     "@newhighsco/lint-staged-config": "1.1.0",
     "@newhighsco/postcss-config": "4.0.65",
     "@newhighsco/prettier-config": "2.3.12",
-    "@newhighsco/release-config": "1.5.4",
+    "@newhighsco/release-config": "1.5.5",
     "@newhighsco/stylelint-config": "4.0.52",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/ts-config": "1.2.2",
