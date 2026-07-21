@@ -3412,9 +3412,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.66":
-  version: 4.0.66
-  resolution: "@newhighsco/postcss-config@npm:4.0.66"
+"@newhighsco/postcss-config@npm:4.0.67":
+  version: 4.0.67
+  resolution: "@newhighsco/postcss-config@npm:4.0.67"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.5.4"
@@ -3422,8 +3422,8 @@ __metadata:
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.3.2"
   peerDependencies:
-    postcss: 8.5.20
-  checksum: 10c0/71635651dd6c7b5e70d1c9e44cb725e728b46c4f2522ad8be0cad2da48635ffe11c819939fea3924673122377d6e2122c0c0add76edda34392c8202eb8e7ee2e
+    postcss: 8.5.21
+  checksum: 10c0/19e47f32160050501e3796d848e32ead085367f1b031bf975b5d5d1b4e958709ba3068dd92dbff2e2998a1763b7303b5baeb62ba64aa775eecab51fcaa9ab28a
   languageName: node
   linkType: hard
 
@@ -3510,7 +3510,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.1.26"
     "@newhighsco/lint-staged-config": "npm:1.1.1"
     "@newhighsco/next-plugin-svgr": "npm:3.0.173"
-    "@newhighsco/postcss-config": "npm:4.0.66"
+    "@newhighsco/postcss-config": "npm:4.0.67"
     "@newhighsco/press-start": "npm:*"
     "@newhighsco/prettier-config": "npm:2.3.13"
     "@newhighsco/release-config": "npm:1.5.5"
