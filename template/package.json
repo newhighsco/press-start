@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "@newhighsco/chipset": "7.4.0",
-    "@newhighsco/next-plugin-svgr": "3.0.173",
+    "@newhighsco/next-plugin-svgr": "3.0.174",
     "@newhighsco/press-start": "*",
     "next": "16.2.11",
     "next-compose-plugins": "2.2.1",
@@ -63,7 +63,7 @@
     "@newhighsco/lint-staged-config": "1.1.1",
     "@newhighsco/postcss-config": "4.0.67",
     "@newhighsco/prettier-config": "2.3.13",
-    "@newhighsco/release-config": "1.5.5",
+    "@newhighsco/release-config": "1.5.6",
     "@newhighsco/stylelint-config": "4.0.54",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/ts-config": "1.2.2",
