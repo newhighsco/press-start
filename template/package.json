@@ -69,7 +69,7 @@
     "@newhighsco/ts-config": "1.2.2",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "@types/react": "19.2.17",
-    "concurrently": "10.0.3",
+    "concurrently": "10.0.4",
     "eslint": "10.7.0",
     "husky": "9.1.7",
     "lint-staged": "17.2.0",
