@@ -1,3 +1,5 @@
+## @newhighsco/press-start [2.9.2](https://github.com/newhighsco/press-start/compare/%40newhighsco%2Fpress-start%402.9.1...%40newhighsco%2Fpress-start%402.9.2) (2026-07-27)
+
 ## @newhighsco/press-start [2.9.1](https://github.com/newhighsco/press-start/compare/%40newhighsco%2Fpress-start%402.9.0...%40newhighsco%2Fpress-start%402.9.1) (2026-07-21)
 
 ## @newhighsco/press-start [2.9.0](https://github.com/newhighsco/press-start/compare/%40newhighsco%2Fpress-start%402.8.4...%40newhighsco%2Fpress-start%402.9.0) (2026-07-10)
