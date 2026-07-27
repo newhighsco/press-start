@@ -3434,7 +3434,7 @@ __metadata:
     "@newhighsco/chipset": "npm:7.4.0"
     next-seo: "npm:6.8.0"
   peerDependencies:
-    next: 16.2.11
+    next: ^16
   languageName: unknown
   linkType: soft
 
