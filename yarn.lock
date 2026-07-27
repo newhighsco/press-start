@@ -14551,6 +14551,15 @@ __metadata:
     prettier: "npm:3.9.6"
     semantic-release: "npm:25.0.8"
     stylelint: "npm:17.14.1"
+  dependenciesMeta:
+    "@newhighsco/commitlint-config":
+      built: true
+    "@newhighsco/editor-config":
+      built: true
+    "@newhighsco/lint-staged-config":
+      built: true
+    "@newhighsco/yarn-plugin-preset":
+      built: true
   languageName: unknown
   linkType: soft
 
