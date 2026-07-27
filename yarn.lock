@@ -3321,9 +3321,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.4.0":
-  version: 7.4.0
-  resolution: "@newhighsco/chipset@npm:7.4.0"
+"@newhighsco/chipset@npm:7.4.1":
+  version: 7.4.1
+  resolution: "@newhighsco/chipset@npm:7.4.1"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.2"
@@ -3331,21 +3331,21 @@ __metadata:
     react-device-detect: "npm:2.2.3"
     url-join: "npm:5.0.0"
   peerDependencies:
-    react: 19.2.7
-    react-dom: 19.2.7
-  checksum: 10c0/d399baf8f1060b7cf6ada7b604dc71502a8ff2bef35d7c22ed70c12f1ee6c1c3e36ce2f7810d943b996b21d3d3a22c331d7af26df3f44f88894aeff41c50167b
+    react: ^19
+    react-dom: ^19
+  checksum: 10c0/181cf42ac656ae7b4d8db59c0baa1522377780a8cb632d50735408b3cbabb39cd98df3874b23e261b2a203f2548cf823c1d5418f25e605965768b77f4e62cca7
   languageName: node
   linkType: hard
 
-"@newhighsco/commitlint-config@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@newhighsco/commitlint-config@npm:1.3.4"
+"@newhighsco/commitlint-config@npm:1.3.5":
+  version: 1.3.5
+  resolution: "@newhighsco/commitlint-config@npm:1.3.5"
   dependencies:
     "@commitlint/config-conventional": "npm:21.2.0"
   peerDependencies:
-    "@commitlint/cli": 21.2.1
-    husky: 9.1.7
-  checksum: 10c0/21d70927916acbc33cbaa676362d6df5e5d5b576a6b27849d7ef83cbd39daf577ad0fdabb2dfe10c0591091f178c4de7928753a55e01f058ae150d948d7f8963
+    "@commitlint/cli": ^21
+    husky: ^9
+  checksum: 10c0/cadaa467f5c3c8ab89762c15ec0ac14211891f4740c03162952d094035e986164a74f7d7cad17cd65281012beafee65d94dd61395bfe32846f72054bdf38e4fa
   languageName: node
   linkType: hard
 
@@ -3356,9 +3356,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.1.28":
-  version: 7.1.28
-  resolution: "@newhighsco/eslint-config@npm:7.1.28"
+"@newhighsco/eslint-config@npm:7.1.29":
+  version: 7.1.29
+  resolution: "@newhighsco/eslint-config@npm:7.1.29"
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
@@ -3371,7 +3371,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.1.1"
     eslint-plugin-simple-import-sort: "npm:14.0.0"
-    eslint-plugin-storybook: "npm:10.5.4"
+    eslint-plugin-storybook: "npm:10.5.5"
     eslint-plugin-testing-library: "npm:7.16.2"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.65.0"
@@ -3385,36 +3385,36 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/bf228e027b96c3e04babe6f602e3c6534a17aa75e31e5e1d835319e9c7838c464bb1b4b052d2873bb62d6130b3f8a8a91937c82765c5659aa025f5d2731c6a47
+  checksum: 10c0/2e3ea1ddde3e4db8087edd3db371e46b3b43806275c8419d2b8fcda87dfbf860540d4f8a6bd2d3ad2583005b686e9c7f939c27f515eda59f6f6bd7a20f7a2f08
   languageName: node
   linkType: hard
 
-"@newhighsco/lint-staged-config@npm:1.1.3":
-  version: 1.1.3
-  resolution: "@newhighsco/lint-staged-config@npm:1.1.3"
+"@newhighsco/lint-staged-config@npm:1.1.4":
+  version: 1.1.4
+  resolution: "@newhighsco/lint-staged-config@npm:1.1.4"
   peerDependencies:
-    husky: 9.1.7
-    lint-staged: 17.2.0
-  checksum: 10c0/c1cd13d5fa493d5331a8cad5b71bcb525ef743e1656e5947cc3a8740307496e4ddb4c78045bdc04348e314721a02909eca6b9e95d2553ee344898b2832d1ff59
+    husky: ^9
+    lint-staged: ^17
+  checksum: 10c0/70b691ca8f45fa828900b2afa51c37b0fc053f4e4c26f0c68ce1f64cb7f88e345ed06f92a3e8603b0e723f930215dd6e919a28a066c5b13ece5f115b2bfb5001
   languageName: node
   linkType: hard
 
-"@newhighsco/next-plugin-svgr@npm:3.0.175":
-  version: 3.0.175
-  resolution: "@newhighsco/next-plugin-svgr@npm:3.0.175"
+"@newhighsco/next-plugin-svgr@npm:3.0.176":
+  version: 3.0.176
+  resolution: "@newhighsco/next-plugin-svgr@npm:3.0.176"
   dependencies:
     "@svgr/webpack": "npm:8.1.0"
     file-loader: "npm:6.2.0"
     url-loader: "npm:4.1.1"
   peerDependencies:
-    next: 16.2.12
-  checksum: 10c0/f1ae1508c296e0dbf3c245ba614c86a46a827e11949d0dbd48e22497429ce0041b0922b622c7e29c13ac7725dfdc265d0b57b1edc9240607422c8e6542b07c96
+    next: ^16
+  checksum: 10c0/8feffa7c345595ea1650fbff44c67c0aa9339d8dbc3c800600ac6ec339d45890f6742719ca756dde1b7734e031eefeab16278f67d64f9182b797e63605294157
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.69":
-  version: 4.0.69
-  resolution: "@newhighsco/postcss-config@npm:4.0.69"
+"@newhighsco/postcss-config@npm:4.0.70":
+  version: 4.0.70
+  resolution: "@newhighsco/postcss-config@npm:4.0.70"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.5.4"
@@ -3422,8 +3422,8 @@ __metadata:
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.3.2"
   peerDependencies:
-    postcss: 8.5.23
-  checksum: 10c0/106e86be1b8c5b9e8a81bcbf610d8f37019917136747ec5ef29c6efb56d2857ce53b19887d1c99d720ef61434e529a10428df1bcc138f630b9009b15ea8f41f0
+    postcss: ^8
+  checksum: 10c0/553bd6b04f62dcd4066134001125c9bf2c6bf2999ced607c1c4d79090545e2ba4f26b0a6f735284b23e34a3ee1196d3ac24f6b8f2896537abef6bdf912ac6dbd
   languageName: node
   linkType: hard
 
@@ -3431,25 +3431,25 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/press-start@workspace:packages/press-start"
   dependencies:
-    "@newhighsco/chipset": "npm:7.4.0"
+    "@newhighsco/chipset": "npm:7.4.1"
     next-seo: "npm:6.8.0"
   peerDependencies:
     next: ^16
   languageName: unknown
   linkType: soft
 
-"@newhighsco/prettier-config@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@newhighsco/prettier-config@npm:2.3.13"
+"@newhighsco/prettier-config@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@newhighsco/prettier-config@npm:2.3.14"
   peerDependencies:
-    prettier: 3.9.6
-  checksum: 10c0/a930cba7051f6bdad6dee3303b3b46fda848f2260cdb2bb73ccfd324434b5a40b094d6ac672291c3ab6a35f28b0e0d8df671fb3d63f66b5275994a7b86acbf5e
+    prettier: ^3
+  checksum: 10c0/522a2f0ae219760069c7458809448812740ab435f6b8f3ab556e76d4a8ae65d5dd780239085640e9531fd3ecccaa58e304debcc2f269840c4d5499faf8b153ef
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.5.9":
-  version: 1.5.9
-  resolution: "@newhighsco/release-config@npm:1.5.9"
+"@newhighsco/release-config@npm:1.5.10":
+  version: 1.5.10
+  resolution: "@newhighsco/release-config@npm:1.5.10"
   dependencies:
     "@semantic-release/changelog": "npm:7.0.0"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
@@ -3459,27 +3459,27 @@ __metadata:
     "@semantic-release/release-notes-generator": "npm:14.1.1"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
   peerDependencies:
-    semantic-release: 25.0.8
-    semantic-release-circleci-orb: 1.1.1
+    semantic-release: ^25
+    semantic-release-circleci-orb: ^1
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/225bf1b729bdbf6e5dce54865a71dbaf2b2dfc4f3c851fd84932e81a1cad9610885cdebe3320cf5da463956af279793385cb43743a018562a66174772ada2891
+  checksum: 10c0/64c011d849487a1cd93a2235267a715848e4e39826bdcf6a4ed7f9e7bdc8928f92a84fcd68acf2bf84e178ed1faca029cf6e68d0ac0017c80f0ee610783b8c21
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.54":
-  version: 4.0.54
-  resolution: "@newhighsco/stylelint-config@npm:4.0.54"
+"@newhighsco/stylelint-config@npm:4.0.55":
+  version: 4.0.55
+  resolution: "@newhighsco/stylelint-config@npm:4.0.55"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
     stylelint-order: "npm:8.1.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
-    prettier: 3.9.6
-    stylelint: 17.14.1
-  checksum: 10c0/32c1d1f1f8b099f4bc6ec32dfa75cd0df300324432a8762b35fb8b87ce47f975152b37778528076306cdae2cd5ef1c849396b7397d092c909160e7a1ce271f44
+    prettier: ^3
+    stylelint: ^17
+  checksum: 10c0/82176e38b029dd0fd60d98c94a2eee9dc4adc12c96a85452d5391e63db7b533a6e3ba16b1147b38f758a15d85f0594f5c3b1fcd2f4cd83364674fb57ae923f5b
   languageName: node
   linkType: hard
 
@@ -3505,17 +3505,17 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:21.2.1"
     "@newhighsco/browserslist-config": "npm:3.0.1"
-    "@newhighsco/chipset": "npm:7.4.0"
-    "@newhighsco/commitlint-config": "npm:1.3.4"
+    "@newhighsco/chipset": "npm:7.4.1"
+    "@newhighsco/commitlint-config": "npm:1.3.5"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.28"
-    "@newhighsco/lint-staged-config": "npm:1.1.3"
-    "@newhighsco/next-plugin-svgr": "npm:3.0.175"
-    "@newhighsco/postcss-config": "npm:4.0.69"
+    "@newhighsco/eslint-config": "npm:7.1.29"
+    "@newhighsco/lint-staged-config": "npm:1.1.4"
+    "@newhighsco/next-plugin-svgr": "npm:3.0.176"
+    "@newhighsco/postcss-config": "npm:4.0.70"
     "@newhighsco/press-start": "npm:*"
-    "@newhighsco/prettier-config": "npm:2.3.13"
-    "@newhighsco/release-config": "npm:1.5.9"
-    "@newhighsco/stylelint-config": "npm:4.0.54"
+    "@newhighsco/prettier-config": "npm:2.3.14"
+    "@newhighsco/release-config": "npm:1.5.10"
+    "@newhighsco/stylelint-config": "npm:4.0.55"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/ts-config": "npm:1.2.2"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -8614,16 +8614,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.5.4":
-  version: 10.5.4
-  resolution: "eslint-plugin-storybook@npm:10.5.4"
+"eslint-plugin-storybook@npm:10.5.5":
+  version: 10.5.5
+  resolution: "eslint-plugin-storybook@npm:10.5.5"
   dependencies:
     "@typescript-eslint/types": "npm:^8.60.0"
     "@typescript-eslint/utils": "npm:^8.60.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.5.4
-  checksum: 10c0/ff18e41aad5b8d23b0c2ff1e35f903a94d1195c42605c44d86fd2e81929414071f7bba5366234f500ac40784593efbd4b8dd33919ebfe213e07f71ecceb1f058
+    storybook: ^10.5.5
+  checksum: 10c0/edd182b0e8ba0ca132b929dd3a9f80da32523b536e647f7b628ba546ccba97d2625cd7c275dde04845410f92c678bcacde4d0d7e1b406bcd7373877926bb1dbf
   languageName: node
   linkType: hard
 
@@ -14526,13 +14526,13 @@ __metadata:
   resolution: "press-start@workspace:."
   dependencies:
     "@commitlint/cli": "npm:21.2.1"
-    "@newhighsco/commitlint-config": "npm:1.3.4"
+    "@newhighsco/commitlint-config": "npm:1.3.5"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.28"
-    "@newhighsco/lint-staged-config": "npm:1.1.3"
-    "@newhighsco/prettier-config": "npm:2.3.13"
-    "@newhighsco/release-config": "npm:1.5.9"
-    "@newhighsco/stylelint-config": "npm:4.0.54"
+    "@newhighsco/eslint-config": "npm:7.1.29"
+    "@newhighsco/lint-staged-config": "npm:1.1.4"
+    "@newhighsco/prettier-config": "npm:2.3.14"
+    "@newhighsco/release-config": "npm:1.5.10"
+    "@newhighsco/stylelint-config": "npm:4.0.55"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@qiwi/multi-semantic-release": "npm:7.1.2"
     "@swc/core": "npm:1.15.46"
