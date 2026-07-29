@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>newhighsco/.github:renovate-config#v1.0.0"],
+  "extends": ["local>newhighsco/.github:renovate-config"],
   "packageRules": [
     {
       "matchFileNames": ["template/package.json"],
-      "extends": ["github>newhighsco/.github:renovate-config#v1.0.0"]
+      "extends": ["local>newhighsco/.github:renovate-config"]
     },
     {
       "description": "Pin next-seo to v6 as v7 requires re-write",
