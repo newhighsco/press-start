@@ -3523,7 +3523,7 @@ __metadata:
     concurrently: "npm:10.0.4"
     eslint: "npm:10.8.0"
     husky: "npm:9.1.7"
-    lint-staged: "npm:17.2.0"
+    lint-staged: "npm:17.3.0"
     next: "npm:16.2.12"
     next-compose-plugins: "npm:2.2.1"
     next-sitemap: "npm:4.2.3"
@@ -11798,9 +11798,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:17.2.0":
-  version: 17.2.0
-  resolution: "lint-staged@npm:17.2.0"
+"lint-staged@npm:17.3.0":
+  version: 17.3.0
+  resolution: "lint-staged@npm:17.3.0"
   dependencies:
     picomatch: "npm:^4.0.5"
     string-argv: "npm:^0.3.2"
@@ -11811,7 +11811,7 @@ __metadata:
       optional: true
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10c0/47eb70637304faa5c723a7adee4f7699a78f928b710b09f167240642285656cf0987b316e3ad4ca34bda10466fbad7a1cb4922cfbf470e5ad0d836eb384f2809
+  checksum: 10c0/48703bf88fd834a5575b4f7fc77aadc7be21017ca66db4255b8962515f7b3df523ec23a1f198fb89eddc838268f2472a613723a7b058ad9260367a1698ce76e1
   languageName: node
   linkType: hard
 
@@ -14547,7 +14547,7 @@ __metadata:
     jest: "npm:30.4.2"
     jest-environment-jsdom: "npm:30.4.1"
     jest-junit: "npm:17.0.0"
-    lint-staged: "npm:17.2.0"
+    lint-staged: "npm:17.3.0"
     prettier: "npm:3.9.6"
     semantic-release: "npm:25.0.8"
     stylelint: "npm:17.14.1"
