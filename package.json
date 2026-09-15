@@ -46,7 +46,7 @@
     "@qiwi/multi-semantic-release": "7.1.2",
     "@swc/core": "1.16.2",
     "@swc/jest": "0.2.39",
-    "@testing-library/dom": "10.4.1",
+    "@testing-library/dom": "10.4.2",
     "@testing-library/jest-dom": "7.0.1",
     "@testing-library/react": "16.3.3",
     "concurrently": "10.0.5",
