@@ -41,7 +41,7 @@
     "@newhighsco/lint-staged-config": "1.1.4",
     "@newhighsco/prettier-config": "2.3.17",
     "@newhighsco/release-config": "1.5.11",
-    "@newhighsco/stylelint-config": "4.0.56",
+    "@newhighsco/stylelint-config": "4.0.57",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@swc/core": "1.16.13",
