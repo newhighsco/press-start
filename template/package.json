@@ -46,7 +46,7 @@
     "@newhighsco/chipset": "7.5.0",
     "@newhighsco/next-plugin-svgr": "3.0.176",
     "@newhighsco/press-start": "*",
-    "next": "16.3.8",
+    "next": "16.4.0",
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
     "postcss": "8.5.29",
