@@ -39,7 +39,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "7.1.54",
     "@newhighsco/lint-staged-config": "1.1.4",
-    "@newhighsco/prettier-config": "2.3.17",
+    "@newhighsco/prettier-config": "2.3.18",
     "@newhighsco/release-config": "1.5.11",
     "@newhighsco/stylelint-config": "4.0.57",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
