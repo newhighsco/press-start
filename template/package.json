@@ -50,8 +50,8 @@
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
     "postcss": "8.5.30",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "sass": "1.105.1"
   },
   "devDependencies": {
