@@ -2713,14 +2713,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/react@npm:6.0.2":
-  version: 6.0.2
-  resolution: "@iconify/react@npm:6.0.2"
+"@iconify/react@npm:6.0.3":
+  version: 6.0.3
+  resolution: "@iconify/react@npm:6.0.3"
   dependencies:
     "@iconify/types": "npm:^2.0.0"
   peerDependencies:
-    react: ">=16"
-  checksum: 10c0/1f53f588361d658c6f077fefcc31d52f6f5d375f06b63dd13cc73b71fd28cf9409edece921ea8fa5195a79d02ff9162aff8472c14e858c0178067eecc3128460
+    react: ">=18.0.0"
+  checksum: 10c0/5c0c88d5724220bae2107b4a073f44088ae313fb89cc3f6aaa7f9e48dc91ad78cf694ca3f911556bbec8d17539d62863b09bad5c2940dae7e5ed2eaf58b1fe24
   languageName: node
   linkType: hard
 
@@ -3454,19 +3454,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.5.2":
-  version: 7.5.2
-  resolution: "@newhighsco/chipset@npm:7.5.2"
+"@newhighsco/chipset@npm:7.5.3":
+  version: 7.5.3
+  resolution: "@newhighsco/chipset@npm:7.5.3"
   dependencies:
     "@dr.pogodin/react-themes": "npm:1.11.0"
-    "@iconify/react": "npm:6.0.2"
+    "@iconify/react": "npm:6.0.3"
     classnames: "npm:2.5.1"
     react-device-detect: "npm:2.2.3"
     url-join: "npm:5.1.1"
   peerDependencies:
     react: ^19
     react-dom: ^19
-  checksum: 10c0/cf8b6a1ec40284e6b5824d2e5647744371796ec935260140a68ed4eb6d50b48adacd4d869297d195a9865bae4caf5c688bdf90f6face9cc98ad3dd233b3c0e97
+  checksum: 10c0/1efdc79f83e37df97c02fd94c24334cb6ef75509db79c30eee93bb4d49d54ae28100fb3b96cb0660aa2197d6d835eb59d545b254e28c8f7112f1075ca0bea569
   languageName: node
   linkType: hard
 
@@ -3545,18 +3545,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.91":
-  version: 4.0.91
-  resolution: "@newhighsco/postcss-config@npm:4.0.91"
+"@newhighsco/postcss-config@npm:4.0.92":
+  version: 4.0.92
+  resolution: "@newhighsco/postcss-config@npm:4.0.92"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.6.1"
-    caniuse-lite: "npm:1.0.30001816"
+    caniuse-lite: "npm:1.0.30001818"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.6.1"
   peerDependencies:
     postcss: ^8
-  checksum: 10c0/4eb853b3daf42a9ce99a066e85a196e39108740ba863bc05b977cbf3f4f3c8d9c998955326a5daef9e38e4c7a9fb6a8bafe114dfe57172647536eeb6de3d4355
+  checksum: 10c0/407996f4a62f7859d0596e2a3be7f539182d69708caf505a5dcdec49440a5102f2294b8c7f5712a6af5e1fe25935d63de9e262fc939f5a7428747e1f77fe35f6
   languageName: node
   linkType: hard
 
@@ -3564,7 +3564,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@newhighsco/press-start@workspace:packages/press-start"
   dependencies:
-    "@newhighsco/chipset": "npm:7.5.2"
+    "@newhighsco/chipset": "npm:7.5.3"
     next-seo: "npm:6.8.0"
   peerDependencies:
     next: ^16
@@ -3638,13 +3638,13 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:21.2.4"
     "@newhighsco/browserslist-config": "npm:3.0.1"
-    "@newhighsco/chipset": "npm:7.5.2"
+    "@newhighsco/chipset": "npm:7.5.3"
     "@newhighsco/commitlint-config": "npm:1.3.6"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.54"
     "@newhighsco/lint-staged-config": "npm:1.1.4"
     "@newhighsco/next-plugin-svgr": "npm:3.0.176"
-    "@newhighsco/postcss-config": "npm:4.0.91"
+    "@newhighsco/postcss-config": "npm:4.0.92"
     "@newhighsco/press-start": "npm:*"
     "@newhighsco/prettier-config": "npm:2.3.18"
     "@newhighsco/release-config": "npm:1.5.11"
@@ -7082,10 +7082,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001816, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001810, caniuse-lite@npm:^1.0.30001813":
-  version: 1.0.30001816
-  resolution: "caniuse-lite@npm:1.0.30001816"
-  checksum: 10c0/5d39f36f73181906fd25d0cd61030308540d38ed1162eb730d4e69dc75ab94434a5977ab08d4721351bd855f99d19eb5fc488c58ec49272484868c0f3bc97243
+"caniuse-lite@npm:1.0.30001818, caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001810, caniuse-lite@npm:^1.0.30001813":
+  version: 1.0.30001818
+  resolution: "caniuse-lite@npm:1.0.30001818"
+  checksum: 10c0/b58d75c0e040eadbbd1bf525a6f4cb36edc4be8e2f0123f4cbcf965070a010e4e96ec7e9d61ea8e9073dee58a04c10d6091f99c294756e617e4307a90552b833
   languageName: node
   linkType: hard
 
