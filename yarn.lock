@@ -3535,23 +3535,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@newhighsco/prettier-config@npm:2.3.18":
-  version: 2.3.18
-  resolution: "@newhighsco/prettier-config@npm:2.3.18"
+"@newhighsco/prettier-config@npm:2.3.19":
+  version: 2.3.19
+  resolution: "@newhighsco/prettier-config@npm:2.3.19"
   peerDependencies:
     prettier: ^3
-  checksum: 10c0/0b22ecac797d269a15b8205139edc21c7533fff4ccd69c4afec097a2b6f640ef44be4c3cac688fbc69d7084ff9f1d13cb43b1c22655126671cc24768b49b9872
+  checksum: 10c0/8515d48be790c945ba53627f5efc60aefb597447fdf1f523815062ed9dd3ee1dbc770448b5d44bc808842c357ae6bb7740a4ffb75db143705de851cd0ef938c0
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.5.11":
-  version: 1.5.11
-  resolution: "@newhighsco/release-config@npm:1.5.11"
+"@newhighsco/release-config@npm:1.5.12":
+  version: 1.5.12
+  resolution: "@newhighsco/release-config@npm:1.5.12"
   dependencies:
     "@semantic-release/changelog": "npm:7.0.0"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
     "@semantic-release/git": "npm:11.0.1"
-    "@semantic-release/github": "npm:12.0.10"
+    "@semantic-release/github": "npm:12.0.11"
     "@semantic-release/npm": "npm:13.2.0"
     "@semantic-release/release-notes-generator": "npm:14.1.1"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
@@ -3561,7 +3561,7 @@ __metadata:
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/294f48fe99ede1bee35477356719eb348b00ad92357be717947c72ea760b4b1b08f087826daa6a6005bb635f5366037fe1b482dbcdf683d28a9ad7064d44d37e
+  checksum: 10c0/f51b189c6425badb1ce125c5ce2ed0caa3b90df5feca07083cca99a7cba204a608f71feba001703f4e2898eb6fcd2bdcb99fd3aa767a67a5fe318defb68a7274
   languageName: node
   linkType: hard
 
@@ -3610,8 +3610,8 @@ __metadata:
     "@newhighsco/next-plugin-svgr": "npm:3.0.176"
     "@newhighsco/postcss-config": "npm:4.0.93"
     "@newhighsco/press-start": "npm:*"
-    "@newhighsco/prettier-config": "npm:2.3.18"
-    "@newhighsco/release-config": "npm:1.5.11"
+    "@newhighsco/prettier-config": "npm:2.3.19"
+    "@newhighsco/release-config": "npm:1.5.12"
     "@newhighsco/stylelint-config": "npm:5.0.0"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/ts-config": "npm:1.2.3"
@@ -3621,11 +3621,11 @@ __metadata:
     eslint: "npm:10.14.0"
     husky: "npm:9.1.7"
     lint-staged: "npm:17.6.0"
-    next: "npm:16.4.4"
+    next: "npm:16.4.6"
     next-compose-plugins: "npm:2.2.1"
     next-sitemap: "npm:4.2.3"
     postcss: "npm:8.5.32"
-    prettier: "npm:3.9.10"
+    prettier: "npm:3.10.1"
     react: "npm:19.3.1"
     react-dom: "npm:19.3.1"
     sass: "npm:1.108.2"
@@ -3655,10 +3655,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/env@npm:16.4.4"
-  checksum: 10c0/b5cd9c7623dfd613379116b43aae95f3cd8ae52d5088fcc769f736ebf56489f8b170efa2d4c9b179547c536482aa9538c45078b86bc91f7ab40724f8704333d4
+"@next/env@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/env@npm:16.4.6"
+  checksum: 10c0/250195b2e55869e2dd3178e0445e8933f6a0919dd305eb4e64d68e55e426bc56b0612eb91a602d4d7bc15e8aedcc31dd93b9993d7d790bf3ad5f89f61fbebe97
   languageName: node
   linkType: hard
 
@@ -3669,58 +3669,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-darwin-arm64@npm:16.4.4"
+"@next/swc-darwin-arm64@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-darwin-arm64@npm:16.4.6"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-darwin-x64@npm:16.4.4"
+"@next/swc-darwin-x64@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-darwin-x64@npm:16.4.6"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-linux-arm64-gnu@npm:16.4.4"
+"@next/swc-linux-arm64-gnu@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-linux-arm64-gnu@npm:16.4.6"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-linux-arm64-musl@npm:16.4.4"
+"@next/swc-linux-arm64-musl@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-linux-arm64-musl@npm:16.4.6"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-linux-x64-gnu@npm:16.4.4"
+"@next/swc-linux-x64-gnu@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-linux-x64-gnu@npm:16.4.6"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-linux-x64-musl@npm:16.4.4"
+"@next/swc-linux-x64-musl@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-linux-x64-musl@npm:16.4.6"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-win32-arm64-msvc@npm:16.4.4"
+"@next/swc-win32-arm64-msvc@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-win32-arm64-msvc@npm:16.4.6"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:16.4.4":
-  version: 16.4.4
-  resolution: "@next/swc-win32-x64-msvc@npm:16.4.4"
+"@next/swc-win32-x64-msvc@npm:16.4.6":
+  version: 16.4.6
+  resolution: "@next/swc-win32-x64-msvc@npm:16.4.6"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -4720,9 +4720,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:12.0.10, @semantic-release/github@npm:^12.0.0":
-  version: 12.0.10
-  resolution: "@semantic-release/github@npm:12.0.10"
+"@semantic-release/github@npm:12.0.11, @semantic-release/github@npm:^12.0.0":
+  version: 12.0.11
+  resolution: "@semantic-release/github@npm:12.0.11"
   dependencies:
     "@octokit/core": "npm:^7.0.0"
     "@octokit/plugin-paginate-rest": "npm:^15.0.0"
@@ -4743,7 +4743,7 @@ __metadata:
     url-join: "npm:^5.0.0"
   peerDependencies:
     semantic-release: ">=24.1.0"
-  checksum: 10c0/b57c2dc92b2b7ca00757a76cbba52288b7404c357ba4f61a3322757ab8da306419b9ef0b57ba5ea93d4712ddd74450eb0f7cbf1560eeecb8a5543c66fddfdca1
+  checksum: 10c0/e94c045d7b56910782e727766f9f64d8d1cf984b35ddae92c4fd3d38f720427db91913b9e7580384011ea30b44b613f6cf7841abb42a95e9fabc3a23650371cd
   languageName: node
   linkType: hard
 
@@ -12665,19 +12665,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:16.4.4":
-  version: 16.4.4
-  resolution: "next@npm:16.4.4"
+"next@npm:16.4.6":
+  version: 16.4.6
+  resolution: "next@npm:16.4.6"
   dependencies:
-    "@next/env": "npm:16.4.4"
-    "@next/swc-darwin-arm64": "npm:16.4.4"
-    "@next/swc-darwin-x64": "npm:16.4.4"
-    "@next/swc-linux-arm64-gnu": "npm:16.4.4"
-    "@next/swc-linux-arm64-musl": "npm:16.4.4"
-    "@next/swc-linux-x64-gnu": "npm:16.4.4"
-    "@next/swc-linux-x64-musl": "npm:16.4.4"
-    "@next/swc-win32-arm64-msvc": "npm:16.4.4"
-    "@next/swc-win32-x64-msvc": "npm:16.4.4"
+    "@next/env": "npm:16.4.6"
+    "@next/swc-darwin-arm64": "npm:16.4.6"
+    "@next/swc-darwin-x64": "npm:16.4.6"
+    "@next/swc-linux-arm64-gnu": "npm:16.4.6"
+    "@next/swc-linux-arm64-musl": "npm:16.4.6"
+    "@next/swc-linux-x64-gnu": "npm:16.4.6"
+    "@next/swc-linux-x64-musl": "npm:16.4.6"
+    "@next/swc-win32-arm64-msvc": "npm:16.4.6"
+    "@next/swc-win32-x64-msvc": "npm:16.4.6"
     "@swc/helpers": "npm:0.5.23"
     baseline-browser-mapping: "npm:^2.9.19"
     caniuse-lite: "npm:^1.0.30001579"
@@ -12721,7 +12721,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/6f2b678d08134d9a760e56d7bd52c839d98fd15b4a9432eddcc09c87ee6accef442fed83eec9095564724f5862c0dd0c58723cfc2323bca75e02b96f0a055f31
+  checksum: 10c0/c387dabdbe5f796afd67fe1cafb9c29ce5e1952335c5df730b04c3b6e2ffaba0837e36ca2b075a6d33bccd6bfb39cf4dc3f35f7fd61dbdfd0b365265fab742c4
   languageName: node
   linkType: hard
 
@@ -14507,8 +14507,8 @@ __metadata:
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.69"
     "@newhighsco/lint-staged-config": "npm:1.1.4"
-    "@newhighsco/prettier-config": "npm:2.3.18"
-    "@newhighsco/release-config": "npm:1.5.11"
+    "@newhighsco/prettier-config": "npm:2.3.19"
+    "@newhighsco/release-config": "npm:1.5.12"
     "@newhighsco/stylelint-config": "npm:5.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@qiwi/multi-semantic-release": "npm:7.1.2"
@@ -14525,7 +14525,7 @@ __metadata:
     jest-environment-jsdom: "npm:30.5.2"
     jest-junit: "npm:17.0.0"
     lint-staged: "npm:17.6.0"
-    prettier: "npm:3.9.10"
+    prettier: "npm:3.10.1"
     semantic-release: "npm:25.0.9"
     stylelint: "npm:18.0.0"
   languageName: unknown
@@ -14540,12 +14540,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.10":
-  version: 3.9.10
-  resolution: "prettier@npm:3.9.10"
+"prettier@npm:3.10.1":
+  version: 3.10.1
+  resolution: "prettier@npm:3.10.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/0b3531593aa6fb36ac6baf629cb058bda472c59a6938774f931fe55283a07c62e6f56e621b043a82d8a3e21fc284c08c34f9e539fc70072635f79b7bae1a1067
+  checksum: 10c0/e8c03ea575a30e15afa75a3700e94609050502980d7c906374aea4cf623eef4dce0816100126207e675cc1ed54b7dfce60f02dbee8d61ec27dc69ce5df6c3723
   languageName: node
   linkType: hard
 
