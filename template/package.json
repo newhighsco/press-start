@@ -49,7 +49,7 @@
     "next": "16.4.6",
     "next-compose-plugins": "2.2.1",
     "next-sitemap": "4.2.3",
-    "postcss": "8.5.32",
+    "postcss": "8.5.33",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "sass": "1.108.2"
