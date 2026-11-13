@@ -41,7 +41,7 @@
     "@newhighsco/lint-staged-config": "1.1.4",
     "@newhighsco/prettier-config": "2.3.18",
     "@newhighsco/release-config": "1.5.11",
-    "@newhighsco/stylelint-config": "4.0.58",
+    "@newhighsco/stylelint-config": "5.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@swc/core": "1.16.22",
@@ -59,7 +59,7 @@
     "lint-staged": "17.6.0",
     "prettier": "3.9.10",
     "semantic-release": "25.0.9",
-    "stylelint": "17.16.0"
+    "stylelint": "18.0.0"
   },
   "resolutions": {
     "conventional-changelog-conventionalcommits": "9.3.1"
