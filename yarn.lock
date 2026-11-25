@@ -3623,7 +3623,7 @@ __metadata:
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/ts-config": "npm:1.2.3"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
-    "@types/react": "npm:19.3.1"
+    "@types/react": "npm:19.3.3"
     concurrently: "npm:10.0.7"
     eslint: "npm:10.15.0"
     husky: "npm:9.1.7"
@@ -6017,12 +6017,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.3.1":
-  version: 19.3.1
-  resolution: "@types/react@npm:19.3.1"
+"@types/react@npm:19.3.3":
+  version: 19.3.3
+  resolution: "@types/react@npm:19.3.3"
   dependencies:
     csstype: "npm:^3.2.2"
-  checksum: 10c0/c008307c9e11bdf69d81073fb1814169ee8373193fc09e7582663ee8c66afb1d3572de2cd5b7a23a7077f66ad0a7114a116579d908f62b3d11aed579c2a5ceaa
+  checksum: 10c0/b435951e715578f769df747431bcdd95e07b93238008365622b76d46e3ec76235c869d3007b2ea9063c30f05c35dc3baa2d9833bf09c3faf1e548f0e028f79ec
   languageName: node
   linkType: hard
 
